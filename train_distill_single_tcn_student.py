@@ -308,9 +308,10 @@ def main() -> None:
     x_val_subset = x_train_subset[val_idx]
     y_val = y_train[val_idx]
 
+    # 读取Teacher的训练Json配置
     teacher_args = read_teacher_run_args(args.teacher_run_args)
     teacher_cfg = resolve_teacher_config(teacher_args)
-
+    # 构建Student配置，基于Teacher配置并应用可选覆盖
     student_cfg = dict(teacher_cfg)
     if args.student_latent_dim is not None:
         student_cfg["latent_dim"] = int(args.student_latent_dim)
@@ -334,13 +335,13 @@ def main() -> None:
         student_cfg["attn_dropout"] = float(args.student_attn_dropout)
     if args.student_attn_ff_dim is not None:
         student_cfg["attn_ff_dim"] = int(args.student_attn_ff_dim)
-
+    # 确保Teacher和Student latent dim一致，否则无法进行直接的特征MSE对齐
     if int(student_cfg["latent_dim"]) != int(teacher_cfg["latent_dim"]):
         raise ValueError(
             "student latent_dim must equal teacher latent_dim for direct feature MSE alignment. "
             f"teacher={teacher_cfg['latent_dim']}, student={student_cfg['latent_dim']}"
         )
-
+    # 重建Teacher和Student模型
     teacher = build_attention_model(
         input_dim=input_dim_full,
         num_classes=num_classes,
@@ -351,7 +352,7 @@ def main() -> None:
         num_classes=num_classes,
         cfg=student_cfg,
     ).to(device)
-
+    # 加载Teacher权重并冻结
     teacher_ckpt = torch.load(args.teacher_ckpt, map_location="cpu")
     teacher.load_state_dict(teacher_ckpt, strict=True)
     for p in teacher.parameters():
@@ -465,14 +466,16 @@ def main() -> None:
         n_batches = 0
 
         for x_full_batch, x_subset_batch, y_batch in train_loader:
+            # 数据加载
             x_full_batch = x_full_batch.to(device)
             x_subset_batch = x_subset_batch.to(device)
             y_batch = y_batch.to(device)
-
+            # Teacher做infer, logits为分类头输入，z为分类头输出
             with torch.no_grad():
                 logits_t, z_t = teacher(x_full_batch)
-
+            # Student做infer
             logits_s, z_s = student(x_subset_batch)
+            # total_loss = 分类损失 + KD损失 + 特征对齐损失
             loss_ce = ce_loss_fn(logits_s, y_batch)
             loss_kd = kl_loss_fn(
                 torch.log_softmax(logits_s / args.temperature, dim=1),
@@ -484,7 +487,7 @@ def main() -> None:
                 + args.lambda_kd * loss_kd
                 + args.lambda_feat * loss_feat
             )
-
+            # 反向传播和优化
             optimizer.zero_grad()
             loss_total.backward()
             optimizer.step()
@@ -496,7 +499,7 @@ def main() -> None:
             n_batches += 1
 
         scheduler.step()
-
+        # 做validation
         train_loss = total_train / n_batches if n_batches else 0.0
         train_ce = total_ce / n_batches if n_batches else 0.0
         train_kd = total_kd / n_batches if n_batches else 0.0
@@ -554,7 +557,7 @@ def main() -> None:
             f"val_agree={val_res.teacher_agreement*100:.2f}% | "
             f"test_acc={test_res.accuracy*100:.2f}% test_agree={test_res.teacher_agreement*100:.2f}%"
         )
-
+        # 优化目标选择F1 score或teacher agreement
         current_score = (
             val_res.teacher_agreement
             if args.checkpoint_metric == "val_teacher_agreement"
@@ -567,7 +570,7 @@ def main() -> None:
             wait = 0
         else:
             wait += 1
-
+        # early stopping
         if epoch >= args.min_epochs and wait >= args.early_stop_patience:
             print(
                 f"Early stopping at epoch {epoch} "
