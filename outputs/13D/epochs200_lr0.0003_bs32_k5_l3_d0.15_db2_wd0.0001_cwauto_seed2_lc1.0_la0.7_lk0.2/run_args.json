@@ -1,0 +1,19 @@
+{
+  "epochs": 200,
+  "lr": 0.0003,
+  "batch_size": 32,
+  "output_dir": "autoencoder_benchmark/outputs/13D",
+  "dataset_npz": "autoencoder_benchmark/Data/processed_data/weld_seam_windows.npz",
+  "tcn_kernel": 5,
+  "tcn_layers": 3,
+  "tcn_dropout": 0.15,
+  "tcn_dilation_base": 2,
+  "tcn_channels": null,
+  "class_weights": "auto",
+  "weight_decay": 0.0001,
+  "seed": 2,
+  "lambda_class": 1.0,
+  "lambda_align": 0.7,
+  "lambda_kl": 0.2,
+  "resolved_output_dir": "autoencoder_benchmark/outputs/13D/epochs200_lr0.0003_bs32_k5_l3_d0.15_db2_wd0.0001_cwauto_seed2_lc1.0_la0.7_lk0.2"
+}

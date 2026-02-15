@@ -1,0 +1,18 @@
+Distillation Best Record (Official)
+
+Run: distill_tcn_attn_weld_seam_windows_ws5_tf75_pg0_ep80_lr0.0002_bs128_T3.0_lce0.8_lkd1.2_lf0.2_seed77
+Path: autoencoder_benchmark/outputs/distill_single_tcn/best_record/distill_tcn_attn_weld_seam_windows_ws5_tf75_pg0_ep80_lr0.0002_bs128_T3.0_lce0.8_lkd1.2_lf0.2_seed77
+Source: autoencoder_benchmark/outputs/distill_single_tcn/seed_sweep_bestcfg/distill_tcn_attn_weld_seam_windows_ws5_tf75_pg0_ep80_lr0.0002_bs128_T3.0_lce0.8_lkd1.2_lf0.2_seed77
+
+Key Metrics
+- Best epoch: 4
+- Best score (val_teacher_agreement): 0.903955
+- Final test accuracy: 95.92%
+- Final test teacher agreement: 96.20%
+
+Artifacts
+- best_student_distill.pth
+- evaluation_metrics.txt
+- history.json
+- run_args.json
+- teacher_reference.json

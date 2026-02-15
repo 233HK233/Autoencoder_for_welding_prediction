@@ -1,0 +1,12 @@
+raw accuracy: 96.4674%
+  class 0 recall: 0.9390 (support=82)
+  class 1 recall: 0.9885 (support=87)
+  class 2 recall: 0.9648 (support=199)
+monotonic accuracy: 98.6413%
+  class 0 recall: 0.9390 (support=82)
+  class 1 recall: 1.0000 (support=87)
+  class 2 recall: 1.0000 (support=199)
+three_segment accuracy: 98.6413%
+  class 0 recall: 0.9390 (support=82)
+  class 1 recall: 1.0000 (support=87)
+  class 2 recall: 1.0000 (support=199)

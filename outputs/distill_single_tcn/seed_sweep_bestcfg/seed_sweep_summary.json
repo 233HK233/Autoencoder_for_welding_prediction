@@ -1,0 +1,37 @@
+[
+  {
+    "seed": 7,
+    "run_name": "distill_tcn_attn_weld_seam_windows_ws5_tf75_pg0_ep80_lr0.0002_bs128_T3.0_lce0.8_lkd1.2_lf0.2_seed7",
+    "val_teacher_agreement": 0.887,
+    "test_teacher_agreement": 0.8125,
+    "test_accuracy": 0.7989
+  },
+  {
+    "seed": 13,
+    "run_name": "distill_tcn_attn_weld_seam_windows_ws5_tf75_pg0_ep80_lr0.0002_bs128_T3.0_lce0.8_lkd1.2_lf0.2_seed13",
+    "val_teacher_agreement": 0.9153,
+    "test_teacher_agreement": 0.9348000000000001,
+    "test_accuracy": 0.9266
+  },
+  {
+    "seed": 21,
+    "run_name": "distill_tcn_attn_weld_seam_windows_ws5_tf75_pg0_ep80_lr0.0002_bs128_T3.0_lce0.8_lkd1.2_lf0.2_seed21",
+    "val_teacher_agreement": 0.8983,
+    "test_teacher_agreement": 0.9103,
+    "test_accuracy": 0.8967
+  },
+  {
+    "seed": 42,
+    "run_name": "distill_tcn_attn_weld_seam_windows_ws5_tf75_pg0_ep80_lr0.0002_bs128_T3.0_lce0.8_lkd1.2_lf0.2_seed42",
+    "val_teacher_agreement": 0.904,
+    "test_teacher_agreement": 0.8859,
+    "test_accuracy": 0.8723000000000001
+  },
+  {
+    "seed": 77,
+    "run_name": "distill_tcn_attn_weld_seam_windows_ws5_tf75_pg0_ep80_lr0.0002_bs128_T3.0_lce0.8_lkd1.2_lf0.2_seed77",
+    "val_teacher_agreement": 0.904,
+    "test_teacher_agreement": 0.9620000000000001,
+    "test_accuracy": 0.9592
+  }
+]

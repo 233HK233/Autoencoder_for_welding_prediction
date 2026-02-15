@@ -1,0 +1,63 @@
+--- Student Train Metrics ---
+Classification Loss (CE): 0.860138
+Accuracy: 80.51%
+
+=== Classification Report (Student Train) ===
+              precision    recall  f1-score   support
+
+     Class 0       0.80      0.44      0.57        36
+     Class 1       0.61      0.81      0.70        53
+     Class 2       0.93      0.92      0.93       106
+
+    accuracy                           0.81       195
+   macro avg       0.78      0.73      0.73       195
+weighted avg       0.82      0.81      0.80       195
+
+
+--- Student Test Metrics ---
+Classification Loss (CE): 0.850471
+Accuracy: 57.98%
+
+=== Classification Report (Student Test) ===
+              precision    recall  f1-score   support
+
+     Class 0       1.00      0.19      0.32        26
+     Class 1       0.00      0.00      0.00        29
+     Class 2       0.61      1.00      0.76        64
+
+    accuracy                           0.58       119
+   macro avg       0.54      0.40      0.36       119
+weighted avg       0.55      0.58      0.48       119
+
+
+--- Teacher Train Metrics ---
+Classification Loss (CE): 0.652271
+Accuracy: 75.90%
+
+=== Classification Report (Teacher Train) ===
+              precision    recall  f1-score   support
+
+     Class 0       1.00      0.08      0.15        36
+     Class 1       0.60      0.77      0.68        53
+     Class 2       0.84      0.98      0.90       106
+
+    accuracy                           0.76       195
+   macro avg       0.81      0.61      0.58       195
+weighted avg       0.80      0.76      0.70       195
+
+
+--- Teacher Test Metrics ---
+Classification Loss (CE): 0.865256
+Accuracy: 55.46%
+
+=== Classification Report (Teacher Test) ===
+              precision    recall  f1-score   support
+
+     Class 0       1.00      0.04      0.07        26
+     Class 1       0.11      0.03      0.05        29
+     Class 2       0.59      1.00      0.74        64
+
+    accuracy                           0.55       119
+   macro avg       0.57      0.36      0.29       119
+weighted avg       0.56      0.55      0.43       119
+

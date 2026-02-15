@@ -1,0 +1,186 @@
+{
+  "analysis": {
+    "num_rows": 1641,
+    "num_features": 18,
+    "label_distribution_global": {
+      "instability": 855,
+      "nonstationary": 404,
+      "quasistable": 382
+    },
+    "label_distribution_by_set": {
+      "test_data": {
+        "instability": 322,
+        "nonstationary": 143,
+        "quasistable": 149
+      },
+      "train_data": {
+        "instability": 533,
+        "nonstationary": 261,
+        "quasistable": 233
+      }
+    },
+    "missing_values": {
+      "feature_01": 0,
+      "feature_02": 0,
+      "feature_03": 0,
+      "feature_04": 0,
+      "feature_05": 0,
+      "feature_06": 0,
+      "feature_07": 0,
+      "feature_08": 0,
+      "feature_09": 0,
+      "feature_10": 0,
+      "feature_11": 0,
+      "feature_12": 0,
+      "feature_13": 0,
+      "feature_14": 0,
+      "feature_15": 0,
+      "feature_16": 0,
+      "feature_17": 0,
+      "feature_18": 0
+    },
+    "feature_summary_stats": {
+      "feature_01": {
+        "mean": 274.30387081048144,
+        "std": 132.5098570987535,
+        "min": 120.337,
+        "max": 771.0
+      },
+      "feature_02": {
+        "mean": 46.3162705667276,
+        "std": 9.292235664457836,
+        "min": 9.0,
+        "max": 80.0
+      },
+      "feature_03": {
+        "mean": 216.74445460085312,
+        "std": 118.70579256989471,
+        "min": 69.181,
+        "max": 570.0
+      },
+      "feature_04": {
+        "mean": 28.10794090948568,
+        "std": 20.417680175135146,
+        "min": -1.504284739,
+        "max": 87.0
+      },
+      "feature_05": {
+        "mean": 131.15612058380864,
+        "std": 85.59925990852446,
+        "min": -1.41088891,
+        "max": 243.0
+      },
+      "feature_06": {
+        "mean": 1445.488762334236,
+        "std": 973.2394716557355,
+        "min": -1.397073746,
+        "max": 4621.0
+      },
+      "feature_07": {
+        "mean": 5386.751915518042,
+        "std": 3632.966223733132,
+        "min": -0.952910244,
+        "max": 16718.0
+      },
+      "feature_08": {
+        "mean": 213.9142540882913,
+        "std": 219.09003101198454,
+        "min": -2.337612867,
+        "max": 1000.0
+      },
+      "feature_09": {
+        "mean": 808.6581352833638,
+        "std": 171.3140484000178,
+        "min": 456.0,
+        "max": 1072.0
+      },
+      "feature_10": {
+        "mean": 2578.6078289262646,
+        "std": 549.907307962357,
+        "min": 1436.391916,
+        "max": 4136.080296
+      },
+      "feature_11": {
+        "mean": 293860.24436319317,
+        "std": 89185.97531723579,
+        "min": 106248.0,
+        "max": 517781.5
+      },
+      "feature_12": {
+        "mean": 23.02518596562462,
+        "std": 3.432061859042187,
+        "min": 17.92462995,
+        "max": 43.11972488
+      },
+      "feature_13": {
+        "mean": 0.7465151246837295,
+        "std": 0.16311062343110797,
+        "min": 0.110317934,
+        "max": 0.971515338
+      },
+      "feature_14": {
+        "mean": 234.77635588056063,
+        "std": 41.332492700173034,
+        "min": 4.0,
+        "max": 368.0
+      },
+      "feature_15": {
+        "mean": 1100.1937985084826,
+        "std": 204.82526630164216,
+        "min": 16.0,
+        "max": 1938.475177
+      },
+      "feature_16": {
+        "mean": 58588.9984765387,
+        "std": 20038.65701718267,
+        "min": 15.0,
+        "max": 134951.5
+      },
+      "feature_17": {
+        "mean": 21.271739924070687,
+        "std": 1.9374732336182592,
+        "min": 17.06666667,
+        "max": 35.72796372
+      },
+      "feature_18": {
+        "mean": 0.7338354645338208,
+        "std": 0.11752998504987144,
+        "min": 0.0,
+        "max": 0.948024042
+      }
+    },
+    "feature_label_correlations": {
+      "feature_11": -0.5389724966847264,
+      "feature_18": -0.5332223788898488,
+      "feature_13": 0.5132317543892877,
+      "feature_15": -0.47961775959783837,
+      "feature_10": -0.45334334787342284,
+      "feature_16": -0.4197961343476027,
+      "feature_17": -0.33672762078710794,
+      "feature_05": -0.30710449779669713,
+      "feature_08": -0.2767453322813985,
+      "feature_14": -0.27672109649145576,
+      "feature_01": -0.2636174220880818,
+      "feature_03": -0.21079762171282168,
+      "feature_07": -0.1816509756207875,
+      "feature_09": -0.13352379182358073,
+      "feature_02": -0.13259729992505845,
+      "feature_12": -0.1249066919651117,
+      "feature_06": -0.11429755301231984,
+      "feature_04": 0.07590676564300979
+    }
+  },
+  "feature_engineering_metadata": {
+    "pca_explained_variance_ratio": [
+      0.49365897346365073,
+      0.22517246915628855,
+      0.08851439892518385
+    ],
+    "added_feature_count": 12
+  },
+  "scanned_directories": [
+    "/home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/train_data",
+    "/home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/test_data"
+  ],
+  "output_file": "all_data_feature_engineered.csv"
+}

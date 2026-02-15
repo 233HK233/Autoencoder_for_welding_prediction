@@ -1,0 +1,44 @@
+Best epoch: 10
+Best val macro-F1: 1.000000
+
+--- Train Metrics ---
+Loss: 0.036133
+Accuracy: 99.75%
+Macro-F1: 0.997447
+
+=== Classification Report (Train) ===
+              precision    recall  f1-score   support
+     Class 0     1.0000   1.0000     1.0000       268
+     Class 1     0.9930   0.9965     0.9947       285
+     Class 2     0.9984   0.9968     0.9976       624
+
+    accuracy                       0.9975      1177
+   macro avg     0.0000   0.0000     0.9974      1177
+
+--- Val Metrics ---
+Loss: 0.049419
+Accuracy: 100.00%
+Macro-F1: 1.000000
+
+=== Classification Report (Val) ===
+              precision    recall  f1-score   support
+     Class 0     1.0000   1.0000     1.0000        40
+     Class 1     1.0000   1.0000     1.0000        43
+     Class 2     1.0000   1.0000     1.0000        94
+
+    accuracy                       1.0000       177
+   macro avg     0.0000   0.0000     1.0000       177
+
+--- Test Metrics ---
+Loss: 0.851326
+Accuracy: 80.16%
+Macro-F1: 0.722801
+
+=== Classification Report (Test) ===
+              precision    recall  f1-score   support
+     Class 0     1.0000   0.4390     0.6102        82
+     Class 1     0.5660   0.6897     0.6218        87
+     Class 2     0.8805   1.0000     0.9365       199
+
+    accuracy                       0.8016       368
+   macro avg     0.0000   0.0000     0.7228       368

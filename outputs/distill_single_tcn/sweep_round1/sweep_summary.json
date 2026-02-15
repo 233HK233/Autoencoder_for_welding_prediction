@@ -1,0 +1,146 @@
+[
+  {
+    "run_name": "distill_tcn_attn_weld_seam_windows_ws5_tf75_pg0_ep60_lr0.0002_bs128_T2.0_lce1.0_lkd0.3_lf0.0_seed42",
+    "lambda_kd": 0.3,
+    "lambda_feat": 0.0,
+    "val_teacher_agreement": 0.8814,
+    "test_teacher_agreement": 0.8098000000000001,
+    "test_accuracy": 0.7962,
+    "elapsed_sec": 7.24
+  },
+  {
+    "run_name": "distill_tcn_attn_weld_seam_windows_ws5_tf75_pg0_ep60_lr0.0002_bs128_T2.0_lce1.0_lkd0.3_lf0.1_seed42",
+    "lambda_kd": 0.3,
+    "lambda_feat": 0.1,
+    "val_teacher_agreement": 0.887,
+    "test_teacher_agreement": 0.7908,
+    "test_accuracy": 0.7772,
+    "elapsed_sec": 8.8
+  },
+  {
+    "run_name": "distill_tcn_attn_weld_seam_windows_ws5_tf75_pg0_ep60_lr0.0002_bs128_T2.0_lce1.0_lkd0.3_lf0.2_seed42",
+    "lambda_kd": 0.3,
+    "lambda_feat": 0.2,
+    "val_teacher_agreement": 0.887,
+    "test_teacher_agreement": 0.8315,
+    "test_accuracy": 0.8179000000000001,
+    "elapsed_sec": 7.35
+  },
+  {
+    "run_name": "distill_tcn_attn_weld_seam_windows_ws5_tf75_pg0_ep60_lr0.0002_bs128_T2.0_lce1.0_lkd0.3_lf0.3_seed42",
+    "lambda_kd": 0.3,
+    "lambda_feat": 0.3,
+    "val_teacher_agreement": 0.887,
+    "test_teacher_agreement": 0.8478,
+    "test_accuracy": 0.8342,
+    "elapsed_sec": 7.33
+  },
+  {
+    "run_name": "distill_tcn_attn_weld_seam_windows_ws5_tf75_pg0_ep60_lr0.0002_bs128_T2.0_lce1.0_lkd0.5_lf0.0_seed42",
+    "lambda_kd": 0.5,
+    "lambda_feat": 0.0,
+    "val_teacher_agreement": 0.887,
+    "test_teacher_agreement": 0.8207,
+    "test_accuracy": 0.8070999999999999,
+    "elapsed_sec": 7.93
+  },
+  {
+    "run_name": "distill_tcn_attn_weld_seam_windows_ws5_tf75_pg0_ep60_lr0.0002_bs128_T2.0_lce1.0_lkd0.5_lf0.1_seed42",
+    "lambda_kd": 0.5,
+    "lambda_feat": 0.1,
+    "val_teacher_agreement": 0.8926999999999999,
+    "test_teacher_agreement": 0.8397,
+    "test_accuracy": 0.8261,
+    "elapsed_sec": 7.71
+  },
+  {
+    "run_name": "distill_tcn_attn_weld_seam_windows_ws5_tf75_pg0_ep60_lr0.0002_bs128_T2.0_lce1.0_lkd0.5_lf0.2_seed42",
+    "lambda_kd": 0.5,
+    "lambda_feat": 0.2,
+    "val_teacher_agreement": 0.8926999999999999,
+    "test_teacher_agreement": 0.8478,
+    "test_accuracy": 0.8342,
+    "elapsed_sec": 7.57
+  },
+  {
+    "run_name": "distill_tcn_attn_weld_seam_windows_ws5_tf75_pg0_ep60_lr0.0002_bs128_T2.0_lce1.0_lkd0.5_lf0.3_seed42",
+    "lambda_kd": 0.5,
+    "lambda_feat": 0.3,
+    "val_teacher_agreement": 0.8983,
+    "test_teacher_agreement": 0.8179000000000001,
+    "test_accuracy": 0.8043,
+    "elapsed_sec": 8.38
+  },
+  {
+    "run_name": "distill_tcn_attn_weld_seam_windows_ws5_tf75_pg0_ep60_lr0.0002_bs128_T2.0_lce1.0_lkd0.7_lf0.0_seed42",
+    "lambda_kd": 0.7,
+    "lambda_feat": 0.0,
+    "val_teacher_agreement": 0.8926999999999999,
+    "test_teacher_agreement": 0.8315,
+    "test_accuracy": 0.8179000000000001,
+    "elapsed_sec": 8.0
+  },
+  {
+    "run_name": "distill_tcn_attn_weld_seam_windows_ws5_tf75_pg0_ep60_lr0.0002_bs128_T2.0_lce1.0_lkd0.7_lf0.1_seed42",
+    "lambda_kd": 0.7,
+    "lambda_feat": 0.1,
+    "val_teacher_agreement": 0.8983,
+    "test_teacher_agreement": 0.8533,
+    "test_accuracy": 0.8397,
+    "elapsed_sec": 7.63
+  },
+  {
+    "run_name": "distill_tcn_attn_weld_seam_windows_ws5_tf75_pg0_ep60_lr0.0002_bs128_T2.0_lce1.0_lkd0.7_lf0.2_seed42",
+    "lambda_kd": 0.7,
+    "lambda_feat": 0.2,
+    "val_teacher_agreement": 0.8983,
+    "test_teacher_agreement": 0.856,
+    "test_accuracy": 0.8423999999999999,
+    "elapsed_sec": 7.66
+  },
+  {
+    "run_name": "distill_tcn_attn_weld_seam_windows_ws5_tf75_pg0_ep60_lr0.0002_bs128_T2.0_lce1.0_lkd0.7_lf0.3_seed42",
+    "lambda_kd": 0.7,
+    "lambda_feat": 0.3,
+    "val_teacher_agreement": 0.8926999999999999,
+    "test_teacher_agreement": 0.8587,
+    "test_accuracy": 0.8451000000000001,
+    "elapsed_sec": 7.68
+  },
+  {
+    "run_name": "distill_tcn_attn_weld_seam_windows_ws5_tf75_pg0_ep60_lr0.0002_bs128_T2.0_lce1.0_lkd1.0_lf0.0_seed42",
+    "lambda_kd": 1.0,
+    "lambda_feat": 0.0,
+    "val_teacher_agreement": 0.8983,
+    "test_teacher_agreement": 0.8668,
+    "test_accuracy": 0.8587,
+    "elapsed_sec": 7.87
+  },
+  {
+    "run_name": "distill_tcn_attn_weld_seam_windows_ws5_tf75_pg0_ep60_lr0.0002_bs128_T2.0_lce1.0_lkd1.0_lf0.1_seed42",
+    "lambda_kd": 1.0,
+    "lambda_feat": 0.1,
+    "val_teacher_agreement": 0.904,
+    "test_teacher_agreement": 0.8315,
+    "test_accuracy": 0.8179000000000001,
+    "elapsed_sec": 8.11
+  },
+  {
+    "run_name": "distill_tcn_attn_weld_seam_windows_ws5_tf75_pg0_ep60_lr0.0002_bs128_T2.0_lce1.0_lkd1.0_lf0.2_seed42",
+    "lambda_kd": 1.0,
+    "lambda_feat": 0.2,
+    "val_teacher_agreement": 0.8983,
+    "test_teacher_agreement": 0.8695999999999999,
+    "test_accuracy": 0.856,
+    "elapsed_sec": 7.58
+  },
+  {
+    "run_name": "distill_tcn_attn_weld_seam_windows_ws5_tf75_pg0_ep60_lr0.0002_bs128_T2.0_lce1.0_lkd1.0_lf0.3_seed42",
+    "lambda_kd": 1.0,
+    "lambda_feat": 0.3,
+    "val_teacher_agreement": 0.8983,
+    "test_teacher_agreement": 0.8315,
+    "test_accuracy": 0.8179000000000001,
+    "elapsed_sec": 8.04
+  }
+]

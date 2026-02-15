@@ -1,0 +1,19 @@
+{
+  "epochs": 40,
+  "lr": 0.0001,
+  "batch_size": 64,
+  "output_dir": "outputs/label_safe_tcn",
+  "dataset_npz": "autoencoder_benchmark/Data/processed_data/weld_seam_windows.npz",
+  "tcn_kernel": 3,
+  "tcn_layers": 2,
+  "tcn_dropout": 0.4,
+  "tcn_dilation_base": 2,
+  "tcn_channels": "64,64",
+  "class_weights": "auto",
+  "weight_decay": 0.001,
+  "seed": 42,
+  "lambda_class": 1.0,
+  "lambda_align": 0.02,
+  "lambda_kl": 0.02,
+  "resolved_output_dir": "/home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/outputs/TCN/epochs40_lr0.0001_bs64_k3_l2_d0.4_db2_wd0.001_cwauto_seed42_lc1.0_la0.02_lk0.02"
+}

@@ -1,0 +1,45 @@
+Best epoch: 5
+Checkpoint metric: test_acc
+Best score: 0.864130
+
+--- Train Metrics ---
+Loss: 0.189955
+Accuracy: 96.52%
+Macro-F1: 0.961734
+
+=== Classification Report (Train) ===
+              precision    recall  f1-score   support
+     Class 0     0.9631   0.9739     0.9685       268
+     Class 1     0.9006   0.9860     0.9414       285
+     Class 2     1.0000   0.9519     0.9754       624
+
+    accuracy                       0.9652      1177
+   macro avg     0.0000   0.0000     0.9617      1177
+
+--- Val Metrics ---
+Loss: 0.240384
+Accuracy: 97.18%
+Macro-F1: 0.964083
+
+=== Classification Report (Val) ===
+              precision    recall  f1-score   support
+     Class 0     0.9487   0.9250     0.9367        40
+     Class 1     0.9348   1.0000     0.9663        43
+     Class 2     1.0000   0.9787     0.9892        94
+
+    accuracy                       0.9718       177
+   macro avg     0.0000   0.0000     0.9641       177
+
+--- Test Metrics ---
+Loss: 0.453161
+Accuracy: 86.41%
+Macro-F1: 0.839049
+
+=== Classification Report (Test) ===
+              precision    recall  f1-score   support
+     Class 0     1.0000   0.7073     0.8286        82
+     Class 1     0.6581   0.8851     0.7549        87
+     Class 2     0.9482   0.9196     0.9337       199
+
+    accuracy                       0.8641       368
+   macro avg     0.0000   0.0000     0.8390       368
