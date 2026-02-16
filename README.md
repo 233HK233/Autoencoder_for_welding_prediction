@@ -28,22 +28,22 @@
 ```mermaid
 graph TD
     subgraph Teacher ["👨‍🏫 教师模型 (离线/实验室)"]
-        TF[18维 全量特征] --> TE[TCN 编码器]
-        TE --> TZ[潜在表征 z]
-        TZ --> TC[分类器]
-        TC --> TO[Soft Labels]
+        TF["18维 全量特征"] --> TE["TCN 编码器"]
+        TE --> TZ["潜在表征 z"]
+        TZ --> TC["分类器"]
+        TC --> TO["Soft Labels"]
     end
 
     subgraph Student ["👨‍🎓 学生模型 (在线/部署)"]
-        SF[13维 可部署特征] --> SE[TCN 编码器]
-        SE --> SZ[潜在表征 z']
-        SZ --> SC[分类器]
-        SC --> SO[预测结果]
+        SF["13维 可部署特征"] --> SE["TCN 编码器"]
+        SE --> SZ["潜在表征 z_student"]
+        SZ --> SC["分类器"]
+        SC --> SO["预测结果"]
     end
 
-    TZ -.->|Feature Loss (MSE)| SZ
-    TO -.->|KD Loss (KL-Div)| SO
-    Label -->|CE Loss| SO
+    TZ -.->|"Feature Loss (MSE)"| SZ
+    TO -.->|"KD Loss (KL-Div)"| SO
+    Label -->|"CE Loss"| SO
 
     style Teacher fill:#e1f5fe,stroke:#01579b
     style Student fill:#fff3e0,stroke:#ff6f00
