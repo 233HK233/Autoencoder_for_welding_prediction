@@ -168,6 +168,45 @@ python infer_with_monotonic_postprocess.py \
 
 ---
 
+## 🏆 最佳实验记录 (Best Record)
+
+基于 **LUPI 知识蒸馏** 训练的学生模型（13维特征）表现优异，在保持轻量化的同时高度对齐了教师模型的判别能力。
+
+### 1. 核心指标 (Key Metrics)
+
+| 指标项目 | 评估结果 | 说明 |
+|:---|:---:|:---|
+| **测试集准确率 (Test Acc)** | **95.92%** | 学生模型在未见数据上的分类准确度 |
+| **教师一致性 (Teacher Agreement)** | **96.20%** | 学生模型对教师模型决策逻辑的还原程度 |
+| **宏观 F1 分数 (Macro-F1)** | **0.9474** | 综合考虑各类别不平衡后的平衡性能 |
+| **收敛轮数 (Best Epoch)** | 4 | 蒸馏过程极快，仅需少量 Epoch 即可收敛 |
+
+### 2. 最佳超参数配置 (Best Hyperparameters)
+
+```json
+{
+  "temperature": 3.0,
+  "lambda_ce": 0.8,
+  "lambda_kd": 1.2,
+  "lambda_feat": 0.2,
+  "lr": 0.0002,
+  "weighted_sampler": true
+}
+```
+
+### 3. 测试集分类报告 (Detailed Report)
+
+```text
+              precision    recall  f1-score   support
+     Class 0     1.0000   0.8902     0.9419        82
+     Class 1     0.9000   0.9310     0.9153        87
+     Class 2     0.9707   1.0000     0.9851       199
+
+    accuracy                       0.9592       368
+```
+
+---
+
 ## 🔬 进阶功能
 
 ### 超参数搜索 (Hyperparameter Sweep)
