@@ -170,21 +170,43 @@ python infer_with_monotonic_postprocess.py \
 
 ## 🏆 最佳实验记录 (Best Record)
 
-基于 **LUPI 知识蒸馏** 训练的学生模型（13维特征）表现优异，在保持轻量化的同时高度对齐了教师模型的判别能力。
+本项目展示了教师模型（全量特征）与学生模型（受限特征+蒸馏）的卓越性能。通过 LUPI 蒸馏，学生模型在缺失 5 维特权特征的情况下，依然保持了极高的预测精度和教师一致性。
 
-### 1. 核心指标 (Key Metrics)
+### 1. 核心指标对比 (Model Comparison)
 
-| 指标项目 | 评估结果 | 说明 |
-|:---|:---:|:---|
-| **测试集准确率 (Test Acc)** | **95.92%** | 学生模型在未见数据上的分类准确度 |
-| **教师一致性 (Teacher Agreement)** | **96.20%** | 学生模型对教师模型决策逻辑的还原程度 |
-| **宏观 F1 分数 (Macro-F1)** | **0.9474** | 综合考虑各类别不平衡后的平衡性能 |
-| **收敛轮数 (Best Epoch)** | 4 | 蒸馏过程极快，仅需少量 Epoch 即可收敛 |
+| 指标项目 | 教师模型 (18D Full) | 学生模型 (13D Deploy) | 说明 |
+|:---|:---:|:---:|:---|
+| **测试集准确率 (Test Acc)** | **98.64%** | **95.92%** | 整体分类准确度 |
+| **教师一致性 (Agreement)** | 100% (Ref) | **96.20%** | 学生对教师逻辑的还原度 |
+| **宏观 F1 (Macro-F1)** | **0.9828** | **0.9474** | 类别平衡后的综合性能 |
+| **最优 Epoch (Best Epoch)** | 2 | 4 | 模型收敛速度 |
 
-### 2. 最佳超参数配置 (Best Hyperparameters)
+### 2. 最佳超参数配置 (Configurations)
+
+<details>
+<summary>点击查看 教师模型 (Teacher) 配置</summary>
 
 ```json
 {
+  "model": "tcn_attn",
+  "input_dim": 18,
+  "tcn_layers": 3,
+  "tcn_channels": "80,80,80",
+  "tcn_kernel": 3,
+  "latent_dim": 64,
+  "attn_heads": 4,
+  "lr": 0.00025,
+  "weighted_sampler": true
+}
+```
+</details>
+
+<details>
+<summary>点击查看 学生模型 (Student) 配置</summary>
+
+```json
+{
+  "input_dim": 13,
   "temperature": 3.0,
   "lambda_ce": 0.8,
   "lambda_kd": 1.2,
@@ -193,8 +215,11 @@ python infer_with_monotonic_postprocess.py \
   "weighted_sampler": true
 }
 ```
+</details>
 
-### 3. 测试集分类报告 (Detailed Report)
+### 3. 测试集分类报告 (Student Detailed Report)
+
+*展示学生模型 (13D) 在实际部署场景下的详细表现：*
 
 ```text
               precision    recall  f1-score   support
