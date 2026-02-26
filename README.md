@@ -258,6 +258,3 @@ python inspect_npz.py
 | `seam_id_train` | `[N]` | 样本所属焊缝 ID |
 | `start_idx_train` | `[N]` | 窗口在原始序列中的起始时间点 |
 | `seam_name_order` | `[M]` | 焊缝 ID 与文件名的映射表 |
-
----
-*Generated with ❤️ by Gemini CLI*
