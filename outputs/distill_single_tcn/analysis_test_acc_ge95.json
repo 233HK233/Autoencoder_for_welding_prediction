@@ -1,0 +1,29 @@
+[
+  {
+    "source_root": "/home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/outputs/distill_single_tcn",
+    "source_name": "distill_single_tcn",
+    "run_name": "distill_tcn_attn_weld_seam_windows_ws5_tf75_pg0_ep80_lr0.0002_bs128_T3.0_lce0.8_lkd1.2_lf0.2_seed77",
+    "run_dir": "/home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/outputs/distill_single_tcn/seed_sweep_bestcfg/distill_tcn_attn_weld_seam_windows_ws5_tf75_pg0_ep80_lr0.0002_bs128_T3.0_lce0.8_lkd1.2_lf0.2_seed77",
+    "rel_run_dir": "seed_sweep_bestcfg/distill_tcn_attn_weld_seam_windows_ws5_tf75_pg0_ep80_lr0.0002_bs128_T3.0_lce0.8_lkd1.2_lf0.2_seed77",
+    "test_accuracy": 0.9592,
+    "test_accuracy_percent": 95.92,
+    "best_epoch": 4,
+    "best_score": 0.903955,
+    "model": null,
+    "seed": 77,
+    "lr": 0.0002,
+    "batch_size": 128,
+    "epochs": 80,
+    "tcn_layers": null,
+    "student_tcn_layers": null,
+    "tcn_dropout": null,
+    "student_tcn_dropout": null,
+    "weight_decay": 0.0002,
+    "temperature": 3.0,
+    "lambda_ce": 0.8,
+    "lambda_kd": 1.2,
+    "lambda_feat": 0.2,
+    "checkpoint_metric": "val_teacher_agreement",
+    "parse_status": "ok"
+  }
+]

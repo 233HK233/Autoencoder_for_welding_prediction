@@ -1,0 +1,57 @@
+Best epoch: 3
+Checkpoint metric: val_teacher_agreement
+Best score: 0.892655
+
+--- Train Metrics (Student) ---
+Total Loss: 0.817821
+CE Loss: 0.603848
+KD Loss: 0.039161
+Feature Loss: 1.438749
+Accuracy: 84.11%
+Macro-F1: 0.823945
+Train Teacher-Agreement: 88.11%
+
+=== Classification Report (Train) ===
+              precision    recall  f1-score   support
+     Class 0     0.7836   1.0000     0.8787       268
+     Class 1     0.6614   0.7333     0.6955       285
+     Class 2     0.9884   0.8221     0.8976       624
+
+    accuracy                       0.8411      1177
+   macro avg     0.0000   0.0000     0.8239      1177
+
+--- Val Metrics (Student) ---
+Total Loss: 0.872632
+CE Loss: 0.668385
+KD Loss: 0.040031
+Feature Loss: 1.449437
+Accuracy: 83.05%
+Macro-F1: 0.809410
+Val Teacher-Agreement: 89.27%
+
+=== Classification Report (Val) ===
+              precision    recall  f1-score   support
+     Class 0     0.7407   1.0000     0.8511        40
+     Class 1     0.6667   0.6977     0.6818        43
+     Class 2     0.9872   0.8191     0.8953        94
+
+    accuracy                       0.8305       177
+   macro avg     0.0000   0.0000     0.8094       177
+
+--- Test Metrics (Student) ---
+Total Loss: 0.975482
+CE Loss: 0.747150
+KD Loss: 0.069782
+Feature Loss: 1.470119
+Accuracy: 73.64%
+Macro-F1: 0.761634
+Test Teacher-Agreement: 73.37%
+
+=== Classification Report (Test) ===
+              precision    recall  f1-score   support
+     Class 0     0.9867   0.9024     0.9427        82
+     Class 1     0.4688   0.8621     0.6073        87
+     Class 2     0.9173   0.6131     0.7349       199
+
+    accuracy                       0.7364       368
+   macro avg     0.0000   0.0000     0.7616       368

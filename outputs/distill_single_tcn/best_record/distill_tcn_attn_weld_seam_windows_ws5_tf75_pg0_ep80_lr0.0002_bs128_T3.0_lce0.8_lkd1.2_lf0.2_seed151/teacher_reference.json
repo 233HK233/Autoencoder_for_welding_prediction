@@ -1,0 +1,4 @@
+{
+  "teacher_ckpt": "/home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/outputs/single_tcn/best_record/single_tcn_attn_weld_seam_windows_ws5_tf75_pg0_ep30_lr0.00025_bs128_k3_l3_d0.12_lat64_wd0.0002_seed230/best_single_tcn.pth",
+  "teacher_run_args": "/home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/outputs/single_tcn/best_record/single_tcn_attn_weld_seam_windows_ws5_tf75_pg0_ep30_lr0.00025_bs128_k3_l3_d0.12_lat64_wd0.0002_seed230/run_args.json"
+}
