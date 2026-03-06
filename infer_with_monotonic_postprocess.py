@@ -17,9 +17,9 @@ import numpy as np
 import torch
 
 try:
-    from .train_single_tcn_classifier import AttentionTCNClassifier
+    from .models_tcn import AttentionTCNClassifier
 except ImportError:
-    from train_single_tcn_classifier import AttentionTCNClassifier
+    from models_tcn import AttentionTCNClassifier
 
 
 def parse_args() -> argparse.Namespace:

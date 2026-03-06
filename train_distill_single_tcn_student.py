@@ -25,16 +25,16 @@ import torch.nn as nn
 from torch.utils.data import DataLoader, TensorDataset, WeightedRandomSampler
 
 try:
-    from .train_single_tcn_classifier import (
-        AttentionTCNClassifier,
+    from .models_tcn import AttentionTCNClassifier
+    from .training_utils import (
         build_classification_report,
         compute_class_weights,
         parse_channels,
         split_train_val_stratified,
     )
 except ImportError:
-    from train_single_tcn_classifier import (
-        AttentionTCNClassifier,
+    from models_tcn import AttentionTCNClassifier
+    from training_utils import (
         build_classification_report,
         compute_class_weights,
         parse_channels,

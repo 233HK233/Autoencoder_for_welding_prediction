@@ -2,7 +2,7 @@
 
 本仓库用于焊缝时序数据的三分类诊断（`0/1/2`），并支持从 18 维全量特征教师模型蒸馏到 13 维可部署学生模型。
 
-README 已按当前仓库脚本状态更新（2026-03-04）。
+README 已按当前仓库脚本状态更新（2026-03-05）。
 
 ## 1. 项目目标
 
@@ -11,39 +11,52 @@ README 已按当前仓库脚本状态更新（2026-03-04）。
 - 使用 LUPI 蒸馏把 18 维输入压缩到 13 维部署输入。
 - 使用单调后处理（`monotonic` / `three_segment`）提升时序预测稳定性。
 
-## 2. 当前代码状态（重要）
-
-### 主流程脚本（可直接使用）
-
-- `prepare_weld_seam_dataset.py`：构建标签安全窗口数据集（`.npz`）。
-- `train_single_tcn_classifier.py`：训练教师模型（支持 `tcn` / `tcn_attn` / `inception`）。
-- `train_distill_single_tcn_student.py`：冻结教师蒸馏学生（默认删特征 `3,4,5,6,7`）。
-- `infer_with_monotonic_postprocess.py`：推理 + 时序后处理。
-- `run_distill_sweep.py`：网格扫描 `lambda_kd`、`lambda_feat`。
-- `run_distill_seed_sweep.py`：多随机种子扫描并按阈值早停。
-- `analyze_single_tcn_results.py`：汇总实验结果，筛选准确率阈值以上 run。
-
-### 兼容性说明
-
-- `run_tcn_sweep.py` 目前依赖 `train_benchmark_classifier_tcn.py`（仓库中不存在），属于旧脚本，默认不可直接跑通。
-- `inspect_npz.py` 使用了硬编码路径，使用前需要先修改脚本顶部常量。
-
-## 3. 目录结构
+## 2. 目录结构与核心模块
 
 ```text
 autoencoder_benchmark/
-├── Data/
-│   ├── raw_data/                       # 原始 CSV（a01,b01,c01,c02）
-│   └── processed_data/                 # 处理后的 npz
-├── outputs/                            # 训练输出与分析结果
-├── prepare_weld_seam_dataset.py
-├── train_single_tcn_classifier.py
-├── train_distill_single_tcn_student.py
-├── infer_with_monotonic_postprocess.py
-├── run_distill_sweep.py
-├── run_distill_seed_sweep.py
-└── analyze_single_tcn_results.py
+├── 近期工作汇报讲稿_2026-02.md           # 2026年2月工作汇报文档
+├── Data/                                 # 数据集目录
+│   ├── raw_data/                         # 原始 CSV（a01,b01,c01,c02）
+│   ├── processed_data/                   # 处理后的 npz 和分析数据
+│   └── case1/, case2/, Datawith(no)PHOENIX/ # 其他原始与实验批次数据
+├── outputs/                              # 模型训练输出、预测结果、分析日志
+├── useless/                              # 废弃/旧版/对比实验代码（如 train_benchmark_classifier_tcn.py）
+├── 核心主流程脚本:
+│   ├── prepare_weld_seam_dataset.py      # 数据预处理，构建标签安全窗口数据集（.npz）
+│   ├── train_single_tcn_classifier.py    # 训练教师分类模型（支持 tcn/tcn_attn/inception）
+│   ├── train_distill_single_tcn_student.py # 冻结教师模型蒸馏训练学生模型（删减特征）
+│   └── infer_with_monotonic_postprocess.py # 测试集推理 + 时序后处理（单调/三段）
+├── 批量实验与分析扫描:
+│   ├── run_distill_sweep.py              # 网格扫描 lambda_kd、lambda_feat 等超参数
+│   ├── run_distill_seed_sweep.py         # 多随机种子扫描并按阈值早停
+│   ├── run_tcn_sweep.py                  # TCN 扫描（旧版遗留流程，依赖废弃脚本）
+│   └── analyze_single_tcn_results.py     # 汇总实验结果，筛选高准确率 run
+├── 训练与数据基础设施模块:
+│   ├── models_tcn.py                     # 模型网络结构定义（TCN / TCN-Attention / Inception）
+│   ├── training_utils.py                 # 公共训练与评估工具
+│   ├── data_utils.py                     # 数据加载与处理工具库
+│   ├── framework.py                      # 知识蒸馏教师-学生框架
+│   └── inspect_npz.py                    # NPZ 数据分析调试小工具
 ```
+
+## 3. 当前代码状态与兼容性
+
+### 主流程脚本（推荐路径）
+直接按照 `数据处理 -> 教师训练 -> 学生蒸馏 -> 推理后处理` 的顺序执行：
+- `prepare_weld_seam_dataset.py`
+- `train_single_tcn_classifier.py`
+- `train_distill_single_tcn_student.py`
+- `infer_with_monotonic_postprocess.py`
+
+### 本次代码改动同步（README 已覆盖）
+- 新增 `training_utils.py`，将分类报告、评估、类别权重、分层划分等逻辑抽离为公共模块。
+- `train_single_tcn_classifier.py` 与 `train_distill_single_tcn_student.py` 已改为复用 `training_utils.py`。
+- `models_tcn.py` 统一维护 TCN / TCN-Attention / Inception 相关模型结构。
+
+### 旧版与兼容性提示
+- `run_tcn_sweep.py` 当前硬编码调用 `train_benchmark_classifier_tcn.py`（默认在项目根目录查找）。该文件已迁移到 `useless/`，因此默认不可直接跑通；如需继续使用，请先修正脚本中的调用路径。
+- `inspect_npz.py` 使用了硬编码路径，使用前需要先修改脚本顶部常量。
 
 ## 4. 环境依赖
 
@@ -56,7 +69,7 @@ python -m pip install numpy pandas torch scikit-learn matplotlib
 
 ## 5. 快速开始（从数据到蒸馏）
 
-以下命令假设你当前目录就是 `autoencoder_benchmark/`。
+以下命令假设你当前目录就是项目根目录 `autoencoder_benchmark/`。
 
 ### 5.1 数据预处理
 
@@ -71,7 +84,7 @@ python prepare_weld_seam_dataset.py \
   --seed 42
 ```
 
-### 5.2 训练教师模型（18D）
+### 5.2 训练教师模型（18D 全特征）
 
 ```bash
 python train_single_tcn_classifier.py \
@@ -96,23 +109,28 @@ python train_single_tcn_classifier.py \
   --seed 230
 ```
 
-训练完成后自动生成 run 目录并保存：
+可选：若需要做“特征删减敏感性实验”，可在教师训练中直接追加参数：
 
+```bash
+--drop-feature-indices 3,4,5,6,7
+```
+
+训练完成后自动生成 run 目录并保存：
 - `best_single_tcn.pth`
 - `run_args.json`
 - `history.json`
 - `evaluation_metrics.txt`
 
-### 5.3 蒸馏学生模型（13D）
+### 5.3 蒸馏学生模型（13D 部署特征）
 
-先取最新教师 run 目录：
+先获取最新教师 run 目录：
 
 ```bash
 TEACHER_DIR=$(ls -td outputs/single_tcn/single_tcn_attn_* | head -n 1)
-echo "$TEACHER_DIR"
+echo "使用教师模型: $TEACHER_DIR"
 ```
 
-再启动蒸馏：
+启动蒸馏（丢弃无用的特征）：
 
 ```bash
 python train_distill_single_tcn_student.py \
@@ -138,7 +156,7 @@ python train_distill_single_tcn_student.py \
 
 ### 5.4 推理与单调后处理
 
-注意：`infer_with_monotonic_postprocess.py` 当前读取 `X_test_full`（18D），请传入与之匹配的模型 checkpoint（通常是教师模型）。
+注意：`infer_with_monotonic_postprocess.py` 当前默认读取 `X_test_full`（18D），请传入与之匹配的模型 checkpoint（通常是教师模型）。如果推理学生模型，需要修改脚本适配特征裁剪后的输入。
 
 ```bash
 python infer_with_monotonic_postprocess.py \
@@ -153,41 +171,9 @@ python infer_with_monotonic_postprocess.py \
   --decode both
 ```
 
-## 6. 已记录结果（来自 `outputs/`）
+## 6. 批量实验与分析辅助
 
-### 6.1 教师模型（最佳测试准确率）
-
-- Run: `single_tcn_attn_weld_seam_windows_ws5_tf75_pg0_ep30_lr0.00025_bs128_k3_l3_d0.12_lat64_wd0.0002_seed230`
-- 来源: `outputs/single_tcn/best_record/.../seed230/`
-- Test Accuracy: `98.64%`
-- Test Macro-F1: `0.9828`
-- Best Epoch: `2`
-
-### 6.2 学生模型（蒸馏）
-
-- 官方 best_record 摘要（`BEST_RECORD_SUMMARY.txt`）：
-  - Run: `...seed77`
-  - Test Accuracy: `95.92%`
-  - Test Teacher Agreement: `96.20%`
-  - Test Macro-F1: `0.9474`
-- 已记录最高蒸馏测试准确率：
-  - Run: `...seed132`
-  - Test Accuracy: `96.74%`
-  - Test Teacher Agreement: `97.01%`
-  - Test Macro-F1: `0.9552`
-
-### 6.3 后处理效果（示例）
-
-`outputs/postprocess_reports/seed14_postprocess_report.txt`：
-
-- Raw Accuracy: `96.47%`
-- Monotonic Accuracy: `98.64%`
-- Three-segment Accuracy: `98.64%`
-
-## 7. 批量实验与分析
-
-### 7.1 蒸馏超参扫描
-
+### 6.1 蒸馏超参网格扫描
 ```bash
 python run_distill_sweep.py \
   --dataset-npz Data/processed_data/weld_seam_windows_ws5_tf75_pg0.npz \
@@ -198,8 +184,7 @@ python run_distill_sweep.py \
   --stop-val-agreement 0.98
 ```
 
-### 7.2 蒸馏多随机种子扫描
-
+### 6.2 蒸馏随机种子稳定性测试
 ```bash
 python run_distill_seed_sweep.py \
   --dataset-npz Data/processed_data/weld_seam_windows_ws5_tf75_pg0.npz \
@@ -215,8 +200,8 @@ python run_distill_seed_sweep.py \
   --weighted-sampler
 ```
 
-### 7.3 实验结果筛选与汇总
-
+### 6.3 实验结果筛选报告汇总
+找出在评估中表现最佳的一批模型配置：
 ```bash
 python analyze_single_tcn_results.py \
   --root-dir outputs/single_tcn \
@@ -227,39 +212,29 @@ python analyze_single_tcn_results.py \
   --top-k 10
 ```
 
-## 8. 标签定义
+## 7. 标签定义与数据说明
 
-- `0`：`quasistable`
-- `1`：`nonstationary`
-- `2`：`instability`
+| 标签 | 含义 (Weld Seam Status) |
+|---|---|
+| `0` | `quasistable`（准稳态） |
+| `1` | `nonstationary`（非平稳） |
+| `2` | `instability`（不稳定） |
 
-## 9. 数据格式（`prepare_weld_seam_dataset.py` 输出）
-
+### 窗口数据集 (`prepare_weld_seam_dataset.py` 输出)
 | Key | 说明 |
 |---|---|
-| `X_train_full` | 训练特征，形状 `[N_train, T, C]` |
-| `y_train` | 训练标签，形状 `[N_train]` |
-| `X_test_full` | 测试特征，形状 `[N_test, T, C]` |
-| `y_test` | 测试标签，形状 `[N_test]` |
-| `seam_id_train` | 训练样本焊缝 ID |
-| `seam_id_test` | 测试样本焊缝 ID |
-| `start_idx_train` | 训练窗口起始时间索引 |
-| `start_idx_test` | 测试窗口起始时间索引 |
-| `seam_name_order` | 焊缝名顺序（ID 到文件名映射） |
-| `scaler_mean_<seam>` | 对应焊缝标准化均值 |
-| `scaler_scale_<seam>` | 对应焊缝标准化方差尺度 |
+| `X_train_full` / `X_test_full` | 特征张量，形状 `[N, T, C]` |
+| `y_train` / `y_test` | 标签，形状 `[N]` |
+| `seam_id_train` / `seam_id_test`| 对应样本来源的焊缝 ID |
+| `start_idx_train` / `start_idx_test` | 窗口起点的全局时间索引 |
+| `seam_name_order` | 焊缝 ID 映射 (0 -> a01, 1 -> b01 ...) |
+| `scaler_mean_*` / `scaler_scale_*` | 用于该焊缝数据的标准化参考均值与尺度 |
 
-当前常用数据集 `weld_seam_windows_ws5_tf75_pg0.npz` 的统计：
+## 8. 常见问题排查 (Troubleshooting)
 
-- `X_train_full`: `(1177, 5, 18)`
-- `X_test_full`: `(368, 5, 18)`
-- 训练标签分布: `{0: 268, 1: 285, 2: 624}`
-- 测试标签分布: `{0: 82, 1: 87, 2: 199}`
-
-## 10. 常见问题
-
-- 推理时 `load_state_dict` 维度不匹配：
-  - 原因通常是 `infer_with_monotonic_postprocess.py` 的模型超参和 checkpoint 训练超参不一致。
-  - 解决：以对应 run 的 `run_args.json` 为准，显式传入 `--tcn-layers`、`--tcn-dropout`、`--classifier-hidden` 等参数。
-- 运行 `run_tcn_sweep.py` 报找不到训练脚本：
-  - 这是旧流程遗留，当前主线请用 `train_single_tcn_classifier.py` + `run_distill_sweep.py` / `run_distill_seed_sweep.py`。
+1. **推理时 `load_state_dict` 维度不匹配：**
+   - **原因**：`infer_with_monotonic_postprocess.py` 输入的模型超参与保存的 checkpoint 超参不一致。
+   - **解决**：打开目标 run 目录的 `run_args.json`，根据配置显式补齐 `--tcn-layers`, `--tcn-dropout`, `--classifier-hidden` 等参数。
+2. **`run_tcn_sweep.py` 报错找不到文件：**
+   - **原因**：依赖文件已被移至 `useless/`。
+   - **解决**：如果需要继续使用它，请修改里面针对 `train_benchmark_classifier_tcn.py` 的子进程调用路径；但当前推荐直接扫 `train_single_tcn_classifier.py`。
