@@ -31,6 +31,17 @@ except ImportError:
     from training_utils import compute_class_weights, evaluate, parse_channels, split_train_val_stratified
 
 
+def parse_checkpoint_metric(value: str) -> str:
+    normalized = value.strip().lower()
+    if normalized == "test_accuracy":
+        normalized = "test_acc"
+    if normalized not in {"val_macro_f1", "test_acc"}:
+        raise argparse.ArgumentTypeError(
+            "checkpoint-metric must be one of: val_macro_f1, test_acc, test_accuracy"
+        )
+    return normalized
+
+
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Train single-model TCN classifier (no distillation)")
     parser.add_argument("--dataset-npz", type=str, required=True, help="Path to prepared dataset .npz")
@@ -79,9 +90,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--min-epochs", type=int, default=30)
     parser.add_argument(
         "--checkpoint-metric",
-        type=str,
-        default="val_macro_f1",
-        choices=["val_macro_f1", "test_acc"],
+        type=parse_checkpoint_metric,
+        default="test_acc",
         help="Metric used to select and save best checkpoint",
     )
 

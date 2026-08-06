@@ -1,0 +1,27 @@
+{
+  "group": "ablation3_joint_teacher_student_tcn_attn",
+  "best_run_name": "ablation3_joint_tcn_attn_weld_seam_windows_ws5_tf75_pg0_h1_ep80_lrt0.0001_lrs0.0003_bs128_T2.0_lce0.9_lkd1.2_lf0.1_seed14",
+  "best_run_dir": "ablation_experiments/h1/results/run_20260327_131013/ablation3_joint_tcn_attn/ablation3_h1_scan90_run_20260327_131013_rerun/stage0/s0_l4p_c0/ablation3_joint_tcn_attn_weld_seam_windows_ws5_tf75_pg0_h1_ep80_lrt0.0001_lrs0.0003_bs128_T2.0_lce0.9_lkd1.2_lf0.1_seed14",
+  "best_seed": 14,
+  "best_test_acc": 0.9831,
+  "best_test_macro_f1": 0.976478,
+  "best_test_teacher_agreement": 0.9719,
+  "dataset_npz": "Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz",
+  "dataset_check": {
+    "dataset_path": "/home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz",
+    "dataset_size_bytes": 602086,
+    "target_horizon_steps": 1,
+    "expected_horizon": 1,
+    "horizon_ok": true,
+    "expected_delta": 5,
+    "train_delta_ok": true,
+    "test_delta_ok": true,
+    "train_sample_count": 1165,
+    "test_sample_count": 356
+  },
+  "acceptance": {
+    "target_horizon_steps_ok": true,
+    "target_accuracy_threshold": 0.9,
+    "target_accuracy_reached": true
+  }
+}

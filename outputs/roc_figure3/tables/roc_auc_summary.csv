@@ -1,0 +1,31 @@
+method_name,method_slug,roc_view,auc
+teacher-student(student),teacher_student_student,S0 vs rest,1.00000000
+teacher-student(student),teacher_student_student,S1 vs rest,0.99646939
+teacher-student(student),teacher_student_student,S2 vs rest,1.00000000
+teacher-student(student),teacher_student_student,micro-average,0.99949896
+teacher-student(student),teacher_student_student,macro-average,0.99905851
+teacher(18D upper bound),teacher_18d_upper_bound,S0 vs rest,0.99986165
+teacher(18D upper bound),teacher_18d_upper_bound,S1 vs rest,0.99832296
+teacher(18D upper bound),teacher_18d_upper_bound,S2 vs rest,1.00000000
+teacher(18D upper bound),teacher_18d_upper_bound,micro-average,0.99697008
+teacher(18D upper bound),teacher_18d_upper_bound,macro-average,0.99965343
+lstm,lstm,S0 vs rest,0.99986165
+lstm,lstm,S1 vs rest,0.93494859
+lstm,lstm,S2 vs rest,0.99993630
+lstm,lstm,micro-average,0.97910617
+lstm,lstm,macro-average,0.97906041
+gru,gru,S0 vs rest,0.99829367
+gru,gru,S1 vs rest,0.93786134
+gru,gru,S2 vs rest,0.99977703
+gru,gru,micro-average,0.98447166
+gru,gru,macro-average,0.97984911
+transformer,transformer,S0 vs rest,0.99317469
+transformer,transformer,S1 vs rest,0.96619445
+transformer,transformer,S2 vs rest,0.99700589
+transformer,transformer,micro-average,0.98150092
+transformer,transformer,macro-average,0.98656974
+inception,inception,S0 vs rest,0.99875484
+inception,inception,S1 vs rest,0.91747209
+inception,inception,S2 vs rest,0.98588947
+inception,inception,micro-average,0.96816611
+inception,inception,macro-average,0.96908450

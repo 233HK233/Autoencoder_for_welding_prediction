@@ -1,0 +1,7 @@
+student_model,class_id,class_label,n_samples,cosine_similarity,teacher_latent_dim,student_latent_dim,projection_space
+Student-only,0,S0,78,0.0884757053573432,128,128,strict_raw_latent
+Student-only,1,S1,83,-0.0682445473416695,128,128,strict_raw_latent
+Student-only,2,S2,195,0.014360487473816788,128,128,strict_raw_latent
+SEAL-Weld Student,0,S0,78,0.4054670176828568,128,128,strict_raw_latent
+SEAL-Weld Student,1,S1,83,0.039854485846543476,128,128,strict_raw_latent
+SEAL-Weld Student,2,S2,195,0.33377349299069015,128,128,strict_raw_latent

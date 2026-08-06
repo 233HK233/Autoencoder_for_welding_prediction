@@ -1,0 +1,20 @@
+================================================================================
+Frozen-Teacher Distillation (13D Student)
+================================================================================
+Dataset: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz
+Teacher ckpt: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/outputs/teacher_h1_scan98_gpu1_v2/runs/single_tcn_attn_weld_seam_windows_ws5_tf75_pg0_h1_ep60_lr0.0003_bs128_k3_l3_d0.08_lat64_wd0.00015_seed14/best_single_tcn.pth
+Teacher run args: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/outputs/teacher_h1_scan98_gpu1_v2/runs/single_tcn_attn_weld_seam_windows_ws5_tf75_pg0_h1_ep60_lr0.0003_bs128_k3_l3_d0.08_lat64_wd0.00015_seed14/run_args.json
+Device: cuda
+Train/Val/Test: 990 / 175 / 356
+Input full/subset dims: 18 / 13
+Dropped feature indices: [3, 4, 5, 6, 7]
+Temperature: 3.5
+Loss weights (ce/kd/feat): 0.7 / 1.4 / 0.3
+Checkpoint metric: val_teacher_agreement
+Class weights: [1.4732142686843872, 1.3807531595230103, 0.626185953617096]
+Traceback (most recent call last):
+  File "/home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/train_distill_single_tcn_student.py", line 690, in <module>
+    main()
+  File "/home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/train_distill_single_tcn_student.py", line 484, in main
+    loss_feat = torch.mean((z_s - z_t) ** 2)
+RuntimeError: The size of tensor a (192) must match the size of tensor b (128) at non-singleton dimension 1

@@ -1,0 +1,30 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv*/
+venv/
+
+# Local tooling and temporary state
+.codex/
+.claude/
+.mplconfig/
+.tmp*/
+codex-global.tgz
+
+# Model checkpoints and oversized publication sources
+*.pth
+*.pt
+*.ckpt
+*.tif
+*.tiff
+
+# Generated experiment sweeps and training outputs
+ablation_experiments/h1/results/
+ablation_experiments/results/
+ablation_experiments/ablation3_joint_tcn_attn/results/
+outputs/single_tcn/
+outputs/distill_single_tcn/
+outputs/teacher_h1*/
+outputs/baseline_lstm*/
+outputs/label_safe_tcn/

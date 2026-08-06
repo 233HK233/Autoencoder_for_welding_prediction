@@ -1,0 +1,16 @@
+[
+  {
+    "seed": 100,
+    "ablation1_status": "success",
+    "ablation1_test_acc": 0.6168,
+    "ablation1_test_f1": 0.654861,
+    "teacher_status": "success",
+    "teacher_test_acc": 0.7445999999999999,
+    "teacher_test_f1": 0.588119,
+    "ablation2_status": "success",
+    "ablation2_test_acc": 0.375,
+    "ablation2_test_f1": 0.285153,
+    "ablation2_test_teacher_agreement": 0.35600000000000004,
+    "elapsed_sec": 8.85
+  }
+]

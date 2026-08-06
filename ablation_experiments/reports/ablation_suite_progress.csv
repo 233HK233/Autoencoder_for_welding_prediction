@@ -1,0 +1,2 @@
+seed,ablation1_status,ablation1_test_acc,ablation1_test_f1,teacher_status,teacher_test_acc,teacher_test_f1,ablation2_status,ablation2_test_acc,ablation2_test_f1,ablation2_test_teacher_agreement,elapsed_sec
+100,success,0.6168,0.654861,success,0.7445999999999999,0.588119,success,0.375,0.285153,0.35600000000000004,8.85

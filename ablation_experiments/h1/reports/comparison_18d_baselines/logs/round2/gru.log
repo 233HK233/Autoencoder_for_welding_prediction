@@ -1,0 +1,1666 @@
+================================================================================
+Comparison baseline | model=gru
+================================================================================
+Dataset: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz
+Device: cuda
+Train/Val/Test: 990 / 175 / 356
+Epoch 001 | train_loss=1.0433 | val_acc=80.00% val_f1=0.7286 | test_acc=80.06% test_f1=0.7315
+Epoch 002 | train_loss=0.8925 | val_acc=80.00% val_f1=0.7427 | test_acc=89.04% test_f1=0.8453
+Epoch 003 | train_loss=0.7312 | val_acc=84.00% val_f1=0.7971 | test_acc=92.70% test_f1=0.9007
+Epoch 004 | train_loss=0.5723 | val_acc=88.57% val_f1=0.8549 | test_acc=93.82% test_f1=0.9199
+Epoch 005 | train_loss=0.4354 | val_acc=90.29% val_f1=0.8808 | test_acc=90.73% test_f1=0.8763
+Epoch 006 | train_loss=0.3236 | val_acc=92.57% val_f1=0.9162 | test_acc=91.01% test_f1=0.8797
+Epoch 007 | train_loss=0.2533 | val_acc=93.14% val_f1=0.9302 | test_acc=87.64% test_f1=0.8252
+Epoch 008 | train_loss=0.1756 | val_acc=93.14% val_f1=0.9302 | test_acc=88.48% test_f1=0.8408
+Epoch 009 | train_loss=0.1431 | val_acc=93.71% val_f1=0.9353 | test_acc=86.52% test_f1=0.8077
+Epoch 010 | train_loss=0.0907 | val_acc=96.00% val_f1=0.9590 | test_acc=85.67% test_f1=0.7949
+Epoch 011 | train_loss=0.0784 | val_acc=96.00% val_f1=0.9581 | test_acc=87.64% test_f1=0.8380
+Epoch 012 | train_loss=0.0732 | val_acc=97.14% val_f1=0.9694 | test_acc=81.74% test_f1=0.7487
+Epoch 013 | train_loss=0.0514 | val_acc=96.57% val_f1=0.9663 | test_acc=85.67% test_f1=0.8125
+Epoch 014 | train_loss=0.0433 | val_acc=96.00% val_f1=0.9586 | test_acc=81.74% test_f1=0.7395
+Epoch 015 | train_loss=0.0354 | val_acc=97.14% val_f1=0.9717 | test_acc=85.39% test_f1=0.8081
+Epoch 016 | train_loss=0.0290 | val_acc=97.71% val_f1=0.9772 | test_acc=81.46% test_f1=0.7496
+Epoch 017 | train_loss=0.0275 | val_acc=97.71% val_f1=0.9772 | test_acc=83.71% test_f1=0.7794
+Epoch 018 | train_loss=0.0251 | val_acc=98.29% val_f1=0.9828 | test_acc=82.87% test_f1=0.7693
+Epoch 019 | train_loss=0.0297 | val_acc=98.86% val_f1=0.9885 | test_acc=80.90% test_f1=0.7476
+Epoch 020 | train_loss=0.0185 | val_acc=98.86% val_f1=0.9885 | test_acc=80.62% test_f1=0.7246
+Epoch 021 | train_loss=0.0199 | val_acc=98.29% val_f1=0.9830 | test_acc=86.80% test_f1=0.8247
+Epoch 022 | train_loss=0.0094 | val_acc=98.86% val_f1=0.9886 | test_acc=81.74% test_f1=0.7415
+Epoch 023 | train_loss=0.0107 | val_acc=98.86% val_f1=0.9885 | test_acc=80.06% test_f1=0.7296
+Epoch 024 | train_loss=0.0114 | val_acc=98.86% val_f1=0.9860 | test_acc=80.62% test_f1=0.7461
+Epoch 025 | train_loss=0.0110 | val_acc=98.86% val_f1=0.9885 | test_acc=79.21% test_f1=0.7118
+Epoch 026 | train_loss=0.0172 | val_acc=99.43% val_f1=0.9943 | test_acc=84.55% test_f1=0.7957
+Epoch 027 | train_loss=0.0147 | val_acc=98.86% val_f1=0.9886 | test_acc=83.15% test_f1=0.7683
+Epoch 028 | train_loss=0.0089 | val_acc=99.43% val_f1=0.9943 | test_acc=82.58% test_f1=0.7602
+Epoch 029 | train_loss=0.0054 | val_acc=98.86% val_f1=0.9885 | test_acc=81.18% test_f1=0.7420
+Epoch 030 | train_loss=0.0096 | val_acc=99.43% val_f1=0.9942 | test_acc=80.62% test_f1=0.7379
+Epoch 031 | train_loss=0.0128 | val_acc=99.43% val_f1=0.9942 | test_acc=80.34% test_f1=0.7394
+Epoch 032 | train_loss=0.0114 | val_acc=99.43% val_f1=0.9942 | test_acc=77.53% test_f1=0.6907
+Epoch 033 | train_loss=0.0160 | val_acc=98.86% val_f1=0.9885 | test_acc=82.87% test_f1=0.7706
+Epoch 034 | train_loss=0.0078 | val_acc=99.43% val_f1=0.9943 | test_acc=80.34% test_f1=0.7270
+Epoch 035 | train_loss=0.0068 | val_acc=99.43% val_f1=0.9943 | test_acc=80.34% test_f1=0.7270
+Epoch 036 | train_loss=0.0061 | val_acc=99.43% val_f1=0.9943 | test_acc=81.74% test_f1=0.7517
+Epoch 037 | train_loss=0.0070 | val_acc=98.86% val_f1=0.9885 | test_acc=80.34% test_f1=0.7270
+Epoch 038 | train_loss=0.0070 | val_acc=98.86% val_f1=0.9885 | test_acc=80.06% test_f1=0.7236
+Epoch 039 | train_loss=0.0075 | val_acc=99.43% val_f1=0.9942 | test_acc=81.18% test_f1=0.7474
+Epoch 040 | train_loss=0.0042 | val_acc=99.43% val_f1=0.9942 | test_acc=79.78% test_f1=0.7247
+Epoch 041 | train_loss=0.0044 | val_acc=99.43% val_f1=0.9942 | test_acc=79.49% test_f1=0.7168
+Epoch 042 | train_loss=0.0043 | val_acc=99.43% val_f1=0.9942 | test_acc=80.90% test_f1=0.7400
+Early stopping at epoch 42 (best=26, score=0.994277)
+================================================================================
+Best epoch: 26
+Best score (val_macro_f1): 0.994277
+Final test accuracy: 84.55%
+Saved to: ablation_experiments/h1/results/comparison_18d_baselines/gru/gru_weld_seam_windows_ws5_tf75_pg0_h1_h96_l1_uni_do0.2_ep80_lr0.0005_wd0.0005_bs128_seed42
+================================================================================
+Comparison baseline | model=gru
+================================================================================
+Dataset: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz
+Device: cuda
+Train/Val/Test: 990 / 175 / 356
+Epoch 001 | train_loss=1.0734 | val_acc=83.43% val_f1=0.7769 | test_acc=85.11% test_f1=0.8148
+Epoch 002 | train_loss=0.9877 | val_acc=81.14% val_f1=0.7565 | test_acc=94.10% test_f1=0.9210
+Epoch 003 | train_loss=0.8934 | val_acc=80.57% val_f1=0.7564 | test_acc=94.94% test_f1=0.9286
+Epoch 004 | train_loss=0.8125 | val_acc=81.14% val_f1=0.7653 | test_acc=96.07% test_f1=0.9448
+Epoch 005 | train_loss=0.7276 | val_acc=82.86% val_f1=0.7835 | test_acc=96.63% test_f1=0.9526
+Epoch 006 | train_loss=0.6471 | val_acc=84.57% val_f1=0.8096 | test_acc=96.63% test_f1=0.9536
+Epoch 007 | train_loss=0.5759 | val_acc=86.29% val_f1=0.8349 | test_acc=95.79% test_f1=0.9424
+Epoch 008 | train_loss=0.5095 | val_acc=86.29% val_f1=0.8349 | test_acc=95.22% test_f1=0.9332
+Epoch 009 | train_loss=0.4514 | val_acc=86.29% val_f1=0.8349 | test_acc=95.22% test_f1=0.9332
+Epoch 010 | train_loss=0.3937 | val_acc=88.57% val_f1=0.8678 | test_acc=93.82% test_f1=0.9116
+Epoch 011 | train_loss=0.3865 | val_acc=90.29% val_f1=0.8913 | test_acc=91.57% test_f1=0.8760
+Epoch 012 | train_loss=0.3214 | val_acc=90.86% val_f1=0.8963 | test_acc=91.57% test_f1=0.8760
+Epoch 013 | train_loss=0.2844 | val_acc=91.43% val_f1=0.9013 | test_acc=91.85% test_f1=0.8805
+Epoch 014 | train_loss=0.2554 | val_acc=91.43% val_f1=0.9013 | test_acc=88.48% test_f1=0.8312
+Epoch 015 | train_loss=0.2278 | val_acc=92.00% val_f1=0.9063 | test_acc=89.61% test_f1=0.8495
+Epoch 016 | train_loss=0.2164 | val_acc=92.57% val_f1=0.9143 | test_acc=91.01% test_f1=0.8725
+Epoch 017 | train_loss=0.1934 | val_acc=92.57% val_f1=0.9143 | test_acc=89.33% test_f1=0.8483
+Epoch 018 | train_loss=0.1741 | val_acc=94.29% val_f1=0.9327 | test_acc=85.96% test_f1=0.7938
+Epoch 019 | train_loss=0.1426 | val_acc=94.29% val_f1=0.9327 | test_acc=87.36% test_f1=0.8238
+Epoch 020 | train_loss=0.1319 | val_acc=95.43% val_f1=0.9460 | test_acc=84.55% test_f1=0.7746
+Epoch 021 | train_loss=0.1128 | val_acc=96.00% val_f1=0.9540 | test_acc=85.11% test_f1=0.7848
+Epoch 022 | train_loss=0.1141 | val_acc=95.43% val_f1=0.9488 | test_acc=86.24% test_f1=0.8047
+Epoch 023 | train_loss=0.1043 | val_acc=95.43% val_f1=0.9488 | test_acc=86.24% test_f1=0.8047
+Epoch 024 | train_loss=0.0939 | val_acc=96.00% val_f1=0.9512 | test_acc=89.04% test_f1=0.8514
+Epoch 025 | train_loss=0.0800 | val_acc=97.14% val_f1=0.9647 | test_acc=84.83% test_f1=0.7798
+Epoch 026 | train_loss=0.0728 | val_acc=97.14% val_f1=0.9647 | test_acc=87.36% test_f1=0.8238
+Epoch 027 | train_loss=0.0643 | val_acc=97.14% val_f1=0.9647 | test_acc=84.55% test_f1=0.7746
+Epoch 028 | train_loss=0.0697 | val_acc=97.14% val_f1=0.9647 | test_acc=86.80% test_f1=0.8160
+Epoch 029 | train_loss=0.0565 | val_acc=97.14% val_f1=0.9647 | test_acc=87.36% test_f1=0.8254
+Epoch 030 | train_loss=0.0702 | val_acc=97.14% val_f1=0.9647 | test_acc=85.96% test_f1=0.8016
+Epoch 031 | train_loss=0.0518 | val_acc=97.14% val_f1=0.9647 | test_acc=85.11% test_f1=0.7868
+Epoch 032 | train_loss=0.0534 | val_acc=97.14% val_f1=0.9647 | test_acc=84.83% test_f1=0.7818
+Epoch 033 | train_loss=0.0423 | val_acc=97.71% val_f1=0.9701 | test_acc=84.27% test_f1=0.7716
+Epoch 034 | train_loss=0.0432 | val_acc=98.29% val_f1=0.9755 | test_acc=86.24% test_f1=0.8065
+Epoch 035 | train_loss=0.0477 | val_acc=97.71% val_f1=0.9701 | test_acc=87.36% test_f1=0.8254
+Epoch 036 | train_loss=0.0410 | val_acc=98.29% val_f1=0.9755 | test_acc=85.96% test_f1=0.8034
+Epoch 037 | train_loss=0.0471 | val_acc=97.71% val_f1=0.9701 | test_acc=86.52% test_f1=0.8113
+Epoch 038 | train_loss=0.0358 | val_acc=97.71% val_f1=0.9701 | test_acc=86.52% test_f1=0.8113
+Epoch 039 | train_loss=0.0374 | val_acc=97.71% val_f1=0.9701 | test_acc=86.52% test_f1=0.8113
+Epoch 040 | train_loss=0.0373 | val_acc=98.29% val_f1=0.9755 | test_acc=85.11% test_f1=0.7887
+Epoch 041 | train_loss=0.0370 | val_acc=98.29% val_f1=0.9755 | test_acc=85.96% test_f1=0.8051
+Epoch 042 | train_loss=0.0338 | val_acc=98.29% val_f1=0.9755 | test_acc=85.67% test_f1=0.8019
+Epoch 043 | train_loss=0.0412 | val_acc=98.29% val_f1=0.9755 | test_acc=85.39% test_f1=0.7988
+Epoch 044 | train_loss=0.0355 | val_acc=98.86% val_f1=0.9837 | test_acc=85.39% test_f1=0.7988
+Epoch 045 | train_loss=0.0280 | val_acc=98.29% val_f1=0.9755 | test_acc=85.39% test_f1=0.7988
+Epoch 046 | train_loss=0.0277 | val_acc=98.29% val_f1=0.9755 | test_acc=85.39% test_f1=0.7988
+Epoch 047 | train_loss=0.0297 | val_acc=98.29% val_f1=0.9755 | test_acc=85.39% test_f1=0.7988
+Epoch 048 | train_loss=0.0298 | val_acc=98.29% val_f1=0.9755 | test_acc=85.39% test_f1=0.7988
+Epoch 049 | train_loss=0.0331 | val_acc=98.29% val_f1=0.9755 | test_acc=85.39% test_f1=0.7988
+Epoch 050 | train_loss=0.0264 | val_acc=97.71% val_f1=0.9697 | test_acc=84.55% test_f1=0.7843
+Epoch 051 | train_loss=0.0277 | val_acc=98.86% val_f1=0.9837 | test_acc=85.39% test_f1=0.7988
+Epoch 052 | train_loss=0.0269 | val_acc=98.86% val_f1=0.9837 | test_acc=85.96% test_f1=0.8082
+Epoch 053 | train_loss=0.0283 | val_acc=99.43% val_f1=0.9919 | test_acc=85.96% test_f1=0.8082
+Epoch 054 | train_loss=0.0206 | val_acc=98.86% val_f1=0.9837 | test_acc=85.39% test_f1=0.7988
+Epoch 055 | train_loss=0.0213 | val_acc=98.86% val_f1=0.9837 | test_acc=85.39% test_f1=0.7988
+Epoch 056 | train_loss=0.0250 | val_acc=98.29% val_f1=0.9755 | test_acc=84.55% test_f1=0.7843
+Epoch 057 | train_loss=0.0261 | val_acc=98.86% val_f1=0.9837 | test_acc=85.39% test_f1=0.7988
+Epoch 058 | train_loss=0.0243 | val_acc=99.43% val_f1=0.9919 | test_acc=85.67% test_f1=0.8035
+Epoch 059 | train_loss=0.0281 | val_acc=99.43% val_f1=0.9919 | test_acc=85.96% test_f1=0.8082
+Epoch 060 | train_loss=0.0206 | val_acc=99.43% val_f1=0.9919 | test_acc=85.96% test_f1=0.8082
+Epoch 061 | train_loss=0.0230 | val_acc=99.43% val_f1=0.9919 | test_acc=85.67% test_f1=0.8035
+Epoch 062 | train_loss=0.0266 | val_acc=99.43% val_f1=0.9919 | test_acc=84.83% test_f1=0.7924
+Epoch 063 | train_loss=0.0254 | val_acc=98.86% val_f1=0.9837 | test_acc=84.83% test_f1=0.7924
+Epoch 064 | train_loss=0.0220 | val_acc=98.86% val_f1=0.9837 | test_acc=85.11% test_f1=0.7956
+Epoch 065 | train_loss=0.0246 | val_acc=99.43% val_f1=0.9919 | test_acc=85.39% test_f1=0.7988
+Epoch 066 | train_loss=0.0213 | val_acc=99.43% val_f1=0.9919 | test_acc=85.11% test_f1=0.7956
+Epoch 067 | train_loss=0.0174 | val_acc=99.43% val_f1=0.9919 | test_acc=85.39% test_f1=0.7988
+Epoch 068 | train_loss=0.0259 | val_acc=99.43% val_f1=0.9919 | test_acc=85.39% test_f1=0.7988
+Epoch 069 | train_loss=0.0216 | val_acc=99.43% val_f1=0.9919 | test_acc=85.11% test_f1=0.7956
+Early stopping at epoch 69 (best=53, score=0.991859)
+================================================================================
+Best epoch: 53
+Best score (val_macro_f1): 0.991859
+Final test accuracy: 85.96%
+Saved to: ablation_experiments/h1/results/comparison_18d_baselines/gru/gru_weld_seam_windows_ws5_tf75_pg0_h1_h96_l1_bi_do0.2_ep80_lr0.0001_wd0.0005_bs64_seed100
+================================================================================
+Comparison baseline | model=gru
+================================================================================
+Dataset: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz
+Device: cuda
+Train/Val/Test: 990 / 175 / 356
+Epoch 001 | train_loss=1.0804 | val_acc=44.00% val_f1=0.4532 | test_acc=35.67% test_f1=0.3815
+Epoch 002 | train_loss=1.0480 | val_acc=36.00% val_f1=0.3623 | test_acc=42.13% test_f1=0.4485
+Epoch 003 | train_loss=0.9834 | val_acc=33.14% val_f1=0.3292 | test_acc=39.61% test_f1=0.4186
+Epoch 004 | train_loss=0.9023 | val_acc=42.86% val_f1=0.4442 | test_acc=65.17% test_f1=0.6742
+Epoch 005 | train_loss=0.7702 | val_acc=74.29% val_f1=0.7041 | test_acc=86.24% test_f1=0.8481
+Epoch 006 | train_loss=0.6720 | val_acc=85.71% val_f1=0.8019 | test_acc=90.17% test_f1=0.8755
+Epoch 007 | train_loss=0.5784 | val_acc=92.00% val_f1=0.8938 | test_acc=83.71% test_f1=0.7853
+Epoch 008 | train_loss=0.4606 | val_acc=94.29% val_f1=0.9274 | test_acc=87.64% test_f1=0.8423
+Epoch 009 | train_loss=0.3332 | val_acc=96.00% val_f1=0.9546 | test_acc=91.29% test_f1=0.8877
+Epoch 010 | train_loss=0.2342 | val_acc=96.00% val_f1=0.9604 | test_acc=90.73% test_f1=0.8766
+Epoch 011 | train_loss=0.1573 | val_acc=96.57% val_f1=0.9659 | test_acc=90.73% test_f1=0.8766
+Epoch 012 | train_loss=0.1301 | val_acc=96.57% val_f1=0.9659 | test_acc=92.13% test_f1=0.8994
+Epoch 013 | train_loss=0.0972 | val_acc=97.14% val_f1=0.9714 | test_acc=89.89% test_f1=0.8673
+Epoch 014 | train_loss=0.0798 | val_acc=97.71% val_f1=0.9743 | test_acc=88.48% test_f1=0.8548
+Epoch 015 | train_loss=0.0564 | val_acc=98.29% val_f1=0.9826 | test_acc=84.55% test_f1=0.8003
+Epoch 016 | train_loss=0.0643 | val_acc=97.14% val_f1=0.9686 | test_acc=88.48% test_f1=0.8521
+Epoch 017 | train_loss=0.0645 | val_acc=97.71% val_f1=0.9743 | test_acc=87.36% test_f1=0.8358
+Epoch 018 | train_loss=0.0540 | val_acc=97.71% val_f1=0.9743 | test_acc=88.20% test_f1=0.8468
+Epoch 019 | train_loss=0.0426 | val_acc=98.86% val_f1=0.9883 | test_acc=83.15% test_f1=0.7740
+Epoch 020 | train_loss=0.0389 | val_acc=98.29% val_f1=0.9800 | test_acc=82.87% test_f1=0.7739
+Epoch 021 | train_loss=0.0407 | val_acc=100.00% val_f1=1.0000 | test_acc=83.99% test_f1=0.7812
+Epoch 022 | train_loss=0.0304 | val_acc=97.71% val_f1=0.9749 | test_acc=87.08% test_f1=0.8253
+Epoch 023 | train_loss=0.0228 | val_acc=99.43% val_f1=0.9919 | test_acc=86.24% test_f1=0.8169
+Epoch 024 | train_loss=0.0325 | val_acc=98.86% val_f1=0.9860 | test_acc=80.62% test_f1=0.7391
+Epoch 025 | train_loss=0.0375 | val_acc=98.86% val_f1=0.9860 | test_acc=80.90% test_f1=0.7459
+Epoch 026 | train_loss=0.0139 | val_acc=100.00% val_f1=1.0000 | test_acc=80.62% test_f1=0.7320
+Epoch 027 | train_loss=0.0211 | val_acc=99.43% val_f1=0.9919 | test_acc=84.55% test_f1=0.7957
+Epoch 028 | train_loss=0.0285 | val_acc=100.00% val_f1=1.0000 | test_acc=79.78% test_f1=0.7186
+Epoch 029 | train_loss=0.0302 | val_acc=99.43% val_f1=0.9919 | test_acc=81.74% test_f1=0.7544
+Epoch 030 | train_loss=0.0186 | val_acc=100.00% val_f1=1.0000 | test_acc=80.62% test_f1=0.7379
+Epoch 031 | train_loss=0.0137 | val_acc=99.43% val_f1=0.9919 | test_acc=82.58% test_f1=0.7703
+Epoch 032 | train_loss=0.0142 | val_acc=100.00% val_f1=1.0000 | test_acc=80.34% test_f1=0.7331
+Epoch 033 | train_loss=0.0217 | val_acc=99.43% val_f1=0.9919 | test_acc=82.58% test_f1=0.7703
+Epoch 034 | train_loss=0.0115 | val_acc=98.86% val_f1=0.9860 | test_acc=80.62% test_f1=0.7431
+Epoch 035 | train_loss=0.0244 | val_acc=99.43% val_f1=0.9919 | test_acc=82.02% test_f1=0.7612
+Epoch 036 | train_loss=0.0230 | val_acc=99.43% val_f1=0.9919 | test_acc=81.74% test_f1=0.7567
+Epoch 037 | train_loss=0.0322 | val_acc=99.43% val_f1=0.9919 | test_acc=85.39% test_f1=0.8101
+Early stopping at epoch 37 (best=21, score=1.000000)
+================================================================================
+Best epoch: 21
+Best score (val_macro_f1): 1.000000
+Final test accuracy: 83.99%
+Saved to: ablation_experiments/h1/results/comparison_18d_baselines/gru/gru_weld_seam_windows_ws5_tf75_pg0_h1_h128_l3_uni_do0.1_ep80_lr0.0002_wd0.0001_bs128_seed183
+================================================================================
+Comparison baseline | model=gru
+================================================================================
+Dataset: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz
+Device: cuda
+Train/Val/Test: 990 / 175 / 356
+Epoch 001 | train_loss=1.0400 | val_acc=60.00% val_f1=0.6281 | test_acc=67.13% test_f1=0.7132
+Epoch 002 | train_loss=0.9016 | val_acc=79.43% val_f1=0.7598 | test_acc=94.38% test_f1=0.9365
+Epoch 003 | train_loss=0.6951 | val_acc=82.29% val_f1=0.7665 | test_acc=94.94% test_f1=0.9360
+Epoch 004 | train_loss=0.5192 | val_acc=95.43% val_f1=0.9469 | test_acc=87.92% test_f1=0.8472
+Epoch 005 | train_loss=0.3446 | val_acc=93.71% val_f1=0.9313 | test_acc=91.57% test_f1=0.8884
+Epoch 006 | train_loss=0.2394 | val_acc=94.29% val_f1=0.9397 | test_acc=89.33% test_f1=0.8530
+Epoch 007 | train_loss=0.1577 | val_acc=96.57% val_f1=0.9639 | test_acc=89.61% test_f1=0.8603
+Epoch 008 | train_loss=0.1046 | val_acc=98.29% val_f1=0.9828 | test_acc=87.36% test_f1=0.8358
+Epoch 009 | train_loss=0.0883 | val_acc=97.14% val_f1=0.9717 | test_acc=85.96% test_f1=0.7998
+Epoch 010 | train_loss=0.0718 | val_acc=97.14% val_f1=0.9717 | test_acc=87.08% test_f1=0.8223
+Epoch 011 | train_loss=0.0426 | val_acc=98.86% val_f1=0.9885 | test_acc=85.67% test_f1=0.8144
+Epoch 012 | train_loss=0.0381 | val_acc=98.29% val_f1=0.9828 | test_acc=87.92% test_f1=0.8413
+Epoch 013 | train_loss=0.0329 | val_acc=98.29% val_f1=0.9828 | test_acc=87.92% test_f1=0.8413
+Epoch 014 | train_loss=0.0270 | val_acc=97.71% val_f1=0.9775 | test_acc=87.64% test_f1=0.8356
+Epoch 015 | train_loss=0.0169 | val_acc=99.43% val_f1=0.9942 | test_acc=85.11% test_f1=0.8047
+Epoch 016 | train_loss=0.0178 | val_acc=99.43% val_f1=0.9943 | test_acc=85.39% test_f1=0.8070
+Epoch 017 | train_loss=0.0175 | val_acc=98.86% val_f1=0.9885 | test_acc=86.24% test_f1=0.8222
+Epoch 018 | train_loss=0.0131 | val_acc=99.43% val_f1=0.9942 | test_acc=83.15% test_f1=0.7814
+Epoch 019 | train_loss=0.0117 | val_acc=99.43% val_f1=0.9942 | test_acc=80.06% test_f1=0.7181
+Epoch 020 | train_loss=0.0141 | val_acc=99.43% val_f1=0.9942 | test_acc=85.96% test_f1=0.8179
+Epoch 021 | train_loss=0.0094 | val_acc=99.43% val_f1=0.9942 | test_acc=84.83% test_f1=0.8012
+Epoch 022 | train_loss=0.0106 | val_acc=99.43% val_f1=0.9942 | test_acc=79.78% test_f1=0.7186
+Epoch 023 | train_loss=0.0087 | val_acc=99.43% val_f1=0.9942 | test_acc=82.58% test_f1=0.7743
+Epoch 024 | train_loss=0.0082 | val_acc=99.43% val_f1=0.9943 | test_acc=85.11% test_f1=0.8036
+Epoch 025 | train_loss=0.0090 | val_acc=99.43% val_f1=0.9943 | test_acc=85.11% test_f1=0.8066
+Epoch 026 | train_loss=0.0054 | val_acc=99.43% val_f1=0.9942 | test_acc=81.74% test_f1=0.7619
+Epoch 027 | train_loss=0.0050 | val_acc=99.43% val_f1=0.9943 | test_acc=85.39% test_f1=0.8081
+Epoch 028 | train_loss=0.0085 | val_acc=99.43% val_f1=0.9943 | test_acc=85.67% test_f1=0.8125
+Epoch 029 | train_loss=0.0085 | val_acc=100.00% val_f1=1.0000 | test_acc=83.71% test_f1=0.7899
+Epoch 030 | train_loss=0.0097 | val_acc=99.43% val_f1=0.9942 | test_acc=80.90% test_f1=0.7489
+Epoch 031 | train_loss=0.0028 | val_acc=100.00% val_f1=1.0000 | test_acc=83.43% test_f1=0.7856
+Epoch 032 | train_loss=0.0017 | val_acc=100.00% val_f1=1.0000 | test_acc=83.43% test_f1=0.7856
+Epoch 033 | train_loss=0.0043 | val_acc=100.00% val_f1=1.0000 | test_acc=82.02% test_f1=0.7639
+Epoch 034 | train_loss=0.0022 | val_acc=100.00% val_f1=1.0000 | test_acc=84.27% test_f1=0.7973
+Epoch 035 | train_loss=0.0034 | val_acc=100.00% val_f1=1.0000 | test_acc=82.02% test_f1=0.7639
+Epoch 036 | train_loss=0.0029 | val_acc=100.00% val_f1=1.0000 | test_acc=82.58% test_f1=0.7727
+Epoch 037 | train_loss=0.0030 | val_acc=100.00% val_f1=1.0000 | test_acc=83.71% test_f1=0.7899
+Epoch 038 | train_loss=0.0028 | val_acc=100.00% val_f1=1.0000 | test_acc=81.46% test_f1=0.7541
+Epoch 039 | train_loss=0.0041 | val_acc=100.00% val_f1=1.0000 | test_acc=85.67% test_f1=0.8179
+Epoch 040 | train_loss=0.0024 | val_acc=100.00% val_f1=1.0000 | test_acc=83.99% test_f1=0.7936
+Epoch 041 | train_loss=0.0014 | val_acc=100.00% val_f1=1.0000 | test_acc=83.71% test_f1=0.7899
+Epoch 042 | train_loss=0.0011 | val_acc=100.00% val_f1=1.0000 | test_acc=83.71% test_f1=0.7899
+Epoch 043 | train_loss=0.0014 | val_acc=100.00% val_f1=1.0000 | test_acc=83.71% test_f1=0.7899
+Epoch 044 | train_loss=0.0015 | val_acc=100.00% val_f1=1.0000 | test_acc=83.15% test_f1=0.7814
+Epoch 045 | train_loss=0.0013 | val_acc=100.00% val_f1=1.0000 | test_acc=83.71% test_f1=0.7899
+Early stopping at epoch 45 (best=29, score=1.000000)
+================================================================================
+Best epoch: 29
+Best score (val_macro_f1): 1.000000
+Final test accuracy: 83.71%
+Saved to: ablation_experiments/h1/results/comparison_18d_baselines/gru/gru_weld_seam_windows_ws5_tf75_pg0_h1_h64_l3_bi_do0.2_ep80_lr0.0002_wd0.0001_bs64_seed42
+================================================================================
+Comparison baseline | model=gru
+================================================================================
+Dataset: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz
+Device: cuda
+Train/Val/Test: 990 / 175 / 356
+Epoch 001 | train_loss=0.9501 | val_acc=69.71% val_f1=0.6959 | test_acc=71.35% test_f1=0.7399
+Epoch 002 | train_loss=0.5974 | val_acc=84.57% val_f1=0.8203 | test_acc=95.79% test_f1=0.9402
+Epoch 003 | train_loss=0.2823 | val_acc=94.29% val_f1=0.9332 | test_acc=90.17% test_f1=0.8553
+Epoch 004 | train_loss=0.1305 | val_acc=97.14% val_f1=0.9665 | test_acc=84.55% test_f1=0.7788
+Epoch 005 | train_loss=0.0858 | val_acc=98.29% val_f1=0.9804 | test_acc=90.45% test_f1=0.8735
+Epoch 006 | train_loss=0.0466 | val_acc=98.29% val_f1=0.9804 | test_acc=87.08% test_f1=0.8266
+Epoch 007 | train_loss=0.0390 | val_acc=98.86% val_f1=0.9862 | test_acc=85.67% test_f1=0.7986
+Epoch 008 | train_loss=0.0276 | val_acc=99.43% val_f1=0.9943 | test_acc=87.36% test_f1=0.8311
+Epoch 009 | train_loss=0.0157 | val_acc=98.86% val_f1=0.9862 | test_acc=83.71% test_f1=0.7612
+Epoch 010 | train_loss=0.0181 | val_acc=99.43% val_f1=0.9919 | test_acc=88.76% test_f1=0.8554
+Epoch 011 | train_loss=0.0217 | val_acc=99.43% val_f1=0.9919 | test_acc=87.36% test_f1=0.8419
+Epoch 012 | train_loss=0.0127 | val_acc=100.00% val_f1=1.0000 | test_acc=86.52% test_f1=0.8294
+Epoch 013 | train_loss=0.0055 | val_acc=100.00% val_f1=1.0000 | test_acc=83.99% test_f1=0.7954
+Epoch 014 | train_loss=0.0047 | val_acc=100.00% val_f1=1.0000 | test_acc=81.46% test_f1=0.7541
+Epoch 015 | train_loss=0.0029 | val_acc=100.00% val_f1=1.0000 | test_acc=83.43% test_f1=0.7861
+Epoch 016 | train_loss=0.0018 | val_acc=100.00% val_f1=1.0000 | test_acc=83.99% test_f1=0.7946
+Epoch 017 | train_loss=0.0022 | val_acc=100.00% val_f1=1.0000 | test_acc=82.87% test_f1=0.7790
+Epoch 018 | train_loss=0.0017 | val_acc=100.00% val_f1=1.0000 | test_acc=84.55% test_f1=0.8029
+Epoch 019 | train_loss=0.0014 | val_acc=100.00% val_f1=1.0000 | test_acc=82.58% test_f1=0.7751
+Epoch 020 | train_loss=0.0013 | val_acc=100.00% val_f1=1.0000 | test_acc=82.87% test_f1=0.7792
+Epoch 021 | train_loss=0.0013 | val_acc=100.00% val_f1=1.0000 | test_acc=82.02% test_f1=0.7667
+Epoch 022 | train_loss=0.0006 | val_acc=100.00% val_f1=1.0000 | test_acc=83.43% test_f1=0.7866
+Epoch 023 | train_loss=0.0010 | val_acc=100.00% val_f1=1.0000 | test_acc=83.15% test_f1=0.7832
+Epoch 024 | train_loss=0.0009 | val_acc=100.00% val_f1=1.0000 | test_acc=82.58% test_f1=0.7749
+Epoch 025 | train_loss=0.0008 | val_acc=100.00% val_f1=1.0000 | test_acc=82.87% test_f1=0.7790
+Epoch 026 | train_loss=0.0004 | val_acc=100.00% val_f1=1.0000 | test_acc=83.71% test_f1=0.7914
+Epoch 027 | train_loss=0.0005 | val_acc=100.00% val_f1=1.0000 | test_acc=83.15% test_f1=0.7832
+Epoch 028 | train_loss=0.0005 | val_acc=100.00% val_f1=1.0000 | test_acc=82.87% test_f1=0.7790
+Early stopping at epoch 28 (best=12, score=1.000000)
+================================================================================
+Best epoch: 12
+Best score (val_macro_f1): 1.000000
+Final test accuracy: 86.52%
+Saved to: ablation_experiments/h1/results/comparison_18d_baselines/gru/gru_weld_seam_windows_ws5_tf75_pg0_h1_h128_l2_bi_do0.1_ep80_lr0.0003_wd0.0005_bs64_seed122
+================================================================================
+Comparison baseline | model=gru
+================================================================================
+Dataset: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz
+Device: cuda
+Train/Val/Test: 990 / 175 / 356
+Epoch 001 | train_loss=1.0838 | val_acc=83.43% val_f1=0.8178 | test_acc=96.07% test_f1=0.9426
+Epoch 002 | train_loss=1.0004 | val_acc=82.29% val_f1=0.7866 | test_acc=96.91% test_f1=0.9554
+Epoch 003 | train_loss=0.9257 | val_acc=80.57% val_f1=0.7564 | test_acc=95.51% test_f1=0.9344
+Epoch 004 | train_loss=0.8587 | val_acc=80.57% val_f1=0.7564 | test_acc=95.51% test_f1=0.9344
+Epoch 005 | train_loss=0.7811 | val_acc=81.71% val_f1=0.7699 | test_acc=96.35% test_f1=0.9470
+Epoch 006 | train_loss=0.6908 | val_acc=83.43% val_f1=0.7923 | test_acc=96.35% test_f1=0.9470
+Epoch 007 | train_loss=0.6352 | val_acc=85.14% val_f1=0.8144 | test_acc=96.91% test_f1=0.9554
+Epoch 008 | train_loss=0.5251 | val_acc=86.86% val_f1=0.8364 | test_acc=97.19% test_f1=0.9596
+Epoch 009 | train_loss=0.5011 | val_acc=88.57% val_f1=0.8583 | test_acc=96.35% test_f1=0.9494
+Epoch 010 | train_loss=0.4313 | val_acc=92.00% val_f1=0.9072 | test_acc=92.70% test_f1=0.9005
+Epoch 011 | train_loss=0.3545 | val_acc=92.00% val_f1=0.9082 | test_acc=92.98% test_f1=0.9025
+Epoch 012 | train_loss=0.3175 | val_acc=92.57% val_f1=0.9162 | test_acc=92.98% test_f1=0.9025
+Epoch 013 | train_loss=0.2795 | val_acc=93.71% val_f1=0.9324 | test_acc=89.33% test_f1=0.8454
+Epoch 014 | train_loss=0.2367 | val_acc=94.86% val_f1=0.9485 | test_acc=89.33% test_f1=0.8454
+Epoch 015 | train_loss=0.2262 | val_acc=94.86% val_f1=0.9485 | test_acc=90.45% test_f1=0.8638
+Epoch 016 | train_loss=0.1715 | val_acc=94.86% val_f1=0.9485 | test_acc=88.20% test_f1=0.8275
+Epoch 017 | train_loss=0.1660 | val_acc=94.86% val_f1=0.9485 | test_acc=89.33% test_f1=0.8515
+Epoch 018 | train_loss=0.1498 | val_acc=94.29% val_f1=0.9410 | test_acc=86.52% test_f1=0.8039
+Epoch 019 | train_loss=0.1360 | val_acc=96.00% val_f1=0.9590 | test_acc=89.33% test_f1=0.8545
+Epoch 020 | train_loss=0.1019 | val_acc=96.00% val_f1=0.9566 | test_acc=87.08% test_f1=0.8174
+Epoch 021 | train_loss=0.0840 | val_acc=96.57% val_f1=0.9619 | test_acc=86.80% test_f1=0.8126
+Epoch 022 | train_loss=0.0693 | val_acc=96.57% val_f1=0.9619 | test_acc=88.48% test_f1=0.8408
+Epoch 023 | train_loss=0.0648 | val_acc=96.57% val_f1=0.9619 | test_acc=87.36% test_f1=0.8238
+Epoch 024 | train_loss=0.0740 | val_acc=96.57% val_f1=0.9619 | test_acc=86.52% test_f1=0.8095
+Epoch 025 | train_loss=0.0496 | val_acc=97.14% val_f1=0.9673 | test_acc=86.52% test_f1=0.8113
+Epoch 026 | train_loss=0.0514 | val_acc=97.71% val_f1=0.9724 | test_acc=85.96% test_f1=0.8016
+Epoch 027 | train_loss=0.0593 | val_acc=97.71% val_f1=0.9724 | test_acc=85.67% test_f1=0.7967
+Epoch 028 | train_loss=0.0522 | val_acc=98.29% val_f1=0.9807 | test_acc=86.24% test_f1=0.8065
+Epoch 029 | train_loss=0.0363 | val_acc=96.57% val_f1=0.9619 | test_acc=85.39% test_f1=0.7918
+Epoch 030 | train_loss=0.0526 | val_acc=97.14% val_f1=0.9721 | test_acc=87.92% test_f1=0.8331
+Epoch 031 | train_loss=0.0341 | val_acc=97.71% val_f1=0.9775 | test_acc=88.48% test_f1=0.8438
+Epoch 032 | train_loss=0.0306 | val_acc=97.71% val_f1=0.9724 | test_acc=85.39% test_f1=0.7918
+Epoch 033 | train_loss=0.0340 | val_acc=97.71% val_f1=0.9724 | test_acc=85.11% test_f1=0.7887
+Epoch 034 | train_loss=0.0363 | val_acc=98.86% val_f1=0.9885 | test_acc=85.96% test_f1=0.8051
+Epoch 035 | train_loss=0.0301 | val_acc=98.86% val_f1=0.9885 | test_acc=87.08% test_f1=0.8223
+Epoch 036 | train_loss=0.0337 | val_acc=98.86% val_f1=0.9885 | test_acc=86.24% test_f1=0.8082
+Epoch 037 | train_loss=0.0269 | val_acc=98.86% val_f1=0.9885 | test_acc=85.96% test_f1=0.8051
+Epoch 038 | train_loss=0.0360 | val_acc=98.86% val_f1=0.9885 | test_acc=85.67% test_f1=0.8019
+Epoch 039 | train_loss=0.0447 | val_acc=98.86% val_f1=0.9885 | test_acc=84.55% test_f1=0.7826
+Epoch 040 | train_loss=0.0213 | val_acc=98.86% val_f1=0.9885 | test_acc=85.11% test_f1=0.7906
+Epoch 041 | train_loss=0.0245 | val_acc=98.86% val_f1=0.9885 | test_acc=85.96% test_f1=0.8051
+Epoch 042 | train_loss=0.0321 | val_acc=99.43% val_f1=0.9943 | test_acc=85.39% test_f1=0.7955
+Epoch 043 | train_loss=0.0205 | val_acc=98.86% val_f1=0.9862 | test_acc=84.83% test_f1=0.7875
+Epoch 044 | train_loss=0.0326 | val_acc=98.86% val_f1=0.9885 | test_acc=84.27% test_f1=0.7828
+Epoch 045 | train_loss=0.0233 | val_acc=98.86% val_f1=0.9885 | test_acc=84.55% test_f1=0.7907
+Epoch 046 | train_loss=0.0274 | val_acc=98.86% val_f1=0.9885 | test_acc=83.43% test_f1=0.7731
+Epoch 047 | train_loss=0.0202 | val_acc=98.86% val_f1=0.9885 | test_acc=83.43% test_f1=0.7731
+Epoch 048 | train_loss=0.0145 | val_acc=98.86% val_f1=0.9885 | test_acc=83.71% test_f1=0.7764
+Epoch 049 | train_loss=0.0174 | val_acc=98.86% val_f1=0.9885 | test_acc=84.27% test_f1=0.7828
+Epoch 050 | train_loss=0.0233 | val_acc=98.86% val_f1=0.9885 | test_acc=84.27% test_f1=0.7828
+Epoch 051 | train_loss=0.0174 | val_acc=98.86% val_f1=0.9885 | test_acc=84.83% test_f1=0.7924
+Epoch 052 | train_loss=0.0200 | val_acc=98.86% val_f1=0.9885 | test_acc=84.27% test_f1=0.7828
+Epoch 053 | train_loss=0.0211 | val_acc=98.86% val_f1=0.9885 | test_acc=83.99% test_f1=0.7780
+Epoch 054 | train_loss=0.0203 | val_acc=98.29% val_f1=0.9804 | test_acc=83.99% test_f1=0.7780
+Epoch 055 | train_loss=0.0143 | val_acc=98.29% val_f1=0.9804 | test_acc=83.99% test_f1=0.7780
+Epoch 056 | train_loss=0.0244 | val_acc=98.86% val_f1=0.9885 | test_acc=83.71% test_f1=0.7748
+Epoch 057 | train_loss=0.0194 | val_acc=98.86% val_f1=0.9885 | test_acc=84.27% test_f1=0.7828
+Epoch 058 | train_loss=0.0117 | val_acc=98.29% val_f1=0.9804 | test_acc=83.99% test_f1=0.7780
+Early stopping at epoch 58 (best=42, score=0.994277)
+================================================================================
+Best epoch: 42
+Best score (val_macro_f1): 0.994277
+Final test accuracy: 85.39%
+Saved to: ablation_experiments/h1/results/comparison_18d_baselines/gru/gru_weld_seam_windows_ws5_tf75_pg0_h1_h128_l1_uni_do0.1_ep80_lr0.0002_wd0.0002_bs128_seed14
+================================================================================
+Comparison baseline | model=gru
+================================================================================
+Dataset: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz
+Device: cuda
+Train/Val/Test: 990 / 175 / 356
+Epoch 001 | train_loss=0.8341 | val_acc=80.00% val_f1=0.7603 | test_acc=93.54% test_f1=0.9135
+Epoch 002 | train_loss=0.4766 | val_acc=89.71% val_f1=0.8849 | test_acc=88.48% test_f1=0.8222
+Epoch 003 | train_loss=0.2385 | val_acc=96.00% val_f1=0.9520 | test_acc=89.33% test_f1=0.8559
+Epoch 004 | train_loss=0.1302 | val_acc=97.71% val_f1=0.9770 | test_acc=87.08% test_f1=0.8223
+Epoch 005 | train_loss=0.0674 | val_acc=99.43% val_f1=0.9943 | test_acc=85.39% test_f1=0.8045
+Epoch 006 | train_loss=0.0437 | val_acc=98.86% val_f1=0.9886 | test_acc=83.43% test_f1=0.7603
+Epoch 007 | train_loss=0.0285 | val_acc=100.00% val_f1=1.0000 | test_acc=83.15% test_f1=0.7792
+Epoch 008 | train_loss=0.0222 | val_acc=99.43% val_f1=0.9943 | test_acc=83.43% test_f1=0.7786
+Epoch 009 | train_loss=0.0094 | val_acc=99.43% val_f1=0.9943 | test_acc=83.43% test_f1=0.7774
+Epoch 010 | train_loss=0.0069 | val_acc=100.00% val_f1=1.0000 | test_acc=82.58% test_f1=0.7683
+Epoch 011 | train_loss=0.0065 | val_acc=100.00% val_f1=1.0000 | test_acc=79.21% test_f1=0.7210
+Epoch 012 | train_loss=0.0048 | val_acc=100.00% val_f1=1.0000 | test_acc=83.43% test_f1=0.7786
+Epoch 013 | train_loss=0.0021 | val_acc=100.00% val_f1=1.0000 | test_acc=80.34% test_f1=0.7356
+Epoch 014 | train_loss=0.0019 | val_acc=99.43% val_f1=0.9919 | test_acc=82.30% test_f1=0.7648
+Epoch 015 | train_loss=0.0022 | val_acc=100.00% val_f1=1.0000 | test_acc=80.90% test_f1=0.7386
+Epoch 016 | train_loss=0.0019 | val_acc=100.00% val_f1=1.0000 | test_acc=84.55% test_f1=0.7995
+Epoch 017 | train_loss=0.0019 | val_acc=100.00% val_f1=1.0000 | test_acc=81.18% test_f1=0.7474
+Epoch 018 | train_loss=0.0012 | val_acc=100.00% val_f1=1.0000 | test_acc=79.21% test_f1=0.7200
+Epoch 019 | train_loss=0.0059 | val_acc=100.00% val_f1=1.0000 | test_acc=81.74% test_f1=0.7594
+Epoch 020 | train_loss=0.0232 | val_acc=99.43% val_f1=0.9919 | test_acc=83.71% test_f1=0.7894
+Epoch 021 | train_loss=0.0232 | val_acc=100.00% val_f1=1.0000 | test_acc=81.18% test_f1=0.7537
+Epoch 022 | train_loss=0.0029 | val_acc=100.00% val_f1=1.0000 | test_acc=82.58% test_f1=0.7751
+Epoch 023 | train_loss=0.0016 | val_acc=100.00% val_f1=1.0000 | test_acc=80.62% test_f1=0.7450
+Early stopping at epoch 23 (best=7, score=1.000000)
+================================================================================
+Best epoch: 7
+Best score (val_macro_f1): 1.000000
+Final test accuracy: 83.15%
+Saved to: ablation_experiments/h1/results/comparison_18d_baselines/gru/gru_weld_seam_windows_ws5_tf75_pg0_h1_h96_l2_bi_do0.1_ep80_lr0.0005_wd0.0001_bs64_seed183
+================================================================================
+Comparison baseline | model=gru
+================================================================================
+Dataset: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz
+Device: cuda
+Train/Val/Test: 990 / 175 / 356
+Epoch 001 | train_loss=1.0084 | val_acc=80.57% val_f1=0.7649 | test_acc=91.29% test_f1=0.9020
+Epoch 002 | train_loss=0.8032 | val_acc=81.14% val_f1=0.7654 | test_acc=95.51% test_f1=0.9400
+Epoch 003 | train_loss=0.6135 | val_acc=84.00% val_f1=0.8010 | test_acc=96.63% test_f1=0.9539
+Epoch 004 | train_loss=0.4974 | val_acc=88.00% val_f1=0.8532 | test_acc=94.10% test_f1=0.9165
+Epoch 005 | train_loss=0.3824 | val_acc=90.86% val_f1=0.8942 | test_acc=91.85% test_f1=0.8812
+Epoch 006 | train_loss=0.2948 | val_acc=90.86% val_f1=0.8932 | test_acc=91.01% test_f1=0.8717
+Epoch 007 | train_loss=0.2395 | val_acc=92.57% val_f1=0.9143 | test_acc=87.92% test_f1=0.8282
+Epoch 008 | train_loss=0.1971 | val_acc=93.71% val_f1=0.9246 | test_acc=86.80% test_f1=0.8126
+Epoch 009 | train_loss=0.1593 | val_acc=93.71% val_f1=0.9246 | test_acc=86.80% test_f1=0.8126
+Epoch 010 | train_loss=0.1254 | val_acc=95.43% val_f1=0.9488 | test_acc=85.11% test_f1=0.7848
+Epoch 011 | train_loss=0.1075 | val_acc=96.00% val_f1=0.9512 | test_acc=89.33% test_f1=0.8559
+Epoch 012 | train_loss=0.0928 | val_acc=97.14% val_f1=0.9647 | test_acc=83.99% test_f1=0.7664
+Epoch 013 | train_loss=0.0729 | val_acc=97.14% val_f1=0.9647 | test_acc=87.64% test_f1=0.8285
+Epoch 014 | train_loss=0.0490 | val_acc=98.29% val_f1=0.9755 | test_acc=84.27% test_f1=0.7716
+Epoch 015 | train_loss=0.0401 | val_acc=97.71% val_f1=0.9697 | test_acc=84.55% test_f1=0.7807
+Epoch 016 | train_loss=0.0458 | val_acc=97.71% val_f1=0.9697 | test_acc=86.52% test_f1=0.8160
+Epoch 017 | train_loss=0.0294 | val_acc=98.29% val_f1=0.9755 | test_acc=83.99% test_f1=0.7706
+Epoch 018 | train_loss=0.0519 | val_acc=98.29% val_f1=0.9755 | test_acc=85.67% test_f1=0.7986
+Epoch 019 | train_loss=0.0264 | val_acc=98.86% val_f1=0.9837 | test_acc=85.67% test_f1=0.8003
+Epoch 020 | train_loss=0.0261 | val_acc=98.29% val_f1=0.9755 | test_acc=83.71% test_f1=0.7655
+Epoch 021 | train_loss=0.0205 | val_acc=97.71% val_f1=0.9697 | test_acc=82.87% test_f1=0.7600
+Epoch 022 | train_loss=0.0217 | val_acc=98.86% val_f1=0.9837 | test_acc=86.80% test_f1=0.8207
+Epoch 023 | train_loss=0.0284 | val_acc=99.43% val_f1=0.9919 | test_acc=86.80% test_f1=0.8207
+Epoch 024 | train_loss=0.0181 | val_acc=99.43% val_f1=0.9919 | test_acc=86.24% test_f1=0.8114
+Epoch 025 | train_loss=0.0208 | val_acc=98.29% val_f1=0.9755 | test_acc=83.71% test_f1=0.7675
+Epoch 026 | train_loss=0.0137 | val_acc=100.00% val_f1=1.0000 | test_acc=86.24% test_f1=0.8114
+Epoch 027 | train_loss=0.0124 | val_acc=98.86% val_f1=0.9837 | test_acc=83.15% test_f1=0.7650
+Epoch 028 | train_loss=0.0138 | val_acc=99.43% val_f1=0.9919 | test_acc=85.11% test_f1=0.7940
+Epoch 029 | train_loss=0.0137 | val_acc=99.43% val_f1=0.9919 | test_acc=84.83% test_f1=0.7892
+Epoch 030 | train_loss=0.0109 | val_acc=100.00% val_f1=1.0000 | test_acc=84.27% test_f1=0.7874
+Epoch 031 | train_loss=0.0183 | val_acc=100.00% val_f1=1.0000 | test_acc=83.43% test_f1=0.7774
+Epoch 032 | train_loss=0.0123 | val_acc=100.00% val_f1=1.0000 | test_acc=83.15% test_f1=0.7699
+Epoch 033 | train_loss=0.0097 | val_acc=100.00% val_f1=1.0000 | test_acc=83.43% test_f1=0.7731
+Epoch 034 | train_loss=0.0080 | val_acc=100.00% val_f1=1.0000 | test_acc=83.43% test_f1=0.7761
+Epoch 035 | train_loss=0.0080 | val_acc=99.43% val_f1=0.9919 | test_acc=82.58% test_f1=0.7632
+Epoch 036 | train_loss=0.0096 | val_acc=100.00% val_f1=1.0000 | test_acc=83.43% test_f1=0.7774
+Epoch 037 | train_loss=0.0127 | val_acc=99.43% val_f1=0.9919 | test_acc=81.74% test_f1=0.7470
+Epoch 038 | train_loss=0.0060 | val_acc=100.00% val_f1=1.0000 | test_acc=82.58% test_f1=0.7632
+Epoch 039 | train_loss=0.0089 | val_acc=100.00% val_f1=1.0000 | test_acc=83.43% test_f1=0.7774
+Epoch 040 | train_loss=0.0069 | val_acc=100.00% val_f1=1.0000 | test_acc=83.71% test_f1=0.7807
+Epoch 041 | train_loss=0.0077 | val_acc=100.00% val_f1=1.0000 | test_acc=82.30% test_f1=0.7584
+Epoch 042 | train_loss=0.0048 | val_acc=100.00% val_f1=1.0000 | test_acc=82.87% test_f1=0.7680
+Early stopping at epoch 42 (best=26, score=1.000000)
+================================================================================
+Best epoch: 26
+Best score (val_macro_f1): 1.000000
+Final test accuracy: 86.24%
+Saved to: ablation_experiments/h1/results/comparison_18d_baselines/gru/gru_weld_seam_windows_ws5_tf75_pg0_h1_h96_l1_bi_do0.1_ep80_lr0.0002_wd0.0001_bs64_seed100
+================================================================================
+Comparison baseline | model=gru
+================================================================================
+Dataset: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz
+Device: cuda
+Train/Val/Test: 990 / 175 / 356
+Epoch 001 | train_loss=1.0630 | val_acc=73.14% val_f1=0.5339 | test_acc=76.69% test_f1=0.5583
+Epoch 002 | train_loss=0.9886 | val_acc=73.71% val_f1=0.5884 | test_acc=81.18% test_f1=0.6815
+Epoch 003 | train_loss=0.8913 | val_acc=79.43% val_f1=0.7125 | test_acc=89.04% test_f1=0.8371
+Epoch 004 | train_loss=0.7868 | val_acc=81.14% val_f1=0.7471 | test_acc=92.70% test_f1=0.8952
+Epoch 005 | train_loss=0.7155 | val_acc=82.86% val_f1=0.7750 | test_acc=93.54% test_f1=0.9095
+Epoch 006 | train_loss=0.6503 | val_acc=87.43% val_f1=0.8415 | test_acc=94.66% test_f1=0.9304
+Epoch 007 | train_loss=0.5629 | val_acc=89.14% val_f1=0.8665 | test_acc=93.54% test_f1=0.9151
+Epoch 008 | train_loss=0.4923 | val_acc=89.14% val_f1=0.8675 | test_acc=93.82% test_f1=0.9177
+Epoch 009 | train_loss=0.4077 | val_acc=91.43% val_f1=0.9060 | test_acc=94.94% test_f1=0.9270
+Epoch 010 | train_loss=0.3208 | val_acc=91.43% val_f1=0.9090 | test_acc=92.42% test_f1=0.8871
+Epoch 011 | train_loss=0.2945 | val_acc=92.57% val_f1=0.9221 | test_acc=93.54% test_f1=0.9050
+Epoch 012 | train_loss=0.2401 | val_acc=93.14% val_f1=0.9302 | test_acc=91.29% test_f1=0.8786
+Epoch 013 | train_loss=0.1806 | val_acc=94.29% val_f1=0.9434 | test_acc=87.92% test_f1=0.8282
+Epoch 014 | train_loss=0.1569 | val_acc=96.00% val_f1=0.9590 | test_acc=89.89% test_f1=0.8606
+Epoch 015 | train_loss=0.1409 | val_acc=96.57% val_f1=0.9667 | test_acc=91.29% test_f1=0.8841
+Epoch 016 | train_loss=0.1031 | val_acc=97.14% val_f1=0.9697 | test_acc=87.08% test_f1=0.8156
+Epoch 017 | train_loss=0.0982 | val_acc=97.14% val_f1=0.9715 | test_acc=91.29% test_f1=0.8853
+Epoch 018 | train_loss=0.0864 | val_acc=96.57% val_f1=0.9657 | test_acc=90.17% test_f1=0.8704
+Epoch 019 | train_loss=0.0694 | val_acc=96.57% val_f1=0.9657 | test_acc=86.52% test_f1=0.8145
+Epoch 020 | train_loss=0.0510 | val_acc=97.14% val_f1=0.9713 | test_acc=83.71% test_f1=0.7731
+Epoch 021 | train_loss=0.0531 | val_acc=96.57% val_f1=0.9657 | test_acc=87.64% test_f1=0.8369
+Epoch 022 | train_loss=0.0490 | val_acc=96.57% val_f1=0.9657 | test_acc=87.92% test_f1=0.8347
+Epoch 023 | train_loss=0.0414 | val_acc=96.57% val_f1=0.9657 | test_acc=87.64% test_f1=0.8285
+Epoch 024 | train_loss=0.0235 | val_acc=97.14% val_f1=0.9717 | test_acc=85.67% test_f1=0.7949
+Epoch 025 | train_loss=0.0386 | val_acc=97.14% val_f1=0.9717 | test_acc=88.20% test_f1=0.8445
+Epoch 026 | train_loss=0.0272 | val_acc=98.86% val_f1=0.9885 | test_acc=84.83% test_f1=0.7939
+Epoch 027 | train_loss=0.0238 | val_acc=98.86% val_f1=0.9885 | test_acc=83.43% test_f1=0.7682
+Epoch 028 | train_loss=0.0267 | val_acc=98.86% val_f1=0.9885 | test_acc=85.96% test_f1=0.8124
+Epoch 029 | train_loss=0.0220 | val_acc=98.86% val_f1=0.9885 | test_acc=85.39% test_f1=0.8032
+Epoch 030 | train_loss=0.0184 | val_acc=98.29% val_f1=0.9828 | test_acc=83.99% test_f1=0.7796
+Epoch 031 | train_loss=0.0262 | val_acc=98.86% val_f1=0.9885 | test_acc=85.67% test_f1=0.8091
+Epoch 032 | train_loss=0.0142 | val_acc=98.86% val_f1=0.9885 | test_acc=83.43% test_f1=0.7774
+Epoch 033 | train_loss=0.0182 | val_acc=98.86% val_f1=0.9885 | test_acc=84.55% test_f1=0.7933
+Epoch 034 | train_loss=0.0158 | val_acc=98.86% val_f1=0.9885 | test_acc=86.24% test_f1=0.8181
+Epoch 035 | train_loss=0.0149 | val_acc=99.43% val_f1=0.9942 | test_acc=83.15% test_f1=0.7740
+Epoch 036 | train_loss=0.0115 | val_acc=99.43% val_f1=0.9942 | test_acc=83.15% test_f1=0.7740
+Epoch 037 | train_loss=0.0131 | val_acc=99.43% val_f1=0.9942 | test_acc=83.99% test_f1=0.7878
+Epoch 038 | train_loss=0.0099 | val_acc=98.86% val_f1=0.9885 | test_acc=84.55% test_f1=0.7907
+Epoch 039 | train_loss=0.0118 | val_acc=98.86% val_f1=0.9885 | test_acc=84.55% test_f1=0.7907
+Epoch 040 | train_loss=0.0115 | val_acc=98.86% val_f1=0.9885 | test_acc=84.55% test_f1=0.7907
+Epoch 041 | train_loss=0.0100 | val_acc=98.86% val_f1=0.9885 | test_acc=83.43% test_f1=0.7761
+Epoch 042 | train_loss=0.0082 | val_acc=99.43% val_f1=0.9942 | test_acc=82.87% test_f1=0.7680
+Epoch 043 | train_loss=0.0118 | val_acc=98.86% val_f1=0.9885 | test_acc=84.27% test_f1=0.7874
+Epoch 044 | train_loss=0.0066 | val_acc=98.86% val_f1=0.9885 | test_acc=84.55% test_f1=0.7920
+Epoch 045 | train_loss=0.0060 | val_acc=98.86% val_f1=0.9885 | test_acc=83.71% test_f1=0.7779
+Epoch 046 | train_loss=0.0130 | val_acc=99.43% val_f1=0.9943 | test_acc=83.71% test_f1=0.7779
+Epoch 047 | train_loss=0.0072 | val_acc=99.43% val_f1=0.9943 | test_acc=84.27% test_f1=0.7874
+Epoch 048 | train_loss=0.0053 | val_acc=99.43% val_f1=0.9943 | test_acc=84.27% test_f1=0.7874
+Epoch 049 | train_loss=0.0073 | val_acc=99.43% val_f1=0.9943 | test_acc=84.55% test_f1=0.7920
+Epoch 050 | train_loss=0.0108 | val_acc=99.43% val_f1=0.9943 | test_acc=85.11% test_f1=0.8012
+Epoch 051 | train_loss=0.0075 | val_acc=100.00% val_f1=1.0000 | test_acc=83.99% test_f1=0.7827
+Epoch 052 | train_loss=0.0067 | val_acc=99.43% val_f1=0.9942 | test_acc=83.71% test_f1=0.7807
+Epoch 053 | train_loss=0.0050 | val_acc=99.43% val_f1=0.9942 | test_acc=83.71% test_f1=0.7807
+Epoch 054 | train_loss=0.0077 | val_acc=99.43% val_f1=0.9942 | test_acc=83.71% test_f1=0.7807
+Epoch 055 | train_loss=0.0064 | val_acc=99.43% val_f1=0.9942 | test_acc=83.71% test_f1=0.7807
+Epoch 056 | train_loss=0.0071 | val_acc=99.43% val_f1=0.9942 | test_acc=83.15% test_f1=0.7740
+Epoch 057 | train_loss=0.0085 | val_acc=99.43% val_f1=0.9942 | test_acc=82.30% test_f1=0.7637
+Epoch 058 | train_loss=0.0041 | val_acc=99.43% val_f1=0.9942 | test_acc=82.30% test_f1=0.7637
+Epoch 059 | train_loss=0.0081 | val_acc=99.43% val_f1=0.9942 | test_acc=82.58% test_f1=0.7672
+Epoch 060 | train_loss=0.0057 | val_acc=99.43% val_f1=0.9942 | test_acc=82.02% test_f1=0.7590
+Epoch 061 | train_loss=0.0044 | val_acc=99.43% val_f1=0.9942 | test_acc=82.30% test_f1=0.7637
+Epoch 062 | train_loss=0.0055 | val_acc=99.43% val_f1=0.9942 | test_acc=82.02% test_f1=0.7602
+Epoch 063 | train_loss=0.0055 | val_acc=99.43% val_f1=0.9942 | test_acc=82.58% test_f1=0.7672
+Epoch 064 | train_loss=0.0044 | val_acc=99.43% val_f1=0.9942 | test_acc=83.15% test_f1=0.7740
+Epoch 065 | train_loss=0.0068 | val_acc=99.43% val_f1=0.9942 | test_acc=83.71% test_f1=0.7807
+Epoch 066 | train_loss=0.0050 | val_acc=99.43% val_f1=0.9942 | test_acc=83.71% test_f1=0.7807
+Epoch 067 | train_loss=0.0037 | val_acc=99.43% val_f1=0.9942 | test_acc=83.71% test_f1=0.7807
+Early stopping at epoch 67 (best=51, score=1.000000)
+================================================================================
+Best epoch: 51
+Best score (val_macro_f1): 1.000000
+Final test accuracy: 83.99%
+Saved to: ablation_experiments/h1/results/comparison_18d_baselines/gru/gru_weld_seam_windows_ws5_tf75_pg0_h1_h96_l2_bi_do0.1_ep80_lr0.0002_wd0.0005_bs128_seed42
+================================================================================
+Comparison baseline | model=gru
+================================================================================
+Dataset: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz
+Device: cuda
+Train/Val/Test: 990 / 175 / 356
+Epoch 001 | train_loss=1.0501 | val_acc=45.71% val_f1=0.4776 | test_acc=38.76% test_f1=0.4206
+Epoch 002 | train_loss=0.9473 | val_acc=65.14% val_f1=0.6488 | test_acc=76.69% test_f1=0.7922
+Epoch 003 | train_loss=0.8021 | val_acc=79.43% val_f1=0.7431 | test_acc=97.75% test_f1=0.9693
+Epoch 004 | train_loss=0.6301 | val_acc=86.29% val_f1=0.8176 | test_acc=98.31% test_f1=0.9763
+Epoch 005 | train_loss=0.4955 | val_acc=90.86% val_f1=0.8772 | test_acc=93.82% test_f1=0.9212
+Epoch 006 | train_loss=0.3657 | val_acc=92.00% val_f1=0.9004 | test_acc=92.13% test_f1=0.8958
+Epoch 007 | train_loss=0.2548 | val_acc=96.00% val_f1=0.9586 | test_acc=90.73% test_f1=0.8711
+Epoch 008 | train_loss=0.1703 | val_acc=96.57% val_f1=0.9667 | test_acc=85.67% test_f1=0.7887
+Epoch 009 | train_loss=0.1312 | val_acc=97.71% val_f1=0.9775 | test_acc=91.85% test_f1=0.8928
+Epoch 010 | train_loss=0.1230 | val_acc=98.86% val_f1=0.9886 | test_acc=88.20% test_f1=0.8433
+Epoch 011 | train_loss=0.0952 | val_acc=98.29% val_f1=0.9830 | test_acc=89.61% test_f1=0.8616
+Epoch 012 | train_loss=0.0660 | val_acc=99.43% val_f1=0.9943 | test_acc=82.87% test_f1=0.7520
+Epoch 013 | train_loss=0.0514 | val_acc=99.43% val_f1=0.9943 | test_acc=82.58% test_f1=0.7585
+Epoch 014 | train_loss=0.0477 | val_acc=98.86% val_f1=0.9886 | test_acc=87.36% test_f1=0.8298
+Epoch 015 | train_loss=0.0321 | val_acc=99.43% val_f1=0.9943 | test_acc=85.67% test_f1=0.8035
+Epoch 016 | train_loss=0.0251 | val_acc=100.00% val_f1=1.0000 | test_acc=80.62% test_f1=0.7366
+Epoch 017 | train_loss=0.0242 | val_acc=100.00% val_f1=1.0000 | test_acc=82.87% test_f1=0.7729
+Epoch 018 | train_loss=0.0212 | val_acc=100.00% val_f1=1.0000 | test_acc=84.27% test_f1=0.7900
+Epoch 019 | train_loss=0.0139 | val_acc=100.00% val_f1=1.0000 | test_acc=80.06% test_f1=0.7268
+Epoch 020 | train_loss=0.0193 | val_acc=99.43% val_f1=0.9919 | test_acc=87.08% test_f1=0.8366
+Epoch 021 | train_loss=0.0282 | val_acc=100.00% val_f1=1.0000 | test_acc=83.43% test_f1=0.7786
+Epoch 022 | train_loss=0.0179 | val_acc=100.00% val_f1=1.0000 | test_acc=84.55% test_f1=0.7920
+Epoch 023 | train_loss=0.0132 | val_acc=100.00% val_f1=1.0000 | test_acc=80.06% test_f1=0.7308
+Epoch 024 | train_loss=0.0107 | val_acc=100.00% val_f1=1.0000 | test_acc=80.90% test_f1=0.7483
+Epoch 025 | train_loss=0.0113 | val_acc=100.00% val_f1=1.0000 | test_acc=81.46% test_f1=0.7531
+Epoch 026 | train_loss=0.0059 | val_acc=100.00% val_f1=1.0000 | test_acc=81.18% test_f1=0.7527
+Epoch 027 | train_loss=0.0104 | val_acc=100.00% val_f1=1.0000 | test_acc=80.62% test_f1=0.7438
+Epoch 028 | train_loss=0.0055 | val_acc=100.00% val_f1=1.0000 | test_acc=81.18% test_f1=0.7527
+Epoch 029 | train_loss=0.0056 | val_acc=100.00% val_f1=1.0000 | test_acc=80.34% test_f1=0.7401
+Epoch 030 | train_loss=0.0061 | val_acc=100.00% val_f1=1.0000 | test_acc=78.37% test_f1=0.7056
+Epoch 031 | train_loss=0.0042 | val_acc=100.00% val_f1=1.0000 | test_acc=81.74% test_f1=0.7586
+Epoch 032 | train_loss=0.0033 | val_acc=100.00% val_f1=1.0000 | test_acc=80.90% test_f1=0.7489
+Early stopping at epoch 32 (best=16, score=1.000000)
+================================================================================
+Best epoch: 16
+Best score (val_macro_f1): 1.000000
+Final test accuracy: 80.62%
+Saved to: ablation_experiments/h1/results/comparison_18d_baselines/gru/gru_weld_seam_windows_ws5_tf75_pg0_h1_h128_l3_bi_do0.2_ep80_lr0.0002_wd0.0005_bs128_seed77
+================================================================================
+Comparison baseline | model=gru
+================================================================================
+Dataset: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz
+Device: cuda
+Train/Val/Test: 990 / 175 / 356
+Epoch 001 | train_loss=1.1044 | val_acc=77.71% val_f1=0.6935 | test_acc=74.16% test_f1=0.5895
+Epoch 002 | train_loss=1.0485 | val_acc=86.86% val_f1=0.8055 | test_acc=80.62% test_f1=0.7003
+Epoch 003 | train_loss=0.9865 | val_acc=87.43% val_f1=0.8169 | test_acc=89.89% test_f1=0.8614
+Epoch 004 | train_loss=0.9259 | val_acc=85.71% val_f1=0.8013 | test_acc=91.85% test_f1=0.8886
+Epoch 005 | train_loss=0.8405 | val_acc=85.71% val_f1=0.8013 | test_acc=91.85% test_f1=0.8886
+Epoch 006 | train_loss=0.7781 | val_acc=85.71% val_f1=0.7967 | test_acc=92.42% test_f1=0.8970
+Epoch 007 | train_loss=0.6962 | val_acc=86.86% val_f1=0.8116 | test_acc=92.70% test_f1=0.9017
+Epoch 008 | train_loss=0.5934 | val_acc=87.43% val_f1=0.8169 | test_acc=92.98% test_f1=0.9063
+Epoch 009 | train_loss=0.5659 | val_acc=88.00% val_f1=0.8265 | test_acc=93.54% test_f1=0.9167
+Epoch 010 | train_loss=0.5158 | val_acc=90.29% val_f1=0.8636 | test_acc=94.10% test_f1=0.9259
+Epoch 011 | train_loss=0.4530 | val_acc=92.57% val_f1=0.8988 | test_acc=92.98% test_f1=0.9095
+Epoch 012 | train_loss=0.3979 | val_acc=92.00% val_f1=0.8962 | test_acc=92.70% test_f1=0.9058
+Epoch 013 | train_loss=0.3822 | val_acc=90.86% val_f1=0.8830 | test_acc=90.17% test_f1=0.8676
+Epoch 014 | train_loss=0.3361 | val_acc=92.57% val_f1=0.9081 | test_acc=86.80% test_f1=0.8145
+Epoch 015 | train_loss=0.2854 | val_acc=92.00% val_f1=0.8991 | test_acc=90.17% test_f1=0.8677
+Epoch 016 | train_loss=0.2751 | val_acc=92.57% val_f1=0.9075 | test_acc=89.61% test_f1=0.8603
+Epoch 017 | train_loss=0.2614 | val_acc=94.29% val_f1=0.9297 | test_acc=89.33% test_f1=0.8560
+Epoch 018 | train_loss=0.2484 | val_acc=94.29% val_f1=0.9326 | test_acc=87.64% test_f1=0.8288
+Epoch 019 | train_loss=0.2092 | val_acc=94.86% val_f1=0.9415 | test_acc=86.80% test_f1=0.8143
+Epoch 020 | train_loss=0.1861 | val_acc=94.86% val_f1=0.9409 | test_acc=89.61% test_f1=0.8603
+Epoch 021 | train_loss=0.1620 | val_acc=96.00% val_f1=0.9547 | test_acc=87.92% test_f1=0.8347
+Epoch 022 | train_loss=0.1584 | val_acc=96.57% val_f1=0.9631 | test_acc=85.67% test_f1=0.7967
+Epoch 023 | train_loss=0.1434 | val_acc=96.57% val_f1=0.9631 | test_acc=85.67% test_f1=0.7986
+Epoch 024 | train_loss=0.1511 | val_acc=96.57% val_f1=0.9631 | test_acc=88.20% test_f1=0.8407
+Epoch 025 | train_loss=0.1151 | val_acc=97.14% val_f1=0.9714 | test_acc=85.67% test_f1=0.8003
+Epoch 026 | train_loss=0.1149 | val_acc=97.14% val_f1=0.9714 | test_acc=87.36% test_f1=0.8284
+Epoch 027 | train_loss=0.0887 | val_acc=97.14% val_f1=0.9714 | test_acc=88.76% test_f1=0.8509
+Epoch 028 | train_loss=0.0924 | val_acc=97.14% val_f1=0.9714 | test_acc=87.08% test_f1=0.8238
+Epoch 029 | train_loss=0.0906 | val_acc=97.14% val_f1=0.9714 | test_acc=87.08% test_f1=0.8238
+Epoch 030 | train_loss=0.0708 | val_acc=97.14% val_f1=0.9714 | test_acc=85.67% test_f1=0.8003
+Epoch 031 | train_loss=0.0624 | val_acc=97.14% val_f1=0.9714 | test_acc=84.27% test_f1=0.7757
+Epoch 032 | train_loss=0.0692 | val_acc=97.14% val_f1=0.9714 | test_acc=85.11% test_f1=0.7923
+Epoch 033 | train_loss=0.0621 | val_acc=97.14% val_f1=0.9714 | test_acc=87.08% test_f1=0.8238
+Epoch 034 | train_loss=0.0508 | val_acc=97.14% val_f1=0.9714 | test_acc=86.80% test_f1=0.8207
+Epoch 035 | train_loss=0.0654 | val_acc=97.14% val_f1=0.9714 | test_acc=86.52% test_f1=0.8160
+Epoch 036 | train_loss=0.0539 | val_acc=97.14% val_f1=0.9714 | test_acc=87.08% test_f1=0.8238
+Epoch 037 | train_loss=0.0515 | val_acc=97.14% val_f1=0.9714 | test_acc=86.80% test_f1=0.8192
+Epoch 038 | train_loss=0.0613 | val_acc=97.14% val_f1=0.9714 | test_acc=88.20% test_f1=0.8433
+Epoch 039 | train_loss=0.0409 | val_acc=97.14% val_f1=0.9714 | test_acc=87.64% test_f1=0.8343
+Epoch 040 | train_loss=0.0484 | val_acc=97.14% val_f1=0.9714 | test_acc=84.55% test_f1=0.7843
+Epoch 041 | train_loss=0.0399 | val_acc=97.14% val_f1=0.9714 | test_acc=84.55% test_f1=0.7860
+Early stopping at epoch 41 (best=25, score=0.971383)
+================================================================================
+Best epoch: 25
+Best score (val_macro_f1): 0.971383
+Final test accuracy: 85.67%
+Saved to: ablation_experiments/h1/results/comparison_18d_baselines/gru/gru_weld_seam_windows_ws5_tf75_pg0_h1_h96_l1_uni_do0.1_ep80_lr0.0002_wd1e-05_bs128_seed183
+================================================================================
+Comparison baseline | model=gru
+================================================================================
+Dataset: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz
+Device: cuda
+Train/Val/Test: 990 / 175 / 356
+Epoch 001 | train_loss=1.0881 | val_acc=76.57% val_f1=0.6136 | test_acc=74.16% test_f1=0.5826
+Epoch 002 | train_loss=0.9389 | val_acc=88.57% val_f1=0.8381 | test_acc=92.98% test_f1=0.9074
+Epoch 003 | train_loss=0.7059 | val_acc=87.43% val_f1=0.8277 | test_acc=95.51% test_f1=0.9373
+Epoch 004 | train_loss=0.4915 | val_acc=89.71% val_f1=0.8685 | test_acc=97.47% test_f1=0.9662
+Epoch 005 | train_loss=0.3343 | val_acc=94.86% val_f1=0.9424 | test_acc=91.85% test_f1=0.8821
+Epoch 006 | train_loss=0.2291 | val_acc=95.43% val_f1=0.9505 | test_acc=88.48% test_f1=0.8359
+Epoch 007 | train_loss=0.1654 | val_acc=98.86% val_f1=0.9861 | test_acc=89.61% test_f1=0.8616
+Epoch 008 | train_loss=0.1085 | val_acc=97.71% val_f1=0.9775 | test_acc=89.89% test_f1=0.8648
+Epoch 009 | train_loss=0.0659 | val_acc=100.00% val_f1=1.0000 | test_acc=87.92% test_f1=0.8375
+Epoch 010 | train_loss=0.0433 | val_acc=100.00% val_f1=1.0000 | test_acc=85.67% test_f1=0.8003
+Epoch 011 | train_loss=0.0428 | val_acc=100.00% val_f1=1.0000 | test_acc=83.43% test_f1=0.7624
+Epoch 012 | train_loss=0.0251 | val_acc=99.43% val_f1=0.9919 | test_acc=86.24% test_f1=0.8114
+Epoch 013 | train_loss=0.0187 | val_acc=100.00% val_f1=1.0000 | test_acc=87.36% test_f1=0.8311
+Epoch 014 | train_loss=0.0128 | val_acc=100.00% val_f1=1.0000 | test_acc=82.58% test_f1=0.7489
+Epoch 015 | train_loss=0.0134 | val_acc=100.00% val_f1=1.0000 | test_acc=85.67% test_f1=0.8019
+Epoch 016 | train_loss=0.0114 | val_acc=100.00% val_f1=1.0000 | test_acc=83.71% test_f1=0.7820
+Epoch 017 | train_loss=0.0083 | val_acc=100.00% val_f1=1.0000 | test_acc=80.62% test_f1=0.7246
+Epoch 018 | train_loss=0.0087 | val_acc=99.43% val_f1=0.9919 | test_acc=87.08% test_f1=0.8314
+Epoch 019 | train_loss=0.0072 | val_acc=100.00% val_f1=1.0000 | test_acc=82.02% test_f1=0.7503
+Epoch 020 | train_loss=0.0045 | val_acc=100.00% val_f1=1.0000 | test_acc=84.27% test_f1=0.7912
+Epoch 021 | train_loss=0.0032 | val_acc=100.00% val_f1=1.0000 | test_acc=83.71% test_f1=0.7807
+Epoch 022 | train_loss=0.0045 | val_acc=100.00% val_f1=1.0000 | test_acc=84.83% test_f1=0.7979
+Epoch 023 | train_loss=0.0028 | val_acc=100.00% val_f1=1.0000 | test_acc=83.15% test_f1=0.7727
+Epoch 024 | train_loss=0.0026 | val_acc=100.00% val_f1=1.0000 | test_acc=82.87% test_f1=0.7693
+Epoch 025 | train_loss=0.0026 | val_acc=100.00% val_f1=1.0000 | test_acc=82.87% test_f1=0.7706
+Early stopping at epoch 25 (best=9, score=1.000000)
+================================================================================
+Best epoch: 9
+Best score (val_macro_f1): 1.000000
+Final test accuracy: 87.92%
+Saved to: ablation_experiments/h1/results/comparison_18d_baselines/gru/gru_weld_seam_windows_ws5_tf75_pg0_h1_h64_l3_bi_do0.1_ep80_lr0.0002_wd0.0002_bs64_seed77
+================================================================================
+Comparison baseline | model=gru
+================================================================================
+Dataset: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz
+Device: cuda
+Train/Val/Test: 990 / 175 / 356
+Epoch 001 | train_loss=1.0774 | val_acc=34.29% val_f1=0.2754 | test_acc=39.61% test_f1=0.3528
+Epoch 002 | train_loss=1.0254 | val_acc=57.14% val_f1=0.5082 | test_acc=73.03% test_f1=0.6965
+Epoch 003 | train_loss=0.9575 | val_acc=68.00% val_f1=0.6058 | test_acc=90.17% test_f1=0.8679
+Epoch 004 | train_loss=0.8725 | val_acc=72.57% val_f1=0.6442 | test_acc=92.42% test_f1=0.8925
+Epoch 005 | train_loss=0.7300 | val_acc=76.00% val_f1=0.6740 | test_acc=93.82% test_f1=0.9095
+Epoch 006 | train_loss=0.6652 | val_acc=84.00% val_f1=0.7797 | test_acc=95.51% test_f1=0.9373
+Epoch 007 | train_loss=0.5610 | val_acc=92.00% val_f1=0.8958 | test_acc=95.22% test_f1=0.9379
+Epoch 008 | train_loss=0.4384 | val_acc=92.00% val_f1=0.8958 | test_acc=95.22% test_f1=0.9379
+Epoch 009 | train_loss=0.3606 | val_acc=93.14% val_f1=0.9108 | test_acc=92.98% test_f1=0.9037
+Epoch 010 | train_loss=0.2816 | val_acc=94.29% val_f1=0.9242 | test_acc=91.29% test_f1=0.8800
+Epoch 011 | train_loss=0.2070 | val_acc=94.29% val_f1=0.9242 | test_acc=91.57% test_f1=0.8844
+Epoch 012 | train_loss=0.1618 | val_acc=97.14% val_f1=0.9647 | test_acc=87.36% test_f1=0.8186
+Epoch 013 | train_loss=0.1426 | val_acc=97.71% val_f1=0.9701 | test_acc=89.33% test_f1=0.8559
+Epoch 014 | train_loss=0.0904 | val_acc=97.71% val_f1=0.9701 | test_acc=86.52% test_f1=0.8113
+Epoch 015 | train_loss=0.0786 | val_acc=98.29% val_f1=0.9782 | test_acc=89.89% test_f1=0.8660
+Epoch 016 | train_loss=0.0709 | val_acc=97.71% val_f1=0.9701 | test_acc=86.52% test_f1=0.8113
+Epoch 017 | train_loss=0.0520 | val_acc=98.29% val_f1=0.9782 | test_acc=87.36% test_f1=0.8298
+Epoch 018 | train_loss=0.0487 | val_acc=98.86% val_f1=0.9862 | test_acc=88.20% test_f1=0.8445
+Epoch 019 | train_loss=0.0488 | val_acc=98.29% val_f1=0.9782 | test_acc=85.39% test_f1=0.7988
+Epoch 020 | train_loss=0.0409 | val_acc=100.00% val_f1=1.0000 | test_acc=86.52% test_f1=0.8226
+Epoch 021 | train_loss=0.0389 | val_acc=99.43% val_f1=0.9919 | test_acc=83.43% test_f1=0.7716
+Epoch 022 | train_loss=0.0442 | val_acc=99.43% val_f1=0.9943 | test_acc=87.36% test_f1=0.8324
+Epoch 023 | train_loss=0.0373 | val_acc=98.29% val_f1=0.9755 | test_acc=83.43% test_f1=0.7699
+Epoch 024 | train_loss=0.0228 | val_acc=98.29% val_f1=0.9755 | test_acc=83.15% test_f1=0.7650
+Epoch 025 | train_loss=0.0349 | val_acc=100.00% val_f1=1.0000 | test_acc=86.52% test_f1=0.8226
+Epoch 026 | train_loss=0.0302 | val_acc=99.43% val_f1=0.9919 | test_acc=83.71% test_f1=0.7748
+Epoch 027 | train_loss=0.0327 | val_acc=99.43% val_f1=0.9943 | test_acc=87.36% test_f1=0.8311
+Epoch 028 | train_loss=0.0269 | val_acc=100.00% val_f1=1.0000 | test_acc=85.39% test_f1=0.8045
+Epoch 029 | train_loss=0.0135 | val_acc=99.43% val_f1=0.9919 | test_acc=82.30% test_f1=0.7569
+Epoch 030 | train_loss=0.0175 | val_acc=100.00% val_f1=1.0000 | test_acc=82.58% test_f1=0.7632
+Epoch 031 | train_loss=0.0271 | val_acc=100.00% val_f1=1.0000 | test_acc=84.55% test_f1=0.7946
+Epoch 032 | train_loss=0.0226 | val_acc=100.00% val_f1=1.0000 | test_acc=83.99% test_f1=0.7812
+Epoch 033 | train_loss=0.0147 | val_acc=100.00% val_f1=1.0000 | test_acc=83.99% test_f1=0.7812
+Epoch 034 | train_loss=0.0135 | val_acc=100.00% val_f1=1.0000 | test_acc=85.11% test_f1=0.8012
+Epoch 035 | train_loss=0.0144 | val_acc=100.00% val_f1=1.0000 | test_acc=85.11% test_f1=0.8012
+Epoch 036 | train_loss=0.0147 | val_acc=100.00% val_f1=1.0000 | test_acc=83.71% test_f1=0.7779
+Early stopping at epoch 36 (best=20, score=1.000000)
+================================================================================
+Best epoch: 20
+Best score (val_macro_f1): 1.000000
+Final test accuracy: 86.52%
+Saved to: ablation_experiments/h1/results/comparison_18d_baselines/gru/gru_weld_seam_windows_ws5_tf75_pg0_h1_h128_l2_uni_do0.2_ep80_lr0.0002_wd0.0005_bs128_seed100
+================================================================================
+Comparison baseline | model=gru
+================================================================================
+Dataset: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz
+Device: cuda
+Train/Val/Test: 990 / 175 / 356
+Epoch 001 | train_loss=1.0244 | val_acc=40.00% val_f1=0.3783 | test_acc=58.71% test_f1=0.5777
+Epoch 002 | train_loss=0.9157 | val_acc=74.29% val_f1=0.6887 | test_acc=88.48% test_f1=0.8521
+Epoch 003 | train_loss=0.7741 | val_acc=78.29% val_f1=0.7206 | test_acc=92.13% test_f1=0.8857
+Epoch 004 | train_loss=0.6676 | val_acc=84.00% val_f1=0.7821 | test_acc=91.57% test_f1=0.8803
+Epoch 005 | train_loss=0.5578 | val_acc=87.43% val_f1=0.8260 | test_acc=92.70% test_f1=0.9027
+Epoch 006 | train_loss=0.4744 | val_acc=93.14% val_f1=0.9074 | test_acc=90.45% test_f1=0.8745
+Epoch 007 | train_loss=0.3906 | val_acc=93.14% val_f1=0.9074 | test_acc=90.73% test_f1=0.8784
+Epoch 008 | train_loss=0.2903 | val_acc=93.71% val_f1=0.9187 | test_acc=91.01% test_f1=0.8821
+Epoch 009 | train_loss=0.2338 | val_acc=93.14% val_f1=0.9164 | test_acc=86.24% test_f1=0.8079
+Epoch 010 | train_loss=0.2069 | val_acc=94.86% val_f1=0.9411 | test_acc=84.55% test_f1=0.7796
+Epoch 011 | train_loss=0.1400 | val_acc=96.00% val_f1=0.9546 | test_acc=89.04% test_f1=0.8553
+Epoch 012 | train_loss=0.1536 | val_acc=96.57% val_f1=0.9628 | test_acc=84.55% test_f1=0.7807
+Epoch 013 | train_loss=0.1104 | val_acc=97.14% val_f1=0.9710 | test_acc=84.27% test_f1=0.7776
+Epoch 014 | train_loss=0.0914 | val_acc=97.71% val_f1=0.9767 | test_acc=88.48% test_f1=0.8489
+Epoch 015 | train_loss=0.0769 | val_acc=98.29% val_f1=0.9824 | test_acc=86.24% test_f1=0.8156
+Epoch 016 | train_loss=0.0580 | val_acc=98.29% val_f1=0.9824 | test_acc=81.18% test_f1=0.7266
+Epoch 017 | train_loss=0.0572 | val_acc=98.29% val_f1=0.9824 | test_acc=85.39% test_f1=0.8032
+Epoch 018 | train_loss=0.0471 | val_acc=97.71% val_f1=0.9742 | test_acc=84.27% test_f1=0.7887
+Epoch 019 | train_loss=0.0361 | val_acc=98.29% val_f1=0.9824 | test_acc=79.49% test_f1=0.7168
+Epoch 020 | train_loss=0.0534 | val_acc=98.86% val_f1=0.9860 | test_acc=83.43% test_f1=0.7716
+Epoch 021 | train_loss=0.0353 | val_acc=97.71% val_f1=0.9746 | test_acc=83.99% test_f1=0.7796
+Epoch 022 | train_loss=0.0371 | val_acc=98.86% val_f1=0.9860 | test_acc=82.58% test_f1=0.7568
+Epoch 023 | train_loss=0.0321 | val_acc=98.86% val_f1=0.9860 | test_acc=80.90% test_f1=0.7370
+Epoch 024 | train_loss=0.0268 | val_acc=99.43% val_f1=0.9942 | test_acc=78.65% test_f1=0.6996
+Epoch 025 | train_loss=0.0222 | val_acc=99.43% val_f1=0.9942 | test_acc=78.65% test_f1=0.6976
+Epoch 026 | train_loss=0.0262 | val_acc=99.43% val_f1=0.9919 | test_acc=83.43% test_f1=0.7761
+Epoch 027 | train_loss=0.0217 | val_acc=99.43% val_f1=0.9919 | test_acc=80.90% test_f1=0.7337
+Epoch 028 | train_loss=0.0181 | val_acc=99.43% val_f1=0.9919 | test_acc=80.62% test_f1=0.7303
+Epoch 029 | train_loss=0.0126 | val_acc=99.43% val_f1=0.9919 | test_acc=78.93% test_f1=0.7099
+Epoch 030 | train_loss=0.0179 | val_acc=98.86% val_f1=0.9860 | test_acc=79.21% test_f1=0.7200
+Epoch 031 | train_loss=0.0156 | val_acc=99.43% val_f1=0.9919 | test_acc=79.78% test_f1=0.7203
+Epoch 032 | train_loss=0.0222 | val_acc=99.43% val_f1=0.9919 | test_acc=82.02% test_f1=0.7536
+Epoch 033 | train_loss=0.0146 | val_acc=100.00% val_f1=1.0000 | test_acc=79.49% test_f1=0.7152
+Epoch 034 | train_loss=0.0226 | val_acc=99.43% val_f1=0.9919 | test_acc=81.46% test_f1=0.7531
+Epoch 035 | train_loss=0.0124 | val_acc=99.43% val_f1=0.9919 | test_acc=79.78% test_f1=0.7261
+Epoch 036 | train_loss=0.0192 | val_acc=99.43% val_f1=0.9919 | test_acc=78.65% test_f1=0.7064
+Epoch 037 | train_loss=0.0101 | val_acc=99.43% val_f1=0.9919 | test_acc=78.37% test_f1=0.6998
+Epoch 038 | train_loss=0.0091 | val_acc=99.43% val_f1=0.9919 | test_acc=78.65% test_f1=0.7049
+Epoch 039 | train_loss=0.0101 | val_acc=99.43% val_f1=0.9919 | test_acc=80.34% test_f1=0.7344
+Epoch 040 | train_loss=0.0065 | val_acc=99.43% val_f1=0.9919 | test_acc=79.21% test_f1=0.7134
+Epoch 041 | train_loss=0.0156 | val_acc=99.43% val_f1=0.9919 | test_acc=80.62% test_f1=0.7379
+Epoch 042 | train_loss=0.0112 | val_acc=99.43% val_f1=0.9919 | test_acc=81.46% test_f1=0.7520
+Epoch 043 | train_loss=0.0094 | val_acc=100.00% val_f1=1.0000 | test_acc=80.06% test_f1=0.7219
+Epoch 044 | train_loss=0.0157 | val_acc=99.43% val_f1=0.9919 | test_acc=80.06% test_f1=0.7268
+Epoch 045 | train_loss=0.0061 | val_acc=99.43% val_f1=0.9919 | test_acc=81.46% test_f1=0.7520
+Epoch 046 | train_loss=0.0103 | val_acc=99.43% val_f1=0.9919 | test_acc=79.49% test_f1=0.7184
+Epoch 047 | train_loss=0.0083 | val_acc=99.43% val_f1=0.9919 | test_acc=78.93% test_f1=0.7083
+Epoch 048 | train_loss=0.0075 | val_acc=99.43% val_f1=0.9919 | test_acc=78.65% test_f1=0.7049
+Epoch 049 | train_loss=0.0064 | val_acc=99.43% val_f1=0.9919 | test_acc=79.78% test_f1=0.7261
+Early stopping at epoch 49 (best=33, score=1.000000)
+================================================================================
+Best epoch: 33
+Best score (val_macro_f1): 1.000000
+Final test accuracy: 79.49%
+Saved to: ablation_experiments/h1/results/comparison_18d_baselines/gru/gru_weld_seam_windows_ws5_tf75_pg0_h1_h96_l1_uni_do0.1_ep80_lr0.0005_wd0.0005_bs128_seed183
+================================================================================
+Comparison baseline | model=gru
+================================================================================
+Dataset: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz
+Device: cuda
+Train/Val/Test: 990 / 175 / 356
+Epoch 001 | train_loss=1.0667 | val_acc=87.43% val_f1=0.8267 | test_acc=91.57% test_f1=0.8948
+Epoch 002 | train_loss=0.9509 | val_acc=83.43% val_f1=0.7599 | test_acc=93.54% test_f1=0.9145
+Epoch 003 | train_loss=0.8071 | val_acc=84.57% val_f1=0.7639 | test_acc=92.42% test_f1=0.8991
+Epoch 004 | train_loss=0.6369 | val_acc=84.57% val_f1=0.7592 | test_acc=89.04% test_f1=0.8545
+Epoch 005 | train_loss=0.4936 | val_acc=90.86% val_f1=0.8684 | test_acc=88.48% test_f1=0.8521
+Epoch 006 | train_loss=0.3808 | val_acc=95.43% val_f1=0.9350 | test_acc=89.89% test_f1=0.8671
+Epoch 007 | train_loss=0.2881 | val_acc=93.14% val_f1=0.9136 | test_acc=90.45% test_f1=0.8723
+Epoch 008 | train_loss=0.1968 | val_acc=93.14% val_f1=0.9254 | test_acc=86.52% test_f1=0.8018
+Epoch 009 | train_loss=0.1325 | val_acc=94.29% val_f1=0.9327 | test_acc=91.01% test_f1=0.8810
+Epoch 010 | train_loss=0.0974 | val_acc=98.29% val_f1=0.9755 | test_acc=84.83% test_f1=0.7838
+Epoch 011 | train_loss=0.0596 | val_acc=98.29% val_f1=0.9755 | test_acc=87.92% test_f1=0.8424
+Epoch 012 | train_loss=0.0472 | val_acc=97.71% val_f1=0.9701 | test_acc=89.04% test_f1=0.8553
+Epoch 013 | train_loss=0.0421 | val_acc=97.71% val_f1=0.9701 | test_acc=86.52% test_f1=0.8145
+Epoch 014 | train_loss=0.0388 | val_acc=98.29% val_f1=0.9779 | test_acc=87.36% test_f1=0.8324
+Epoch 015 | train_loss=0.0380 | val_acc=99.43% val_f1=0.9942 | test_acc=85.96% test_f1=0.8124
+Epoch 016 | train_loss=0.0207 | val_acc=100.00% val_f1=1.0000 | test_acc=86.24% test_f1=0.8143
+Epoch 017 | train_loss=0.0204 | val_acc=99.43% val_f1=0.9919 | test_acc=85.11% test_f1=0.7986
+Epoch 018 | train_loss=0.0165 | val_acc=100.00% val_f1=1.0000 | test_acc=87.36% test_f1=0.8358
+Epoch 019 | train_loss=0.0171 | val_acc=98.86% val_f1=0.9837 | test_acc=81.74% test_f1=0.7434
+Epoch 020 | train_loss=0.0138 | val_acc=99.43% val_f1=0.9919 | test_acc=84.83% test_f1=0.7924
+Epoch 021 | train_loss=0.0134 | val_acc=99.43% val_f1=0.9919 | test_acc=81.46% test_f1=0.7437
+Epoch 022 | train_loss=0.0131 | val_acc=100.00% val_f1=1.0000 | test_acc=84.83% test_f1=0.8002
+Epoch 023 | train_loss=0.0088 | val_acc=99.43% val_f1=0.9919 | test_acc=82.87% test_f1=0.7666
+Epoch 024 | train_loss=0.0081 | val_acc=100.00% val_f1=1.0000 | test_acc=86.24% test_f1=0.8193
+Epoch 025 | train_loss=0.0076 | val_acc=98.86% val_f1=0.9837 | test_acc=81.46% test_f1=0.7453
+Epoch 026 | train_loss=0.0086 | val_acc=100.00% val_f1=1.0000 | test_acc=83.15% test_f1=0.7763
+Epoch 027 | train_loss=0.0048 | val_acc=100.00% val_f1=1.0000 | test_acc=83.99% test_f1=0.7866
+Epoch 028 | train_loss=0.0038 | val_acc=100.00% val_f1=1.0000 | test_acc=84.27% test_f1=0.7874
+Epoch 029 | train_loss=0.0030 | val_acc=100.00% val_f1=1.0000 | test_acc=83.15% test_f1=0.7727
+Epoch 030 | train_loss=0.0043 | val_acc=100.00% val_f1=1.0000 | test_acc=82.30% test_f1=0.7637
+Epoch 031 | train_loss=0.0031 | val_acc=100.00% val_f1=1.0000 | test_acc=82.30% test_f1=0.7637
+Epoch 032 | train_loss=0.0036 | val_acc=100.00% val_f1=1.0000 | test_acc=82.30% test_f1=0.7637
+Early stopping at epoch 32 (best=16, score=1.000000)
+================================================================================
+Best epoch: 16
+Best score (val_macro_f1): 1.000000
+Final test accuracy: 86.24%
+Saved to: ablation_experiments/h1/results/comparison_18d_baselines/gru/gru_weld_seam_windows_ws5_tf75_pg0_h1_h96_l3_bi_do0.3_ep80_lr0.0002_wd0.0002_bs128_seed100
+================================================================================
+Comparison baseline | model=gru
+================================================================================
+Dataset: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz
+Device: cuda
+Train/Val/Test: 990 / 175 / 356
+Epoch 001 | train_loss=1.0416 | val_acc=42.86% val_f1=0.4400 | test_acc=49.72% test_f1=0.5403
+Epoch 002 | train_loss=0.9331 | val_acc=70.29% val_f1=0.6762 | test_acc=81.74% test_f1=0.7962
+Epoch 003 | train_loss=0.7834 | val_acc=81.71% val_f1=0.7742 | test_acc=94.38% test_f1=0.9188
+Epoch 004 | train_loss=0.6013 | val_acc=89.14% val_f1=0.8697 | test_acc=93.26% test_f1=0.9074
+Epoch 005 | train_loss=0.4314 | val_acc=89.71% val_f1=0.8748 | test_acc=92.70% test_f1=0.9013
+Epoch 006 | train_loss=0.3298 | val_acc=92.00% val_f1=0.9063 | test_acc=85.11% test_f1=0.7847
+Epoch 007 | train_loss=0.2261 | val_acc=92.57% val_f1=0.9143 | test_acc=87.36% test_f1=0.8226
+Epoch 008 | train_loss=0.1529 | val_acc=94.86% val_f1=0.9351 | test_acc=90.17% test_f1=0.8716
+Epoch 009 | train_loss=0.1283 | val_acc=97.71% val_f1=0.9701 | test_acc=88.48% test_f1=0.8501
+Epoch 010 | train_loss=0.0891 | val_acc=97.71% val_f1=0.9701 | test_acc=83.71% test_f1=0.7794
+Epoch 011 | train_loss=0.0714 | val_acc=97.71% val_f1=0.9701 | test_acc=87.64% test_f1=0.8402
+Epoch 012 | train_loss=0.0609 | val_acc=97.71% val_f1=0.9701 | test_acc=87.36% test_f1=0.8368
+Epoch 013 | train_loss=0.0502 | val_acc=98.29% val_f1=0.9755 | test_acc=83.15% test_f1=0.7800
+Epoch 014 | train_loss=0.0504 | val_acc=99.43% val_f1=0.9943 | test_acc=87.36% test_f1=0.8368
+Epoch 015 | train_loss=0.0348 | val_acc=98.29% val_f1=0.9755 | test_acc=78.93% test_f1=0.7141
+Epoch 016 | train_loss=0.0429 | val_acc=98.86% val_f1=0.9837 | test_acc=85.39% test_f1=0.8137
+Epoch 017 | train_loss=0.0316 | val_acc=99.43% val_f1=0.9919 | test_acc=81.18% test_f1=0.7504
+Epoch 018 | train_loss=0.0232 | val_acc=98.86% val_f1=0.9837 | test_acc=80.06% test_f1=0.7340
+Epoch 019 | train_loss=0.0521 | val_acc=100.00% val_f1=1.0000 | test_acc=83.99% test_f1=0.7878
+Epoch 020 | train_loss=0.0268 | val_acc=100.00% val_f1=1.0000 | test_acc=84.55% test_f1=0.7968
+Epoch 021 | train_loss=0.0290 | val_acc=100.00% val_f1=1.0000 | test_acc=81.46% test_f1=0.7520
+Epoch 022 | train_loss=0.0219 | val_acc=100.00% val_f1=1.0000 | test_acc=82.58% test_f1=0.7712
+Epoch 023 | train_loss=0.0295 | val_acc=100.00% val_f1=1.0000 | test_acc=82.87% test_f1=0.7650
+Epoch 024 | train_loss=0.0250 | val_acc=100.00% val_f1=1.0000 | test_acc=84.83% test_f1=0.8002
+Epoch 025 | train_loss=0.0104 | val_acc=100.00% val_f1=1.0000 | test_acc=83.15% test_f1=0.7727
+Epoch 026 | train_loss=0.0202 | val_acc=100.00% val_f1=1.0000 | test_acc=84.83% test_f1=0.8002
+Epoch 027 | train_loss=0.0099 | val_acc=100.00% val_f1=1.0000 | test_acc=82.30% test_f1=0.7612
+Epoch 028 | train_loss=0.0188 | val_acc=100.00% val_f1=1.0000 | test_acc=81.74% test_f1=0.7556
+Epoch 029 | train_loss=0.0143 | val_acc=100.00% val_f1=1.0000 | test_acc=84.83% test_f1=0.8002
+Epoch 030 | train_loss=0.0114 | val_acc=100.00% val_f1=1.0000 | test_acc=84.27% test_f1=0.7943
+Epoch 031 | train_loss=0.0119 | val_acc=98.29% val_f1=0.9755 | test_acc=78.09% test_f1=0.7007
+Epoch 032 | train_loss=0.0236 | val_acc=100.00% val_f1=1.0000 | test_acc=82.87% test_f1=0.7718
+Epoch 033 | train_loss=0.0070 | val_acc=100.00% val_f1=1.0000 | test_acc=82.02% test_f1=0.7536
+Epoch 034 | train_loss=0.0155 | val_acc=100.00% val_f1=1.0000 | test_acc=84.27% test_f1=0.7960
+Epoch 035 | train_loss=0.0119 | val_acc=100.00% val_f1=1.0000 | test_acc=81.18% test_f1=0.7504
+Early stopping at epoch 35 (best=19, score=1.000000)
+================================================================================
+Best epoch: 19
+Best score (val_macro_f1): 1.000000
+Final test accuracy: 83.99%
+Saved to: ablation_experiments/h1/results/comparison_18d_baselines/gru/gru_weld_seam_windows_ws5_tf75_pg0_h1_h64_l2_uni_do0.1_ep80_lr0.0003_wd0.0001_bs64_seed100
+================================================================================
+Comparison baseline | model=gru
+================================================================================
+Dataset: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz
+Device: cuda
+Train/Val/Test: 990 / 175 / 356
+Epoch 001 | train_loss=1.0498 | val_acc=35.43% val_f1=0.3626 | test_acc=44.38% test_f1=0.4772
+Epoch 002 | train_loss=0.8599 | val_acc=80.57% val_f1=0.7265 | test_acc=93.82% test_f1=0.9140
+Epoch 003 | train_loss=0.6117 | val_acc=87.43% val_f1=0.8248 | test_acc=82.58% test_f1=0.7526
+Epoch 004 | train_loss=0.4091 | val_acc=93.71% val_f1=0.9353 | test_acc=93.54% test_f1=0.9065
+Epoch 005 | train_loss=0.2187 | val_acc=94.86% val_f1=0.9485 | test_acc=89.33% test_f1=0.8430
+Epoch 006 | train_loss=0.1228 | val_acc=96.57% val_f1=0.9644 | test_acc=89.33% test_f1=0.8530
+Epoch 007 | train_loss=0.0854 | val_acc=97.71% val_f1=0.9749 | test_acc=87.08% test_f1=0.8314
+Epoch 008 | train_loss=0.0560 | val_acc=96.57% val_f1=0.9644 | test_acc=84.83% test_f1=0.7731
+Epoch 009 | train_loss=0.0600 | val_acc=97.71% val_f1=0.9749 | test_acc=89.89% test_f1=0.8695
+Epoch 010 | train_loss=0.0262 | val_acc=98.86% val_f1=0.9885 | test_acc=82.30% test_f1=0.7667
+Epoch 011 | train_loss=0.0320 | val_acc=98.29% val_f1=0.9804 | test_acc=75.84% test_f1=0.6707
+Epoch 012 | train_loss=0.0375 | val_acc=97.14% val_f1=0.9694 | test_acc=86.80% test_f1=0.8247
+Epoch 013 | train_loss=0.0233 | val_acc=98.29% val_f1=0.9803 | test_acc=88.48% test_f1=0.8569
+Epoch 014 | train_loss=0.0456 | val_acc=99.43% val_f1=0.9943 | test_acc=88.76% test_f1=0.8573
+Epoch 015 | train_loss=0.0332 | val_acc=98.86% val_f1=0.9885 | test_acc=83.99% test_f1=0.7952
+Epoch 016 | train_loss=0.0264 | val_acc=98.86% val_f1=0.9862 | test_acc=85.96% test_f1=0.8111
+Epoch 017 | train_loss=0.0165 | val_acc=99.43% val_f1=0.9943 | test_acc=86.52% test_f1=0.8214
+Epoch 018 | train_loss=0.0216 | val_acc=98.86% val_f1=0.9885 | test_acc=87.64% test_f1=0.8455
+Epoch 019 | train_loss=0.0350 | val_acc=99.43% val_f1=0.9943 | test_acc=83.43% test_f1=0.7716
+Epoch 020 | train_loss=0.0341 | val_acc=99.43% val_f1=0.9943 | test_acc=84.83% test_f1=0.8073
+Epoch 021 | train_loss=0.0238 | val_acc=100.00% val_f1=1.0000 | test_acc=77.81% test_f1=0.7013
+Epoch 022 | train_loss=0.0161 | val_acc=99.43% val_f1=0.9943 | test_acc=85.11% test_f1=0.8105
+Epoch 023 | train_loss=0.0157 | val_acc=99.43% val_f1=0.9943 | test_acc=82.87% test_f1=0.7693
+Epoch 024 | train_loss=0.0095 | val_acc=99.43% val_f1=0.9943 | test_acc=77.81% test_f1=0.6994
+Epoch 025 | train_loss=0.0243 | val_acc=98.86% val_f1=0.9886 | test_acc=86.52% test_f1=0.8202
+Epoch 026 | train_loss=0.0220 | val_acc=99.43% val_f1=0.9943 | test_acc=83.15% test_f1=0.7823
+Epoch 027 | train_loss=0.0152 | val_acc=99.43% val_f1=0.9942 | test_acc=76.12% test_f1=0.6770
+Epoch 028 | train_loss=0.0086 | val_acc=100.00% val_f1=1.0000 | test_acc=80.90% test_f1=0.7505
+Epoch 029 | train_loss=0.0129 | val_acc=100.00% val_f1=1.0000 | test_acc=81.74% test_f1=0.7623
+Epoch 030 | train_loss=0.0076 | val_acc=100.00% val_f1=1.0000 | test_acc=78.09% test_f1=0.7078
+Epoch 031 | train_loss=0.0185 | val_acc=99.43% val_f1=0.9943 | test_acc=83.43% test_f1=0.7786
+Epoch 032 | train_loss=0.0169 | val_acc=99.43% val_f1=0.9943 | test_acc=82.02% test_f1=0.7503
+Epoch 033 | train_loss=0.0152 | val_acc=100.00% val_f1=1.0000 | test_acc=77.81% test_f1=0.6994
+Epoch 034 | train_loss=0.0087 | val_acc=100.00% val_f1=1.0000 | test_acc=77.53% test_f1=0.6999
+Epoch 035 | train_loss=0.0149 | val_acc=100.00% val_f1=1.0000 | test_acc=78.37% test_f1=0.7117
+Epoch 036 | train_loss=0.0113 | val_acc=100.00% val_f1=1.0000 | test_acc=78.09% test_f1=0.7031
+Epoch 037 | train_loss=0.0056 | val_acc=100.00% val_f1=1.0000 | test_acc=79.49% test_f1=0.7273
+Early stopping at epoch 37 (best=21, score=1.000000)
+================================================================================
+Best epoch: 21
+Best score (val_macro_f1): 1.000000
+Final test accuracy: 77.81%
+Saved to: ablation_experiments/h1/results/comparison_18d_baselines/gru/gru_weld_seam_windows_ws5_tf75_pg0_h1_h64_l3_uni_do0.3_ep80_lr0.0005_wd1e-05_bs64_seed42
+================================================================================
+Comparison baseline | model=gru
+================================================================================
+Dataset: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz
+Device: cuda
+Train/Val/Test: 990 / 175 / 356
+Epoch 001 | train_loss=1.0623 | val_acc=44.57% val_f1=0.4639 | test_acc=41.29% test_f1=0.4513
+Epoch 002 | train_loss=0.9886 | val_acc=66.86% val_f1=0.6893 | test_acc=73.60% test_f1=0.7650
+Epoch 003 | train_loss=0.8928 | val_acc=77.71% val_f1=0.7574 | test_acc=89.33% test_f1=0.8930
+Epoch 004 | train_loss=0.7838 | val_acc=83.43% val_f1=0.8035 | test_acc=96.91% test_f1=0.9622
+Epoch 005 | train_loss=0.6436 | val_acc=85.14% val_f1=0.8192 | test_acc=96.91% test_f1=0.9609
+Epoch 006 | train_loss=0.5224 | val_acc=88.57% val_f1=0.8563 | test_acc=95.22% test_f1=0.9424
+Epoch 007 | train_loss=0.4251 | val_acc=94.86% val_f1=0.9414 | test_acc=89.61% test_f1=0.8652
+Epoch 008 | train_loss=0.3100 | val_acc=94.86% val_f1=0.9414 | test_acc=90.17% test_f1=0.8692
+Epoch 009 | train_loss=0.2417 | val_acc=94.29% val_f1=0.9397 | test_acc=88.48% test_f1=0.8393
+Epoch 010 | train_loss=0.1863 | val_acc=92.00% val_f1=0.9191 | test_acc=90.45% test_f1=0.8695
+Epoch 011 | train_loss=0.1325 | val_acc=93.71% val_f1=0.9382 | test_acc=89.33% test_f1=0.8515
+Epoch 012 | train_loss=0.1041 | val_acc=97.14% val_f1=0.9717 | test_acc=90.73% test_f1=0.8791
+Epoch 013 | train_loss=0.0981 | val_acc=97.71% val_f1=0.9772 | test_acc=86.80% test_f1=0.8192
+Epoch 014 | train_loss=0.0716 | val_acc=96.57% val_f1=0.9663 | test_acc=89.89% test_f1=0.8648
+Epoch 015 | train_loss=0.0567 | val_acc=96.57% val_f1=0.9657 | test_acc=88.76% test_f1=0.8509
+Epoch 016 | train_loss=0.0506 | val_acc=96.57% val_f1=0.9657 | test_acc=86.52% test_f1=0.8145
+Epoch 017 | train_loss=0.0373 | val_acc=97.14% val_f1=0.9713 | test_acc=88.48% test_f1=0.8477
+Epoch 018 | train_loss=0.0373 | val_acc=97.71% val_f1=0.9769 | test_acc=87.08% test_f1=0.8325
+Epoch 019 | train_loss=0.0300 | val_acc=97.71% val_f1=0.9769 | test_acc=80.90% test_f1=0.7386
+Epoch 020 | train_loss=0.0291 | val_acc=97.71% val_f1=0.9769 | test_acc=85.67% test_f1=0.8144
+Epoch 021 | train_loss=0.0243 | val_acc=97.71% val_f1=0.9769 | test_acc=86.80% test_f1=0.8281
+Epoch 022 | train_loss=0.0163 | val_acc=98.29% val_f1=0.9828 | test_acc=85.67% test_f1=0.8091
+Epoch 023 | train_loss=0.0249 | val_acc=98.29% val_f1=0.9828 | test_acc=87.36% test_f1=0.8401
+Epoch 024 | train_loss=0.0271 | val_acc=97.71% val_f1=0.9772 | test_acc=85.96% test_f1=0.8097
+Epoch 025 | train_loss=0.0168 | val_acc=97.14% val_f1=0.9717 | test_acc=85.96% test_f1=0.8097
+Epoch 026 | train_loss=0.0116 | val_acc=98.86% val_f1=0.9885 | test_acc=86.52% test_f1=0.8247
+Epoch 027 | train_loss=0.0143 | val_acc=98.86% val_f1=0.9885 | test_acc=85.96% test_f1=0.8179
+Epoch 028 | train_loss=0.0126 | val_acc=98.86% val_f1=0.9885 | test_acc=86.24% test_f1=0.8213
+Epoch 029 | train_loss=0.0116 | val_acc=98.86% val_f1=0.9885 | test_acc=85.96% test_f1=0.8159
+Epoch 030 | train_loss=0.0129 | val_acc=98.86% val_f1=0.9885 | test_acc=86.24% test_f1=0.8203
+Epoch 031 | train_loss=0.0075 | val_acc=98.86% val_f1=0.9885 | test_acc=85.96% test_f1=0.8159
+Epoch 032 | train_loss=0.0064 | val_acc=98.86% val_f1=0.9885 | test_acc=86.52% test_f1=0.8247
+Epoch 033 | train_loss=0.0150 | val_acc=98.86% val_f1=0.9885 | test_acc=86.52% test_f1=0.8247
+Epoch 034 | train_loss=0.0104 | val_acc=98.86% val_f1=0.9885 | test_acc=85.96% test_f1=0.8159
+Epoch 035 | train_loss=0.0109 | val_acc=98.86% val_f1=0.9885 | test_acc=85.67% test_f1=0.8135
+Epoch 036 | train_loss=0.0101 | val_acc=98.86% val_f1=0.9885 | test_acc=82.58% test_f1=0.7659
+Epoch 037 | train_loss=0.0099 | val_acc=98.86% val_f1=0.9885 | test_acc=85.39% test_f1=0.8118
+Epoch 038 | train_loss=0.0089 | val_acc=98.86% val_f1=0.9885 | test_acc=84.27% test_f1=0.7912
+Epoch 039 | train_loss=0.0115 | val_acc=99.43% val_f1=0.9943 | test_acc=86.24% test_f1=0.8222
+Epoch 040 | train_loss=0.0047 | val_acc=99.43% val_f1=0.9943 | test_acc=88.20% test_f1=0.8520
+Epoch 041 | train_loss=0.0066 | val_acc=99.43% val_f1=0.9943 | test_acc=86.24% test_f1=0.8222
+Epoch 042 | train_loss=0.0066 | val_acc=99.43% val_f1=0.9943 | test_acc=83.15% test_f1=0.7740
+Epoch 043 | train_loss=0.0061 | val_acc=98.86% val_f1=0.9885 | test_acc=83.99% test_f1=0.7899
+Epoch 044 | train_loss=0.0036 | val_acc=99.43% val_f1=0.9943 | test_acc=85.67% test_f1=0.8144
+Epoch 045 | train_loss=0.0049 | val_acc=99.43% val_f1=0.9943 | test_acc=84.83% test_f1=0.8002
+Epoch 046 | train_loss=0.0028 | val_acc=99.43% val_f1=0.9943 | test_acc=84.83% test_f1=0.8002
+Epoch 047 | train_loss=0.0047 | val_acc=99.43% val_f1=0.9943 | test_acc=85.96% test_f1=0.8179
+Epoch 048 | train_loss=0.0053 | val_acc=99.43% val_f1=0.9943 | test_acc=85.39% test_f1=0.8110
+Epoch 049 | train_loss=0.0033 | val_acc=100.00% val_f1=1.0000 | test_acc=84.55% test_f1=0.7987
+Epoch 050 | train_loss=0.0044 | val_acc=100.00% val_f1=1.0000 | test_acc=84.55% test_f1=0.7987
+Epoch 051 | train_loss=0.0033 | val_acc=99.43% val_f1=0.9942 | test_acc=84.27% test_f1=0.7967
+Epoch 052 | train_loss=0.0044 | val_acc=99.43% val_f1=0.9942 | test_acc=84.83% test_f1=0.8046
+Epoch 053 | train_loss=0.0036 | val_acc=100.00% val_f1=1.0000 | test_acc=85.39% test_f1=0.8118
+Epoch 054 | train_loss=0.0031 | val_acc=100.00% val_f1=1.0000 | test_acc=84.55% test_f1=0.7978
+Epoch 055 | train_loss=0.0034 | val_acc=100.00% val_f1=1.0000 | test_acc=85.11% test_f1=0.8074
+Epoch 056 | train_loss=0.0039 | val_acc=100.00% val_f1=1.0000 | test_acc=85.11% test_f1=0.8082
+Epoch 057 | train_loss=0.0031 | val_acc=99.43% val_f1=0.9942 | test_acc=84.83% test_f1=0.8046
+Epoch 058 | train_loss=0.0054 | val_acc=99.43% val_f1=0.9942 | test_acc=84.83% test_f1=0.8046
+Epoch 059 | train_loss=0.0045 | val_acc=100.00% val_f1=1.0000 | test_acc=85.39% test_f1=0.8118
+Epoch 060 | train_loss=0.0023 | val_acc=100.00% val_f1=1.0000 | test_acc=85.96% test_f1=0.8188
+Epoch 061 | train_loss=0.0049 | val_acc=100.00% val_f1=1.0000 | test_acc=86.24% test_f1=0.8222
+Epoch 062 | train_loss=0.0027 | val_acc=100.00% val_f1=1.0000 | test_acc=85.96% test_f1=0.8179
+Epoch 063 | train_loss=0.0028 | val_acc=100.00% val_f1=1.0000 | test_acc=85.67% test_f1=0.8144
+Epoch 064 | train_loss=0.0038 | val_acc=100.00% val_f1=1.0000 | test_acc=85.39% test_f1=0.8110
+Epoch 065 | train_loss=0.0040 | val_acc=100.00% val_f1=1.0000 | test_acc=85.67% test_f1=0.8153
+Early stopping at epoch 65 (best=49, score=1.000000)
+================================================================================
+Best epoch: 49
+Best score (val_macro_f1): 1.000000
+Final test accuracy: 84.55%
+Saved to: ablation_experiments/h1/results/comparison_18d_baselines/gru/gru_weld_seam_windows_ws5_tf75_pg0_h1_h64_l3_bi_do0.3_ep80_lr0.0002_wd0.0002_bs128_seed42
+================================================================================
+Comparison baseline | model=gru
+================================================================================
+Dataset: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz
+Device: cuda
+Train/Val/Test: 990 / 175 / 356
+Epoch 001 | train_loss=0.9959 | val_acc=74.86% val_f1=0.6718 | test_acc=89.33% test_f1=0.8562
+Epoch 002 | train_loss=0.7786 | val_acc=85.14% val_f1=0.8067 | test_acc=95.51% test_f1=0.9363
+Epoch 003 | train_loss=0.5611 | val_acc=88.57% val_f1=0.8528 | test_acc=95.22% test_f1=0.9396
+Epoch 004 | train_loss=0.4007 | val_acc=90.86% val_f1=0.8867 | test_acc=92.70% test_f1=0.9028
+Epoch 005 | train_loss=0.2782 | val_acc=94.86% val_f1=0.9424 | test_acc=89.04% test_f1=0.8475
+Epoch 006 | train_loss=0.1974 | val_acc=95.43% val_f1=0.9505 | test_acc=90.17% test_f1=0.8679
+Epoch 007 | train_loss=0.1743 | val_acc=96.57% val_f1=0.9639 | test_acc=85.39% test_f1=0.7899
+Epoch 008 | train_loss=0.1187 | val_acc=98.29% val_f1=0.9830 | test_acc=83.99% test_f1=0.7618
+Epoch 009 | train_loss=0.0864 | val_acc=98.29% val_f1=0.9830 | test_acc=85.39% test_f1=0.7899
+Epoch 010 | train_loss=0.0585 | val_acc=98.29% val_f1=0.9830 | test_acc=85.11% test_f1=0.7828
+Epoch 011 | train_loss=0.0593 | val_acc=99.43% val_f1=0.9943 | test_acc=84.83% test_f1=0.7838
+Epoch 012 | train_loss=0.0383 | val_acc=99.43% val_f1=0.9943 | test_acc=83.15% test_f1=0.7528
+Epoch 013 | train_loss=0.0365 | val_acc=98.29% val_f1=0.9830 | test_acc=87.64% test_f1=0.8285
+Epoch 014 | train_loss=0.0288 | val_acc=98.86% val_f1=0.9861 | test_acc=89.33% test_f1=0.8572
+Epoch 015 | train_loss=0.0308 | val_acc=100.00% val_f1=1.0000 | test_acc=83.43% test_f1=0.7603
+Epoch 016 | train_loss=0.0275 | val_acc=99.43% val_f1=0.9919 | test_acc=89.04% test_f1=0.8565
+Epoch 017 | train_loss=0.0216 | val_acc=99.43% val_f1=0.9943 | test_acc=81.74% test_f1=0.7279
+Epoch 018 | train_loss=0.0178 | val_acc=98.86% val_f1=0.9861 | test_acc=86.80% test_f1=0.8192
+Epoch 019 | train_loss=0.0122 | val_acc=100.00% val_f1=1.0000 | test_acc=83.43% test_f1=0.7603
+Epoch 020 | train_loss=0.0102 | val_acc=100.00% val_f1=1.0000 | test_acc=83.99% test_f1=0.7827
+Epoch 021 | train_loss=0.0146 | val_acc=99.43% val_f1=0.9919 | test_acc=84.55% test_f1=0.7968
+Epoch 022 | train_loss=0.0088 | val_acc=100.00% val_f1=1.0000 | test_acc=81.46% test_f1=0.7402
+Epoch 023 | train_loss=0.0109 | val_acc=99.43% val_f1=0.9919 | test_acc=86.80% test_f1=0.8221
+Epoch 024 | train_loss=0.0059 | val_acc=100.00% val_f1=1.0000 | test_acc=82.02% test_f1=0.7447
+Epoch 025 | train_loss=0.0075 | val_acc=100.00% val_f1=1.0000 | test_acc=83.43% test_f1=0.7663
+Epoch 026 | train_loss=0.0083 | val_acc=100.00% val_f1=1.0000 | test_acc=84.27% test_f1=0.7923
+Epoch 027 | train_loss=0.0051 | val_acc=100.00% val_f1=1.0000 | test_acc=83.71% test_f1=0.7779
+Epoch 028 | train_loss=0.0047 | val_acc=100.00% val_f1=1.0000 | test_acc=82.02% test_f1=0.7503
+Epoch 029 | train_loss=0.0093 | val_acc=100.00% val_f1=1.0000 | test_acc=83.43% test_f1=0.7809
+Epoch 030 | train_loss=0.0045 | val_acc=100.00% val_f1=1.0000 | test_acc=81.46% test_f1=0.7509
+Epoch 031 | train_loss=0.0029 | val_acc=100.00% val_f1=1.0000 | test_acc=81.18% test_f1=0.7435
+Early stopping at epoch 31 (best=15, score=1.000000)
+================================================================================
+Best epoch: 15
+Best score (val_macro_f1): 1.000000
+Final test accuracy: 83.43%
+Saved to: ablation_experiments/h1/results/comparison_18d_baselines/gru/gru_weld_seam_windows_ws5_tf75_pg0_h1_h96_l1_bi_do0.3_ep80_lr0.0003_wd0.0002_bs64_seed77
+================================================================================
+Comparison baseline | model=gru
+================================================================================
+Dataset: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz
+Device: cuda
+Train/Val/Test: 990 / 175 / 356
+Epoch 001 | train_loss=1.0396 | val_acc=70.29% val_f1=0.5877 | test_acc=82.87% test_f1=0.7135
+Epoch 002 | train_loss=0.8797 | val_acc=78.86% val_f1=0.7239 | test_acc=89.89% test_f1=0.8503
+Epoch 003 | train_loss=0.7112 | val_acc=82.86% val_f1=0.7835 | test_acc=92.98% test_f1=0.9053
+Epoch 004 | train_loss=0.6006 | val_acc=87.43% val_f1=0.8448 | test_acc=93.26% test_f1=0.9129
+Epoch 005 | train_loss=0.4540 | val_acc=89.14% val_f1=0.8707 | test_acc=86.80% test_f1=0.8149
+Epoch 006 | train_loss=0.3355 | val_acc=88.57% val_f1=0.8688 | test_acc=90.73% test_f1=0.8752
+Epoch 007 | train_loss=0.2609 | val_acc=93.14% val_f1=0.9302 | test_acc=83.71% test_f1=0.7579
+Epoch 008 | train_loss=0.2100 | val_acc=94.29% val_f1=0.9405 | test_acc=84.55% test_f1=0.7746
+Epoch 009 | train_loss=0.1451 | val_acc=95.43% val_f1=0.9481 | test_acc=86.52% test_f1=0.8129
+Epoch 010 | train_loss=0.1388 | val_acc=96.57% val_f1=0.9644 | test_acc=84.83% test_f1=0.7838
+Epoch 011 | train_loss=0.1103 | val_acc=97.71% val_f1=0.9752 | test_acc=86.52% test_f1=0.8129
+Epoch 012 | train_loss=0.0786 | val_acc=97.71% val_f1=0.9749 | test_acc=84.83% test_f1=0.7939
+Epoch 013 | train_loss=0.0568 | val_acc=97.14% val_f1=0.9690 | test_acc=87.08% test_f1=0.8292
+Epoch 014 | train_loss=0.0451 | val_acc=97.14% val_f1=0.9694 | test_acc=82.30% test_f1=0.7498
+Epoch 015 | train_loss=0.0550 | val_acc=98.29% val_f1=0.9803 | test_acc=84.27% test_f1=0.7960
+Epoch 016 | train_loss=0.0475 | val_acc=98.29% val_f1=0.9804 | test_acc=79.21% test_f1=0.7134
+Epoch 017 | train_loss=0.0589 | val_acc=98.29% val_f1=0.9828 | test_acc=83.99% test_f1=0.7854
+Epoch 018 | train_loss=0.0307 | val_acc=97.71% val_f1=0.9775 | test_acc=82.58% test_f1=0.7568
+Epoch 019 | train_loss=0.0289 | val_acc=97.71% val_f1=0.9775 | test_acc=81.46% test_f1=0.7437
+Epoch 020 | train_loss=0.0259 | val_acc=97.14% val_f1=0.9694 | test_acc=83.71% test_f1=0.7820
+Epoch 021 | train_loss=0.0255 | val_acc=98.86% val_f1=0.9885 | test_acc=79.49% test_f1=0.7134
+Epoch 022 | train_loss=0.0343 | val_acc=98.29% val_f1=0.9828 | test_acc=83.15% test_f1=0.7752
+Epoch 023 | train_loss=0.0438 | val_acc=98.86% val_f1=0.9886 | test_acc=80.34% test_f1=0.7252
+Epoch 024 | train_loss=0.0142 | val_acc=98.86% val_f1=0.9885 | test_acc=82.58% test_f1=0.7659
+Epoch 025 | train_loss=0.0137 | val_acc=98.86% val_f1=0.9885 | test_acc=79.49% test_f1=0.7184
+Epoch 026 | train_loss=0.0143 | val_acc=98.86% val_f1=0.9885 | test_acc=82.30% test_f1=0.7637
+Epoch 027 | train_loss=0.0156 | val_acc=98.86% val_f1=0.9885 | test_acc=80.06% test_f1=0.7253
+Epoch 028 | train_loss=0.0132 | val_acc=98.86% val_f1=0.9885 | test_acc=79.21% test_f1=0.7082
+Epoch 029 | train_loss=0.0230 | val_acc=98.86% val_f1=0.9885 | test_acc=81.46% test_f1=0.7509
+Epoch 030 | train_loss=0.0152 | val_acc=99.43% val_f1=0.9942 | test_acc=79.21% test_f1=0.7177
+Epoch 031 | train_loss=0.0165 | val_acc=99.43% val_f1=0.9942 | test_acc=78.37% test_f1=0.7043
+Epoch 032 | train_loss=0.0102 | val_acc=98.86% val_f1=0.9885 | test_acc=79.21% test_f1=0.7134
+Epoch 033 | train_loss=0.0084 | val_acc=98.86% val_f1=0.9885 | test_acc=80.90% test_f1=0.7354
+Epoch 034 | train_loss=0.0132 | val_acc=99.43% val_f1=0.9943 | test_acc=80.90% test_f1=0.7354
+Epoch 035 | train_loss=0.0119 | val_acc=98.29% val_f1=0.9803 | test_acc=82.30% test_f1=0.7625
+Epoch 036 | train_loss=0.0112 | val_acc=98.86% val_f1=0.9885 | test_acc=78.37% test_f1=0.7043
+Epoch 037 | train_loss=0.0148 | val_acc=99.43% val_f1=0.9942 | test_acc=77.81% test_f1=0.6957
+Epoch 038 | train_loss=0.0163 | val_acc=98.86% val_f1=0.9885 | test_acc=78.93% test_f1=0.7141
+Epoch 039 | train_loss=0.0071 | val_acc=98.86% val_f1=0.9885 | test_acc=79.78% test_f1=0.7218
+Epoch 040 | train_loss=0.0100 | val_acc=98.86% val_f1=0.9885 | test_acc=80.90% test_f1=0.7414
+Epoch 041 | train_loss=0.0075 | val_acc=98.86% val_f1=0.9885 | test_acc=79.78% test_f1=0.7218
+Epoch 042 | train_loss=0.0089 | val_acc=98.86% val_f1=0.9885 | test_acc=78.65% test_f1=0.7079
+Epoch 043 | train_loss=0.0044 | val_acc=98.86% val_f1=0.9885 | test_acc=79.78% test_f1=0.7218
+Epoch 044 | train_loss=0.0037 | val_acc=98.86% val_f1=0.9885 | test_acc=80.06% test_f1=0.7253
+Epoch 045 | train_loss=0.0186 | val_acc=98.86% val_f1=0.9885 | test_acc=80.06% test_f1=0.7282
+Epoch 046 | train_loss=0.0068 | val_acc=99.43% val_f1=0.9942 | test_acc=78.37% test_f1=0.7079
+Epoch 047 | train_loss=0.0077 | val_acc=98.86% val_f1=0.9885 | test_acc=78.93% test_f1=0.7099
+Epoch 048 | train_loss=0.0132 | val_acc=98.86% val_f1=0.9885 | test_acc=80.90% test_f1=0.7427
+Epoch 049 | train_loss=0.0083 | val_acc=98.86% val_f1=0.9885 | test_acc=81.18% test_f1=0.7449
+Epoch 050 | train_loss=0.0059 | val_acc=99.43% val_f1=0.9943 | test_acc=80.62% test_f1=0.7352
+Early stopping at epoch 50 (best=34, score=0.994277)
+================================================================================
+Best epoch: 34
+Best score (val_macro_f1): 0.994277
+Final test accuracy: 80.90%
+Saved to: ablation_experiments/h1/results/comparison_18d_baselines/gru/gru_weld_seam_windows_ws5_tf75_pg0_h1_h128_l1_uni_do0.2_ep80_lr0.0005_wd0.0005_bs128_seed42
+================================================================================
+Comparison baseline | model=gru
+================================================================================
+Dataset: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz
+Device: cuda
+Train/Val/Test: 990 / 175 / 356
+Epoch 001 | train_loss=1.0448 | val_acc=81.14% val_f1=0.7610 | test_acc=93.54% test_f1=0.9060
+Epoch 002 | train_loss=0.9289 | val_acc=81.71% val_f1=0.7613 | test_acc=91.01% test_f1=0.8717
+Epoch 003 | train_loss=0.7903 | val_acc=83.43% val_f1=0.7753 | test_acc=92.42% test_f1=0.8951
+Epoch 004 | train_loss=0.6608 | val_acc=88.57% val_f1=0.8451 | test_acc=92.98% test_f1=0.9074
+Epoch 005 | train_loss=0.5521 | val_acc=93.14% val_f1=0.9126 | test_acc=93.26% test_f1=0.9122
+Epoch 006 | train_loss=0.4239 | val_acc=93.71% val_f1=0.9317 | test_acc=91.57% test_f1=0.8859
+Epoch 007 | train_loss=0.3476 | val_acc=93.71% val_f1=0.9353 | test_acc=89.04% test_f1=0.8419
+Epoch 008 | train_loss=0.2549 | val_acc=94.86% val_f1=0.9462 | test_acc=88.48% test_f1=0.8359
+Epoch 009 | train_loss=0.1894 | val_acc=96.00% val_f1=0.9590 | test_acc=89.61% test_f1=0.8590
+Epoch 010 | train_loss=0.1493 | val_acc=95.43% val_f1=0.9514 | test_acc=84.83% test_f1=0.7754
+Epoch 011 | train_loss=0.1221 | val_acc=96.00% val_f1=0.9590 | test_acc=90.17% test_f1=0.8665
+Epoch 012 | train_loss=0.0842 | val_acc=95.43% val_f1=0.9533 | test_acc=88.76% test_f1=0.8469
+Epoch 013 | train_loss=0.0626 | val_acc=97.14% val_f1=0.9694 | test_acc=88.48% test_f1=0.8452
+Epoch 014 | train_loss=0.0632 | val_acc=96.57% val_f1=0.9639 | test_acc=87.92% test_f1=0.8361
+Epoch 015 | train_loss=0.0533 | val_acc=96.00% val_f1=0.9586 | test_acc=88.76% test_f1=0.8496
+Epoch 016 | train_loss=0.0415 | val_acc=97.71% val_f1=0.9772 | test_acc=90.17% test_f1=0.8716
+Epoch 017 | train_loss=0.0395 | val_acc=97.71% val_f1=0.9749 | test_acc=84.27% test_f1=0.7776
+Epoch 018 | train_loss=0.0297 | val_acc=98.86% val_f1=0.9885 | test_acc=84.55% test_f1=0.7892
+Epoch 019 | train_loss=0.0277 | val_acc=98.29% val_f1=0.9828 | test_acc=84.83% test_f1=0.7875
+Epoch 020 | train_loss=0.0294 | val_acc=98.86% val_f1=0.9885 | test_acc=85.11% test_f1=0.7971
+Epoch 021 | train_loss=0.0270 | val_acc=98.29% val_f1=0.9828 | test_acc=87.64% test_f1=0.8356
+Epoch 022 | train_loss=0.0159 | val_acc=98.29% val_f1=0.9828 | test_acc=86.52% test_f1=0.8160
+Epoch 023 | train_loss=0.0125 | val_acc=98.86% val_f1=0.9885 | test_acc=85.67% test_f1=0.8065
+Epoch 024 | train_loss=0.0146 | val_acc=98.86% val_f1=0.9885 | test_acc=83.43% test_f1=0.7731
+Epoch 025 | train_loss=0.0146 | val_acc=98.86% val_f1=0.9885 | test_acc=86.80% test_f1=0.8247
+Epoch 026 | train_loss=0.0098 | val_acc=98.29% val_f1=0.9828 | test_acc=85.39% test_f1=0.7988
+Epoch 027 | train_loss=0.0135 | val_acc=98.86% val_f1=0.9885 | test_acc=87.64% test_f1=0.8402
+Epoch 028 | train_loss=0.0111 | val_acc=98.86% val_f1=0.9885 | test_acc=84.27% test_f1=0.7874
+Epoch 029 | train_loss=0.0091 | val_acc=98.86% val_f1=0.9885 | test_acc=82.87% test_f1=0.7650
+Epoch 030 | train_loss=0.0109 | val_acc=98.86% val_f1=0.9885 | test_acc=86.80% test_f1=0.8247
+Epoch 031 | train_loss=0.0082 | val_acc=98.86% val_f1=0.9886 | test_acc=82.58% test_f1=0.7510
+Epoch 032 | train_loss=0.0073 | val_acc=98.86% val_f1=0.9885 | test_acc=82.30% test_f1=0.7535
+Epoch 033 | train_loss=0.0102 | val_acc=98.86% val_f1=0.9885 | test_acc=82.58% test_f1=0.7602
+Epoch 034 | train_loss=0.0060 | val_acc=99.43% val_f1=0.9942 | test_acc=80.90% test_f1=0.7370
+Epoch 035 | train_loss=0.0063 | val_acc=98.86% val_f1=0.9885 | test_acc=82.87% test_f1=0.7666
+Epoch 036 | train_loss=0.0044 | val_acc=98.86% val_f1=0.9885 | test_acc=83.15% test_f1=0.7713
+Epoch 037 | train_loss=0.0044 | val_acc=99.43% val_f1=0.9942 | test_acc=83.71% test_f1=0.7820
+Epoch 038 | train_loss=0.0041 | val_acc=98.86% val_f1=0.9885 | test_acc=83.99% test_f1=0.7866
+Epoch 039 | train_loss=0.0043 | val_acc=99.43% val_f1=0.9942 | test_acc=82.02% test_f1=0.7536
+Epoch 040 | train_loss=0.0057 | val_acc=98.86% val_f1=0.9885 | test_acc=83.99% test_f1=0.7854
+Epoch 041 | train_loss=0.0033 | val_acc=98.86% val_f1=0.9885 | test_acc=83.43% test_f1=0.7761
+Epoch 042 | train_loss=0.0044 | val_acc=98.86% val_f1=0.9885 | test_acc=82.87% test_f1=0.7666
+Epoch 043 | train_loss=0.0035 | val_acc=99.43% val_f1=0.9942 | test_acc=83.71% test_f1=0.7820
+Epoch 044 | train_loss=0.0032 | val_acc=98.86% val_f1=0.9885 | test_acc=84.55% test_f1=0.7946
+Epoch 045 | train_loss=0.0034 | val_acc=99.43% val_f1=0.9942 | test_acc=83.71% test_f1=0.7820
+Epoch 046 | train_loss=0.0036 | val_acc=99.43% val_f1=0.9942 | test_acc=82.02% test_f1=0.7565
+Epoch 047 | train_loss=0.0027 | val_acc=99.43% val_f1=0.9942 | test_acc=81.74% test_f1=0.7556
+Epoch 048 | train_loss=0.0032 | val_acc=99.43% val_f1=0.9942 | test_acc=82.87% test_f1=0.7718
+Epoch 049 | train_loss=0.0048 | val_acc=99.43% val_f1=0.9943 | test_acc=83.71% test_f1=0.7807
+Epoch 050 | train_loss=0.0035 | val_acc=99.43% val_f1=0.9943 | test_acc=83.43% test_f1=0.7761
+Epoch 051 | train_loss=0.0042 | val_acc=99.43% val_f1=0.9942 | test_acc=83.43% test_f1=0.7798
+Epoch 052 | train_loss=0.0033 | val_acc=100.00% val_f1=1.0000 | test_acc=82.02% test_f1=0.7565
+Epoch 053 | train_loss=0.0035 | val_acc=99.43% val_f1=0.9942 | test_acc=81.46% test_f1=0.7496
+Epoch 054 | train_loss=0.0023 | val_acc=99.43% val_f1=0.9942 | test_acc=82.58% test_f1=0.7683
+Epoch 055 | train_loss=0.0022 | val_acc=99.43% val_f1=0.9942 | test_acc=82.58% test_f1=0.7683
+Epoch 056 | train_loss=0.0022 | val_acc=99.43% val_f1=0.9942 | test_acc=83.15% test_f1=0.7774
+Epoch 057 | train_loss=0.0020 | val_acc=99.43% val_f1=0.9942 | test_acc=82.87% test_f1=0.7739
+Epoch 058 | train_loss=0.0031 | val_acc=99.43% val_f1=0.9942 | test_acc=82.30% test_f1=0.7648
+Epoch 059 | train_loss=0.0025 | val_acc=99.43% val_f1=0.9942 | test_acc=82.30% test_f1=0.7648
+Epoch 060 | train_loss=0.0024 | val_acc=99.43% val_f1=0.9942 | test_acc=82.02% test_f1=0.7602
+Epoch 061 | train_loss=0.0018 | val_acc=99.43% val_f1=0.9942 | test_acc=81.74% test_f1=0.7556
+Epoch 062 | train_loss=0.0031 | val_acc=99.43% val_f1=0.9942 | test_acc=82.30% test_f1=0.7637
+Epoch 063 | train_loss=0.0025 | val_acc=99.43% val_f1=0.9942 | test_acc=82.30% test_f1=0.7637
+Epoch 064 | train_loss=0.0017 | val_acc=99.43% val_f1=0.9942 | test_acc=82.02% test_f1=0.7590
+Epoch 065 | train_loss=0.0027 | val_acc=99.43% val_f1=0.9942 | test_acc=82.30% test_f1=0.7637
+Epoch 066 | train_loss=0.0022 | val_acc=99.43% val_f1=0.9942 | test_acc=82.58% test_f1=0.7683
+Epoch 067 | train_loss=0.0028 | val_acc=99.43% val_f1=0.9942 | test_acc=82.87% test_f1=0.7729
+Epoch 068 | train_loss=0.0018 | val_acc=99.43% val_f1=0.9942 | test_acc=82.58% test_f1=0.7683
+Early stopping at epoch 68 (best=52, score=1.000000)
+================================================================================
+Best epoch: 52
+Best score (val_macro_f1): 1.000000
+Final test accuracy: 82.02%
+Saved to: ablation_experiments/h1/results/comparison_18d_baselines/gru/gru_weld_seam_windows_ws5_tf75_pg0_h1_h128_l2_bi_do0.1_ep80_lr0.0001_wd0.0005_bs64_seed14
+================================================================================
+Comparison baseline | model=gru
+================================================================================
+Dataset: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz
+Device: cuda
+Train/Val/Test: 990 / 175 / 356
+Epoch 001 | train_loss=1.0333 | val_acc=36.57% val_f1=0.3760 | test_acc=60.96% test_f1=0.6469
+Epoch 002 | train_loss=0.8792 | val_acc=69.71% val_f1=0.6621 | test_acc=94.10% test_f1=0.9210
+Epoch 003 | train_loss=0.6774 | val_acc=86.29% val_f1=0.8314 | test_acc=98.03% test_f1=0.9721
+Epoch 004 | train_loss=0.4755 | val_acc=92.00% val_f1=0.9017 | test_acc=96.35% test_f1=0.9471
+Epoch 005 | train_loss=0.3388 | val_acc=91.43% val_f1=0.9043 | test_acc=92.70% test_f1=0.8916
+Epoch 006 | train_loss=0.1997 | val_acc=95.43% val_f1=0.9488 | test_acc=89.33% test_f1=0.8515
+Epoch 007 | train_loss=0.1270 | val_acc=96.00% val_f1=0.9540 | test_acc=89.61% test_f1=0.8616
+Epoch 008 | train_loss=0.0680 | val_acc=97.71% val_f1=0.9701 | test_acc=87.08% test_f1=0.8279
+Epoch 009 | train_loss=0.0509 | val_acc=97.71% val_f1=0.9701 | test_acc=82.58% test_f1=0.7549
+Epoch 010 | train_loss=0.0386 | val_acc=99.43% val_f1=0.9919 | test_acc=85.11% test_f1=0.8000
+Epoch 011 | train_loss=0.0269 | val_acc=100.00% val_f1=1.0000 | test_acc=82.87% test_f1=0.7693
+Epoch 012 | train_loss=0.0136 | val_acc=100.00% val_f1=1.0000 | test_acc=82.30% test_f1=0.7658
+Epoch 013 | train_loss=0.0140 | val_acc=100.00% val_f1=1.0000 | test_acc=82.58% test_f1=0.7703
+Epoch 014 | train_loss=0.0093 | val_acc=100.00% val_f1=1.0000 | test_acc=82.58% test_f1=0.7703
+Epoch 015 | train_loss=0.0081 | val_acc=100.00% val_f1=1.0000 | test_acc=82.87% test_f1=0.7770
+Epoch 016 | train_loss=0.0068 | val_acc=100.00% val_f1=1.0000 | test_acc=79.21% test_f1=0.7227
+Epoch 017 | train_loss=0.0107 | val_acc=100.00% val_f1=1.0000 | test_acc=81.18% test_f1=0.7420
+Epoch 018 | train_loss=0.0085 | val_acc=100.00% val_f1=1.0000 | test_acc=85.67% test_f1=0.8144
+Epoch 019 | train_loss=0.0045 | val_acc=100.00% val_f1=1.0000 | test_acc=78.65% test_f1=0.7166
+Epoch 020 | train_loss=0.0042 | val_acc=100.00% val_f1=1.0000 | test_acc=77.53% test_f1=0.6974
+Epoch 021 | train_loss=0.0130 | val_acc=100.00% val_f1=1.0000 | test_acc=79.78% test_f1=0.7273
+Epoch 022 | train_loss=0.0057 | val_acc=100.00% val_f1=1.0000 | test_acc=77.81% test_f1=0.6943
+Epoch 023 | train_loss=0.0057 | val_acc=100.00% val_f1=1.0000 | test_acc=76.12% test_f1=0.6682
+Epoch 024 | train_loss=0.0051 | val_acc=100.00% val_f1=1.0000 | test_acc=81.46% test_f1=0.7587
+Epoch 025 | train_loss=0.0052 | val_acc=98.29% val_f1=0.9755 | test_acc=75.28% test_f1=0.6585
+Epoch 026 | train_loss=0.0043 | val_acc=100.00% val_f1=1.0000 | test_acc=81.74% test_f1=0.7628
+Epoch 027 | train_loss=0.0020 | val_acc=99.43% val_f1=0.9919 | test_acc=84.27% test_f1=0.7991
+Early stopping at epoch 27 (best=11, score=1.000000)
+================================================================================
+Best epoch: 11
+Best score (val_macro_f1): 1.000000
+Final test accuracy: 82.87%
+Saved to: ablation_experiments/h1/results/comparison_18d_baselines/gru/gru_weld_seam_windows_ws5_tf75_pg0_h1_h64_l3_bi_do0.2_ep80_lr0.0005_wd1e-05_bs128_seed100
+================================================================================
+Comparison baseline | model=gru
+================================================================================
+Dataset: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz
+Device: cuda
+Train/Val/Test: 990 / 175 / 356
+Epoch 001 | train_loss=0.9611 | val_acc=78.86% val_f1=0.7384 | test_acc=94.38% test_f1=0.9188
+Epoch 002 | train_loss=0.6659 | val_acc=88.57% val_f1=0.8388 | test_acc=90.45% test_f1=0.8770
+Epoch 003 | train_loss=0.4554 | val_acc=97.14% val_f1=0.9640 | test_acc=89.33% test_f1=0.8609
+Epoch 004 | train_loss=0.2549 | val_acc=94.86% val_f1=0.9485 | test_acc=89.61% test_f1=0.8529
+Epoch 005 | train_loss=0.1067 | val_acc=96.57% val_f1=0.9644 | test_acc=87.92% test_f1=0.8361
+Epoch 006 | train_loss=0.0605 | val_acc=97.71% val_f1=0.9749 | test_acc=83.99% test_f1=0.7763
+Epoch 007 | train_loss=0.0348 | val_acc=97.71% val_f1=0.9749 | test_acc=82.30% test_f1=0.7517
+Epoch 008 | train_loss=0.0233 | val_acc=98.86% val_f1=0.9861 | test_acc=78.93% test_f1=0.7099
+Epoch 009 | train_loss=0.0206 | val_acc=98.86% val_f1=0.9885 | test_acc=82.30% test_f1=0.7599
+Epoch 010 | train_loss=0.0133 | val_acc=98.86% val_f1=0.9886 | test_acc=82.30% test_f1=0.7535
+Epoch 011 | train_loss=0.0076 | val_acc=99.43% val_f1=0.9942 | test_acc=82.87% test_f1=0.7739
+Epoch 012 | train_loss=0.0038 | val_acc=99.43% val_f1=0.9942 | test_acc=82.02% test_f1=0.7622
+Epoch 013 | train_loss=0.0046 | val_acc=99.43% val_f1=0.9942 | test_acc=84.55% test_f1=0.7968
+Epoch 014 | train_loss=0.0047 | val_acc=99.43% val_f1=0.9943 | test_acc=83.99% test_f1=0.7878
+Epoch 015 | train_loss=0.0038 | val_acc=98.86% val_f1=0.9861 | test_acc=80.06% test_f1=0.7253
+Epoch 016 | train_loss=0.0057 | val_acc=98.29% val_f1=0.9830 | test_acc=85.39% test_f1=0.8045
+Epoch 017 | train_loss=0.0034 | val_acc=100.00% val_f1=1.0000 | test_acc=78.65% test_f1=0.7116
+Epoch 018 | train_loss=0.0017 | val_acc=99.43% val_f1=0.9942 | test_acc=78.93% test_f1=0.7163
+Epoch 019 | train_loss=0.0013 | val_acc=100.00% val_f1=1.0000 | test_acc=80.90% test_f1=0.7449
+Epoch 020 | train_loss=0.0010 | val_acc=100.00% val_f1=1.0000 | test_acc=82.02% test_f1=0.7578
+Epoch 021 | train_loss=0.0011 | val_acc=100.00% val_f1=1.0000 | test_acc=82.02% test_f1=0.7578
+Epoch 022 | train_loss=0.0011 | val_acc=100.00% val_f1=1.0000 | test_acc=81.74% test_f1=0.7577
+Epoch 023 | train_loss=0.0011 | val_acc=100.00% val_f1=1.0000 | test_acc=80.90% test_f1=0.7449
+Epoch 024 | train_loss=0.0011 | val_acc=100.00% val_f1=1.0000 | test_acc=80.90% test_f1=0.7476
+Epoch 025 | train_loss=0.0010 | val_acc=100.00% val_f1=1.0000 | test_acc=80.62% test_f1=0.7438
+Epoch 026 | train_loss=0.0010 | val_acc=100.00% val_f1=1.0000 | test_acc=81.74% test_f1=0.7531
+Epoch 027 | train_loss=0.0007 | val_acc=100.00% val_f1=1.0000 | test_acc=81.46% test_f1=0.7520
+Epoch 028 | train_loss=0.0008 | val_acc=100.00% val_f1=1.0000 | test_acc=82.30% test_f1=0.7658
+Epoch 029 | train_loss=0.0008 | val_acc=100.00% val_f1=1.0000 | test_acc=78.37% test_f1=0.7068
+Epoch 030 | train_loss=0.0006 | val_acc=100.00% val_f1=1.0000 | test_acc=80.62% test_f1=0.7438
+Epoch 031 | train_loss=0.0008 | val_acc=100.00% val_f1=1.0000 | test_acc=81.18% test_f1=0.7520
+Epoch 032 | train_loss=0.0008 | val_acc=100.00% val_f1=1.0000 | test_acc=81.74% test_f1=0.7594
+Epoch 033 | train_loss=0.0007 | val_acc=100.00% val_f1=1.0000 | test_acc=81.46% test_f1=0.7558
+Early stopping at epoch 33 (best=17, score=1.000000)
+================================================================================
+Best epoch: 17
+Best score (val_macro_f1): 1.000000
+Final test accuracy: 78.65%
+Saved to: ablation_experiments/h1/results/comparison_18d_baselines/gru/gru_weld_seam_windows_ws5_tf75_pg0_h1_h128_l3_bi_do0.1_ep80_lr0.0002_wd0.0005_bs64_seed14
+================================================================================
+Comparison baseline | model=gru
+================================================================================
+Dataset: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz
+Device: cuda
+Train/Val/Test: 990 / 175 / 356
+Epoch 001 | train_loss=0.8645 | val_acc=82.86% val_f1=0.7750 | test_acc=95.22% test_f1=0.9339
+Epoch 002 | train_loss=0.4028 | val_acc=94.86% val_f1=0.9389 | test_acc=93.54% test_f1=0.9194
+Epoch 003 | train_loss=0.1457 | val_acc=94.86% val_f1=0.9462 | test_acc=87.92% test_f1=0.8299
+Epoch 004 | train_loss=0.0586 | val_acc=98.86% val_f1=0.9861 | test_acc=75.56% test_f1=0.6659
+Epoch 005 | train_loss=0.0370 | val_acc=97.71% val_f1=0.9749 | test_acc=82.87% test_f1=0.7680
+Epoch 006 | train_loss=0.0202 | val_acc=98.86% val_f1=0.9861 | test_acc=79.21% test_f1=0.7063
+Epoch 007 | train_loss=0.0196 | val_acc=99.43% val_f1=0.9942 | test_acc=78.93% test_f1=0.7114
+Epoch 008 | train_loss=0.0079 | val_acc=99.43% val_f1=0.9942 | test_acc=76.69% test_f1=0.6857
+Epoch 009 | train_loss=0.0090 | val_acc=99.43% val_f1=0.9942 | test_acc=85.39% test_f1=0.8131
+Epoch 010 | train_loss=0.0053 | val_acc=99.43% val_f1=0.9942 | test_acc=84.83% test_f1=0.8067
+Epoch 011 | train_loss=0.0049 | val_acc=100.00% val_f1=1.0000 | test_acc=84.27% test_f1=0.7960
+Epoch 012 | train_loss=0.0020 | val_acc=99.43% val_f1=0.9942 | test_acc=82.87% test_f1=0.7788
+Epoch 013 | train_loss=0.0013 | val_acc=100.00% val_f1=1.0000 | test_acc=83.43% test_f1=0.7856
+Epoch 014 | train_loss=0.0019 | val_acc=100.00% val_f1=1.0000 | test_acc=84.27% test_f1=0.7984
+Epoch 015 | train_loss=0.0013 | val_acc=98.86% val_f1=0.9861 | test_acc=80.06% test_f1=0.7376
+Epoch 016 | train_loss=0.0025 | val_acc=99.43% val_f1=0.9943 | test_acc=86.80% test_f1=0.8324
+Epoch 017 | train_loss=0.0030 | val_acc=99.43% val_f1=0.9919 | test_acc=77.53% test_f1=0.6988
+Epoch 018 | train_loss=0.0010 | val_acc=100.00% val_f1=1.0000 | test_acc=83.99% test_f1=0.7916
+Epoch 019 | train_loss=0.0005 | val_acc=100.00% val_f1=1.0000 | test_acc=83.43% test_f1=0.7851
+Epoch 020 | train_loss=0.0003 | val_acc=100.00% val_f1=1.0000 | test_acc=82.58% test_f1=0.7738
+Epoch 021 | train_loss=0.0003 | val_acc=100.00% val_f1=1.0000 | test_acc=80.90% test_f1=0.7483
+Epoch 022 | train_loss=0.0021 | val_acc=99.43% val_f1=0.9919 | test_acc=76.12% test_f1=0.6665
+Epoch 023 | train_loss=0.0150 | val_acc=99.43% val_f1=0.9919 | test_acc=80.34% test_f1=0.7419
+Epoch 024 | train_loss=0.0072 | val_acc=100.00% val_f1=1.0000 | test_acc=83.71% test_f1=0.7912
+Epoch 025 | train_loss=0.0031 | val_acc=99.43% val_f1=0.9919 | test_acc=78.37% test_f1=0.7097
+Epoch 026 | train_loss=0.0097 | val_acc=100.00% val_f1=1.0000 | test_acc=81.46% test_f1=0.7586
+Epoch 027 | train_loss=0.0011 | val_acc=100.00% val_f1=1.0000 | test_acc=82.30% test_f1=0.7710
+Early stopping at epoch 27 (best=11, score=1.000000)
+================================================================================
+Best epoch: 11
+Best score (val_macro_f1): 1.000000
+Final test accuracy: 84.27%
+Saved to: ablation_experiments/h1/results/comparison_18d_baselines/gru/gru_weld_seam_windows_ws5_tf75_pg0_h1_h64_l3_bi_do0.3_ep80_lr0.0005_wd1e-05_bs64_seed14
+================================================================================
+Comparison baseline | model=gru
+================================================================================
+Dataset: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz
+Device: cuda
+Train/Val/Test: 990 / 175 / 356
+Epoch 001 | train_loss=1.0517 | val_acc=84.57% val_f1=0.7615 | test_acc=80.34% test_f1=0.7018
+Epoch 002 | train_loss=0.8370 | val_acc=84.57% val_f1=0.7722 | test_acc=90.73% test_f1=0.8733
+Epoch 003 | train_loss=0.6582 | val_acc=88.57% val_f1=0.8410 | test_acc=93.26% test_f1=0.9120
+Epoch 004 | train_loss=0.5077 | val_acc=89.14% val_f1=0.8502 | test_acc=92.70% test_f1=0.9042
+Epoch 005 | train_loss=0.3748 | val_acc=91.43% val_f1=0.8882 | test_acc=91.01% test_f1=0.8795
+Epoch 006 | train_loss=0.2964 | val_acc=93.14% val_f1=0.9176 | test_acc=89.61% test_f1=0.8592
+Epoch 007 | train_loss=0.2469 | val_acc=93.71% val_f1=0.9267 | test_acc=89.04% test_f1=0.8485
+Epoch 008 | train_loss=0.1811 | val_acc=96.57% val_f1=0.9589 | test_acc=87.36% test_f1=0.8238
+Epoch 009 | train_loss=0.1448 | val_acc=96.57% val_f1=0.9558 | test_acc=89.33% test_f1=0.8559
+Epoch 010 | train_loss=0.1364 | val_acc=99.43% val_f1=0.9919 | test_acc=88.20% test_f1=0.8407
+Epoch 011 | train_loss=0.1001 | val_acc=98.86% val_f1=0.9861 | test_acc=87.64% test_f1=0.8369
+Epoch 012 | train_loss=0.0794 | val_acc=99.43% val_f1=0.9919 | test_acc=83.43% test_f1=0.7746
+Epoch 013 | train_loss=0.0668 | val_acc=99.43% val_f1=0.9919 | test_acc=87.36% test_f1=0.8324
+Epoch 014 | train_loss=0.0453 | val_acc=99.43% val_f1=0.9919 | test_acc=84.55% test_f1=0.7892
+Epoch 015 | train_loss=0.0414 | val_acc=99.43% val_f1=0.9919 | test_acc=83.99% test_f1=0.7745
+Epoch 016 | train_loss=0.0272 | val_acc=99.43% val_f1=0.9919 | test_acc=87.92% test_f1=0.8388
+Epoch 017 | train_loss=0.0188 | val_acc=99.43% val_f1=0.9919 | test_acc=85.67% test_f1=0.8091
+Epoch 018 | train_loss=0.0285 | val_acc=100.00% val_f1=1.0000 | test_acc=87.08% test_f1=0.8303
+Epoch 019 | train_loss=0.0221 | val_acc=100.00% val_f1=1.0000 | test_acc=85.67% test_f1=0.8125
+Epoch 020 | train_loss=0.0152 | val_acc=99.43% val_f1=0.9919 | test_acc=83.15% test_f1=0.7667
+Epoch 021 | train_loss=0.0164 | val_acc=100.00% val_f1=1.0000 | test_acc=80.62% test_f1=0.7391
+Epoch 022 | train_loss=0.0144 | val_acc=100.00% val_f1=1.0000 | test_acc=79.21% test_f1=0.7200
+Epoch 023 | train_loss=0.0104 | val_acc=100.00% val_f1=1.0000 | test_acc=82.02% test_f1=0.7565
+Epoch 024 | train_loss=0.0119 | val_acc=100.00% val_f1=1.0000 | test_acc=83.71% test_f1=0.7794
+Epoch 025 | train_loss=0.0060 | val_acc=99.43% val_f1=0.9943 | test_acc=83.71% test_f1=0.7764
+Epoch 026 | train_loss=0.0137 | val_acc=100.00% val_f1=1.0000 | test_acc=85.96% test_f1=0.8159
+Epoch 027 | train_loss=0.0072 | val_acc=100.00% val_f1=1.0000 | test_acc=82.87% test_f1=0.7706
+Epoch 028 | train_loss=0.0069 | val_acc=100.00% val_f1=1.0000 | test_acc=83.15% test_f1=0.7763
+Epoch 029 | train_loss=0.0045 | val_acc=100.00% val_f1=1.0000 | test_acc=82.87% test_f1=0.7706
+Epoch 030 | train_loss=0.0070 | val_acc=100.00% val_f1=1.0000 | test_acc=83.71% test_f1=0.7807
+Epoch 031 | train_loss=0.0058 | val_acc=100.00% val_f1=1.0000 | test_acc=82.87% test_f1=0.7706
+Epoch 032 | train_loss=0.0030 | val_acc=100.00% val_f1=1.0000 | test_acc=81.46% test_f1=0.7531
+Epoch 033 | train_loss=0.0029 | val_acc=100.00% val_f1=1.0000 | test_acc=80.62% test_f1=0.7422
+Epoch 034 | train_loss=0.0039 | val_acc=100.00% val_f1=1.0000 | test_acc=80.34% test_f1=0.7367
+Early stopping at epoch 34 (best=18, score=1.000000)
+================================================================================
+Best epoch: 18
+Best score (val_macro_f1): 1.000000
+Final test accuracy: 87.08%
+Saved to: ablation_experiments/h1/results/comparison_18d_baselines/gru/gru_weld_seam_windows_ws5_tf75_pg0_h1_h128_l1_bi_do0.1_ep80_lr0.0005_wd0.0002_bs128_seed122
+================================================================================
+Comparison baseline | model=gru
+================================================================================
+Dataset: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz
+Device: cuda
+Train/Val/Test: 990 / 175 / 356
+Epoch 001 | train_loss=1.0252 | val_acc=41.14% val_f1=0.4216 | test_acc=42.70% test_f1=0.4547
+Epoch 002 | train_loss=0.9059 | val_acc=50.29% val_f1=0.5318 | test_acc=49.44% test_f1=0.5372
+Epoch 003 | train_loss=0.6707 | val_acc=81.71% val_f1=0.8030 | test_acc=94.66% test_f1=0.9374
+Epoch 004 | train_loss=0.4335 | val_acc=90.86% val_f1=0.9061 | test_acc=89.33% test_f1=0.8375
+Epoch 005 | train_loss=0.2646 | val_acc=94.86% val_f1=0.9485 | test_acc=90.17% test_f1=0.8496
+Epoch 006 | train_loss=0.1758 | val_acc=96.57% val_f1=0.9619 | test_acc=89.61% test_f1=0.8545
+Epoch 007 | train_loss=0.1051 | val_acc=97.14% val_f1=0.9697 | test_acc=89.89% test_f1=0.8620
+Epoch 008 | train_loss=0.0654 | val_acc=97.14% val_f1=0.9697 | test_acc=88.76% test_f1=0.8454
+Epoch 009 | train_loss=0.0514 | val_acc=97.14% val_f1=0.9717 | test_acc=88.76% test_f1=0.8496
+Epoch 010 | train_loss=0.0379 | val_acc=97.71% val_f1=0.9749 | test_acc=86.24% test_f1=0.8156
+Epoch 011 | train_loss=0.0373 | val_acc=98.86% val_f1=0.9861 | test_acc=78.93% test_f1=0.7163
+Epoch 012 | train_loss=0.0214 | val_acc=97.14% val_f1=0.9717 | test_acc=89.04% test_f1=0.8541
+Epoch 013 | train_loss=0.0186 | val_acc=98.86% val_f1=0.9861 | test_acc=77.53% test_f1=0.6946
+Epoch 014 | train_loss=0.0189 | val_acc=99.43% val_f1=0.9942 | test_acc=85.11% test_f1=0.8012
+Epoch 015 | train_loss=0.0104 | val_acc=99.43% val_f1=0.9942 | test_acc=84.27% test_f1=0.7844
+Epoch 016 | train_loss=0.0069 | val_acc=99.43% val_f1=0.9942 | test_acc=85.67% test_f1=0.8103
+Epoch 017 | train_loss=0.0066 | val_acc=99.43% val_f1=0.9942 | test_acc=81.74% test_f1=0.7531
+Epoch 018 | train_loss=0.0051 | val_acc=99.43% val_f1=0.9942 | test_acc=83.15% test_f1=0.7752
+Epoch 019 | train_loss=0.0068 | val_acc=99.43% val_f1=0.9942 | test_acc=84.27% test_f1=0.7874
+Epoch 020 | train_loss=0.0032 | val_acc=100.00% val_f1=1.0000 | test_acc=83.71% test_f1=0.7764
+Epoch 021 | train_loss=0.0066 | val_acc=99.43% val_f1=0.9942 | test_acc=84.27% test_f1=0.7912
+Epoch 022 | train_loss=0.0058 | val_acc=99.43% val_f1=0.9942 | test_acc=83.43% test_f1=0.7761
+Epoch 023 | train_loss=0.0035 | val_acc=99.43% val_f1=0.9942 | test_acc=82.02% test_f1=0.7612
+Epoch 024 | train_loss=0.0025 | val_acc=99.43% val_f1=0.9942 | test_acc=82.58% test_f1=0.7683
+Epoch 025 | train_loss=0.0038 | val_acc=100.00% val_f1=1.0000 | test_acc=83.15% test_f1=0.7727
+Epoch 026 | train_loss=0.0029 | val_acc=100.00% val_f1=1.0000 | test_acc=83.15% test_f1=0.7740
+Epoch 027 | train_loss=0.0025 | val_acc=100.00% val_f1=1.0000 | test_acc=82.30% test_f1=0.7599
+Epoch 028 | train_loss=0.0020 | val_acc=100.00% val_f1=1.0000 | test_acc=83.15% test_f1=0.7752
+Epoch 029 | train_loss=0.0016 | val_acc=100.00% val_f1=1.0000 | test_acc=82.87% test_f1=0.7718
+Epoch 030 | train_loss=0.0018 | val_acc=100.00% val_f1=1.0000 | test_acc=84.27% test_f1=0.7960
+Epoch 031 | train_loss=0.0011 | val_acc=100.00% val_f1=1.0000 | test_acc=83.43% test_f1=0.7828
+Epoch 032 | train_loss=0.0013 | val_acc=100.00% val_f1=1.0000 | test_acc=81.74% test_f1=0.7577
+Epoch 033 | train_loss=0.0015 | val_acc=100.00% val_f1=1.0000 | test_acc=82.30% test_f1=0.7637
+Epoch 034 | train_loss=0.0016 | val_acc=100.00% val_f1=1.0000 | test_acc=83.71% test_f1=0.7863
+Epoch 035 | train_loss=0.0012 | val_acc=100.00% val_f1=1.0000 | test_acc=83.99% test_f1=0.7924
+Epoch 036 | train_loss=0.0012 | val_acc=100.00% val_f1=1.0000 | test_acc=81.18% test_f1=0.7495
+Early stopping at epoch 36 (best=20, score=1.000000)
+================================================================================
+Best epoch: 20
+Best score (val_macro_f1): 1.000000
+Final test accuracy: 83.71%
+Saved to: ablation_experiments/h1/results/comparison_18d_baselines/gru/gru_weld_seam_windows_ws5_tf75_pg0_h1_h64_l3_bi_do0.1_ep80_lr0.0002_wd0.0002_bs64_seed14
+================================================================================
+Comparison baseline | model=gru
+================================================================================
+Dataset: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz
+Device: cuda
+Train/Val/Test: 990 / 175 / 356
+Epoch 001 | train_loss=1.0340 | val_acc=78.29% val_f1=0.7382 | test_acc=87.08% test_f1=0.8543
+Epoch 002 | train_loss=0.8882 | val_acc=80.00% val_f1=0.7379 | test_acc=91.29% test_f1=0.8747
+Epoch 003 | train_loss=0.6920 | val_acc=85.14% val_f1=0.8042 | test_acc=92.98% test_f1=0.9096
+Epoch 004 | train_loss=0.4846 | val_acc=93.14% val_f1=0.9260 | test_acc=90.45% test_f1=0.8710
+Epoch 005 | train_loss=0.3148 | val_acc=92.00% val_f1=0.9162 | test_acc=89.04% test_f1=0.8485
+Epoch 006 | train_loss=0.1852 | val_acc=96.00% val_f1=0.9562 | test_acc=90.17% test_f1=0.8665
+Epoch 007 | train_loss=0.1301 | val_acc=96.57% val_f1=0.9667 | test_acc=89.61% test_f1=0.8575
+Epoch 008 | train_loss=0.0933 | val_acc=97.14% val_f1=0.9717 | test_acc=89.89% test_f1=0.8634
+Epoch 009 | train_loss=0.0604 | val_acc=95.43% val_f1=0.9522 | test_acc=91.01% test_f1=0.8797
+Epoch 010 | train_loss=0.0499 | val_acc=98.29% val_f1=0.9828 | test_acc=85.39% test_f1=0.8032
+Epoch 011 | train_loss=0.0328 | val_acc=97.14% val_f1=0.9717 | test_acc=86.52% test_f1=0.8160
+Epoch 012 | train_loss=0.0236 | val_acc=98.29% val_f1=0.9828 | test_acc=82.02% test_f1=0.7536
+Epoch 013 | train_loss=0.0199 | val_acc=97.14% val_f1=0.9717 | test_acc=85.39% test_f1=0.7972
+Epoch 014 | train_loss=0.0218 | val_acc=97.14% val_f1=0.9717 | test_acc=88.48% test_f1=0.8477
+Epoch 015 | train_loss=0.0170 | val_acc=98.86% val_f1=0.9885 | test_acc=84.83% test_f1=0.8002
+Epoch 016 | train_loss=0.0136 | val_acc=98.86% val_f1=0.9885 | test_acc=83.15% test_f1=0.7713
+Epoch 017 | train_loss=0.0125 | val_acc=98.86% val_f1=0.9885 | test_acc=83.43% test_f1=0.7761
+Epoch 018 | train_loss=0.0096 | val_acc=98.29% val_f1=0.9830 | test_acc=86.80% test_f1=0.8221
+Epoch 019 | train_loss=0.0096 | val_acc=98.86% val_f1=0.9886 | test_acc=84.27% test_f1=0.7859
+Epoch 020 | train_loss=0.0049 | val_acc=98.86% val_f1=0.9885 | test_acc=85.96% test_f1=0.8169
+Epoch 021 | train_loss=0.0059 | val_acc=99.43% val_f1=0.9943 | test_acc=86.24% test_f1=0.8203
+Epoch 022 | train_loss=0.0062 | val_acc=98.86% val_f1=0.9886 | test_acc=85.67% test_f1=0.8103
+Epoch 023 | train_loss=0.0042 | val_acc=100.00% val_f1=1.0000 | test_acc=83.99% test_f1=0.7878
+Epoch 024 | train_loss=0.0041 | val_acc=100.00% val_f1=1.0000 | test_acc=82.30% test_f1=0.7648
+Epoch 025 | train_loss=0.0035 | val_acc=100.00% val_f1=1.0000 | test_acc=85.11% test_f1=0.8047
+Epoch 026 | train_loss=0.0049 | val_acc=100.00% val_f1=1.0000 | test_acc=80.62% test_f1=0.7379
+Epoch 027 | train_loss=0.0038 | val_acc=100.00% val_f1=1.0000 | test_acc=83.71% test_f1=0.7894
+Epoch 028 | train_loss=0.0025 | val_acc=100.00% val_f1=1.0000 | test_acc=82.02% test_f1=0.7631
+Epoch 029 | train_loss=0.0025 | val_acc=100.00% val_f1=1.0000 | test_acc=83.15% test_f1=0.7807
+Epoch 030 | train_loss=0.0022 | val_acc=100.00% val_f1=1.0000 | test_acc=83.43% test_f1=0.7844
+Epoch 031 | train_loss=0.0018 | val_acc=100.00% val_f1=1.0000 | test_acc=82.30% test_f1=0.7648
+Epoch 032 | train_loss=0.0016 | val_acc=100.00% val_f1=1.0000 | test_acc=83.71% test_f1=0.7872
+Epoch 033 | train_loss=0.0016 | val_acc=100.00% val_f1=1.0000 | test_acc=84.55% test_f1=0.7987
+Epoch 034 | train_loss=0.0028 | val_acc=99.43% val_f1=0.9942 | test_acc=82.02% test_f1=0.7639
+Epoch 035 | train_loss=0.0011 | val_acc=100.00% val_f1=1.0000 | test_acc=82.58% test_f1=0.7727
+Epoch 036 | train_loss=0.0013 | val_acc=100.00% val_f1=1.0000 | test_acc=82.87% test_f1=0.7770
+Epoch 037 | train_loss=0.0014 | val_acc=100.00% val_f1=1.0000 | test_acc=83.15% test_f1=0.7807
+Epoch 038 | train_loss=0.0009 | val_acc=100.00% val_f1=1.0000 | test_acc=82.58% test_f1=0.7727
+Epoch 039 | train_loss=0.0011 | val_acc=100.00% val_f1=1.0000 | test_acc=82.58% test_f1=0.7727
+Early stopping at epoch 39 (best=23, score=1.000000)
+================================================================================
+Best epoch: 23
+Best score (val_macro_f1): 1.000000
+Final test accuracy: 83.99%
+Saved to: ablation_experiments/h1/results/comparison_18d_baselines/gru/gru_weld_seam_windows_ws5_tf75_pg0_h1_h64_l3_bi_do0.1_ep80_lr0.0002_wd0.0002_bs64_seed42
+================================================================================
+Comparison baseline | model=gru
+================================================================================
+Dataset: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz
+Device: cuda
+Train/Val/Test: 990 / 175 / 356
+Epoch 001 | train_loss=1.0562 | val_acc=90.86% val_f1=0.9010 | test_acc=80.90% test_f1=0.7234
+Epoch 002 | train_loss=0.9001 | val_acc=84.57% val_f1=0.8133 | test_acc=96.07% test_f1=0.9486
+Epoch 003 | train_loss=0.6523 | val_acc=83.43% val_f1=0.7902 | test_acc=96.91% test_f1=0.9568
+Epoch 004 | train_loss=0.4479 | val_acc=88.57% val_f1=0.8679 | test_acc=93.82% test_f1=0.9090
+Epoch 005 | train_loss=0.2613 | val_acc=92.57% val_f1=0.9196 | test_acc=91.57% test_f1=0.8733
+Epoch 006 | train_loss=0.1814 | val_acc=96.00% val_f1=0.9576 | test_acc=88.48% test_f1=0.8393
+Epoch 007 | train_loss=0.1145 | val_acc=98.29% val_f1=0.9828 | test_acc=88.20% test_f1=0.8362
+Epoch 008 | train_loss=0.0950 | val_acc=98.86% val_f1=0.9886 | test_acc=89.04% test_f1=0.8514
+Epoch 009 | train_loss=0.0552 | val_acc=99.43% val_f1=0.9942 | test_acc=87.64% test_f1=0.8369
+Epoch 010 | train_loss=0.0595 | val_acc=99.43% val_f1=0.9942 | test_acc=87.92% test_f1=0.8435
+Epoch 011 | train_loss=0.0491 | val_acc=98.86% val_f1=0.9886 | test_acc=89.61% test_f1=0.8663
+Epoch 012 | train_loss=0.0359 | val_acc=100.00% val_f1=1.0000 | test_acc=88.76% test_f1=0.8597
+Epoch 013 | train_loss=0.0210 | val_acc=100.00% val_f1=1.0000 | test_acc=83.43% test_f1=0.7774
+Epoch 014 | train_loss=0.0205 | val_acc=98.86% val_f1=0.9886 | test_acc=88.20% test_f1=0.8468
+Epoch 015 | train_loss=0.0127 | val_acc=100.00% val_f1=1.0000 | test_acc=83.43% test_f1=0.7774
+Epoch 016 | train_loss=0.0124 | val_acc=100.00% val_f1=1.0000 | test_acc=85.11% test_f1=0.8089
+Epoch 017 | train_loss=0.0111 | val_acc=100.00% val_f1=1.0000 | test_acc=84.55% test_f1=0.7995
+Epoch 018 | train_loss=0.0131 | val_acc=100.00% val_f1=1.0000 | test_acc=82.30% test_f1=0.7676
+Epoch 019 | train_loss=0.0064 | val_acc=100.00% val_f1=1.0000 | test_acc=84.27% test_f1=0.7933
+Epoch 020 | train_loss=0.0048 | val_acc=99.43% val_f1=0.9943 | test_acc=83.99% test_f1=0.7854
+Epoch 021 | train_loss=0.0056 | val_acc=100.00% val_f1=1.0000 | test_acc=82.30% test_f1=0.7637
+Epoch 022 | train_loss=0.0045 | val_acc=100.00% val_f1=1.0000 | test_acc=80.34% test_f1=0.7317
+Epoch 023 | train_loss=0.0041 | val_acc=100.00% val_f1=1.0000 | test_acc=83.43% test_f1=0.7828
+Epoch 024 | train_loss=0.0037 | val_acc=100.00% val_f1=1.0000 | test_acc=83.43% test_f1=0.7819
+Epoch 025 | train_loss=0.0031 | val_acc=100.00% val_f1=1.0000 | test_acc=81.18% test_f1=0.7485
+Epoch 026 | train_loss=0.0027 | val_acc=100.00% val_f1=1.0000 | test_acc=82.58% test_f1=0.7733
+Epoch 027 | train_loss=0.0023 | val_acc=100.00% val_f1=1.0000 | test_acc=80.90% test_f1=0.7449
+Epoch 028 | train_loss=0.0025 | val_acc=100.00% val_f1=1.0000 | test_acc=81.74% test_f1=0.7567
+Early stopping at epoch 28 (best=12, score=1.000000)
+================================================================================
+Best epoch: 12
+Best score (val_macro_f1): 1.000000
+Final test accuracy: 88.76%
+Saved to: ablation_experiments/h1/results/comparison_18d_baselines/gru/gru_weld_seam_windows_ws5_tf75_pg0_h1_h64_l3_bi_do0.1_ep80_lr0.0002_wd0.0002_bs64_seed183
+================================================================================
+Comparison baseline | model=gru
+================================================================================
+Dataset: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz
+Device: cuda
+Train/Val/Test: 990 / 175 / 356
+Epoch 001 | train_loss=0.9585 | val_acc=37.71% val_f1=0.3860 | test_acc=54.49% test_f1=0.5887
+Epoch 002 | train_loss=0.7460 | val_acc=77.14% val_f1=0.7380 | test_acc=94.66% test_f1=0.9264
+Epoch 003 | train_loss=0.5918 | val_acc=83.43% val_f1=0.7999 | test_acc=96.63% test_f1=0.9512
+Epoch 004 | train_loss=0.4717 | val_acc=90.29% val_f1=0.8952 | test_acc=91.57% test_f1=0.8753
+Epoch 005 | train_loss=0.3750 | val_acc=93.14% val_f1=0.9243 | test_acc=90.73% test_f1=0.8689
+Epoch 006 | train_loss=0.2743 | val_acc=93.14% val_f1=0.9237 | test_acc=92.98% test_f1=0.9061
+Epoch 007 | train_loss=0.2149 | val_acc=94.86% val_f1=0.9485 | test_acc=88.48% test_f1=0.8393
+Epoch 008 | train_loss=0.1720 | val_acc=95.43% val_f1=0.9538 | test_acc=89.61% test_f1=0.8603
+Epoch 009 | train_loss=0.1273 | val_acc=96.00% val_f1=0.9566 | test_acc=87.08% test_f1=0.8207
+Epoch 010 | train_loss=0.1094 | val_acc=97.14% val_f1=0.9717 | test_acc=89.04% test_f1=0.8553
+Epoch 011 | train_loss=0.0859 | val_acc=96.00% val_f1=0.9586 | test_acc=88.76% test_f1=0.8496
+Epoch 012 | train_loss=0.0656 | val_acc=97.71% val_f1=0.9772 | test_acc=88.48% test_f1=0.8501
+Epoch 013 | train_loss=0.0441 | val_acc=97.14% val_f1=0.9694 | test_acc=82.87% test_f1=0.7562
+Epoch 014 | train_loss=0.0389 | val_acc=98.29% val_f1=0.9828 | test_acc=86.52% test_f1=0.8189
+Epoch 015 | train_loss=0.0251 | val_acc=98.29% val_f1=0.9804 | test_acc=82.30% test_f1=0.7535
+Epoch 016 | train_loss=0.0304 | val_acc=99.43% val_f1=0.9942 | test_acc=86.80% test_f1=0.8291
+Epoch 017 | train_loss=0.0144 | val_acc=98.86% val_f1=0.9885 | test_acc=85.11% test_f1=0.8000
+Epoch 018 | train_loss=0.0247 | val_acc=98.86% val_f1=0.9885 | test_acc=86.80% test_f1=0.8270
+Epoch 019 | train_loss=0.0129 | val_acc=99.43% val_f1=0.9942 | test_acc=83.71% test_f1=0.7807
+Epoch 020 | train_loss=0.0173 | val_acc=98.29% val_f1=0.9828 | test_acc=86.80% test_f1=0.8247
+Epoch 021 | train_loss=0.0180 | val_acc=98.86% val_f1=0.9886 | test_acc=82.87% test_f1=0.7581
+Epoch 022 | train_loss=0.0077 | val_acc=99.43% val_f1=0.9942 | test_acc=85.96% test_f1=0.8169
+Epoch 023 | train_loss=0.0110 | val_acc=99.43% val_f1=0.9942 | test_acc=79.49% test_f1=0.7184
+Epoch 024 | train_loss=0.0045 | val_acc=98.86% val_f1=0.9861 | test_acc=77.81% test_f1=0.6928
+Epoch 025 | train_loss=0.0098 | val_acc=99.43% val_f1=0.9942 | test_acc=83.71% test_f1=0.7880
+Epoch 026 | train_loss=0.0072 | val_acc=99.43% val_f1=0.9943 | test_acc=83.43% test_f1=0.7699
+Epoch 027 | train_loss=0.0068 | val_acc=99.43% val_f1=0.9943 | test_acc=85.11% test_f1=0.7986
+Epoch 028 | train_loss=0.0057 | val_acc=100.00% val_f1=1.0000 | test_acc=83.99% test_f1=0.7866
+Epoch 029 | train_loss=0.0038 | val_acc=99.43% val_f1=0.9943 | test_acc=83.15% test_f1=0.7699
+Epoch 030 | train_loss=0.0042 | val_acc=99.43% val_f1=0.9943 | test_acc=84.55% test_f1=0.7946
+Epoch 031 | train_loss=0.0042 | val_acc=100.00% val_f1=1.0000 | test_acc=83.43% test_f1=0.7786
+Epoch 032 | train_loss=0.0026 | val_acc=100.00% val_f1=1.0000 | test_acc=83.71% test_f1=0.7832
+Epoch 033 | train_loss=0.0038 | val_acc=100.00% val_f1=1.0000 | test_acc=83.71% test_f1=0.7832
+Epoch 034 | train_loss=0.0029 | val_acc=100.00% val_f1=1.0000 | test_acc=82.02% test_f1=0.7612
+Epoch 035 | train_loss=0.0029 | val_acc=100.00% val_f1=1.0000 | test_acc=83.15% test_f1=0.7763
+Epoch 036 | train_loss=0.0041 | val_acc=100.00% val_f1=1.0000 | test_acc=84.55% test_f1=0.7978
+Epoch 037 | train_loss=0.0037 | val_acc=100.00% val_f1=1.0000 | test_acc=84.55% test_f1=0.7987
+Epoch 038 | train_loss=0.0044 | val_acc=100.00% val_f1=1.0000 | test_acc=82.58% test_f1=0.7672
+Epoch 039 | train_loss=0.0036 | val_acc=100.00% val_f1=1.0000 | test_acc=82.02% test_f1=0.7578
+Epoch 040 | train_loss=0.0027 | val_acc=100.00% val_f1=1.0000 | test_acc=81.18% test_f1=0.7435
+Epoch 041 | train_loss=0.0029 | val_acc=100.00% val_f1=1.0000 | test_acc=83.71% test_f1=0.7854
+Epoch 042 | train_loss=0.0022 | val_acc=100.00% val_f1=1.0000 | test_acc=84.55% test_f1=0.7987
+Epoch 043 | train_loss=0.0017 | val_acc=100.00% val_f1=1.0000 | test_acc=83.43% test_f1=0.7809
+Epoch 044 | train_loss=0.0022 | val_acc=100.00% val_f1=1.0000 | test_acc=81.74% test_f1=0.7556
+Early stopping at epoch 44 (best=28, score=1.000000)
+================================================================================
+Best epoch: 28
+Best score (val_macro_f1): 1.000000
+Final test accuracy: 83.99%
+Saved to: ablation_experiments/h1/results/comparison_18d_baselines/gru/gru_weld_seam_windows_ws5_tf75_pg0_h1_h128_l1_bi_do0.1_ep80_lr0.0005_wd0.0002_bs128_seed14
+================================================================================
+Comparison baseline | model=gru
+================================================================================
+Dataset: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz
+Device: cuda
+Train/Val/Test: 990 / 175 / 356
+Epoch 001 | train_loss=1.0103 | val_acc=82.86% val_f1=0.7507 | test_acc=85.39% test_f1=0.7837
+Epoch 002 | train_loss=0.7933 | val_acc=86.86% val_f1=0.8263 | test_acc=91.29% test_f1=0.8822
+Epoch 003 | train_loss=0.6201 | val_acc=88.57% val_f1=0.8554 | test_acc=93.82% test_f1=0.9197
+Epoch 004 | train_loss=0.4484 | val_acc=90.86% val_f1=0.8882 | test_acc=89.89% test_f1=0.8623
+Epoch 005 | train_loss=0.3365 | val_acc=92.00% val_f1=0.9045 | test_acc=88.48% test_f1=0.8423
+Epoch 006 | train_loss=0.2570 | val_acc=93.14% val_f1=0.9260 | test_acc=83.71% test_f1=0.7663
+Epoch 007 | train_loss=0.2218 | val_acc=94.86% val_f1=0.9450 | test_acc=82.87% test_f1=0.7479
+Epoch 008 | train_loss=0.1673 | val_acc=96.00% val_f1=0.9557 | test_acc=83.43% test_f1=0.7578
+Epoch 009 | train_loss=0.1241 | val_acc=96.57% val_f1=0.9657 | test_acc=88.48% test_f1=0.8473
+Epoch 010 | train_loss=0.0906 | val_acc=96.57% val_f1=0.9657 | test_acc=84.83% test_f1=0.7847
+Epoch 011 | train_loss=0.0619 | val_acc=96.57% val_f1=0.9657 | test_acc=87.92% test_f1=0.8370
+Epoch 012 | train_loss=0.0610 | val_acc=96.57% val_f1=0.9657 | test_acc=82.58% test_f1=0.7467
+Epoch 013 | train_loss=0.0470 | val_acc=98.29% val_f1=0.9825 | test_acc=83.43% test_f1=0.7798
+Epoch 014 | train_loss=0.0269 | val_acc=98.29% val_f1=0.9825 | test_acc=84.27% test_f1=0.7859
+Epoch 015 | train_loss=0.0209 | val_acc=98.29% val_f1=0.9825 | test_acc=84.83% test_f1=0.7939
+Epoch 016 | train_loss=0.0145 | val_acc=98.29% val_f1=0.9825 | test_acc=82.58% test_f1=0.7683
+Epoch 017 | train_loss=0.0183 | val_acc=98.29% val_f1=0.9825 | test_acc=81.74% test_f1=0.7586
+Epoch 018 | train_loss=0.0139 | val_acc=98.29% val_f1=0.9825 | test_acc=81.46% test_f1=0.7437
+Epoch 019 | train_loss=0.0191 | val_acc=97.71% val_f1=0.9772 | test_acc=85.39% test_f1=0.8018
+Epoch 020 | train_loss=0.0140 | val_acc=98.29% val_f1=0.9828 | test_acc=85.11% test_f1=0.7971
+Epoch 021 | train_loss=0.0128 | val_acc=98.86% val_f1=0.9885 | test_acc=84.83% test_f1=0.7924
+Epoch 022 | train_loss=0.0143 | val_acc=99.43% val_f1=0.9943 | test_acc=85.67% test_f1=0.8078
+Epoch 023 | train_loss=0.0112 | val_acc=99.43% val_f1=0.9943 | test_acc=83.15% test_f1=0.7699
+Epoch 024 | train_loss=0.0090 | val_acc=98.86% val_f1=0.9885 | test_acc=82.02% test_f1=0.7602
+Epoch 025 | train_loss=0.0076 | val_acc=99.43% val_f1=0.9943 | test_acc=83.99% test_f1=0.7908
+Epoch 026 | train_loss=0.0074 | val_acc=99.43% val_f1=0.9943 | test_acc=83.15% test_f1=0.7740
+Epoch 027 | train_loss=0.0069 | val_acc=99.43% val_f1=0.9943 | test_acc=82.30% test_f1=0.7584
+Epoch 028 | train_loss=0.0039 | val_acc=99.43% val_f1=0.9943 | test_acc=83.43% test_f1=0.7774
+Epoch 029 | train_loss=0.0048 | val_acc=99.43% val_f1=0.9943 | test_acc=83.99% test_f1=0.7866
+Epoch 030 | train_loss=0.0028 | val_acc=99.43% val_f1=0.9943 | test_acc=83.71% test_f1=0.7820
+Epoch 031 | train_loss=0.0030 | val_acc=100.00% val_f1=1.0000 | test_acc=81.46% test_f1=0.7469
+Epoch 032 | train_loss=0.0038 | val_acc=100.00% val_f1=1.0000 | test_acc=83.15% test_f1=0.7774
+Epoch 033 | train_loss=0.0033 | val_acc=100.00% val_f1=1.0000 | test_acc=83.71% test_f1=0.7872
+Epoch 034 | train_loss=0.0021 | val_acc=100.00% val_f1=1.0000 | test_acc=81.18% test_f1=0.7462
+Epoch 035 | train_loss=0.0018 | val_acc=100.00% val_f1=1.0000 | test_acc=81.18% test_f1=0.7435
+Epoch 036 | train_loss=0.0061 | val_acc=100.00% val_f1=1.0000 | test_acc=83.15% test_f1=0.7784
+Epoch 037 | train_loss=0.0038 | val_acc=100.00% val_f1=1.0000 | test_acc=82.30% test_f1=0.7648
+Epoch 038 | train_loss=0.0033 | val_acc=100.00% val_f1=1.0000 | test_acc=81.46% test_f1=0.7509
+Epoch 039 | train_loss=0.0035 | val_acc=100.00% val_f1=1.0000 | test_acc=81.74% test_f1=0.7544
+Epoch 040 | train_loss=0.0027 | val_acc=100.00% val_f1=1.0000 | test_acc=83.15% test_f1=0.7752
+Epoch 041 | train_loss=0.0031 | val_acc=100.00% val_f1=1.0000 | test_acc=82.02% test_f1=0.7602
+Epoch 042 | train_loss=0.0019 | val_acc=100.00% val_f1=1.0000 | test_acc=82.02% test_f1=0.7602
+Epoch 043 | train_loss=0.0019 | val_acc=100.00% val_f1=1.0000 | test_acc=81.74% test_f1=0.7556
+Epoch 044 | train_loss=0.0017 | val_acc=100.00% val_f1=1.0000 | test_acc=82.02% test_f1=0.7602
+Epoch 045 | train_loss=0.0020 | val_acc=100.00% val_f1=1.0000 | test_acc=81.74% test_f1=0.7556
+Epoch 046 | train_loss=0.0021 | val_acc=100.00% val_f1=1.0000 | test_acc=82.30% test_f1=0.7648
+Epoch 047 | train_loss=0.0032 | val_acc=100.00% val_f1=1.0000 | test_acc=82.30% test_f1=0.7648
+Early stopping at epoch 47 (best=31, score=1.000000)
+================================================================================
+Best epoch: 31
+Best score (val_macro_f1): 1.000000
+Final test accuracy: 81.46%
+Saved to: ablation_experiments/h1/results/comparison_18d_baselines/gru/gru_weld_seam_windows_ws5_tf75_pg0_h1_h128_l1_bi_do0.1_ep80_lr0.0005_wd0.0002_bs128_seed42
+================================================================================
+Comparison baseline | model=gru
+================================================================================
+Dataset: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz
+Device: cuda
+Train/Val/Test: 990 / 175 / 356
+Epoch 001 | train_loss=1.0068 | val_acc=81.14% val_f1=0.7048 | test_acc=84.27% test_f1=0.7491
+Epoch 002 | train_loss=0.7949 | val_acc=84.00% val_f1=0.7817 | test_acc=91.29% test_f1=0.8739
+Epoch 003 | train_loss=0.5968 | val_acc=85.14% val_f1=0.8048 | test_acc=94.38% test_f1=0.9238
+Epoch 004 | train_loss=0.4571 | val_acc=86.86% val_f1=0.8353 | test_acc=91.01% test_f1=0.8765
+Epoch 005 | train_loss=0.3570 | val_acc=88.57% val_f1=0.8643 | test_acc=90.45% test_f1=0.8698
+Epoch 006 | train_loss=0.2536 | val_acc=89.71% val_f1=0.8809 | test_acc=92.13% test_f1=0.8908
+Epoch 007 | train_loss=0.2018 | val_acc=93.14% val_f1=0.9256 | test_acc=86.80% test_f1=0.8143
+Epoch 008 | train_loss=0.1697 | val_acc=96.00% val_f1=0.9576 | test_acc=87.92% test_f1=0.8331
+Epoch 009 | train_loss=0.1300 | val_acc=97.71% val_f1=0.9770 | test_acc=88.20% test_f1=0.8392
+Epoch 010 | train_loss=0.0869 | val_acc=98.29% val_f1=0.9830 | test_acc=84.27% test_f1=0.7716
+Epoch 011 | train_loss=0.0762 | val_acc=97.71% val_f1=0.9775 | test_acc=89.89% test_f1=0.8648
+Epoch 012 | train_loss=0.0552 | val_acc=98.86% val_f1=0.9886 | test_acc=87.36% test_f1=0.8269
+Epoch 013 | train_loss=0.0527 | val_acc=99.43% val_f1=0.9941 | test_acc=85.39% test_f1=0.8032
+Epoch 014 | train_loss=0.0377 | val_acc=99.43% val_f1=0.9941 | test_acc=80.90% test_f1=0.7337
+Epoch 015 | train_loss=0.0353 | val_acc=98.29% val_f1=0.9827 | test_acc=86.24% test_f1=0.8129
+Epoch 016 | train_loss=0.0243 | val_acc=98.86% val_f1=0.9886 | test_acc=87.08% test_f1=0.8238
+Epoch 017 | train_loss=0.0311 | val_acc=100.00% val_f1=1.0000 | test_acc=83.15% test_f1=0.7713
+Epoch 018 | train_loss=0.0202 | val_acc=100.00% val_f1=1.0000 | test_acc=82.87% test_f1=0.7706
+Epoch 019 | train_loss=0.0124 | val_acc=100.00% val_f1=1.0000 | test_acc=80.62% test_f1=0.7266
+Epoch 020 | train_loss=0.0212 | val_acc=99.43% val_f1=0.9919 | test_acc=85.67% test_f1=0.8115
+Epoch 021 | train_loss=0.0163 | val_acc=98.86% val_f1=0.9886 | test_acc=81.18% test_f1=0.7375
+Epoch 022 | train_loss=0.0138 | val_acc=100.00% val_f1=1.0000 | test_acc=84.83% test_f1=0.8026
+Epoch 023 | train_loss=0.0065 | val_acc=100.00% val_f1=1.0000 | test_acc=80.34% test_f1=0.7297
+Epoch 024 | train_loss=0.0116 | val_acc=100.00% val_f1=1.0000 | test_acc=84.55% test_f1=0.7992
+Epoch 025 | train_loss=0.0096 | val_acc=100.00% val_f1=1.0000 | test_acc=83.15% test_f1=0.7787
+Epoch 026 | train_loss=0.0063 | val_acc=100.00% val_f1=1.0000 | test_acc=81.46% test_f1=0.7483
+Epoch 027 | train_loss=0.0046 | val_acc=100.00% val_f1=1.0000 | test_acc=82.58% test_f1=0.7672
+Epoch 028 | train_loss=0.0069 | val_acc=100.00% val_f1=1.0000 | test_acc=82.02% test_f1=0.7578
+Epoch 029 | train_loss=0.0090 | val_acc=100.00% val_f1=1.0000 | test_acc=80.62% test_f1=0.7393
+Epoch 030 | train_loss=0.0054 | val_acc=100.00% val_f1=1.0000 | test_acc=80.62% test_f1=0.7393
+Epoch 031 | train_loss=0.0042 | val_acc=100.00% val_f1=1.0000 | test_acc=81.74% test_f1=0.7557
+Epoch 032 | train_loss=0.0032 | val_acc=100.00% val_f1=1.0000 | test_acc=81.74% test_f1=0.7556
+Epoch 033 | train_loss=0.0025 | val_acc=100.00% val_f1=1.0000 | test_acc=82.58% test_f1=0.7703
+Early stopping at epoch 33 (best=17, score=1.000000)
+================================================================================
+Best epoch: 17
+Best score (val_macro_f1): 1.000000
+Final test accuracy: 83.15%
+Saved to: ablation_experiments/h1/results/comparison_18d_baselines/gru/gru_weld_seam_windows_ws5_tf75_pg0_h1_h128_l1_bi_do0.1_ep80_lr0.0005_wd0.0002_bs128_seed183
+[A] gru_weld_seam_windows_ws5_tf75_pg0_h1_h96_l1_uni_do0.2_ep80_lr0.0005_wd0.0005_bs128_seed42 | status=success test_acc=84.55% f1=0.7957
+[A] gru_weld_seam_windows_ws5_tf75_pg0_h1_h96_l1_bi_do0.2_ep80_lr0.0001_wd0.0005_bs64_seed100 | status=success test_acc=85.96% f1=0.8082
+[A] gru_weld_seam_windows_ws5_tf75_pg0_h1_h128_l3_uni_do0.1_ep80_lr0.0002_wd0.0001_bs128_seed183 | status=success test_acc=83.99% f1=0.7812
+[A] gru_weld_seam_windows_ws5_tf75_pg0_h1_h64_l3_bi_do0.2_ep80_lr0.0002_wd0.0001_bs64_seed42 | status=success test_acc=83.71% f1=0.7899
+[A] gru_weld_seam_windows_ws5_tf75_pg0_h1_h128_l2_bi_do0.1_ep80_lr0.0003_wd0.0005_bs64_seed122 | status=success test_acc=86.52% f1=0.8294
+[A] gru_weld_seam_windows_ws5_tf75_pg0_h1_h128_l1_uni_do0.1_ep80_lr0.0002_wd0.0002_bs128_seed14 | status=success test_acc=85.39% f1=0.7955
+[A] gru_weld_seam_windows_ws5_tf75_pg0_h1_h96_l2_bi_do0.1_ep80_lr0.0005_wd0.0001_bs64_seed183 | status=success test_acc=83.15% f1=0.7792
+[A] gru_weld_seam_windows_ws5_tf75_pg0_h1_h96_l1_bi_do0.1_ep80_lr0.0002_wd0.0001_bs64_seed100 | status=success test_acc=86.24% f1=0.8114
+[A] gru_weld_seam_windows_ws5_tf75_pg0_h1_h96_l2_bi_do0.1_ep80_lr0.0002_wd0.0005_bs128_seed42 | status=success test_acc=83.99% f1=0.7827
+[A] gru_weld_seam_windows_ws5_tf75_pg0_h1_h128_l3_bi_do0.2_ep80_lr0.0002_wd0.0005_bs128_seed77 | status=success test_acc=80.62% f1=0.7366
+[A] gru_weld_seam_windows_ws5_tf75_pg0_h1_h96_l1_uni_do0.1_ep80_lr0.0002_wd1e-05_bs128_seed183 | status=success test_acc=85.67% f1=0.8003
+[A] gru_weld_seam_windows_ws5_tf75_pg0_h1_h64_l3_bi_do0.1_ep80_lr0.0002_wd0.0002_bs64_seed77 | status=success test_acc=87.92% f1=0.8375
+[A] gru_weld_seam_windows_ws5_tf75_pg0_h1_h128_l2_uni_do0.2_ep80_lr0.0002_wd0.0005_bs128_seed100 | status=success test_acc=86.52% f1=0.8226
+[A] gru_weld_seam_windows_ws5_tf75_pg0_h1_h96_l1_uni_do0.1_ep80_lr0.0005_wd0.0005_bs128_seed183 | status=success test_acc=79.49% f1=0.7152
+[A] gru_weld_seam_windows_ws5_tf75_pg0_h1_h96_l3_bi_do0.3_ep80_lr0.0002_wd0.0002_bs128_seed100 | status=success test_acc=86.24% f1=0.8143
+[A] gru_weld_seam_windows_ws5_tf75_pg0_h1_h64_l2_uni_do0.1_ep80_lr0.0003_wd0.0001_bs64_seed100 | status=success test_acc=83.99% f1=0.7878
+[A] gru_weld_seam_windows_ws5_tf75_pg0_h1_h64_l3_uni_do0.3_ep80_lr0.0005_wd1e-05_bs64_seed42 | status=success test_acc=77.81% f1=0.7013
+[A] gru_weld_seam_windows_ws5_tf75_pg0_h1_h64_l3_bi_do0.3_ep80_lr0.0002_wd0.0002_bs128_seed42 | status=success test_acc=84.55% f1=0.7987
+[A] gru_weld_seam_windows_ws5_tf75_pg0_h1_h96_l1_bi_do0.3_ep80_lr0.0003_wd0.0002_bs64_seed77 | status=success test_acc=83.43% f1=0.7603
+[A] gru_weld_seam_windows_ws5_tf75_pg0_h1_h128_l1_uni_do0.2_ep80_lr0.0005_wd0.0005_bs128_seed42 | status=success test_acc=80.90% f1=0.7354
+[B] gru_weld_seam_windows_ws5_tf75_pg0_h1_h64_l3_bi_do0.1_ep80_lr0.0002_wd0.0005_bs64_seed42 | status=skipped_existing test_acc=82.58% f1=0.7683
+[B] gru_weld_seam_windows_ws5_tf75_pg0_h1_h128_l2_bi_do0.1_ep80_lr0.0001_wd0.0005_bs64_seed14 | status=success test_acc=82.02% f1=0.7565
+[B] gru_weld_seam_windows_ws5_tf75_pg0_h1_h64_l3_bi_do0.2_ep80_lr0.0005_wd1e-05_bs128_seed100 | status=success test_acc=82.87% f1=0.7693
+[B] gru_weld_seam_windows_ws5_tf75_pg0_h1_h128_l3_bi_do0.1_ep80_lr0.0002_wd0.0005_bs64_seed14 | status=success test_acc=78.65% f1=0.7116
+[B] gru_weld_seam_windows_ws5_tf75_pg0_h1_h64_l3_bi_do0.3_ep80_lr0.0005_wd1e-05_bs64_seed14 | status=success test_acc=84.27% f1=0.7960
+[B] gru_weld_seam_windows_ws5_tf75_pg0_h1_h128_l1_bi_do0.1_ep80_lr0.0005_wd0.0002_bs128_seed122 | status=success test_acc=87.08% f1=0.8303
+[seed_eval] gru_weld_seam_windows_ws5_tf75_pg0_h1_h64_l3_bi_do0.1_ep80_lr0.0002_wd0.0002_bs64_seed14 | status=success test_acc=83.71% f1=0.7764
+[seed_eval] gru_weld_seam_windows_ws5_tf75_pg0_h1_h64_l3_bi_do0.1_ep80_lr0.0002_wd0.0002_bs64_seed42 | status=success test_acc=83.99% f1=0.7878
+[seed_eval] gru_weld_seam_windows_ws5_tf75_pg0_h1_h64_l3_bi_do0.1_ep80_lr0.0002_wd0.0002_bs64_seed183 | status=success test_acc=88.76% f1=0.8597
+[seed_eval] gru_weld_seam_windows_ws5_tf75_pg0_h1_h128_l1_bi_do0.1_ep80_lr0.0005_wd0.0002_bs128_seed14 | status=success test_acc=83.99% f1=0.7866
+[seed_eval] gru_weld_seam_windows_ws5_tf75_pg0_h1_h128_l1_bi_do0.1_ep80_lr0.0005_wd0.0002_bs128_seed42 | status=success test_acc=81.46% f1=0.7469
+[seed_eval] gru_weld_seam_windows_ws5_tf75_pg0_h1_h128_l1_bi_do0.1_ep80_lr0.0005_wd0.0002_bs128_seed183 | status=success test_acc=83.15% f1=0.7713
+Sweep complete for model=gru
+Report dir: ablation_experiments/h1/reports/comparison_18d_baselines/round2/gru

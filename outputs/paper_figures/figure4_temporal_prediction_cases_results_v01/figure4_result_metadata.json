@@ -1,0 +1,105 @@
+{
+  "figure": "Figure 4 temporal prediction cases",
+  "dataset_npz": "/home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz",
+  "raw_data_dir": "/home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/raw_data",
+  "sample_period_s": 0.01,
+  "window_size": 5,
+  "horizon": 1,
+  "methods": [
+    {
+      "label": "Teacher-18D",
+      "slug": "teacher",
+      "kind": "teacher",
+      "run_dir": "/home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/outputs/teacher_h1_scan98_gpu1_v2/runs/single_tcn_attn_weld_seam_windows_ws5_tf75_pg0_h1_ep60_lr0.0003_bs128_k3_l3_d0.08_lat64_wd0.00015_seed14",
+      "checkpoint_path": "/home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/outputs/teacher_h1_scan98_gpu1_v2/runs/single_tcn_attn_weld_seam_windows_ws5_tf75_pg0_h1_ep60_lr0.0003_bs128_k3_l3_d0.08_lat64_wd0.00015_seed14/best_single_tcn.pth",
+      "keep_feature_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ]
+    },
+    {
+      "label": "SEAL-Weld Student-13D",
+      "slug": "seal_student",
+      "kind": "seal_student",
+      "run_dir": "/home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/ablation_experiments/h1/results/comparison_18d_baselines/teacher_student_reference/student_h1_sweep/student_h1_scan96_20260326/extension/extension_s3_s2_s1_l4_o4_c7_r3/distill_tcn_attn_weld_seam_windows_ws5_tf75_pg0_h1_ep80_lr0.0003_bs128_T2.5_lce0.9_lkd1.1_lf0.0_seed132",
+      "checkpoint_path": "/home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/ablation_experiments/h1/results/comparison_18d_baselines/teacher_student_reference/student_h1_sweep/student_h1_scan96_20260326/extension/extension_s3_s2_s1_l4_o4_c7_r3/distill_tcn_attn_weld_seam_windows_ws5_tf75_pg0_h1_ep80_lr0.0003_bs128_T2.5_lce0.9_lkd1.1_lf0.0_seed132/best_student_distill.pth",
+      "keep_feature_indices": [
+        0,
+        1,
+        2,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ]
+    },
+    {
+      "label": "Student-only-13D",
+      "slug": "student_only",
+      "kind": "student_only",
+      "run_dir": "/home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/ablation_experiments/h1/results/run_20260327_131013/ablation1_sweep/trials/trial_0004_A/ablation1_student_only_tcn_attn_weld_seam_windows_ws5_tf75_pg0_h1_ep80_lr0.00015_bs96_seed156",
+      "checkpoint_path": "/home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/ablation_experiments/h1/results/run_20260327_131013/ablation1_sweep/trials/trial_0004_A/ablation1_student_only_tcn_attn_weld_seam_windows_ws5_tf75_pg0_h1_ep80_lr0.00015_bs96_seed156/best_student_only.pth",
+      "keep_feature_indices": [
+        0,
+        1,
+        2,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ]
+    }
+  ],
+  "selection_rules": {
+    "core": "Within each seam/context, choose the farthest Teacher+SEAL-Weld-correct test window from the nearest state boundary; ties use higher SEAL-Weld confidence then lower sample_index.",
+    "successful_boundary": "Within each seam/boundary context, choose the nearest Teacher+SEAL-Weld-correct test window to the boundary; ties use higher SEAL-Weld confidence then lower sample_index.",
+    "transfer_gain": "Global highlight: nearest boundary window where SEAL-Weld is correct and Student-only is wrong.",
+    "seal_weld_failure": "Global highlight: nearest boundary window where SEAL-Weld remains wrong.",
+    "backfill": "If a seam/context has no test candidate, fill the panel from the strongest selected same-context donor and mark panel_status=backfilled."
+  },
+  "counts": {
+    "test_windows": 356,
+    "continuous_rows": 4863,
+    "continuous_windows_per_method": 1621,
+    "panel_rows": 16,
+    "backfilled_panels": 1
+  },
+  "output_files": {
+    "test_window_predictions": "/home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/outputs/paper_figures/figure4_temporal_prediction_cases_results_v01/figure4_test_window_predictions.csv",
+    "panel_selection": "/home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/outputs/paper_figures/figure4_temporal_prediction_cases_results_v01/figure4_panel_selection.csv",
+    "highlight_cases": "/home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/outputs/paper_figures/figure4_temporal_prediction_cases_results_v01/figure4_highlight_cases.csv",
+    "continuous_predictions": "/home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/outputs/paper_figures/figure4_temporal_prediction_cases_results_v01/figure4_continuous_predictions.csv",
+    "panel_timeseries": "/home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/outputs/paper_figures/figure4_temporal_prediction_cases_results_v01/figure4_panel_timeseries.csv",
+    "panel_attention": "/home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/outputs/paper_figures/figure4_temporal_prediction_cases_results_v01/figure4_panel_attention.csv",
+    "validation_summary": "/home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/outputs/paper_figures/figure4_temporal_prediction_cases_results_v01/figure4_validation_summary.csv",
+    "metadata": "/home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/outputs/paper_figures/figure4_temporal_prediction_cases_results_v01/figure4_result_metadata.json"
+  }
+}

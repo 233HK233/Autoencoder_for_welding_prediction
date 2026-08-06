@@ -1,0 +1,2 @@
+run_name,run_dir,seed,status,attempts,elapsed_sec,test_accuracy,test_macro_f1,test_teacher_agreement,best_epoch,best_score
+ablation3_joint_tcn_attn_weld_seam_windows_ws5_tf75_pg0_ep2_lrt0.00025_lrs0.0002_bs128_T3.0_lce0.8_lkd1.2_lf0.2_seed100,/home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/ablation_experiments/ablation3_joint_tcn_attn/results/ablation3_joint_tcn_attn_weld_seam_windows_ws5_tf75_pg0_ep2_lrt0.00025_lrs0.0002_bs128_T3.0_lce0.8_lkd1.2_lf0.2_seed100,100,success,1,4.64,0.37229999999999996,0.3926,0.5082,2,0.465748

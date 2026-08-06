@@ -1,0 +1,481 @@
+model_name,method_slug,sample_index,seam_name,boundary_type,boundary_distance_bin,start_idx,target_idx,input_step,relative_step,relative_time_s,attention_weight,y_true,y_pred,correct
+Teacher,teacher,9,c02,0->1,Near,84,89,0,-5,-0.05,0.1959882527589798,0,0,True
+Teacher,teacher,9,c02,0->1,Near,84,89,1,-4,-0.04,0.2113056480884552,0,0,True
+Teacher,teacher,9,c02,0->1,Near,84,89,2,-3,-0.03,0.20931962132453918,0,0,True
+Teacher,teacher,9,c02,0->1,Near,84,89,3,-2,-0.02,0.19682137668132782,0,0,True
+Teacher,teacher,9,c02,0->1,Near,84,89,4,-1,-0.01,0.18656513094902039,0,0,True
+Teacher,teacher,42,a01,0->1,Near,103,108,0,-5,-0.05,0.21124416589736938,0,0,True
+Teacher,teacher,42,a01,0->1,Near,103,108,1,-4,-0.04,0.195094496011734,0,0,True
+Teacher,teacher,42,a01,0->1,Near,103,108,2,-3,-0.03,0.2010924071073532,0,0,True
+Teacher,teacher,42,a01,0->1,Near,103,108,3,-2,-0.02,0.19223445653915405,0,0,True
+Teacher,teacher,42,a01,0->1,Near,103,108,4,-1,-0.01,0.2003343552350998,0,0,True
+Teacher,teacher,120,b01,0->1,Near,143,148,0,-5,-0.05,0.2017158716917038,0,0,True
+Teacher,teacher,120,b01,0->1,Near,143,148,1,-4,-0.04,0.1917515993118286,0,0,True
+Teacher,teacher,120,b01,0->1,Near,143,148,2,-3,-0.03,0.20982426404953003,0,0,True
+Teacher,teacher,120,b01,0->1,Near,143,148,3,-2,-0.02,0.20071732997894287,0,0,True
+Teacher,teacher,120,b01,0->1,Near,143,148,4,-1,-0.01,0.19599086046218872,0,0,True
+Teacher,teacher,249,c01,0->1,Near,28,33,0,-5,-0.05,0.19906283915042877,0,1,False
+Teacher,teacher,249,c01,0->1,Near,28,33,1,-4,-0.04,0.19952502846717834,0,1,False
+Teacher,teacher,249,c01,0->1,Near,28,33,2,-3,-0.03,0.18239697813987732,0,1,False
+Teacher,teacher,249,c01,0->1,Near,28,33,3,-2,-0.02,0.2121593952178955,0,1,False
+Teacher,teacher,249,c01,0->1,Near,28,33,4,-1,-0.01,0.20685574412345886,0,1,False
+Teacher,teacher,114,b01,0->1,Near,142,147,0,-5,-0.05,0.20377217233181,0,0,True
+Teacher,teacher,114,b01,0->1,Near,142,147,1,-4,-0.04,0.20276640355587006,0,0,True
+Teacher,teacher,114,b01,0->1,Near,142,147,2,-3,-0.03,0.19930315017700195,0,0,True
+Teacher,teacher,114,b01,0->1,Near,142,147,3,-2,-0.02,0.20020975172519684,0,0,True
+Teacher,teacher,114,b01,0->1,Near,142,147,4,-1,-0.01,0.19394852221012115,0,0,True
+Teacher,teacher,189,c01,0->1,Near,27,32,0,-5,-0.05,0.2024824321269989,0,1,False
+Teacher,teacher,189,c01,0->1,Near,27,32,1,-4,-0.04,0.19914375245571136,0,1,False
+Teacher,teacher,189,c01,0->1,Near,27,32,2,-3,-0.03,0.19705745577812195,0,1,False
+Teacher,teacher,189,c01,0->1,Near,27,32,3,-2,-0.02,0.18314555287361145,0,1,False
+Teacher,teacher,189,c01,0->1,Near,27,32,4,-1,-0.01,0.21817082166671753,0,1,False
+Teacher,teacher,247,a01,0->1,Near,102,107,0,-5,-0.05,0.20547452569007874,0,0,True
+Teacher,teacher,247,a01,0->1,Near,102,107,1,-4,-0.04,0.20787382125854492,0,0,True
+Teacher,teacher,247,a01,0->1,Near,102,107,2,-3,-0.03,0.1975633203983307,0,0,True
+Teacher,teacher,247,a01,0->1,Near,102,107,3,-2,-0.02,0.19655326008796692,0,0,True
+Teacher,teacher,247,a01,0->1,Near,102,107,4,-1,-0.01,0.19253507256507874,0,0,True
+Teacher,teacher,286,c02,0->1,Near,83,88,0,-5,-0.05,0.2010648548603058,0,0,True
+Teacher,teacher,286,c02,0->1,Near,83,88,1,-4,-0.04,0.19784843921661377,0,0,True
+Teacher,teacher,286,c02,0->1,Near,83,88,2,-3,-0.03,0.20903189480304718,0,0,True
+Teacher,teacher,286,c02,0->1,Near,83,88,3,-2,-0.02,0.20486938953399658,0,0,True
+Teacher,teacher,286,c02,0->1,Near,83,88,4,-1,-0.01,0.1871853768825531,0,0,True
+Teacher,teacher,121,a01,0->1,Near,101,106,0,-5,-0.05,0.20565365254878998,0,0,True
+Teacher,teacher,121,a01,0->1,Near,101,106,1,-4,-0.04,0.19689218699932098,0,0,True
+Teacher,teacher,121,a01,0->1,Near,101,106,2,-3,-0.03,0.2098575085401535,0,0,True
+Teacher,teacher,121,a01,0->1,Near,101,106,3,-2,-0.02,0.1930486410856247,0,0,True
+Teacher,teacher,121,a01,0->1,Near,101,106,4,-1,-0.01,0.19454807043075562,0,0,True
+Teacher,teacher,132,c02,0->1,Near,82,87,0,-5,-0.05,0.21144536137580872,0,0,True
+Teacher,teacher,132,c02,0->1,Near,82,87,1,-4,-0.04,0.20148184895515442,0,0,True
+Teacher,teacher,132,c02,0->1,Near,82,87,2,-3,-0.03,0.19726157188415527,0,0,True
+Teacher,teacher,132,c02,0->1,Near,82,87,3,-2,-0.02,0.20180225372314453,0,0,True
+Teacher,teacher,132,c02,0->1,Near,82,87,4,-1,-0.01,0.18800896406173706,0,0,True
+Teacher,teacher,343,b01,0->1,Near,141,146,0,-5,-0.05,0.20322278141975403,0,0,True
+Teacher,teacher,343,b01,0->1,Near,141,146,1,-4,-0.04,0.20839974284172058,0,0,True
+Teacher,teacher,343,b01,0->1,Near,141,146,2,-3,-0.03,0.20336095988750458,0,0,True
+Teacher,teacher,343,b01,0->1,Near,141,146,3,-2,-0.02,0.189621239900589,0,0,True
+Teacher,teacher,343,b01,0->1,Near,141,146,4,-1,-0.01,0.19539523124694824,0,0,True
+Teacher,teacher,151,b01,0->1,Near,140,145,0,-5,-0.05,0.20286527276039124,0,0,True
+Teacher,teacher,151,b01,0->1,Near,140,145,1,-4,-0.04,0.20197200775146484,0,0,True
+Teacher,teacher,151,b01,0->1,Near,140,145,2,-3,-0.03,0.20520099997520447,0,0,True
+Teacher,teacher,151,b01,0->1,Near,140,145,3,-2,-0.02,0.199625164270401,0,0,True
+Teacher,teacher,151,b01,0->1,Near,140,145,4,-1,-0.01,0.19033655524253845,0,0,True
+Teacher,teacher,215,c01,0->1,Near,25,30,0,-5,-0.05,0.19022032618522644,0,0,True
+Teacher,teacher,215,c01,0->1,Near,25,30,1,-4,-0.04,0.1983627825975418,0,0,True
+Teacher,teacher,215,c01,0->1,Near,25,30,2,-3,-0.03,0.20682093501091003,0,0,True
+Teacher,teacher,215,c01,0->1,Near,25,30,3,-2,-0.02,0.21021637320518494,0,0,True
+Teacher,teacher,215,c01,0->1,Near,25,30,4,-1,-0.01,0.1943795531988144,0,0,True
+Teacher,teacher,346,a01,0->1,Near,100,105,0,-5,-0.05,0.2115660160779953,0,0,True
+Teacher,teacher,346,a01,0->1,Near,100,105,1,-4,-0.04,0.20352034270763397,0,0,True
+Teacher,teacher,346,a01,0->1,Near,100,105,2,-3,-0.03,0.19570565223693848,0,0,True
+Teacher,teacher,346,a01,0->1,Near,100,105,3,-2,-0.02,0.1974734365940094,0,0,True
+Teacher,teacher,346,a01,0->1,Near,100,105,4,-1,-0.01,0.19173453748226166,0,0,True
+Teacher,teacher,17,a01,0->1,Near,99,104,0,-5,-0.05,0.21160021424293518,0,0,True
+Teacher,teacher,17,a01,0->1,Near,99,104,1,-4,-0.04,0.19726669788360596,0,0,True
+Teacher,teacher,17,a01,0->1,Near,99,104,2,-3,-0.03,0.2053784877061844,0,0,True
+Teacher,teacher,17,a01,0->1,Near,99,104,3,-2,-0.02,0.18895748257637024,0,0,True
+Teacher,teacher,17,a01,0->1,Near,99,104,4,-1,-0.01,0.19679711759090424,0,0,True
+Teacher,teacher,270,b01,0->1,Near,139,144,0,-5,-0.05,0.2075149565935135,0,0,True
+Teacher,teacher,270,b01,0->1,Near,139,144,1,-4,-0.04,0.19519998133182526,0,0,True
+Teacher,teacher,270,b01,0->1,Near,139,144,2,-3,-0.03,0.2047138512134552,0,0,True
+Teacher,teacher,270,b01,0->1,Near,139,144,3,-2,-0.02,0.1993696093559265,0,0,True
+Teacher,teacher,270,b01,0->1,Near,139,144,4,-1,-0.01,0.19320157170295715,0,0,True
+Teacher,teacher,53,c02,1->2,Near,107,112,0,-5,-0.05,0.19355669617652893,1,1,True
+Teacher,teacher,53,c02,1->2,Near,107,112,1,-4,-0.04,0.2053927332162857,1,1,True
+Teacher,teacher,53,c02,1->2,Near,107,112,2,-3,-0.03,0.18530182540416718,1,1,True
+Teacher,teacher,53,c02,1->2,Near,107,112,3,-2,-0.02,0.2281450480222702,1,1,True
+Teacher,teacher,53,c02,1->2,Near,107,112,4,-1,-0.01,0.18760377168655396,1,1,True
+Teacher,teacher,131,c01,1->2,Near,149,154,0,-5,-0.05,0.1994519829750061,1,1,True
+Teacher,teacher,131,c01,1->2,Near,149,154,1,-4,-0.04,0.19846293330192566,1,1,True
+Teacher,teacher,131,c01,1->2,Near,149,154,2,-3,-0.03,0.21145272254943848,1,1,True
+Teacher,teacher,131,c01,1->2,Near,149,154,3,-2,-0.02,0.18752679228782654,1,1,True
+Teacher,teacher,131,c01,1->2,Near,149,154,4,-1,-0.01,0.20310556888580322,1,1,True
+Teacher,teacher,263,a01,1->2,Near,220,225,0,-5,-0.05,0.18877792358398438,1,1,True
+Teacher,teacher,263,a01,1->2,Near,220,225,1,-4,-0.04,0.20773927867412567,1,1,True
+Teacher,teacher,263,a01,1->2,Near,220,225,2,-3,-0.03,0.2029067575931549,1,1,True
+Teacher,teacher,263,a01,1->2,Near,220,225,3,-2,-0.02,0.20692229270935059,1,1,True
+Teacher,teacher,263,a01,1->2,Near,220,225,4,-1,-0.01,0.19365376234054565,1,1,True
+Teacher,teacher,268,b01,1->2,Near,286,291,0,-5,-0.05,0.18509213626384735,1,1,True
+Teacher,teacher,268,b01,1->2,Near,286,291,1,-4,-0.04,0.1969926953315735,1,1,True
+Teacher,teacher,268,b01,1->2,Near,286,291,2,-3,-0.03,0.2071533352136612,1,1,True
+Teacher,teacher,268,b01,1->2,Near,286,291,3,-2,-0.02,0.20298442244529724,1,1,True
+Teacher,teacher,268,b01,1->2,Near,286,291,4,-1,-0.01,0.2077774703502655,1,1,True
+Teacher,teacher,21,b01,1->2,Near,285,290,0,-5,-0.05,0.202396959066391,1,1,True
+Teacher,teacher,21,b01,1->2,Near,285,290,1,-4,-0.04,0.19415608048439026,1,1,True
+Teacher,teacher,21,b01,1->2,Near,285,290,2,-3,-0.03,0.19457438588142395,1,1,True
+Teacher,teacher,21,b01,1->2,Near,285,290,3,-2,-0.02,0.21025629341602325,1,1,True
+Teacher,teacher,21,b01,1->2,Near,285,290,4,-1,-0.01,0.19861629605293274,1,1,True
+Teacher,teacher,63,a01,1->2,Near,219,224,0,-5,-0.05,0.19562718272209167,1,1,True
+Teacher,teacher,63,a01,1->2,Near,219,224,1,-4,-0.04,0.20418676733970642,1,1,True
+Teacher,teacher,63,a01,1->2,Near,219,224,2,-3,-0.03,0.19902914762496948,1,1,True
+Teacher,teacher,63,a01,1->2,Near,219,224,3,-2,-0.02,0.20029763877391815,1,1,True
+Teacher,teacher,63,a01,1->2,Near,219,224,4,-1,-0.01,0.20085926353931427,1,1,True
+Teacher,teacher,122,c01,1->2,Near,148,153,0,-5,-0.05,0.18950822949409485,1,1,True
+Teacher,teacher,122,c01,1->2,Near,148,153,1,-4,-0.04,0.2094765603542328,1,1,True
+Teacher,teacher,122,c01,1->2,Near,148,153,2,-3,-0.03,0.20234176516532898,1,1,True
+Teacher,teacher,122,c01,1->2,Near,148,153,3,-2,-0.02,0.21193861961364746,1,1,True
+Teacher,teacher,122,c01,1->2,Near,148,153,4,-1,-0.01,0.18673482537269592,1,1,True
+Teacher,teacher,148,a01,1->2,Near,218,223,0,-5,-0.05,0.18602266907691956,1,1,True
+Teacher,teacher,148,a01,1->2,Near,218,223,1,-4,-0.04,0.2071709930896759,1,1,True
+Teacher,teacher,148,a01,1->2,Near,218,223,2,-3,-0.03,0.20483028888702393,1,1,True
+Teacher,teacher,148,a01,1->2,Near,218,223,3,-2,-0.02,0.20212367177009583,1,1,True
+Teacher,teacher,148,a01,1->2,Near,218,223,4,-1,-0.01,0.1998523771762848,1,1,True
+Teacher,teacher,282,b01,1->2,Near,284,289,0,-5,-0.05,0.19325768947601318,1,1,True
+Teacher,teacher,282,b01,1->2,Near,284,289,1,-4,-0.04,0.1958710104227066,1,1,True
+Teacher,teacher,282,b01,1->2,Near,284,289,2,-3,-0.03,0.18920662999153137,1,1,True
+Teacher,teacher,282,b01,1->2,Near,284,289,3,-2,-0.02,0.20084472000598907,1,1,True
+Teacher,teacher,282,b01,1->2,Near,284,289,4,-1,-0.01,0.22081999480724335,1,1,True
+Teacher,teacher,289,c01,1->2,Near,147,152,0,-5,-0.05,0.18601249158382416,1,1,True
+Teacher,teacher,289,c01,1->2,Near,147,152,1,-4,-0.04,0.20339742302894592,1,1,True
+Teacher,teacher,289,c01,1->2,Near,147,152,2,-3,-0.03,0.20400750637054443,1,1,True
+Teacher,teacher,289,c01,1->2,Near,147,152,3,-2,-0.02,0.20132727921009064,1,1,True
+Teacher,teacher,289,c01,1->2,Near,147,152,4,-1,-0.01,0.20525529980659485,1,1,True
+Teacher,teacher,127,b01,1->2,Near,283,288,0,-5,-0.05,0.1880236119031906,1,1,True
+Teacher,teacher,127,b01,1->2,Near,283,288,1,-4,-0.04,0.21143655478954315,1,1,True
+Teacher,teacher,127,b01,1->2,Near,283,288,2,-3,-0.03,0.19506490230560303,1,1,True
+Teacher,teacher,127,b01,1->2,Near,283,288,3,-2,-0.02,0.20270709693431854,1,1,True
+Teacher,teacher,127,b01,1->2,Near,283,288,4,-1,-0.01,0.20276784896850586,1,1,True
+Teacher,teacher,236,a01,1->2,Near,217,222,0,-5,-0.05,0.19664669036865234,1,1,True
+Teacher,teacher,236,a01,1->2,Near,217,222,1,-4,-0.04,0.20726525783538818,1,1,True
+Teacher,teacher,236,a01,1->2,Near,217,222,2,-3,-0.03,0.1977497786283493,1,1,True
+Teacher,teacher,236,a01,1->2,Near,217,222,3,-2,-0.02,0.20030398666858673,1,1,True
+Teacher,teacher,236,a01,1->2,Near,217,222,4,-1,-0.01,0.19803430140018463,1,1,True
+Teacher,teacher,273,c01,1->2,Near,146,151,0,-5,-0.05,0.1816360056400299,1,1,True
+Teacher,teacher,273,c01,1->2,Near,146,151,1,-4,-0.04,0.19858412444591522,1,1,True
+Teacher,teacher,273,c01,1->2,Near,146,151,2,-3,-0.03,0.19666385650634766,1,1,True
+Teacher,teacher,273,c01,1->2,Near,146,151,3,-2,-0.02,0.21267496049404144,1,1,True
+Teacher,teacher,273,c01,1->2,Near,146,151,4,-1,-0.01,0.21044108271598816,1,1,True
+Teacher,teacher,79,b01,1->2,Near,282,287,0,-5,-0.05,0.16822704672813416,1,1,True
+Teacher,teacher,79,b01,1->2,Near,282,287,1,-4,-0.04,0.20324046909809113,1,1,True
+Teacher,teacher,79,b01,1->2,Near,282,287,2,-3,-0.03,0.21266162395477295,1,1,True
+Teacher,teacher,79,b01,1->2,Near,282,287,3,-2,-0.02,0.2190394103527069,1,1,True
+Teacher,teacher,79,b01,1->2,Near,282,287,4,-1,-0.01,0.19683150947093964,1,1,True
+Teacher,teacher,169,a01,1->2,Near,216,221,0,-5,-0.05,0.19019584357738495,1,1,True
+Teacher,teacher,169,a01,1->2,Near,216,221,1,-4,-0.04,0.1999458372592926,1,1,True
+Teacher,teacher,169,a01,1->2,Near,216,221,2,-3,-0.03,0.2088741958141327,1,1,True
+Teacher,teacher,169,a01,1->2,Near,216,221,3,-2,-0.02,0.2087692767381668,1,1,True
+Teacher,teacher,169,a01,1->2,Near,216,221,4,-1,-0.01,0.19221487641334534,1,1,True
+Teacher,teacher,350,c01,1->2,Near,145,150,0,-5,-0.05,0.1858399212360382,1,1,True
+Teacher,teacher,350,c01,1->2,Near,145,150,1,-4,-0.04,0.19805973768234253,1,1,True
+Teacher,teacher,350,c01,1->2,Near,145,150,2,-3,-0.03,0.1988951414823532,1,1,True
+Teacher,teacher,350,c01,1->2,Near,145,150,3,-2,-0.02,0.20533616840839386,1,1,True
+Teacher,teacher,350,c01,1->2,Near,145,150,4,-1,-0.01,0.2118690460920334,1,1,True
+Student-only,student_only,9,c02,0->1,Near,84,89,0,-5,-0.05,0.08420608937740326,0,1,False
+Student-only,student_only,9,c02,0->1,Near,84,89,1,-4,-0.04,0.18377532064914703,0,1,False
+Student-only,student_only,9,c02,0->1,Near,84,89,2,-3,-0.03,0.1446666419506073,0,1,False
+Student-only,student_only,9,c02,0->1,Near,84,89,3,-2,-0.02,0.22958731651306152,0,1,False
+Student-only,student_only,9,c02,0->1,Near,84,89,4,-1,-0.01,0.3577645719051361,0,1,False
+Student-only,student_only,42,a01,0->1,Near,103,108,0,-5,-0.05,0.1340862512588501,0,0,True
+Student-only,student_only,42,a01,0->1,Near,103,108,1,-4,-0.04,0.21712972223758698,0,0,True
+Student-only,student_only,42,a01,0->1,Near,103,108,2,-3,-0.03,0.16564396023750305,0,0,True
+Student-only,student_only,42,a01,0->1,Near,103,108,3,-2,-0.02,0.15581171214580536,0,0,True
+Student-only,student_only,42,a01,0->1,Near,103,108,4,-1,-0.01,0.3273284137248993,0,0,True
+Student-only,student_only,120,b01,0->1,Near,143,148,0,-5,-0.05,0.10535381734371185,0,1,False
+Student-only,student_only,120,b01,0->1,Near,143,148,1,-4,-0.04,0.12599743902683258,0,1,False
+Student-only,student_only,120,b01,0->1,Near,143,148,2,-3,-0.03,0.16010554134845734,0,1,False
+Student-only,student_only,120,b01,0->1,Near,143,148,3,-2,-0.02,0.19198034703731537,0,1,False
+Student-only,student_only,120,b01,0->1,Near,143,148,4,-1,-0.01,0.41656285524368286,0,1,False
+Student-only,student_only,249,c01,0->1,Near,28,33,0,-5,-0.05,0.1517920345067978,0,1,False
+Student-only,student_only,249,c01,0->1,Near,28,33,1,-4,-0.04,0.20492251217365265,0,1,False
+Student-only,student_only,249,c01,0->1,Near,28,33,2,-3,-0.03,0.2521446943283081,0,1,False
+Student-only,student_only,249,c01,0->1,Near,28,33,3,-2,-0.02,0.16970470547676086,0,1,False
+Student-only,student_only,249,c01,0->1,Near,28,33,4,-1,-0.01,0.2214360535144806,0,1,False
+Student-only,student_only,114,b01,0->1,Near,142,147,0,-5,-0.05,0.1198420375585556,0,1,False
+Student-only,student_only,114,b01,0->1,Near,142,147,1,-4,-0.04,0.13549984991550446,0,1,False
+Student-only,student_only,114,b01,0->1,Near,142,147,2,-3,-0.03,0.1593126505613327,0,1,False
+Student-only,student_only,114,b01,0->1,Near,142,147,3,-2,-0.02,0.16505983471870422,0,1,False
+Student-only,student_only,114,b01,0->1,Near,142,147,4,-1,-0.01,0.4202856123447418,0,1,False
+Student-only,student_only,189,c01,0->1,Near,27,32,0,-5,-0.05,0.13433605432510376,0,1,False
+Student-only,student_only,189,c01,0->1,Near,27,32,1,-4,-0.04,0.2379578799009323,0,1,False
+Student-only,student_only,189,c01,0->1,Near,27,32,2,-3,-0.03,0.18905463814735413,0,1,False
+Student-only,student_only,189,c01,0->1,Near,27,32,3,-2,-0.02,0.222931370139122,0,1,False
+Student-only,student_only,189,c01,0->1,Near,27,32,4,-1,-0.01,0.21572011709213257,0,1,False
+Student-only,student_only,247,a01,0->1,Near,102,107,0,-5,-0.05,0.18420644104480743,0,0,True
+Student-only,student_only,247,a01,0->1,Near,102,107,1,-4,-0.04,0.1811043918132782,0,0,True
+Student-only,student_only,247,a01,0->1,Near,102,107,2,-3,-0.03,0.19327014684677124,0,0,True
+Student-only,student_only,247,a01,0->1,Near,102,107,3,-2,-0.02,0.14491267502307892,0,0,True
+Student-only,student_only,247,a01,0->1,Near,102,107,4,-1,-0.01,0.2965063452720642,0,0,True
+Student-only,student_only,286,c02,0->1,Near,83,88,0,-5,-0.05,0.11186639964580536,0,1,False
+Student-only,student_only,286,c02,0->1,Near,83,88,1,-4,-0.04,0.14694160223007202,0,1,False
+Student-only,student_only,286,c02,0->1,Near,83,88,2,-3,-0.03,0.13860277831554413,0,1,False
+Student-only,student_only,286,c02,0->1,Near,83,88,3,-2,-0.02,0.13057100772857666,0,1,False
+Student-only,student_only,286,c02,0->1,Near,83,88,4,-1,-0.01,0.47201818227767944,0,1,False
+Student-only,student_only,121,a01,0->1,Near,101,106,0,-5,-0.05,0.11336789280176163,0,0,True
+Student-only,student_only,121,a01,0->1,Near,101,106,1,-4,-0.04,0.23452505469322205,0,0,True
+Student-only,student_only,121,a01,0->1,Near,101,106,2,-3,-0.03,0.15653210878372192,0,0,True
+Student-only,student_only,121,a01,0->1,Near,101,106,3,-2,-0.02,0.21644103527069092,0,0,True
+Student-only,student_only,121,a01,0->1,Near,101,106,4,-1,-0.01,0.2791338860988617,0,0,True
+Student-only,student_only,132,c02,0->1,Near,82,87,0,-5,-0.05,0.13825365900993347,0,1,False
+Student-only,student_only,132,c02,0->1,Near,82,87,1,-4,-0.04,0.16850332915782928,0,1,False
+Student-only,student_only,132,c02,0->1,Near,82,87,2,-3,-0.03,0.13464893400669098,0,1,False
+Student-only,student_only,132,c02,0->1,Near,82,87,3,-2,-0.02,0.18164655566215515,0,1,False
+Student-only,student_only,132,c02,0->1,Near,82,87,4,-1,-0.01,0.3769474923610687,0,1,False
+Student-only,student_only,343,b01,0->1,Near,141,146,0,-5,-0.05,0.08992935717105865,0,1,False
+Student-only,student_only,343,b01,0->1,Near,141,146,1,-4,-0.04,0.19216421246528625,0,1,False
+Student-only,student_only,343,b01,0->1,Near,141,146,2,-3,-0.03,0.1616688221693039,0,1,False
+Student-only,student_only,343,b01,0->1,Near,141,146,3,-2,-0.02,0.19722428917884827,0,1,False
+Student-only,student_only,343,b01,0->1,Near,141,146,4,-1,-0.01,0.35901331901550293,0,1,False
+Student-only,student_only,151,b01,0->1,Near,140,145,0,-5,-0.05,0.08329515159130096,0,1,False
+Student-only,student_only,151,b01,0->1,Near,140,145,1,-4,-0.04,0.21613535284996033,0,1,False
+Student-only,student_only,151,b01,0->1,Near,140,145,2,-3,-0.03,0.17984548211097717,0,1,False
+Student-only,student_only,151,b01,0->1,Near,140,145,3,-2,-0.02,0.151310533285141,0,1,False
+Student-only,student_only,151,b01,0->1,Near,140,145,4,-1,-0.01,0.36941349506378174,0,1,False
+Student-only,student_only,215,c01,0->1,Near,25,30,0,-5,-0.05,0.12264925241470337,0,0,True
+Student-only,student_only,215,c01,0->1,Near,25,30,1,-4,-0.04,0.2581063508987427,0,0,True
+Student-only,student_only,215,c01,0->1,Near,25,30,2,-3,-0.03,0.17247584462165833,0,0,True
+Student-only,student_only,215,c01,0->1,Near,25,30,3,-2,-0.02,0.23705783486366272,0,0,True
+Student-only,student_only,215,c01,0->1,Near,25,30,4,-1,-0.01,0.2097107619047165,0,0,True
+Student-only,student_only,346,a01,0->1,Near,100,105,0,-5,-0.05,0.12394924461841583,0,0,True
+Student-only,student_only,346,a01,0->1,Near,100,105,1,-4,-0.04,0.13190481066703796,0,0,True
+Student-only,student_only,346,a01,0->1,Near,100,105,2,-3,-0.03,0.15311798453330994,0,0,True
+Student-only,student_only,346,a01,0->1,Near,100,105,3,-2,-0.02,0.16301290690898895,0,0,True
+Student-only,student_only,346,a01,0->1,Near,100,105,4,-1,-0.01,0.4280150532722473,0,0,True
+Student-only,student_only,17,a01,0->1,Near,99,104,0,-5,-0.05,0.10312111675739288,0,0,True
+Student-only,student_only,17,a01,0->1,Near,99,104,1,-4,-0.04,0.18321561813354492,0,0,True
+Student-only,student_only,17,a01,0->1,Near,99,104,2,-3,-0.03,0.1121024340391159,0,0,True
+Student-only,student_only,17,a01,0->1,Near,99,104,3,-2,-0.02,0.19424428045749664,0,0,True
+Student-only,student_only,17,a01,0->1,Near,99,104,4,-1,-0.01,0.4073165953159332,0,0,True
+Student-only,student_only,270,b01,0->1,Near,139,144,0,-5,-0.05,0.11241908371448517,0,1,False
+Student-only,student_only,270,b01,0->1,Near,139,144,1,-4,-0.04,0.13992592692375183,0,1,False
+Student-only,student_only,270,b01,0->1,Near,139,144,2,-3,-0.03,0.1585894674062729,0,1,False
+Student-only,student_only,270,b01,0->1,Near,139,144,3,-2,-0.02,0.13178467750549316,0,1,False
+Student-only,student_only,270,b01,0->1,Near,139,144,4,-1,-0.01,0.45728087425231934,0,1,False
+Student-only,student_only,53,c02,1->2,Near,107,112,0,-5,-0.05,0.043330151587724686,1,2,False
+Student-only,student_only,53,c02,1->2,Near,107,112,1,-4,-0.04,0.10749229043722153,1,2,False
+Student-only,student_only,53,c02,1->2,Near,107,112,2,-3,-0.03,0.23954471945762634,1,2,False
+Student-only,student_only,53,c02,1->2,Near,107,112,3,-2,-0.02,0.15422283113002777,1,2,False
+Student-only,student_only,53,c02,1->2,Near,107,112,4,-1,-0.01,0.4554100036621094,1,2,False
+Student-only,student_only,131,c01,1->2,Near,149,154,0,-5,-0.05,0.12398985773324966,1,2,False
+Student-only,student_only,131,c01,1->2,Near,149,154,1,-4,-0.04,0.16017021238803864,1,2,False
+Student-only,student_only,131,c01,1->2,Near,149,154,2,-3,-0.03,0.22378447651863098,1,2,False
+Student-only,student_only,131,c01,1->2,Near,149,154,3,-2,-0.02,0.16116079688072205,1,2,False
+Student-only,student_only,131,c01,1->2,Near,149,154,4,-1,-0.01,0.3308946490287781,1,2,False
+Student-only,student_only,263,a01,1->2,Near,220,225,0,-5,-0.05,0.14270535111427307,1,1,True
+Student-only,student_only,263,a01,1->2,Near,220,225,1,-4,-0.04,0.15957123041152954,1,1,True
+Student-only,student_only,263,a01,1->2,Near,220,225,2,-3,-0.03,0.20158196985721588,1,1,True
+Student-only,student_only,263,a01,1->2,Near,220,225,3,-2,-0.02,0.24305319786071777,1,1,True
+Student-only,student_only,263,a01,1->2,Near,220,225,4,-1,-0.01,0.25308817625045776,1,1,True
+Student-only,student_only,268,b01,1->2,Near,286,291,0,-5,-0.05,0.12806233763694763,1,1,True
+Student-only,student_only,268,b01,1->2,Near,286,291,1,-4,-0.04,0.19548048079013824,1,1,True
+Student-only,student_only,268,b01,1->2,Near,286,291,2,-3,-0.03,0.19333571195602417,1,1,True
+Student-only,student_only,268,b01,1->2,Near,286,291,3,-2,-0.02,0.1465439349412918,1,1,True
+Student-only,student_only,268,b01,1->2,Near,286,291,4,-1,-0.01,0.33657750487327576,1,1,True
+Student-only,student_only,21,b01,1->2,Near,285,290,0,-5,-0.05,0.16654399037361145,1,1,True
+Student-only,student_only,21,b01,1->2,Near,285,290,1,-4,-0.04,0.17912769317626953,1,1,True
+Student-only,student_only,21,b01,1->2,Near,285,290,2,-3,-0.03,0.16847950220108032,1,1,True
+Student-only,student_only,21,b01,1->2,Near,285,290,3,-2,-0.02,0.1807994544506073,1,1,True
+Student-only,student_only,21,b01,1->2,Near,285,290,4,-1,-0.01,0.3050493896007538,1,1,True
+Student-only,student_only,63,a01,1->2,Near,219,224,0,-5,-0.05,0.07862194627523422,1,1,True
+Student-only,student_only,63,a01,1->2,Near,219,224,1,-4,-0.04,0.19189795851707458,1,1,True
+Student-only,student_only,63,a01,1->2,Near,219,224,2,-3,-0.03,0.19260291755199432,1,1,True
+Student-only,student_only,63,a01,1->2,Near,219,224,3,-2,-0.02,0.22227665781974792,1,1,True
+Student-only,student_only,63,a01,1->2,Near,219,224,4,-1,-0.01,0.31460055708885193,1,1,True
+Student-only,student_only,122,c01,1->2,Near,148,153,0,-5,-0.05,0.08844199031591415,1,2,False
+Student-only,student_only,122,c01,1->2,Near,148,153,1,-4,-0.04,0.16801118850708008,1,2,False
+Student-only,student_only,122,c01,1->2,Near,148,153,2,-3,-0.03,0.16844837367534637,1,2,False
+Student-only,student_only,122,c01,1->2,Near,148,153,3,-2,-0.02,0.1778026819229126,1,2,False
+Student-only,student_only,122,c01,1->2,Near,148,153,4,-1,-0.01,0.3972957730293274,1,2,False
+Student-only,student_only,148,a01,1->2,Near,218,223,0,-5,-0.05,0.10589256137609482,1,1,True
+Student-only,student_only,148,a01,1->2,Near,218,223,1,-4,-0.04,0.18903140723705292,1,1,True
+Student-only,student_only,148,a01,1->2,Near,218,223,2,-3,-0.03,0.16612428426742554,1,1,True
+Student-only,student_only,148,a01,1->2,Near,218,223,3,-2,-0.02,0.17306561768054962,1,1,True
+Student-only,student_only,148,a01,1->2,Near,218,223,4,-1,-0.01,0.3658861219882965,1,1,True
+Student-only,student_only,282,b01,1->2,Near,284,289,0,-5,-0.05,0.14948353171348572,1,2,False
+Student-only,student_only,282,b01,1->2,Near,284,289,1,-4,-0.04,0.21910692751407623,1,2,False
+Student-only,student_only,282,b01,1->2,Near,284,289,2,-3,-0.03,0.08473046123981476,1,2,False
+Student-only,student_only,282,b01,1->2,Near,284,289,3,-2,-0.02,0.12201645225286484,1,2,False
+Student-only,student_only,282,b01,1->2,Near,284,289,4,-1,-0.01,0.42466261982917786,1,2,False
+Student-only,student_only,289,c01,1->2,Near,147,152,0,-5,-0.05,0.11114267259836197,1,1,True
+Student-only,student_only,289,c01,1->2,Near,147,152,1,-4,-0.04,0.15140573680400848,1,1,True
+Student-only,student_only,289,c01,1->2,Near,147,152,2,-3,-0.03,0.16209052503108978,1,1,True
+Student-only,student_only,289,c01,1->2,Near,147,152,3,-2,-0.02,0.19020164012908936,1,1,True
+Student-only,student_only,289,c01,1->2,Near,147,152,4,-1,-0.01,0.3851594030857086,1,1,True
+Student-only,student_only,127,b01,1->2,Near,283,288,0,-5,-0.05,0.0976395532488823,1,2,False
+Student-only,student_only,127,b01,1->2,Near,283,288,1,-4,-0.04,0.28450578451156616,1,2,False
+Student-only,student_only,127,b01,1->2,Near,283,288,2,-3,-0.03,0.158986434340477,1,2,False
+Student-only,student_only,127,b01,1->2,Near,283,288,3,-2,-0.02,0.08106597512960434,1,2,False
+Student-only,student_only,127,b01,1->2,Near,283,288,4,-1,-0.01,0.3778022527694702,1,2,False
+Student-only,student_only,236,a01,1->2,Near,217,222,0,-5,-0.05,0.0932145044207573,1,1,True
+Student-only,student_only,236,a01,1->2,Near,217,222,1,-4,-0.04,0.14470672607421875,1,1,True
+Student-only,student_only,236,a01,1->2,Near,217,222,2,-3,-0.03,0.18635398149490356,1,1,True
+Student-only,student_only,236,a01,1->2,Near,217,222,3,-2,-0.02,0.20057189464569092,1,1,True
+Student-only,student_only,236,a01,1->2,Near,217,222,4,-1,-0.01,0.3751528561115265,1,1,True
+Student-only,student_only,273,c01,1->2,Near,146,151,0,-5,-0.05,0.10147623717784882,1,2,False
+Student-only,student_only,273,c01,1->2,Near,146,151,1,-4,-0.04,0.18144206702709198,1,2,False
+Student-only,student_only,273,c01,1->2,Near,146,151,2,-3,-0.03,0.1455347090959549,1,2,False
+Student-only,student_only,273,c01,1->2,Near,146,151,3,-2,-0.02,0.1795724481344223,1,2,False
+Student-only,student_only,273,c01,1->2,Near,146,151,4,-1,-0.01,0.391974538564682,1,2,False
+Student-only,student_only,79,b01,1->2,Near,282,287,0,-5,-0.05,0.15052376687526703,1,2,False
+Student-only,student_only,79,b01,1->2,Near,282,287,1,-4,-0.04,0.22155387699604034,1,2,False
+Student-only,student_only,79,b01,1->2,Near,282,287,2,-3,-0.03,0.28327006101608276,1,2,False
+Student-only,student_only,79,b01,1->2,Near,282,287,3,-2,-0.02,0.1691291481256485,1,2,False
+Student-only,student_only,79,b01,1->2,Near,282,287,4,-1,-0.01,0.17552319169044495,1,2,False
+Student-only,student_only,169,a01,1->2,Near,216,221,0,-5,-0.05,0.08964988589286804,1,1,True
+Student-only,student_only,169,a01,1->2,Near,216,221,1,-4,-0.04,0.16927307844161987,1,1,True
+Student-only,student_only,169,a01,1->2,Near,216,221,2,-3,-0.03,0.1782599836587906,1,1,True
+Student-only,student_only,169,a01,1->2,Near,216,221,3,-2,-0.02,0.1895730346441269,1,1,True
+Student-only,student_only,169,a01,1->2,Near,216,221,4,-1,-0.01,0.3732440173625946,1,1,True
+Student-only,student_only,350,c01,1->2,Near,145,150,0,-5,-0.05,0.09006544202566147,1,2,False
+Student-only,student_only,350,c01,1->2,Near,145,150,1,-4,-0.04,0.1660592406988144,1,2,False
+Student-only,student_only,350,c01,1->2,Near,145,150,2,-3,-0.03,0.17745381593704224,1,2,False
+Student-only,student_only,350,c01,1->2,Near,145,150,3,-2,-0.02,0.15606427192687988,1,2,False
+Student-only,student_only,350,c01,1->2,Near,145,150,4,-1,-0.01,0.4103572368621826,1,2,False
+SEAL-Weld Student,seal_weld_student,9,c02,0->1,Near,84,89,0,-5,-0.05,0.21454301476478577,0,1,False
+SEAL-Weld Student,seal_weld_student,9,c02,0->1,Near,84,89,1,-4,-0.04,0.22801434993743896,0,1,False
+SEAL-Weld Student,seal_weld_student,9,c02,0->1,Near,84,89,2,-3,-0.03,0.1689719259738922,0,1,False
+SEAL-Weld Student,seal_weld_student,9,c02,0->1,Near,84,89,3,-2,-0.02,0.20708084106445312,0,1,False
+SEAL-Weld Student,seal_weld_student,9,c02,0->1,Near,84,89,4,-1,-0.01,0.18138989806175232,0,1,False
+SEAL-Weld Student,seal_weld_student,42,a01,0->1,Near,103,108,0,-5,-0.05,0.19817864894866943,0,0,True
+SEAL-Weld Student,seal_weld_student,42,a01,0->1,Near,103,108,1,-4,-0.04,0.20916888117790222,0,0,True
+SEAL-Weld Student,seal_weld_student,42,a01,0->1,Near,103,108,2,-3,-0.03,0.1872130185365677,0,0,True
+SEAL-Weld Student,seal_weld_student,42,a01,0->1,Near,103,108,3,-2,-0.02,0.21100342273712158,0,0,True
+SEAL-Weld Student,seal_weld_student,42,a01,0->1,Near,103,108,4,-1,-0.01,0.19443601369857788,0,0,True
+SEAL-Weld Student,seal_weld_student,120,b01,0->1,Near,143,148,0,-5,-0.05,0.2166690081357956,0,1,False
+SEAL-Weld Student,seal_weld_student,120,b01,0->1,Near,143,148,1,-4,-0.04,0.20376689732074738,0,1,False
+SEAL-Weld Student,seal_weld_student,120,b01,0->1,Near,143,148,2,-3,-0.03,0.1991354078054428,0,1,False
+SEAL-Weld Student,seal_weld_student,120,b01,0->1,Near,143,148,3,-2,-0.02,0.20176224410533905,0,1,False
+SEAL-Weld Student,seal_weld_student,120,b01,0->1,Near,143,148,4,-1,-0.01,0.17866642773151398,0,1,False
+SEAL-Weld Student,seal_weld_student,249,c01,0->1,Near,28,33,0,-5,-0.05,0.2068781852722168,0,0,True
+SEAL-Weld Student,seal_weld_student,249,c01,0->1,Near,28,33,1,-4,-0.04,0.1808980107307434,0,0,True
+SEAL-Weld Student,seal_weld_student,249,c01,0->1,Near,28,33,2,-3,-0.03,0.1876959353685379,0,0,True
+SEAL-Weld Student,seal_weld_student,249,c01,0->1,Near,28,33,3,-2,-0.02,0.20396089553833008,0,0,True
+SEAL-Weld Student,seal_weld_student,249,c01,0->1,Near,28,33,4,-1,-0.01,0.22056695818901062,0,0,True
+SEAL-Weld Student,seal_weld_student,114,b01,0->1,Near,142,147,0,-5,-0.05,0.20053410530090332,0,0,True
+SEAL-Weld Student,seal_weld_student,114,b01,0->1,Near,142,147,1,-4,-0.04,0.19427640736103058,0,0,True
+SEAL-Weld Student,seal_weld_student,114,b01,0->1,Near,142,147,2,-3,-0.03,0.1956353634595871,0,0,True
+SEAL-Weld Student,seal_weld_student,114,b01,0->1,Near,142,147,3,-2,-0.02,0.21987605094909668,0,0,True
+SEAL-Weld Student,seal_weld_student,114,b01,0->1,Near,142,147,4,-1,-0.01,0.1896781027317047,0,0,True
+SEAL-Weld Student,seal_weld_student,189,c01,0->1,Near,27,32,0,-5,-0.05,0.18392516672611237,0,0,True
+SEAL-Weld Student,seal_weld_student,189,c01,0->1,Near,27,32,1,-4,-0.04,0.1842561513185501,0,0,True
+SEAL-Weld Student,seal_weld_student,189,c01,0->1,Near,27,32,2,-3,-0.03,0.19061514735221863,0,0,True
+SEAL-Weld Student,seal_weld_student,189,c01,0->1,Near,27,32,3,-2,-0.02,0.23210792243480682,0,0,True
+SEAL-Weld Student,seal_weld_student,189,c01,0->1,Near,27,32,4,-1,-0.01,0.20909562706947327,0,0,True
+SEAL-Weld Student,seal_weld_student,247,a01,0->1,Near,102,107,0,-5,-0.05,0.22114798426628113,0,0,True
+SEAL-Weld Student,seal_weld_student,247,a01,0->1,Near,102,107,1,-4,-0.04,0.19192880392074585,0,0,True
+SEAL-Weld Student,seal_weld_student,247,a01,0->1,Near,102,107,2,-3,-0.03,0.19548651576042175,0,0,True
+SEAL-Weld Student,seal_weld_student,247,a01,0->1,Near,102,107,3,-2,-0.02,0.19296079874038696,0,0,True
+SEAL-Weld Student,seal_weld_student,247,a01,0->1,Near,102,107,4,-1,-0.01,0.1984759122133255,0,0,True
+SEAL-Weld Student,seal_weld_student,286,c02,0->1,Near,83,88,0,-5,-0.05,0.2137448787689209,0,0,True
+SEAL-Weld Student,seal_weld_student,286,c02,0->1,Near,83,88,1,-4,-0.04,0.208296537399292,0,0,True
+SEAL-Weld Student,seal_weld_student,286,c02,0->1,Near,83,88,2,-3,-0.03,0.2053128480911255,0,0,True
+SEAL-Weld Student,seal_weld_student,286,c02,0->1,Near,83,88,3,-2,-0.02,0.2036096155643463,0,0,True
+SEAL-Weld Student,seal_weld_student,286,c02,0->1,Near,83,88,4,-1,-0.01,0.16903619468212128,0,0,True
+SEAL-Weld Student,seal_weld_student,121,a01,0->1,Near,101,106,0,-5,-0.05,0.22210271656513214,0,0,True
+SEAL-Weld Student,seal_weld_student,121,a01,0->1,Near,101,106,1,-4,-0.04,0.22058868408203125,0,0,True
+SEAL-Weld Student,seal_weld_student,121,a01,0->1,Near,101,106,2,-3,-0.03,0.17476682364940643,0,0,True
+SEAL-Weld Student,seal_weld_student,121,a01,0->1,Near,101,106,3,-2,-0.02,0.21352237462997437,0,0,True
+SEAL-Weld Student,seal_weld_student,121,a01,0->1,Near,101,106,4,-1,-0.01,0.16901950538158417,0,0,True
+SEAL-Weld Student,seal_weld_student,132,c02,0->1,Near,82,87,0,-5,-0.05,0.20383068919181824,0,1,False
+SEAL-Weld Student,seal_weld_student,132,c02,0->1,Near,82,87,1,-4,-0.04,0.19810280203819275,0,1,False
+SEAL-Weld Student,seal_weld_student,132,c02,0->1,Near,82,87,2,-3,-0.03,0.1903049349784851,0,1,False
+SEAL-Weld Student,seal_weld_student,132,c02,0->1,Near,82,87,3,-2,-0.02,0.22411493957042694,0,1,False
+SEAL-Weld Student,seal_weld_student,132,c02,0->1,Near,82,87,4,-1,-0.01,0.18364663422107697,0,1,False
+SEAL-Weld Student,seal_weld_student,343,b01,0->1,Near,141,146,0,-5,-0.05,0.20478864014148712,0,0,True
+SEAL-Weld Student,seal_weld_student,343,b01,0->1,Near,141,146,1,-4,-0.04,0.18486425280570984,0,0,True
+SEAL-Weld Student,seal_weld_student,343,b01,0->1,Near,141,146,2,-3,-0.03,0.20632191002368927,0,0,True
+SEAL-Weld Student,seal_weld_student,343,b01,0->1,Near,141,146,3,-2,-0.02,0.208126038312912,0,0,True
+SEAL-Weld Student,seal_weld_student,343,b01,0->1,Near,141,146,4,-1,-0.01,0.19589918851852417,0,0,True
+SEAL-Weld Student,seal_weld_student,151,b01,0->1,Near,140,145,0,-5,-0.05,0.1909288465976715,0,0,True
+SEAL-Weld Student,seal_weld_student,151,b01,0->1,Near,140,145,1,-4,-0.04,0.2383972406387329,0,0,True
+SEAL-Weld Student,seal_weld_student,151,b01,0->1,Near,140,145,2,-3,-0.03,0.16681762039661407,0,0,True
+SEAL-Weld Student,seal_weld_student,151,b01,0->1,Near,140,145,3,-2,-0.02,0.22084584832191467,0,0,True
+SEAL-Weld Student,seal_weld_student,151,b01,0->1,Near,140,145,4,-1,-0.01,0.18301047384738922,0,0,True
+SEAL-Weld Student,seal_weld_student,215,c01,0->1,Near,25,30,0,-5,-0.05,0.2064705789089203,0,0,True
+SEAL-Weld Student,seal_weld_student,215,c01,0->1,Near,25,30,1,-4,-0.04,0.1945447474718094,0,0,True
+SEAL-Weld Student,seal_weld_student,215,c01,0->1,Near,25,30,2,-3,-0.03,0.17508944869041443,0,0,True
+SEAL-Weld Student,seal_weld_student,215,c01,0->1,Near,25,30,3,-2,-0.02,0.2016439437866211,0,0,True
+SEAL-Weld Student,seal_weld_student,215,c01,0->1,Near,25,30,4,-1,-0.01,0.22225132584571838,0,0,True
+SEAL-Weld Student,seal_weld_student,346,a01,0->1,Near,100,105,0,-5,-0.05,0.24460895359516144,0,0,True
+SEAL-Weld Student,seal_weld_student,346,a01,0->1,Near,100,105,1,-4,-0.04,0.18974773585796356,0,0,True
+SEAL-Weld Student,seal_weld_student,346,a01,0->1,Near,100,105,2,-3,-0.03,0.196015402674675,0,0,True
+SEAL-Weld Student,seal_weld_student,346,a01,0->1,Near,100,105,3,-2,-0.02,0.18276704847812653,0,0,True
+SEAL-Weld Student,seal_weld_student,346,a01,0->1,Near,100,105,4,-1,-0.01,0.1868608295917511,0,0,True
+SEAL-Weld Student,seal_weld_student,17,a01,0->1,Near,99,104,0,-5,-0.05,0.24816486239433289,0,0,True
+SEAL-Weld Student,seal_weld_student,17,a01,0->1,Near,99,104,1,-4,-0.04,0.24730531871318817,0,0,True
+SEAL-Weld Student,seal_weld_student,17,a01,0->1,Near,99,104,2,-3,-0.03,0.17479060590267181,0,0,True
+SEAL-Weld Student,seal_weld_student,17,a01,0->1,Near,99,104,3,-2,-0.02,0.1901206225156784,0,0,True
+SEAL-Weld Student,seal_weld_student,17,a01,0->1,Near,99,104,4,-1,-0.01,0.13961859047412872,0,0,True
+SEAL-Weld Student,seal_weld_student,270,b01,0->1,Near,139,144,0,-5,-0.05,0.24117664992809296,0,0,True
+SEAL-Weld Student,seal_weld_student,270,b01,0->1,Near,139,144,1,-4,-0.04,0.2023073136806488,0,0,True
+SEAL-Weld Student,seal_weld_student,270,b01,0->1,Near,139,144,2,-3,-0.03,0.17400719225406647,0,0,True
+SEAL-Weld Student,seal_weld_student,270,b01,0->1,Near,139,144,3,-2,-0.02,0.19928427040576935,0,0,True
+SEAL-Weld Student,seal_weld_student,270,b01,0->1,Near,139,144,4,-1,-0.01,0.1832246482372284,0,0,True
+SEAL-Weld Student,seal_weld_student,53,c02,1->2,Near,107,112,0,-5,-0.05,0.1650143265724182,1,1,True
+SEAL-Weld Student,seal_weld_student,53,c02,1->2,Near,107,112,1,-4,-0.04,0.21946406364440918,1,1,True
+SEAL-Weld Student,seal_weld_student,53,c02,1->2,Near,107,112,2,-3,-0.03,0.23216360807418823,1,1,True
+SEAL-Weld Student,seal_weld_student,53,c02,1->2,Near,107,112,3,-2,-0.02,0.1891288161277771,1,1,True
+SEAL-Weld Student,seal_weld_student,53,c02,1->2,Near,107,112,4,-1,-0.01,0.19422906637191772,1,1,True
+SEAL-Weld Student,seal_weld_student,131,c01,1->2,Near,149,154,0,-5,-0.05,0.20810195803642273,1,1,True
+SEAL-Weld Student,seal_weld_student,131,c01,1->2,Near,149,154,1,-4,-0.04,0.20590153336524963,1,1,True
+SEAL-Weld Student,seal_weld_student,131,c01,1->2,Near,149,154,2,-3,-0.03,0.1825946569442749,1,1,True
+SEAL-Weld Student,seal_weld_student,131,c01,1->2,Near,149,154,3,-2,-0.02,0.20176370441913605,1,1,True
+SEAL-Weld Student,seal_weld_student,131,c01,1->2,Near,149,154,4,-1,-0.01,0.2016381323337555,1,1,True
+SEAL-Weld Student,seal_weld_student,263,a01,1->2,Near,220,225,0,-5,-0.05,0.18196424841880798,1,1,True
+SEAL-Weld Student,seal_weld_student,263,a01,1->2,Near,220,225,1,-4,-0.04,0.2090652734041214,1,1,True
+SEAL-Weld Student,seal_weld_student,263,a01,1->2,Near,220,225,2,-3,-0.03,0.19040276110172272,1,1,True
+SEAL-Weld Student,seal_weld_student,263,a01,1->2,Near,220,225,3,-2,-0.02,0.21734218299388885,1,1,True
+SEAL-Weld Student,seal_weld_student,263,a01,1->2,Near,220,225,4,-1,-0.01,0.20122556388378143,1,1,True
+SEAL-Weld Student,seal_weld_student,268,b01,1->2,Near,286,291,0,-5,-0.05,0.2474924623966217,1,1,True
+SEAL-Weld Student,seal_weld_student,268,b01,1->2,Near,286,291,1,-4,-0.04,0.18236282467842102,1,1,True
+SEAL-Weld Student,seal_weld_student,268,b01,1->2,Near,286,291,2,-3,-0.03,0.19181470572948456,1,1,True
+SEAL-Weld Student,seal_weld_student,268,b01,1->2,Near,286,291,3,-2,-0.02,0.19895349442958832,1,1,True
+SEAL-Weld Student,seal_weld_student,268,b01,1->2,Near,286,291,4,-1,-0.01,0.17937645316123962,1,1,True
+SEAL-Weld Student,seal_weld_student,21,b01,1->2,Near,285,290,0,-5,-0.05,0.21643057465553284,1,1,True
+SEAL-Weld Student,seal_weld_student,21,b01,1->2,Near,285,290,1,-4,-0.04,0.22020724415779114,1,1,True
+SEAL-Weld Student,seal_weld_student,21,b01,1->2,Near,285,290,2,-3,-0.03,0.16181015968322754,1,1,True
+SEAL-Weld Student,seal_weld_student,21,b01,1->2,Near,285,290,3,-2,-0.02,0.19376614689826965,1,1,True
+SEAL-Weld Student,seal_weld_student,21,b01,1->2,Near,285,290,4,-1,-0.01,0.20778584480285645,1,1,True
+SEAL-Weld Student,seal_weld_student,63,a01,1->2,Near,219,224,0,-5,-0.05,0.22708041965961456,1,1,True
+SEAL-Weld Student,seal_weld_student,63,a01,1->2,Near,219,224,1,-4,-0.04,0.18411068618297577,1,1,True
+SEAL-Weld Student,seal_weld_student,63,a01,1->2,Near,219,224,2,-3,-0.03,0.19828061759471893,1,1,True
+SEAL-Weld Student,seal_weld_student,63,a01,1->2,Near,219,224,3,-2,-0.02,0.19847941398620605,1,1,True
+SEAL-Weld Student,seal_weld_student,63,a01,1->2,Near,219,224,4,-1,-0.01,0.1920488327741623,1,1,True
+SEAL-Weld Student,seal_weld_student,122,c01,1->2,Near,148,153,0,-5,-0.05,0.1904982030391693,1,1,True
+SEAL-Weld Student,seal_weld_student,122,c01,1->2,Near,148,153,1,-4,-0.04,0.2160099744796753,1,1,True
+SEAL-Weld Student,seal_weld_student,122,c01,1->2,Near,148,153,2,-3,-0.03,0.19307349622249603,1,1,True
+SEAL-Weld Student,seal_weld_student,122,c01,1->2,Near,148,153,3,-2,-0.02,0.20687249302864075,1,1,True
+SEAL-Weld Student,seal_weld_student,122,c01,1->2,Near,148,153,4,-1,-0.01,0.1935458481311798,1,1,True
+SEAL-Weld Student,seal_weld_student,148,a01,1->2,Near,218,223,0,-5,-0.05,0.18916574120521545,1,1,True
+SEAL-Weld Student,seal_weld_student,148,a01,1->2,Near,218,223,1,-4,-0.04,0.20209303498268127,1,1,True
+SEAL-Weld Student,seal_weld_student,148,a01,1->2,Near,218,223,2,-3,-0.03,0.16912248730659485,1,1,True
+SEAL-Weld Student,seal_weld_student,148,a01,1->2,Near,218,223,3,-2,-0.02,0.22934040427207947,1,1,True
+SEAL-Weld Student,seal_weld_student,148,a01,1->2,Near,218,223,4,-1,-0.01,0.21027830243110657,1,1,True
+SEAL-Weld Student,seal_weld_student,282,b01,1->2,Near,284,289,0,-5,-0.05,0.1626398116350174,1,1,True
+SEAL-Weld Student,seal_weld_student,282,b01,1->2,Near,284,289,1,-4,-0.04,0.17861875891685486,1,1,True
+SEAL-Weld Student,seal_weld_student,282,b01,1->2,Near,284,289,2,-3,-0.03,0.18203940987586975,1,1,True
+SEAL-Weld Student,seal_weld_student,282,b01,1->2,Near,284,289,3,-2,-0.02,0.13812999427318573,1,1,True
+SEAL-Weld Student,seal_weld_student,282,b01,1->2,Near,284,289,4,-1,-0.01,0.33857211470603943,1,1,True
+SEAL-Weld Student,seal_weld_student,289,c01,1->2,Near,147,152,0,-5,-0.05,0.180890291929245,1,1,True
+SEAL-Weld Student,seal_weld_student,289,c01,1->2,Near,147,152,1,-4,-0.04,0.18797069787979126,1,1,True
+SEAL-Weld Student,seal_weld_student,289,c01,1->2,Near,147,152,2,-3,-0.03,0.1953382045030594,1,1,True
+SEAL-Weld Student,seal_weld_student,289,c01,1->2,Near,147,152,3,-2,-0.02,0.23013536632061005,1,1,True
+SEAL-Weld Student,seal_weld_student,289,c01,1->2,Near,147,152,4,-1,-0.01,0.2056654393672943,1,1,True
+SEAL-Weld Student,seal_weld_student,127,b01,1->2,Near,283,288,0,-5,-0.05,0.15890809893608093,1,1,True
+SEAL-Weld Student,seal_weld_student,127,b01,1->2,Near,283,288,1,-4,-0.04,0.23117487132549286,1,1,True
+SEAL-Weld Student,seal_weld_student,127,b01,1->2,Near,283,288,2,-3,-0.03,0.18055099248886108,1,1,True
+SEAL-Weld Student,seal_weld_student,127,b01,1->2,Near,283,288,3,-2,-0.02,0.261042982339859,1,1,True
+SEAL-Weld Student,seal_weld_student,127,b01,1->2,Near,283,288,4,-1,-0.01,0.1683230698108673,1,1,True
+SEAL-Weld Student,seal_weld_student,236,a01,1->2,Near,217,222,0,-5,-0.05,0.2516389787197113,1,1,True
+SEAL-Weld Student,seal_weld_student,236,a01,1->2,Near,217,222,1,-4,-0.04,0.19899743795394897,1,1,True
+SEAL-Weld Student,seal_weld_student,236,a01,1->2,Near,217,222,2,-3,-0.03,0.19021445512771606,1,1,True
+SEAL-Weld Student,seal_weld_student,236,a01,1->2,Near,217,222,3,-2,-0.02,0.1846126914024353,1,1,True
+SEAL-Weld Student,seal_weld_student,236,a01,1->2,Near,217,222,4,-1,-0.01,0.17453645169734955,1,1,True
+SEAL-Weld Student,seal_weld_student,273,c01,1->2,Near,146,151,0,-5,-0.05,0.23280194401741028,1,1,True
+SEAL-Weld Student,seal_weld_student,273,c01,1->2,Near,146,151,1,-4,-0.04,0.20254404842853546,1,1,True
+SEAL-Weld Student,seal_weld_student,273,c01,1->2,Near,146,151,2,-3,-0.03,0.17239229381084442,1,1,True
+SEAL-Weld Student,seal_weld_student,273,c01,1->2,Near,146,151,3,-2,-0.02,0.1997874230146408,1,1,True
+SEAL-Weld Student,seal_weld_student,273,c01,1->2,Near,146,151,4,-1,-0.01,0.19247424602508545,1,1,True
+SEAL-Weld Student,seal_weld_student,79,b01,1->2,Near,282,287,0,-5,-0.05,0.2147202491760254,1,1,True
+SEAL-Weld Student,seal_weld_student,79,b01,1->2,Near,282,287,1,-4,-0.04,0.1821514368057251,1,1,True
+SEAL-Weld Student,seal_weld_student,79,b01,1->2,Near,282,287,2,-3,-0.03,0.185903400182724,1,1,True
+SEAL-Weld Student,seal_weld_student,79,b01,1->2,Near,282,287,3,-2,-0.02,0.17863181233406067,1,1,True
+SEAL-Weld Student,seal_weld_student,79,b01,1->2,Near,282,287,4,-1,-0.01,0.23859307169914246,1,1,True
+SEAL-Weld Student,seal_weld_student,169,a01,1->2,Near,216,221,0,-5,-0.05,0.16599151492118835,1,1,True
+SEAL-Weld Student,seal_weld_student,169,a01,1->2,Near,216,221,1,-4,-0.04,0.2182399481534958,1,1,True
+SEAL-Weld Student,seal_weld_student,169,a01,1->2,Near,216,221,2,-3,-0.03,0.1764083057641983,1,1,True
+SEAL-Weld Student,seal_weld_student,169,a01,1->2,Near,216,221,3,-2,-0.02,0.23047113418579102,1,1,True
+SEAL-Weld Student,seal_weld_student,169,a01,1->2,Near,216,221,4,-1,-0.01,0.2088891565799713,1,1,True
+SEAL-Weld Student,seal_weld_student,350,c01,1->2,Near,145,150,0,-5,-0.05,0.2059991955757141,1,1,True
+SEAL-Weld Student,seal_weld_student,350,c01,1->2,Near,145,150,1,-4,-0.04,0.24328099191188812,1,1,True
+SEAL-Weld Student,seal_weld_student,350,c01,1->2,Near,145,150,2,-3,-0.03,0.19349417090415955,1,1,True
+SEAL-Weld Student,seal_weld_student,350,c01,1->2,Near,145,150,3,-2,-0.02,0.192989781498909,1,1,True
+SEAL-Weld Student,seal_weld_student,350,c01,1->2,Near,145,150,4,-1,-0.01,0.1642358899116516,1,1,True

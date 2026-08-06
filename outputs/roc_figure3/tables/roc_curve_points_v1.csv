@@ -1,0 +1,998 @@
+method_name,method_slug,roc_view,fpr,tpr
+teacher-student(student),teacher_student_student,S0 vs rest,0.00000000,0.00000000
+teacher-student(student),teacher_student_student,S0 vs rest,0.00000000,0.01282051
+teacher-student(student),teacher_student_student,S0 vs rest,0.00000000,1.00000000
+teacher-student(student),teacher_student_student,S0 vs rest,1.00000000,1.00000000
+teacher-student(student),teacher_student_student,S1 vs rest,0.00000000,0.00000000
+teacher-student(student),teacher_student_student,S1 vs rest,0.00000000,0.01204819
+teacher-student(student),teacher_student_student,S1 vs rest,0.00000000,0.78313253
+teacher-student(student),teacher_student_student,S1 vs rest,0.00366300,0.78313253
+teacher-student(student),teacher_student_student,S1 vs rest,0.00366300,0.84337349
+teacher-student(student),teacher_student_student,S1 vs rest,0.00732601,0.84337349
+teacher-student(student),teacher_student_student,S1 vs rest,0.00732601,0.86746988
+teacher-student(student),teacher_student_student,S1 vs rest,0.01098901,0.86746988
+teacher-student(student),teacher_student_student,S1 vs rest,0.01098901,0.91566265
+teacher-student(student),teacher_student_student,S1 vs rest,0.01831502,0.91566265
+teacher-student(student),teacher_student_student,S1 vs rest,0.01831502,0.95180723
+teacher-student(student),teacher_student_student,S1 vs rest,0.02564103,0.95180723
+teacher-student(student),teacher_student_student,S1 vs rest,0.02564103,0.97590361
+teacher-student(student),teacher_student_student,S1 vs rest,0.04395604,0.97590361
+teacher-student(student),teacher_student_student,S1 vs rest,0.04395604,0.98795181
+teacher-student(student),teacher_student_student,S1 vs rest,0.06593407,0.98795181
+teacher-student(student),teacher_student_student,S1 vs rest,0.06593407,1.00000000
+teacher-student(student),teacher_student_student,S1 vs rest,1.00000000,1.00000000
+teacher-student(student),teacher_student_student,S2 vs rest,0.00000000,0.00000000
+teacher-student(student),teacher_student_student,S2 vs rest,0.00000000,0.00512821
+teacher-student(student),teacher_student_student,S2 vs rest,0.00000000,1.00000000
+teacher-student(student),teacher_student_student,S2 vs rest,1.00000000,1.00000000
+teacher-student(student),teacher_student_student,micro-average,0.00000000,0.00000000
+teacher-student(student),teacher_student_student,micro-average,0.00000000,0.00280899
+teacher-student(student),teacher_student_student,micro-average,0.00000000,0.90449438
+teacher-student(student),teacher_student_student,micro-average,0.00140449,0.90449438
+teacher-student(student),teacher_student_student,micro-average,0.00140449,0.94382022
+teacher-student(student),teacher_student_student,micro-average,0.00280899,0.94382022
+teacher-student(student),teacher_student_student,micro-average,0.00280899,0.94943820
+teacher-student(student),teacher_student_student,micro-average,0.00421348,0.94943820
+teacher-student(student),teacher_student_student,micro-average,0.00421348,0.97191011
+teacher-student(student),teacher_student_student,micro-average,0.00702247,0.97191011
+teacher-student(student),teacher_student_student,micro-average,0.00702247,0.98314607
+teacher-student(student),teacher_student_student,micro-average,0.00983146,0.98314607
+teacher-student(student),teacher_student_student,micro-average,0.00983146,0.99157303
+teacher-student(student),teacher_student_student,micro-average,0.01404494,0.99157303
+teacher-student(student),teacher_student_student,micro-average,0.01404494,0.99438202
+teacher-student(student),teacher_student_student,micro-average,0.01825843,0.99438202
+teacher-student(student),teacher_student_student,micro-average,0.01825843,0.99719101
+teacher-student(student),teacher_student_student,micro-average,0.02949438,0.99719101
+teacher-student(student),teacher_student_student,micro-average,0.02949438,1.00000000
+teacher-student(student),teacher_student_student,micro-average,1.00000000,1.00000000
+teacher-student(student),teacher_student_student,macro-average,0.00000000,0.92771084
+teacher-student(student),teacher_student_student,macro-average,0.00366300,0.94779116
+teacher-student(student),teacher_student_student,macro-average,0.00732601,0.95582329
+teacher-student(student),teacher_student_student,macro-average,0.01098901,0.97188755
+teacher-student(student),teacher_student_student,macro-average,0.01831502,0.98393574
+teacher-student(student),teacher_student_student,macro-average,0.02564103,0.99196787
+teacher-student(student),teacher_student_student,macro-average,0.04395604,0.99598394
+teacher-student(student),teacher_student_student,macro-average,0.06593407,1.00000000
+teacher-student(student),teacher_student_student,macro-average,1.00000000,1.00000000
+teacher(18D upper bound),teacher_18d_upper_bound,S0 vs rest,0.00000000,0.00000000
+teacher(18D upper bound),teacher_18d_upper_bound,S0 vs rest,0.00000000,0.01282051
+teacher(18D upper bound),teacher_18d_upper_bound,S0 vs rest,0.00000000,0.96153846
+teacher(18D upper bound),teacher_18d_upper_bound,S0 vs rest,0.00359712,0.96153846
+teacher(18D upper bound),teacher_18d_upper_bound,S0 vs rest,0.00359712,1.00000000
+teacher(18D upper bound),teacher_18d_upper_bound,S0 vs rest,1.00000000,1.00000000
+teacher(18D upper bound),teacher_18d_upper_bound,S1 vs rest,0.00000000,0.00000000
+teacher(18D upper bound),teacher_18d_upper_bound,S1 vs rest,0.00000000,0.01204819
+teacher(18D upper bound),teacher_18d_upper_bound,S1 vs rest,0.00000000,0.93975904
+teacher(18D upper bound),teacher_18d_upper_bound,S1 vs rest,0.00366300,0.93975904
+teacher(18D upper bound),teacher_18d_upper_bound,S1 vs rest,0.00366300,0.95180723
+teacher(18D upper bound),teacher_18d_upper_bound,S1 vs rest,0.00732601,0.95180723
+teacher(18D upper bound),teacher_18d_upper_bound,S1 vs rest,0.00732601,0.98795181
+teacher(18D upper bound),teacher_18d_upper_bound,S1 vs rest,0.11355311,0.98795181
+teacher(18D upper bound),teacher_18d_upper_bound,S1 vs rest,0.11355311,1.00000000
+teacher(18D upper bound),teacher_18d_upper_bound,S1 vs rest,1.00000000,1.00000000
+teacher(18D upper bound),teacher_18d_upper_bound,S2 vs rest,0.00000000,0.00000000
+teacher(18D upper bound),teacher_18d_upper_bound,S2 vs rest,0.00000000,0.00512821
+teacher(18D upper bound),teacher_18d_upper_bound,S2 vs rest,0.00000000,1.00000000
+teacher(18D upper bound),teacher_18d_upper_bound,S2 vs rest,1.00000000,1.00000000
+teacher(18D upper bound),teacher_18d_upper_bound,micro-average,0.00000000,0.00000000
+teacher(18D upper bound),teacher_18d_upper_bound,micro-average,0.00000000,0.00280899
+teacher(18D upper bound),teacher_18d_upper_bound,micro-average,0.00000000,0.76966292
+teacher(18D upper bound),teacher_18d_upper_bound,micro-average,0.00140449,0.76966292
+teacher(18D upper bound),teacher_18d_upper_bound,micro-average,0.00140449,0.83988764
+teacher(18D upper bound),teacher_18d_upper_bound,micro-average,0.00280899,0.83988764
+teacher(18D upper bound),teacher_18d_upper_bound,micro-average,0.00280899,0.89606742
+teacher(18D upper bound),teacher_18d_upper_bound,micro-average,0.00421348,0.89606742
+teacher(18D upper bound),teacher_18d_upper_bound,micro-average,0.00421348,0.94382022
+teacher(18D upper bound),teacher_18d_upper_bound,micro-average,0.00561798,0.94382022
+teacher(18D upper bound),teacher_18d_upper_bound,micro-average,0.00561798,0.94662921
+teacher(18D upper bound),teacher_18d_upper_bound,micro-average,0.00702247,0.94662921
+teacher(18D upper bound),teacher_18d_upper_bound,micro-average,0.00702247,0.96348315
+teacher(18D upper bound),teacher_18d_upper_bound,micro-average,0.00842697,0.96348315
+teacher(18D upper bound),teacher_18d_upper_bound,micro-average,0.00842697,0.97471910
+teacher(18D upper bound),teacher_18d_upper_bound,micro-average,0.01123596,0.97471910
+teacher(18D upper bound),teacher_18d_upper_bound,micro-average,0.01123596,0.97752809
+teacher(18D upper bound),teacher_18d_upper_bound,micro-average,0.01264045,0.97752809
+teacher(18D upper bound),teacher_18d_upper_bound,micro-average,0.01264045,0.98314607
+teacher(18D upper bound),teacher_18d_upper_bound,micro-average,0.02387640,0.98314607
+teacher(18D upper bound),teacher_18d_upper_bound,micro-average,0.02387640,0.98595506
+teacher(18D upper bound),teacher_18d_upper_bound,micro-average,0.04353933,0.98595506
+teacher(18D upper bound),teacher_18d_upper_bound,micro-average,0.04353933,0.98876404
+teacher(18D upper bound),teacher_18d_upper_bound,micro-average,0.05196629,0.98876404
+teacher(18D upper bound),teacher_18d_upper_bound,micro-average,0.05196629,0.99157303
+teacher(18D upper bound),teacher_18d_upper_bound,micro-average,0.07724719,0.99157303
+teacher(18D upper bound),teacher_18d_upper_bound,micro-average,0.07724719,0.99438202
+teacher(18D upper bound),teacher_18d_upper_bound,micro-average,0.25702247,0.99438202
+teacher(18D upper bound),teacher_18d_upper_bound,micro-average,0.25702247,0.99719101
+teacher(18D upper bound),teacher_18d_upper_bound,micro-average,0.34410112,0.99719101
+teacher(18D upper bound),teacher_18d_upper_bound,micro-average,0.34410112,1.00000000
+teacher(18D upper bound),teacher_18d_upper_bound,micro-average,1.00000000,1.00000000
+teacher(18D upper bound),teacher_18d_upper_bound,macro-average,0.00000000,0.96709917
+teacher(18D upper bound),teacher_18d_upper_bound,macro-average,0.00359712,0.97991968
+teacher(18D upper bound),teacher_18d_upper_bound,macro-average,0.00366300,0.98393574
+teacher(18D upper bound),teacher_18d_upper_bound,macro-average,0.00732601,0.99598394
+teacher(18D upper bound),teacher_18d_upper_bound,macro-average,0.11355311,1.00000000
+teacher(18D upper bound),teacher_18d_upper_bound,macro-average,1.00000000,1.00000000
+lstm,lstm,S0 vs rest,0.00000000,0.00000000
+lstm,lstm,S0 vs rest,0.00000000,0.01282051
+lstm,lstm,S0 vs rest,0.00000000,0.96153846
+lstm,lstm,S0 vs rest,0.00359712,0.96153846
+lstm,lstm,S0 vs rest,0.00359712,1.00000000
+lstm,lstm,S0 vs rest,1.00000000,1.00000000
+lstm,lstm,S1 vs rest,0.00000000,0.00000000
+lstm,lstm,S1 vs rest,0.00366300,0.00000000
+lstm,lstm,S1 vs rest,0.01831502,0.00000000
+lstm,lstm,S1 vs rest,0.01831502,0.02409639
+lstm,lstm,S1 vs rest,0.02564103,0.02409639
+lstm,lstm,S1 vs rest,0.02564103,0.06024096
+lstm,lstm,S1 vs rest,0.03296703,0.06024096
+lstm,lstm,S1 vs rest,0.03296703,0.08433735
+lstm,lstm,S1 vs rest,0.03663004,0.08433735
+lstm,lstm,S1 vs rest,0.03663004,0.10843373
+lstm,lstm,S1 vs rest,0.04029304,0.10843373
+lstm,lstm,S1 vs rest,0.04029304,0.16867470
+lstm,lstm,S1 vs rest,0.04761905,0.16867470
+lstm,lstm,S1 vs rest,0.04761905,0.18072289
+lstm,lstm,S1 vs rest,0.05128205,0.18072289
+lstm,lstm,S1 vs rest,0.05128205,0.19277108
+lstm,lstm,S1 vs rest,0.05494505,0.19277108
+lstm,lstm,S1 vs rest,0.05494505,0.30120482
+lstm,lstm,S1 vs rest,0.05860806,0.30120482
+lstm,lstm,S1 vs rest,0.05860806,0.42168675
+lstm,lstm,S1 vs rest,0.06227106,0.42168675
+lstm,lstm,S1 vs rest,0.06227106,0.46987952
+lstm,lstm,S1 vs rest,0.06593407,0.46987952
+lstm,lstm,S1 vs rest,0.06593407,0.55421687
+lstm,lstm,S1 vs rest,0.06959707,0.55421687
+lstm,lstm,S1 vs rest,0.06959707,0.63855422
+lstm,lstm,S1 vs rest,0.07326007,0.63855422
+lstm,lstm,S1 vs rest,0.07326007,0.65060241
+lstm,lstm,S1 vs rest,0.07692308,0.65060241
+lstm,lstm,S1 vs rest,0.07692308,0.78313253
+lstm,lstm,S1 vs rest,0.08058608,0.78313253
+lstm,lstm,S1 vs rest,0.08058608,0.85542169
+lstm,lstm,S1 vs rest,0.08791209,0.85542169
+lstm,lstm,S1 vs rest,0.08791209,0.87951807
+lstm,lstm,S1 vs rest,0.09157509,0.87951807
+lstm,lstm,S1 vs rest,0.09157509,0.90361446
+lstm,lstm,S1 vs rest,0.09523810,0.90361446
+lstm,lstm,S1 vs rest,0.09523810,0.98795181
+lstm,lstm,S1 vs rest,0.13919414,0.98795181
+lstm,lstm,S1 vs rest,0.13919414,1.00000000
+lstm,lstm,S1 vs rest,1.00000000,1.00000000
+lstm,lstm,S2 vs rest,0.00000000,0.00000000
+lstm,lstm,S2 vs rest,0.00000000,0.00512821
+lstm,lstm,S2 vs rest,0.00000000,0.98974359
+lstm,lstm,S2 vs rest,0.00621118,0.98974359
+lstm,lstm,S2 vs rest,0.00621118,1.00000000
+lstm,lstm,S2 vs rest,1.00000000,1.00000000
+lstm,lstm,micro-average,0.00000000,0.00000000
+lstm,lstm,micro-average,0.00000000,0.00280899
+lstm,lstm,micro-average,0.00000000,0.26123596
+lstm,lstm,micro-average,0.00140449,0.26123596
+lstm,lstm,micro-average,0.00140449,0.27808989
+lstm,lstm,micro-average,0.00280899,0.27808989
+lstm,lstm,micro-average,0.00280899,0.38764045
+lstm,lstm,micro-average,0.00421348,0.38764045
+lstm,lstm,micro-average,0.00421348,0.40168539
+lstm,lstm,micro-average,0.00561798,0.40168539
+lstm,lstm,micro-average,0.00561798,0.41573034
+lstm,lstm,micro-average,0.00702247,0.41573034
+lstm,lstm,micro-average,0.00702247,0.50561798
+lstm,lstm,micro-average,0.00842697,0.50561798
+lstm,lstm,micro-average,0.00842697,0.53932584
+lstm,lstm,micro-average,0.00983146,0.53932584
+lstm,lstm,micro-average,0.00983146,0.67977528
+lstm,lstm,micro-average,0.01123596,0.67977528
+lstm,lstm,micro-average,0.01123596,0.68539326
+lstm,lstm,micro-average,0.01264045,0.68539326
+lstm,lstm,micro-average,0.01264045,0.70224719
+lstm,lstm,micro-average,0.01404494,0.70224719
+lstm,lstm,micro-average,0.01404494,0.70786517
+lstm,lstm,micro-average,0.01544944,0.70786517
+lstm,lstm,micro-average,0.01544944,0.71910112
+lstm,lstm,micro-average,0.01685393,0.71910112
+lstm,lstm,micro-average,0.01685393,0.73314607
+lstm,lstm,micro-average,0.01966292,0.73314607
+lstm,lstm,micro-average,0.01966292,0.73595506
+lstm,lstm,micro-average,0.02106742,0.73595506
+lstm,lstm,micro-average,0.02106742,0.73876404
+lstm,lstm,micro-average,0.02247191,0.73876404
+lstm,lstm,micro-average,0.02247191,0.76685393
+lstm,lstm,micro-average,0.02387640,0.76685393
+lstm,lstm,micro-average,0.02387640,0.79494382
+lstm,lstm,micro-average,0.02528090,0.79494382
+lstm,lstm,micro-average,0.02528090,0.80617978
+lstm,lstm,micro-average,0.02668539,0.80617978
+lstm,lstm,micro-average,0.02668539,0.83146067
+lstm,lstm,micro-average,0.02808989,0.83146067
+lstm,lstm,micro-average,0.02808989,0.85393258
+lstm,lstm,micro-average,0.03089888,0.85393258
+lstm,lstm,micro-average,0.03089888,0.85674157
+lstm,lstm,micro-average,0.03230337,0.85674157
+lstm,lstm,micro-average,0.03230337,0.86516854
+lstm,lstm,micro-average,0.03511236,0.86516854
+lstm,lstm,micro-average,0.03511236,0.87640449
+lstm,lstm,micro-average,0.03651685,0.87640449
+lstm,lstm,micro-average,0.03651685,0.88202247
+lstm,lstm,micro-average,0.03792135,0.88202247
+lstm,lstm,micro-average,0.03792135,0.89044944
+lstm,lstm,micro-average,0.04073034,0.89044944
+lstm,lstm,micro-average,0.04073034,0.89325843
+lstm,lstm,micro-average,0.04353933,0.89325843
+lstm,lstm,micro-average,0.04353933,0.90730337
+lstm,lstm,micro-average,0.04494382,0.90730337
+lstm,lstm,micro-average,0.04494382,0.91292135
+lstm,lstm,micro-average,0.05196629,0.91292135
+lstm,lstm,micro-average,0.05196629,0.91573034
+lstm,lstm,micro-average,0.05337079,0.91573034
+lstm,lstm,micro-average,0.05337079,0.91853933
+lstm,lstm,micro-average,0.05477528,0.91853933
+lstm,lstm,micro-average,0.05477528,0.92134831
+lstm,lstm,micro-average,0.05898876,0.92134831
+lstm,lstm,micro-average,0.05898876,0.92415730
+lstm,lstm,micro-average,0.06039326,0.92415730
+lstm,lstm,micro-average,0.06039326,0.92696629
+lstm,lstm,micro-average,0.06601124,0.92696629
+lstm,lstm,micro-average,0.06601124,0.92977528
+lstm,lstm,micro-average,0.06882022,0.92977528
+lstm,lstm,micro-average,0.06882022,0.93258427
+lstm,lstm,micro-average,0.07022472,0.93258427
+lstm,lstm,micro-average,0.07022472,0.94101124
+lstm,lstm,micro-average,0.07303371,0.94101124
+lstm,lstm,micro-average,0.07303371,0.94382022
+lstm,lstm,micro-average,0.07865169,0.94382022
+lstm,lstm,micro-average,0.07865169,0.94662921
+lstm,lstm,micro-average,0.08426966,0.94662921
+lstm,lstm,micro-average,0.08426966,0.95505618
+lstm,lstm,micro-average,0.08567416,0.95505618
+lstm,lstm,micro-average,0.08567416,0.96067416
+lstm,lstm,micro-average,0.09269663,0.96067416
+lstm,lstm,micro-average,0.09269663,0.96348315
+lstm,lstm,micro-average,0.09691011,0.96348315
+lstm,lstm,micro-average,0.09691011,0.96910112
+lstm,lstm,micro-average,0.11516854,0.96910112
+lstm,lstm,micro-average,0.11516854,0.97191011
+lstm,lstm,micro-average,0.12219101,0.97191011
+lstm,lstm,micro-average,0.12219101,0.97471910
+lstm,lstm,micro-average,0.12500000,0.97471910
+lstm,lstm,micro-average,0.12500000,0.97752809
+lstm,lstm,micro-average,0.15168539,0.97752809
+lstm,lstm,micro-average,0.15168539,0.98033708
+lstm,lstm,micro-average,0.19241573,0.98033708
+lstm,lstm,micro-average,0.19241573,0.98314607
+lstm,lstm,micro-average,0.24578652,0.98314607
+lstm,lstm,micro-average,0.24578652,0.98595506
+lstm,lstm,micro-average,0.27387640,0.98595506
+lstm,lstm,micro-average,0.27387640,0.98876404
+lstm,lstm,micro-average,0.32865169,0.98876404
+lstm,lstm,micro-average,0.32865169,0.99157303
+lstm,lstm,micro-average,0.34691011,0.99157303
+lstm,lstm,micro-average,0.34691011,0.99438202
+lstm,lstm,micro-average,0.45505618,0.99438202
+lstm,lstm,micro-average,0.45505618,0.99719101
+lstm,lstm,micro-average,0.46348315,0.99719101
+lstm,lstm,micro-average,0.46348315,1.00000000
+lstm,lstm,micro-average,1.00000000,1.00000000
+lstm,lstm,macro-average,0.00000000,0.65042735
+lstm,lstm,macro-average,0.00359712,0.66324786
+lstm,lstm,macro-average,0.00366300,0.66324786
+lstm,lstm,macro-average,0.00621118,0.66666667
+lstm,lstm,macro-average,0.01831502,0.67469880
+lstm,lstm,macro-average,0.02564103,0.68674699
+lstm,lstm,macro-average,0.03296703,0.69477912
+lstm,lstm,macro-average,0.03663004,0.70281124
+lstm,lstm,macro-average,0.04029304,0.72289157
+lstm,lstm,macro-average,0.04761905,0.72690763
+lstm,lstm,macro-average,0.05128205,0.73092369
+lstm,lstm,macro-average,0.05494505,0.76706827
+lstm,lstm,macro-average,0.05860806,0.80722892
+lstm,lstm,macro-average,0.06227106,0.82329317
+lstm,lstm,macro-average,0.06593407,0.85140562
+lstm,lstm,macro-average,0.06959707,0.87951807
+lstm,lstm,macro-average,0.07326007,0.88353414
+lstm,lstm,macro-average,0.07692308,0.92771084
+lstm,lstm,macro-average,0.08058608,0.95180723
+lstm,lstm,macro-average,0.08791209,0.95983936
+lstm,lstm,macro-average,0.09157509,0.96787149
+lstm,lstm,macro-average,0.09523810,0.99598394
+lstm,lstm,macro-average,0.13919414,1.00000000
+lstm,lstm,macro-average,1.00000000,1.00000000
+gru,gru,S0 vs rest,0.00000000,0.00000000
+gru,gru,S0 vs rest,0.00000000,0.01282051
+gru,gru,S0 vs rest,0.00000000,0.80769231
+gru,gru,S0 vs rest,0.00359712,0.80769231
+gru,gru,S0 vs rest,0.00359712,0.85897436
+gru,gru,S0 vs rest,0.00719424,0.85897436
+gru,gru,S0 vs rest,0.00719424,0.96153846
+gru,gru,S0 vs rest,0.01079137,0.96153846
+gru,gru,S0 vs rest,0.01079137,0.97435897
+gru,gru,S0 vs rest,0.02517986,0.97435897
+gru,gru,S0 vs rest,0.02517986,1.00000000
+gru,gru,S0 vs rest,1.00000000,1.00000000
+gru,gru,S1 vs rest,0.00000000,0.00000000
+gru,gru,S1 vs rest,0.00366300,0.00000000
+gru,gru,S1 vs rest,0.00732601,0.00000000
+gru,gru,S1 vs rest,0.00732601,0.02409639
+gru,gru,S1 vs rest,0.01465201,0.02409639
+gru,gru,S1 vs rest,0.01465201,0.04819277
+gru,gru,S1 vs rest,0.01831502,0.04819277
+gru,gru,S1 vs rest,0.01831502,0.10843373
+gru,gru,S1 vs rest,0.02930403,0.10843373
+gru,gru,S1 vs rest,0.02930403,0.12048193
+gru,gru,S1 vs rest,0.03663004,0.12048193
+gru,gru,S1 vs rest,0.03663004,0.15662651
+gru,gru,S1 vs rest,0.04029304,0.15662651
+gru,gru,S1 vs rest,0.04029304,0.26506024
+gru,gru,S1 vs rest,0.04761905,0.26506024
+gru,gru,S1 vs rest,0.04761905,0.49397590
+gru,gru,S1 vs rest,0.05128205,0.49397590
+gru,gru,S1 vs rest,0.05128205,0.55421687
+gru,gru,S1 vs rest,0.05494505,0.55421687
+gru,gru,S1 vs rest,0.05494505,0.68674699
+gru,gru,S1 vs rest,0.05860806,0.68674699
+gru,gru,S1 vs rest,0.05860806,0.69879518
+gru,gru,S1 vs rest,0.06227106,0.69879518
+gru,gru,S1 vs rest,0.06227106,0.75903614
+gru,gru,S1 vs rest,0.06593407,0.75903614
+gru,gru,S1 vs rest,0.06593407,0.79518072
+gru,gru,S1 vs rest,0.06959707,0.79518072
+gru,gru,S1 vs rest,0.06959707,0.83132530
+gru,gru,S1 vs rest,0.07692308,0.83132530
+gru,gru,S1 vs rest,0.07692308,0.84337349
+gru,gru,S1 vs rest,0.09523810,0.84337349
+gru,gru,S1 vs rest,0.09523810,0.85542169
+gru,gru,S1 vs rest,0.10622711,0.85542169
+gru,gru,S1 vs rest,0.10622711,0.90361446
+gru,gru,S1 vs rest,0.11355311,0.90361446
+gru,gru,S1 vs rest,0.11355311,0.91566265
+gru,gru,S1 vs rest,0.12454212,0.91566265
+gru,gru,S1 vs rest,0.12454212,0.92771084
+gru,gru,S1 vs rest,0.15384615,0.92771084
+gru,gru,S1 vs rest,0.15384615,0.93975904
+gru,gru,S1 vs rest,0.16483516,0.93975904
+gru,gru,S1 vs rest,0.16483516,0.95180723
+gru,gru,S1 vs rest,0.16849817,0.95180723
+gru,gru,S1 vs rest,0.16849817,0.96385542
+gru,gru,S1 vs rest,0.17948718,0.96385542
+gru,gru,S1 vs rest,0.17948718,0.97590361
+gru,gru,S1 vs rest,0.21611722,0.97590361
+gru,gru,S1 vs rest,0.21611722,0.98795181
+gru,gru,S1 vs rest,0.26007326,0.98795181
+gru,gru,S1 vs rest,0.26007326,1.00000000
+gru,gru,S1 vs rest,1.00000000,1.00000000
+gru,gru,S2 vs rest,0.00000000,0.00000000
+gru,gru,S2 vs rest,0.00000000,0.00512821
+gru,gru,S2 vs rest,0.00000000,0.96410256
+gru,gru,S2 vs rest,0.00621118,0.96410256
+gru,gru,S2 vs rest,0.00621118,1.00000000
+gru,gru,S2 vs rest,1.00000000,1.00000000
+gru,gru,micro-average,0.00000000,0.00000000
+gru,gru,micro-average,0.00000000,0.00280899
+gru,gru,micro-average,0.00000000,0.57022472
+gru,gru,micro-average,0.00140449,0.57022472
+gru,gru,micro-average,0.00140449,0.57865169
+gru,gru,micro-average,0.00280899,0.57865169
+gru,gru,micro-average,0.00280899,0.59269663
+gru,gru,micro-average,0.00421348,0.59269663
+gru,gru,micro-average,0.00421348,0.62359551
+gru,gru,micro-average,0.00561798,0.62359551
+gru,gru,micro-average,0.00561798,0.63202247
+gru,gru,micro-average,0.00702247,0.63202247
+gru,gru,micro-average,0.00702247,0.64044944
+gru,gru,micro-average,0.00842697,0.64044944
+gru,gru,micro-average,0.00842697,0.66292135
+gru,gru,micro-average,0.00983146,0.66292135
+gru,gru,micro-average,0.00983146,0.66573034
+gru,gru,micro-average,0.01264045,0.66573034
+gru,gru,micro-average,0.01264045,0.66853933
+gru,gru,micro-average,0.01544944,0.66853933
+gru,gru,micro-average,0.01544944,0.67977528
+gru,gru,micro-average,0.01685393,0.67977528
+gru,gru,micro-average,0.01685393,0.71910112
+gru,gru,micro-average,0.01966292,0.71910112
+gru,gru,micro-average,0.01966292,0.72191011
+gru,gru,micro-average,0.02106742,0.72191011
+gru,gru,micro-average,0.02106742,0.80056180
+gru,gru,micro-average,0.02247191,0.80056180
+gru,gru,micro-average,0.02247191,0.81741573
+gru,gru,micro-average,0.02387640,0.81741573
+gru,gru,micro-average,0.02387640,0.82584270
+gru,gru,micro-average,0.02528090,0.82584270
+gru,gru,micro-average,0.02528090,0.85955056
+gru,gru,micro-average,0.02808989,0.85955056
+gru,gru,micro-average,0.02808989,0.86516854
+gru,gru,micro-average,0.02949438,0.86516854
+gru,gru,micro-average,0.02949438,0.87640449
+gru,gru,micro-average,0.03089888,0.87640449
+gru,gru,micro-average,0.03089888,0.88764045
+gru,gru,micro-average,0.03370787,0.88764045
+gru,gru,micro-average,0.03370787,0.89606742
+gru,gru,micro-average,0.03511236,0.89606742
+gru,gru,micro-average,0.03511236,0.91011236
+gru,gru,micro-average,0.03932584,0.91011236
+gru,gru,micro-average,0.03932584,0.91573034
+gru,gru,micro-average,0.04073034,0.91573034
+gru,gru,micro-average,0.04073034,0.92134831
+gru,gru,micro-average,0.05056180,0.92134831
+gru,gru,micro-average,0.05056180,0.92415730
+gru,gru,micro-average,0.05758427,0.92415730
+gru,gru,micro-average,0.05758427,0.92696629
+gru,gru,micro-average,0.05898876,0.92696629
+gru,gru,micro-average,0.05898876,0.93539326
+gru,gru,micro-average,0.06039326,0.93539326
+gru,gru,micro-average,0.06039326,0.94101124
+gru,gru,micro-average,0.06320225,0.94101124
+gru,gru,micro-average,0.06320225,0.94382022
+gru,gru,micro-average,0.07022472,0.94382022
+gru,gru,micro-average,0.07022472,0.94662921
+gru,gru,micro-average,0.09269663,0.94662921
+gru,gru,micro-average,0.09269663,0.94943820
+gru,gru,micro-average,0.09410112,0.94943820
+gru,gru,micro-average,0.09410112,0.95505618
+gru,gru,micro-average,0.10955056,0.95505618
+gru,gru,micro-average,0.10955056,0.95786517
+gru,gru,micro-average,0.11376404,0.95786517
+gru,gru,micro-average,0.11376404,0.96067416
+gru,gru,micro-average,0.11797753,0.96067416
+gru,gru,micro-average,0.11797753,0.96348315
+gru,gru,micro-average,0.12219101,0.96348315
+gru,gru,micro-average,0.12219101,0.96629213
+gru,gru,micro-average,0.12359551,0.96629213
+gru,gru,micro-average,0.12359551,0.97191011
+gru,gru,micro-average,0.12640449,0.97191011
+gru,gru,micro-average,0.12640449,0.97471910
+gru,gru,micro-average,0.13061798,0.97471910
+gru,gru,micro-average,0.13061798,0.97752809
+gru,gru,micro-average,0.13904494,0.97752809
+gru,gru,micro-average,0.13904494,0.98033708
+gru,gru,micro-average,0.15449438,0.98033708
+gru,gru,micro-average,0.15449438,0.98314607
+gru,gru,micro-average,0.16011236,0.98314607
+gru,gru,micro-average,0.16011236,0.98595506
+gru,gru,micro-average,0.16573034,0.98595506
+gru,gru,micro-average,0.16573034,0.98876404
+gru,gru,micro-average,0.16853933,0.98876404
+gru,gru,micro-average,0.16853933,0.99157303
+gru,gru,micro-average,0.19943820,0.99157303
+gru,gru,micro-average,0.19943820,0.99438202
+gru,gru,micro-average,0.20084270,0.99438202
+gru,gru,micro-average,0.20084270,0.99719101
+gru,gru,micro-average,0.20786517,0.99719101
+gru,gru,micro-average,0.20786517,1.00000000
+gru,gru,micro-average,1.00000000,1.00000000
+gru,gru,macro-average,0.00000000,0.59059829
+gru,gru,macro-average,0.00359712,0.60769231
+gru,gru,macro-average,0.00366300,0.60769231
+gru,gru,macro-average,0.00621118,0.61965812
+gru,gru,macro-average,0.00719424,0.65384615
+gru,gru,macro-average,0.00732601,0.66187828
+gru,gru,macro-average,0.01079137,0.66615179
+gru,gru,macro-average,0.01465201,0.67418392
+gru,gru,macro-average,0.01831502,0.69426424
+gru,gru,macro-average,0.02517986,0.70281124
+gru,gru,macro-average,0.02930403,0.70682731
+gru,gru,macro-average,0.03663004,0.71887550
+gru,gru,macro-average,0.04029304,0.75502008
+gru,gru,macro-average,0.04761905,0.83132530
+gru,gru,macro-average,0.05128205,0.85140562
+gru,gru,macro-average,0.05494505,0.89558233
+gru,gru,macro-average,0.05860806,0.89959839
+gru,gru,macro-average,0.06227106,0.91967871
+gru,gru,macro-average,0.06593407,0.93172691
+gru,gru,macro-average,0.06959707,0.94377510
+gru,gru,macro-average,0.07692308,0.94779116
+gru,gru,macro-average,0.09523810,0.95180723
+gru,gru,macro-average,0.10622711,0.96787149
+gru,gru,macro-average,0.11355311,0.97188755
+gru,gru,macro-average,0.12454212,0.97590361
+gru,gru,macro-average,0.15384615,0.97991968
+gru,gru,macro-average,0.16483516,0.98393574
+gru,gru,macro-average,0.16849817,0.98795181
+gru,gru,macro-average,0.17948718,0.99196787
+gru,gru,macro-average,0.21611722,0.99598394
+gru,gru,macro-average,0.26007326,1.00000000
+gru,gru,macro-average,1.00000000,1.00000000
+transformer,transformer,S0 vs rest,0.00000000,0.00000000
+transformer,transformer,S0 vs rest,0.00000000,0.01282051
+transformer,transformer,S0 vs rest,0.00000000,0.12820513
+transformer,transformer,S0 vs rest,0.00000000,0.15384615
+transformer,transformer,S0 vs rest,0.00000000,0.26923077
+transformer,transformer,S0 vs rest,0.00000000,0.29487179
+transformer,transformer,S0 vs rest,0.00000000,0.93589744
+transformer,transformer,S0 vs rest,0.00359712,0.93589744
+transformer,transformer,S0 vs rest,0.00359712,0.94871795
+transformer,transformer,S0 vs rest,0.03597122,0.94871795
+transformer,transformer,S0 vs rest,0.03597122,0.96153846
+transformer,transformer,S0 vs rest,0.13669065,0.96153846
+transformer,transformer,S0 vs rest,0.13669065,0.98717949
+transformer,transformer,S0 vs rest,0.21942446,0.98717949
+transformer,transformer,S0 vs rest,0.21942446,1.00000000
+transformer,transformer,S0 vs rest,1.00000000,1.00000000
+transformer,transformer,S1 vs rest,0.00000000,0.00000000
+transformer,transformer,S1 vs rest,0.00000000,0.01204819
+transformer,transformer,S1 vs rest,0.00000000,0.04819277
+transformer,transformer,S1 vs rest,0.00366300,0.04819277
+transformer,transformer,S1 vs rest,0.00366300,0.07228916
+transformer,transformer,S1 vs rest,0.00732601,0.07228916
+transformer,transformer,S1 vs rest,0.00732601,0.08433735
+transformer,transformer,S1 vs rest,0.01098901,0.08433735
+transformer,transformer,S1 vs rest,0.01098901,0.10843373
+transformer,transformer,S1 vs rest,0.01465201,0.10843373
+transformer,transformer,S1 vs rest,0.01465201,0.14457831
+transformer,transformer,S1 vs rest,0.01831502,0.14457831
+transformer,transformer,S1 vs rest,0.01831502,0.30120482
+transformer,transformer,S1 vs rest,0.02564103,0.30120482
+transformer,transformer,S1 vs rest,0.02564103,0.56626506
+transformer,transformer,S1 vs rest,0.02930403,0.56626506
+transformer,transformer,S1 vs rest,0.02930403,0.57831325
+transformer,transformer,S1 vs rest,0.03296703,0.57831325
+transformer,transformer,S1 vs rest,0.03296703,0.62650602
+transformer,transformer,S1 vs rest,0.03663004,0.62650602
+transformer,transformer,S1 vs rest,0.03663004,0.68674699
+transformer,transformer,S1 vs rest,0.04395604,0.68674699
+transformer,transformer,S1 vs rest,0.04395604,0.72289157
+transformer,transformer,S1 vs rest,0.04761905,0.72289157
+transformer,transformer,S1 vs rest,0.04761905,0.77108434
+transformer,transformer,S1 vs rest,0.05128205,0.77108434
+transformer,transformer,S1 vs rest,0.05128205,0.89156627
+transformer,transformer,S1 vs rest,0.07326007,0.89156627
+transformer,transformer,S1 vs rest,0.07326007,0.90361446
+transformer,transformer,S1 vs rest,0.07692308,0.90361446
+transformer,transformer,S1 vs rest,0.07692308,0.92771084
+transformer,transformer,S1 vs rest,0.08058608,0.92771084
+transformer,transformer,S1 vs rest,0.08058608,0.93975904
+transformer,transformer,S1 vs rest,0.08424908,0.93975904
+transformer,transformer,S1 vs rest,0.08424908,0.98795181
+transformer,transformer,S1 vs rest,0.09890110,0.98795181
+transformer,transformer,S1 vs rest,0.09890110,1.00000000
+transformer,transformer,S1 vs rest,0.52014652,1.00000000
+transformer,transformer,S1 vs rest,0.52747253,1.00000000
+transformer,transformer,S1 vs rest,0.75824176,1.00000000
+transformer,transformer,S1 vs rest,0.76556777,1.00000000
+transformer,transformer,S1 vs rest,1.00000000,1.00000000
+transformer,transformer,S2 vs rest,0.00000000,0.00000000
+transformer,transformer,S2 vs rest,0.00000000,0.00512821
+transformer,transformer,S2 vs rest,0.00000000,0.01538462
+transformer,transformer,S2 vs rest,0.00000000,0.02564103
+transformer,transformer,S2 vs rest,0.00000000,0.24615385
+transformer,transformer,S2 vs rest,0.00000000,0.25641026
+transformer,transformer,S2 vs rest,0.00000000,0.62051282
+transformer,transformer,S2 vs rest,0.00000000,0.63076923
+transformer,transformer,S2 vs rest,0.00000000,0.66153846
+transformer,transformer,S2 vs rest,0.00000000,0.67179487
+transformer,transformer,S2 vs rest,0.00000000,0.81025641
+transformer,transformer,S2 vs rest,0.00000000,0.82051282
+transformer,transformer,S2 vs rest,0.00000000,0.96923077
+transformer,transformer,S2 vs rest,0.00621118,0.96923077
+transformer,transformer,S2 vs rest,0.00621118,0.97435897
+transformer,transformer,S2 vs rest,0.05590062,0.97435897
+transformer,transformer,S2 vs rest,0.05590062,0.98461538
+transformer,transformer,S2 vs rest,0.14285714,0.98461538
+transformer,transformer,S2 vs rest,0.14285714,0.98974359
+transformer,transformer,S2 vs rest,0.16149068,0.98974359
+transformer,transformer,S2 vs rest,0.16149068,1.00000000
+transformer,transformer,S2 vs rest,1.00000000,1.00000000
+transformer,transformer,micro-average,0.00000000,0.00000000
+transformer,transformer,micro-average,0.00000000,0.00280899
+transformer,transformer,micro-average,0.00000000,0.02808989
+transformer,transformer,micro-average,0.00000000,0.03370787
+transformer,transformer,micro-average,0.00000000,0.05898876
+transformer,transformer,micro-average,0.00000000,0.06460674
+transformer,transformer,micro-average,0.00000000,0.15168539
+transformer,transformer,micro-average,0.00140449,0.15168539
+transformer,transformer,micro-average,0.00140449,0.16573034
+transformer,transformer,micro-average,0.00140449,0.17134831
+transformer,transformer,micro-average,0.00140449,0.29775281
+transformer,transformer,micro-average,0.00140449,0.30337079
+transformer,transformer,micro-average,0.00140449,0.36235955
+transformer,transformer,micro-average,0.00280899,0.36235955
+transformer,transformer,micro-average,0.00280899,0.37640449
+transformer,transformer,micro-average,0.00421348,0.37640449
+transformer,transformer,micro-average,0.00421348,0.51123596
+transformer,transformer,micro-average,0.00421348,0.51685393
+transformer,transformer,micro-average,0.00421348,0.53370787
+transformer,transformer,micro-average,0.00421348,0.53932584
+transformer,transformer,micro-average,0.00421348,0.62078652
+transformer,transformer,micro-average,0.00421348,0.62640449
+transformer,transformer,micro-average,0.00421348,0.67696629
+transformer,transformer,micro-average,0.00561798,0.67696629
+transformer,transformer,micro-average,0.00561798,0.72752809
+transformer,transformer,micro-average,0.00702247,0.72752809
+transformer,transformer,micro-average,0.00702247,0.73033708
+transformer,transformer,micro-average,0.00842697,0.73033708
+transformer,transformer,micro-average,0.00842697,0.74438202
+transformer,transformer,micro-average,0.01123596,0.74438202
+transformer,transformer,micro-average,0.01123596,0.74719101
+transformer,transformer,micro-average,0.01404494,0.74719101
+transformer,transformer,micro-average,0.01404494,0.75000000
+transformer,transformer,micro-average,0.01544944,0.75000000
+transformer,transformer,micro-average,0.01544944,0.75561798
+transformer,transformer,micro-average,0.01966292,0.75561798
+transformer,transformer,micro-average,0.01966292,0.79494382
+transformer,transformer,micro-average,0.02247191,0.79494382
+transformer,transformer,micro-average,0.02247191,0.80056180
+transformer,transformer,micro-average,0.02528090,0.80056180
+transformer,transformer,micro-average,0.02528090,0.80617978
+transformer,transformer,micro-average,0.02949438,0.80617978
+transformer,transformer,micro-average,0.02949438,0.81179775
+transformer,transformer,micro-average,0.03370787,0.81179775
+transformer,transformer,micro-average,0.03370787,0.81460674
+transformer,transformer,micro-average,0.03511236,0.81460674
+transformer,transformer,micro-average,0.03511236,0.83146067
+transformer,transformer,micro-average,0.03651685,0.83146067
+transformer,transformer,micro-average,0.03651685,0.85112360
+transformer,transformer,micro-average,0.03792135,0.85112360
+transformer,transformer,micro-average,0.03792135,0.85393258
+transformer,transformer,micro-average,0.03932584,0.85393258
+transformer,transformer,micro-average,0.03932584,0.85674157
+transformer,transformer,micro-average,0.04213483,0.85674157
+transformer,transformer,micro-average,0.04213483,0.86516854
+transformer,transformer,micro-average,0.04353933,0.86516854
+transformer,transformer,micro-average,0.04353933,0.86797753
+transformer,transformer,micro-average,0.04494382,0.86797753
+transformer,transformer,micro-average,0.04494382,0.87078652
+transformer,transformer,micro-average,0.04775281,0.87078652
+transformer,transformer,micro-average,0.04775281,0.87359551
+transformer,transformer,micro-average,0.04915730,0.87359551
+transformer,transformer,micro-average,0.04915730,0.88483146
+transformer,transformer,micro-average,0.05196629,0.88483146
+transformer,transformer,micro-average,0.05196629,0.88764045
+transformer,transformer,micro-average,0.05617978,0.88764045
+transformer,transformer,micro-average,0.05617978,0.89606742
+transformer,transformer,micro-average,0.05758427,0.89606742
+transformer,transformer,micro-average,0.05758427,0.90168539
+transformer,transformer,micro-average,0.06320225,0.90168539
+transformer,transformer,micro-average,0.06320225,0.90449438
+transformer,transformer,micro-average,0.06460674,0.90449438
+transformer,transformer,micro-average,0.06460674,0.91011236
+transformer,transformer,micro-average,0.06601124,0.91011236
+transformer,transformer,micro-average,0.06601124,0.91292135
+transformer,transformer,micro-average,0.06741573,0.91292135
+transformer,transformer,micro-average,0.06741573,0.91573034
+transformer,transformer,micro-average,0.07162921,0.91573034
+transformer,transformer,micro-average,0.07162921,0.92134831
+transformer,transformer,micro-average,0.07303371,0.92134831
+transformer,transformer,micro-average,0.07303371,0.92415730
+transformer,transformer,micro-average,0.07443820,0.92415730
+transformer,transformer,micro-average,0.07443820,0.92696629
+transformer,transformer,micro-average,0.08426966,0.92696629
+transformer,transformer,micro-average,0.08426966,0.92977528
+transformer,transformer,micro-average,0.09129213,0.92977528
+transformer,transformer,micro-average,0.09129213,0.93258427
+transformer,transformer,micro-average,0.09410112,0.93258427
+transformer,transformer,micro-average,0.09410112,0.94101124
+transformer,transformer,micro-average,0.09691011,0.94101124
+transformer,transformer,micro-average,0.09691011,0.94943820
+transformer,transformer,micro-average,0.09971910,0.94943820
+transformer,transformer,micro-average,0.09971910,0.95505618
+transformer,transformer,micro-average,0.10252809,0.95505618
+transformer,transformer,micro-average,0.10252809,0.96067416
+transformer,transformer,micro-average,0.12219101,0.96067416
+transformer,transformer,micro-average,0.12219101,0.96348315
+transformer,transformer,micro-average,0.12359551,0.96348315
+transformer,transformer,micro-average,0.12359551,0.96910112
+transformer,transformer,micro-average,0.12640449,0.96910112
+transformer,transformer,micro-average,0.12640449,0.97191011
+transformer,transformer,micro-average,0.12780899,0.97191011
+transformer,transformer,micro-average,0.12780899,0.98314607
+transformer,transformer,micro-average,0.13623596,0.98314607
+transformer,transformer,micro-average,0.13623596,0.98595506
+transformer,transformer,micro-average,0.14887640,0.98595506
+transformer,transformer,micro-average,0.14887640,0.98876404
+transformer,transformer,micro-average,0.16151685,0.98876404
+transformer,transformer,micro-average,0.16151685,0.99157303
+transformer,transformer,micro-average,0.23595506,0.99157303
+transformer,transformer,micro-average,0.23595506,0.99438202
+transformer,transformer,micro-average,0.23876404,0.99438202
+transformer,transformer,micro-average,0.23876404,0.99719101
+transformer,transformer,micro-average,0.30898876,0.99719101
+transformer,transformer,micro-average,0.30898876,1.00000000
+transformer,transformer,micro-average,0.48735955,1.00000000
+transformer,transformer,micro-average,0.49016854,1.00000000
+transformer,transformer,micro-average,0.55758427,1.00000000
+transformer,transformer,micro-average,0.56039326,1.00000000
+transformer,transformer,micro-average,0.64185393,1.00000000
+transformer,transformer,micro-average,0.64466292,1.00000000
+transformer,transformer,micro-average,1.00000000,1.00000000
+transformer,transformer,macro-average,0.00000000,0.65110699
+transformer,transformer,macro-average,0.00359712,0.65538050
+transformer,transformer,macro-average,0.00366300,0.66341262
+transformer,transformer,macro-average,0.00621118,0.66512203
+transformer,transformer,macro-average,0.00732601,0.66913809
+transformer,transformer,macro-average,0.01098901,0.67717022
+transformer,transformer,macro-average,0.01465201,0.68921841
+transformer,transformer,macro-average,0.01831502,0.74142725
+transformer,transformer,macro-average,0.02564103,0.82978066
+transformer,transformer,macro-average,0.02930403,0.83379673
+transformer,transformer,macro-average,0.03296703,0.84986098
+transformer,transformer,macro-average,0.03597122,0.85413449
+transformer,transformer,macro-average,0.03663004,0.87421481
+transformer,transformer,macro-average,0.04395604,0.88626300
+transformer,transformer,macro-average,0.04761905,0.90232726
+transformer,transformer,macro-average,0.05128205,0.94248790
+transformer,transformer,macro-average,0.05590062,0.94590670
+transformer,transformer,macro-average,0.07326007,0.94992277
+transformer,transformer,macro-average,0.07692308,0.95795490
+transformer,transformer,macro-average,0.08058608,0.96197096
+transformer,transformer,macro-average,0.08424908,0.97803522
+transformer,transformer,macro-average,0.09890110,0.98205128
+transformer,transformer,macro-average,0.13669065,0.99059829
+transformer,transformer,macro-average,0.14285714,0.99230769
+transformer,transformer,macro-average,0.16149068,0.99572650
+transformer,transformer,macro-average,0.21942446,1.00000000
+transformer,transformer,macro-average,0.52014652,1.00000000
+transformer,transformer,macro-average,0.52747253,1.00000000
+transformer,transformer,macro-average,0.75824176,1.00000000
+transformer,transformer,macro-average,0.76556777,1.00000000
+transformer,transformer,macro-average,1.00000000,1.00000000
+inception,inception,S0 vs rest,0.00000000,0.00000000
+inception,inception,S0 vs rest,0.00000000,0.01282051
+inception,inception,S0 vs rest,0.00000000,0.92307692
+inception,inception,S0 vs rest,0.00359712,0.92307692
+inception,inception,S0 vs rest,0.00359712,0.97435897
+inception,inception,S0 vs rest,0.02517986,0.97435897
+inception,inception,S0 vs rest,0.02517986,0.98717949
+inception,inception,S0 vs rest,0.05755396,0.98717949
+inception,inception,S0 vs rest,0.05755396,1.00000000
+inception,inception,S0 vs rest,1.00000000,1.00000000
+inception,inception,S1 vs rest,0.00000000,0.00000000
+inception,inception,S1 vs rest,0.00000000,0.01204819
+inception,inception,S1 vs rest,0.00000000,0.03614458
+inception,inception,S1 vs rest,0.00366300,0.03614458
+inception,inception,S1 vs rest,0.00366300,0.09638554
+inception,inception,S1 vs rest,0.00732601,0.09638554
+inception,inception,S1 vs rest,0.00732601,0.21686747
+inception,inception,S1 vs rest,0.01098901,0.21686747
+inception,inception,S1 vs rest,0.01098901,0.26506024
+inception,inception,S1 vs rest,0.01465201,0.26506024
+inception,inception,S1 vs rest,0.01465201,0.27710843
+inception,inception,S1 vs rest,0.02197802,0.27710843
+inception,inception,S1 vs rest,0.02197802,0.31325301
+inception,inception,S1 vs rest,0.02564103,0.31325301
+inception,inception,S1 vs rest,0.02564103,0.32530120
+inception,inception,S1 vs rest,0.02930403,0.32530120
+inception,inception,S1 vs rest,0.02930403,0.36144578
+inception,inception,S1 vs rest,0.03296703,0.36144578
+inception,inception,S1 vs rest,0.03296703,0.38554217
+inception,inception,S1 vs rest,0.03663004,0.38554217
+inception,inception,S1 vs rest,0.03663004,0.39759036
+inception,inception,S1 vs rest,0.04029304,0.39759036
+inception,inception,S1 vs rest,0.04029304,0.45783133
+inception,inception,S1 vs rest,0.04395604,0.45783133
+inception,inception,S1 vs rest,0.04395604,0.46987952
+inception,inception,S1 vs rest,0.04761905,0.46987952
+inception,inception,S1 vs rest,0.04761905,0.49397590
+inception,inception,S1 vs rest,0.05128205,0.49397590
+inception,inception,S1 vs rest,0.05128205,0.50602410
+inception,inception,S1 vs rest,0.05494505,0.50602410
+inception,inception,S1 vs rest,0.05494505,0.68674699
+inception,inception,S1 vs rest,0.05860806,0.68674699
+inception,inception,S1 vs rest,0.05860806,0.69879518
+inception,inception,S1 vs rest,0.06227106,0.69879518
+inception,inception,S1 vs rest,0.06227106,0.72289157
+inception,inception,S1 vs rest,0.06959707,0.72289157
+inception,inception,S1 vs rest,0.06959707,0.74698795
+inception,inception,S1 vs rest,0.07692308,0.74698795
+inception,inception,S1 vs rest,0.07692308,0.77108434
+inception,inception,S1 vs rest,0.08058608,0.77108434
+inception,inception,S1 vs rest,0.08058608,0.80722892
+inception,inception,S1 vs rest,0.08791209,0.80722892
+inception,inception,S1 vs rest,0.08791209,0.84337349
+inception,inception,S1 vs rest,0.09523810,0.84337349
+inception,inception,S1 vs rest,0.09523810,0.87951807
+inception,inception,S1 vs rest,0.10622711,0.87951807
+inception,inception,S1 vs rest,0.10622711,0.89156627
+inception,inception,S1 vs rest,0.14285714,0.89156627
+inception,inception,S1 vs rest,0.14285714,0.90361446
+inception,inception,S1 vs rest,0.21245421,0.90361446
+inception,inception,S1 vs rest,0.21245421,0.91566265
+inception,inception,S1 vs rest,0.24542125,0.91566265
+inception,inception,S1 vs rest,0.24542125,0.92771084
+inception,inception,S1 vs rest,0.30402930,0.92771084
+inception,inception,S1 vs rest,0.30402930,0.93975904
+inception,inception,S1 vs rest,0.52014652,0.93975904
+inception,inception,S1 vs rest,0.52014652,0.95180723
+inception,inception,S1 vs rest,0.54578755,0.95180723
+inception,inception,S1 vs rest,0.54578755,0.96385542
+inception,inception,S1 vs rest,0.60439560,0.96385542
+inception,inception,S1 vs rest,0.60439560,0.97590361
+inception,inception,S1 vs rest,0.62271062,0.97590361
+inception,inception,S1 vs rest,0.62271062,0.98795181
+inception,inception,S1 vs rest,0.63003663,0.98795181
+inception,inception,S1 vs rest,0.63003663,1.00000000
+inception,inception,S1 vs rest,1.00000000,1.00000000
+inception,inception,S2 vs rest,0.00000000,0.00000000
+inception,inception,S2 vs rest,0.00000000,0.00512821
+inception,inception,S2 vs rest,0.00000000,0.58461538
+inception,inception,S2 vs rest,0.01242236,0.58461538
+inception,inception,S2 vs rest,0.01242236,0.58974359
+inception,inception,S2 vs rest,0.01863354,0.58974359
+inception,inception,S2 vs rest,0.01863354,0.60512821
+inception,inception,S2 vs rest,0.02484472,0.60512821
+inception,inception,S2 vs rest,0.02484472,0.63589744
+inception,inception,S2 vs rest,0.03105590,0.63589744
+inception,inception,S2 vs rest,0.03105590,0.92307692
+inception,inception,S2 vs rest,0.03726708,0.92307692
+inception,inception,S2 vs rest,0.03726708,0.93333333
+inception,inception,S2 vs rest,0.04347826,0.93333333
+inception,inception,S2 vs rest,0.04347826,0.94871795
+inception,inception,S2 vs rest,0.04968944,0.94871795
+inception,inception,S2 vs rest,0.04968944,0.97948718
+inception,inception,S2 vs rest,0.05590062,0.97948718
+inception,inception,S2 vs rest,0.05590062,0.98461538
+inception,inception,S2 vs rest,0.06211180,0.98461538
+inception,inception,S2 vs rest,0.06211180,0.98974359
+inception,inception,S2 vs rest,0.08074534,0.98974359
+inception,inception,S2 vs rest,0.08074534,0.99487179
+inception,inception,S2 vs rest,0.09316770,0.99487179
+inception,inception,S2 vs rest,0.09316770,1.00000000
+inception,inception,S2 vs rest,1.00000000,1.00000000
+inception,inception,micro-average,0.00000000,0.00000000
+inception,inception,micro-average,0.00000000,0.00280899
+inception,inception,micro-average,0.00000000,0.27247191
+inception,inception,micro-average,0.00140449,0.27247191
+inception,inception,micro-average,0.00140449,0.34269663
+inception,inception,micro-average,0.00280899,0.34269663
+inception,inception,micro-average,0.00280899,0.40449438
+inception,inception,micro-average,0.00561798,0.40449438
+inception,inception,micro-average,0.00561798,0.41011236
+inception,inception,micro-average,0.00702247,0.41011236
+inception,inception,micro-average,0.00702247,0.41292135
+inception,inception,micro-average,0.00842697,0.41292135
+inception,inception,micro-average,0.00842697,0.44382022
+inception,inception,micro-average,0.01123596,0.44382022
+inception,inception,micro-average,0.01123596,0.44943820
+inception,inception,micro-average,0.01404494,0.44943820
+inception,inception,micro-average,0.01404494,0.48033708
+inception,inception,micro-average,0.01544944,0.48033708
+inception,inception,micro-average,0.01544944,0.48314607
+inception,inception,micro-average,0.01685393,0.48314607
+inception,inception,micro-average,0.01685393,0.48595506
+inception,inception,micro-average,0.01825843,0.48595506
+inception,inception,micro-average,0.01825843,0.50280899
+inception,inception,micro-average,0.01966292,0.50280899
+inception,inception,micro-average,0.01966292,0.51966292
+inception,inception,micro-average,0.02106742,0.51966292
+inception,inception,micro-average,0.02106742,0.53932584
+inception,inception,micro-average,0.02247191,0.53932584
+inception,inception,micro-average,0.02247191,0.60393258
+inception,inception,micro-average,0.02387640,0.60393258
+inception,inception,micro-average,0.02387640,0.61235955
+inception,inception,micro-average,0.02528090,0.61235955
+inception,inception,micro-average,0.02528090,0.62640449
+inception,inception,micro-average,0.02668539,0.62640449
+inception,inception,micro-average,0.02668539,0.65168539
+inception,inception,micro-average,0.02808989,0.65168539
+inception,inception,micro-average,0.02808989,0.77528090
+inception,inception,micro-average,0.02949438,0.77528090
+inception,inception,micro-average,0.02949438,0.79494382
+inception,inception,micro-average,0.03089888,0.79494382
+inception,inception,micro-average,0.03089888,0.80056180
+inception,inception,micro-average,0.03370787,0.80056180
+inception,inception,micro-average,0.03370787,0.81179775
+inception,inception,micro-average,0.03792135,0.81179775
+inception,inception,micro-average,0.03792135,0.82022472
+inception,inception,micro-average,0.03932584,0.82022472
+inception,inception,micro-average,0.03932584,0.83707865
+inception,inception,micro-average,0.04073034,0.83707865
+inception,inception,micro-average,0.04073034,0.84550562
+inception,inception,micro-average,0.04213483,0.84550562
+inception,inception,micro-average,0.04213483,0.84831461
+inception,inception,micro-average,0.04353933,0.84831461
+inception,inception,micro-average,0.04353933,0.85393258
+inception,inception,micro-average,0.04494382,0.85393258
+inception,inception,micro-average,0.04494382,0.87640449
+inception,inception,micro-average,0.04775281,0.87640449
+inception,inception,micro-average,0.04775281,0.89606742
+inception,inception,micro-average,0.05196629,0.89606742
+inception,inception,micro-average,0.05196629,0.89887640
+inception,inception,micro-average,0.05477528,0.89887640
+inception,inception,micro-average,0.05477528,0.90168539
+inception,inception,micro-average,0.06179775,0.90168539
+inception,inception,micro-average,0.06179775,0.90730337
+inception,inception,micro-average,0.06320225,0.90730337
+inception,inception,micro-average,0.06320225,0.91011236
+inception,inception,micro-average,0.07022472,0.91011236
+inception,inception,micro-average,0.07022472,0.91573034
+inception,inception,micro-average,0.07162921,0.91573034
+inception,inception,micro-average,0.07162921,0.91853933
+inception,inception,micro-average,0.08286517,0.91853933
+inception,inception,micro-average,0.08286517,0.92696629
+inception,inception,micro-average,0.09971910,0.92696629
+inception,inception,micro-average,0.09971910,0.92977528
+inception,inception,micro-average,0.10252809,0.92977528
+inception,inception,micro-average,0.10252809,0.93539326
+inception,inception,micro-average,0.10533708,0.93539326
+inception,inception,micro-average,0.10533708,0.93820225
+inception,inception,micro-average,0.12078652,0.93820225
+inception,inception,micro-average,0.12078652,0.94101124
+inception,inception,micro-average,0.14185393,0.94101124
+inception,inception,micro-average,0.14185393,0.94382022
+inception,inception,micro-average,0.14747191,0.94382022
+inception,inception,micro-average,0.14747191,0.94662921
+inception,inception,micro-average,0.16011236,0.94662921
+inception,inception,micro-average,0.16011236,0.94943820
+inception,inception,micro-average,0.16432584,0.94943820
+inception,inception,micro-average,0.16432584,0.95224719
+inception,inception,micro-average,0.16713483,0.95224719
+inception,inception,micro-average,0.16713483,0.95505618
+inception,inception,micro-average,0.19662921,0.95505618
+inception,inception,micro-average,0.19662921,0.95786517
+inception,inception,micro-average,0.20365169,0.95786517
+inception,inception,micro-average,0.20365169,0.96067416
+inception,inception,micro-average,0.21629213,0.96067416
+inception,inception,micro-average,0.21629213,0.96348315
+inception,inception,micro-average,0.23174157,0.96348315
+inception,inception,micro-average,0.23174157,0.96629213
+inception,inception,micro-average,0.23595506,0.96629213
+inception,inception,micro-average,0.23595506,0.96910112
+inception,inception,micro-average,0.26404494,0.96910112
+inception,inception,micro-average,0.26404494,0.97191011
+inception,inception,micro-average,0.26825843,0.97191011
+inception,inception,micro-average,0.26825843,0.97471910
+inception,inception,micro-average,0.28370787,0.97471910
+inception,inception,micro-average,0.28370787,0.97752809
+inception,inception,micro-average,0.28511236,0.97752809
+inception,inception,micro-average,0.28511236,0.98033708
+inception,inception,micro-average,0.28932584,0.98033708
+inception,inception,micro-average,0.28932584,0.98314607
+inception,inception,micro-average,0.29353933,0.98314607
+inception,inception,micro-average,0.29353933,0.98595506
+inception,inception,micro-average,0.32584270,0.98595506
+inception,inception,micro-average,0.32584270,0.98876404
+inception,inception,micro-average,0.33567416,0.98876404
+inception,inception,micro-average,0.33567416,0.99157303
+inception,inception,micro-average,0.34269663,0.99157303
+inception,inception,micro-average,0.34269663,0.99438202
+inception,inception,micro-average,0.36938202,0.99438202
+inception,inception,micro-average,0.36938202,0.99719101
+inception,inception,micro-average,0.44382022,0.99719101
+inception,inception,micro-average,0.44382022,1.00000000
+inception,inception,micro-average,1.00000000,1.00000000
+inception,inception,macro-average,0.00000000,0.51461230
+inception,inception,macro-average,0.00359712,0.53170631
+inception,inception,macro-average,0.00366300,0.55178663
+inception,inception,macro-average,0.00732601,0.59194728
+inception,inception,macro-average,0.01098901,0.60801153
+inception,inception,macro-average,0.01242236,0.60972094
+inception,inception,macro-average,0.01465201,0.61373700
+inception,inception,macro-average,0.01863354,0.61886520
+inception,inception,macro-average,0.02197802,0.63091340
+inception,inception,macro-average,0.02484472,0.64116981
+inception,inception,macro-average,0.02517986,0.64544331
+inception,inception,macro-average,0.02564103,0.64945938
+inception,inception,macro-average,0.02930403,0.66150757
+inception,inception,macro-average,0.03105590,0.75723406
+inception,inception,macro-average,0.03296703,0.76526619
+inception,inception,macro-average,0.03663004,0.76928226
+inception,inception,macro-average,0.03726708,0.77270106
+inception,inception,macro-average,0.04029304,0.79278138
+inception,inception,macro-average,0.04347826,0.79790959
+inception,inception,macro-average,0.04395604,0.80192565
+inception,inception,macro-average,0.04761905,0.80995778
+inception,inception,macro-average,0.04968944,0.82021419
+inception,inception,macro-average,0.05128205,0.82423025
+inception,inception,macro-average,0.05494505,0.88447122
+inception,inception,macro-average,0.05590062,0.88618062
+inception,inception,macro-average,0.05755396,0.89045412
+inception,inception,macro-average,0.05860806,0.89447019
+inception,inception,macro-average,0.06211180,0.89617959
+inception,inception,macro-average,0.06227106,0.90421172
+inception,inception,macro-average,0.06959707,0.91224385
+inception,inception,macro-average,0.07692308,0.92027598
+inception,inception,macro-average,0.08058608,0.93232417
+inception,inception,macro-average,0.08074534,0.93403357
+inception,inception,macro-average,0.08791209,0.94608176
+inception,inception,macro-average,0.09316770,0.94779116
+inception,inception,macro-average,0.09523810,0.95983936
+inception,inception,macro-average,0.10622711,0.96385542
+inception,inception,macro-average,0.14285714,0.96787149
+inception,inception,macro-average,0.21245421,0.97188755
+inception,inception,macro-average,0.24542125,0.97590361
+inception,inception,macro-average,0.30402930,0.97991968
+inception,inception,macro-average,0.52014652,0.98393574
+inception,inception,macro-average,0.54578755,0.98795181
+inception,inception,macro-average,0.60439560,0.99196787
+inception,inception,macro-average,0.62271062,0.99598394
+inception,inception,macro-average,0.63003663,1.00000000
+inception,inception,macro-average,1.00000000,1.00000000

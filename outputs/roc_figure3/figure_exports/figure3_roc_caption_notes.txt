@@ -1,0 +1,9 @@
+Macro-average one-vs-rest ROC on the H1 test set.
+
+AUC values in parentheses denote macro-AUC values, computed by macro-averaging one-vs-rest ROC curves for S0, S1, and S2.
+
+This ROC analysis provides threshold-independent supporting evidence for the same Figure 3 selected runs.
+
+Teacher denotes the 18D upper bound reference model.
+
+The same Figure 3 selected runs were used; models were not reselected by ROC-AUC.

@@ -1,0 +1,7 @@
+student_model,boundary_distance_bin,n_samples,linear_cka,mean_paired_cosine,mean_teacher_student_mse,projection_space
+Student-only,Far,261,0.8287376315000007,-0.019523220448531727,1.8011341094970703,strict_raw_latent
+Student-only,Mid,60,0.8807863513354177,0.025641880097100837,2.504950523376465,strict_raw_latent
+Student-only,Near,35,0.7776654219665836,0.010533892847133934,2.5489320755004883,strict_raw_latent
+SEAL-Weld Student,Far,261,0.8967675328330823,0.13926308584951422,1.4795230627059937,strict_raw_latent
+SEAL-Weld Student,Mid,60,0.9481340894454063,0.16513015947493814,2.142449140548706,strict_raw_latent
+SEAL-Weld Student,Near,35,0.8650662848869343,0.13942473100024255,2.1435232162475586,strict_raw_latent

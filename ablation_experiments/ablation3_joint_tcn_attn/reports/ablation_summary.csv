@@ -1,0 +1,4 @@
+group,count,mean_test_acc,std_test_acc,mean_test_macro_f1,std_test_macro_f1,mean_test_teacher_agreement,std_test_teacher_agreement,best_run_name,best_seed,best_test_acc
+ablation1_student_only_tcn_attn,1,0.6168,0.0,0.654861,0.0,-1.0,0.0,ablation1_student_only_tcn_attn_weld_seam_windows_ws5_tf75_pg0_ep2_lr0.00025_bs128_seed100,100,0.6168
+ablation2_teacher_student_lstm,1,0.375,0.0,0.285153,0.0,0.35600000000000004,0.0,ablation2_distill_lstm_weld_seam_windows_ws5_tf75_pg0_ep2_lr0.00025_bs128_T3.0_lce0.8_lkd1.2_lf0.2_seed100,100,0.375
+ablation3_joint_teacher_student_tcn_attn,1,0.37229999999999996,0.0,0.3926,0.0,0.5082,0.0,ablation3_joint_tcn_attn_weld_seam_windows_ws5_tf75_pg0_ep2_lrt0.00025_lrs0.0002_bs128_T3.0_lce0.8_lkd1.2_lf0.2_seed100,100,0.37229999999999996

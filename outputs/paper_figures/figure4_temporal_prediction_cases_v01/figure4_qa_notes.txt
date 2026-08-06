@@ -1,0 +1,28 @@
+Figure 4 QA notes
+
+Core conclusion: SEAL-Weld preserves teacher-like temporal predictions across weld seams while exposing where transfer gain and residual failure occur near state transitions.
+Figure archetype: quantitative grid.
+Backend: Python/Matplotlib only.
+Final size: 14.8 x 10.6 inches before manuscript scaling.
+Export formats: SVG, PDF, PNG, and TIFF.
+
+Guide compliance:
+- 4 x 4 guided layout: PASS
+- Fixed seam order: a01, b01, c01, c02
+- Fixed case order: S0-core, 0->1-boundary, S1-core, 1->2-boundary
+- Four-layer panel grammar: attention ribbon, economic_pc1, true-state strip, target-class probability tracks.
+- Compact probability tracks: target-class only
+- Backfilled panels: c01|S0-core
+- Highlight roles: transfer_gain, seal_weld_failure
+
+Source-data checks:
+- Panel selection rows: 16
+- Panel timeseries rows: 717
+- Panel attention rows: 240
+- Continuous/test argmax consistency: PASS
+- Max probability absolute delta: 8.06e-05
+
+Reviewer-risk notes:
+- c01|S0-core is cross-seam backfilled and must not be described as a native c01 S0-core sample.
+- The main figure uses target-class probabilities for readability; full S0/S1/S2 probability traces belong in supplementary material if needed.
+- Boundary markers are shown only when a state change falls inside the local plotted window.

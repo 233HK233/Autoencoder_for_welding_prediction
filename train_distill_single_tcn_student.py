@@ -12,6 +12,7 @@ Student consumes dropped-feature inputs only (default drop indices: 3,4,5,6,7).
 from __future__ import annotations
 
 import argparse
+import csv
 import json
 import os
 import random
@@ -25,7 +26,7 @@ import torch.nn as nn
 from torch.utils.data import DataLoader, TensorDataset, WeightedRandomSampler
 
 try:
-    from .models_tcn import AttentionTCNClassifier
+    from .models_tcn import AttentionTCNClassifier, TCNNoAttentionClassifier
     from .training_utils import (
         build_classification_report,
         compute_class_weights,
@@ -33,7 +34,7 @@ try:
         split_train_val_stratified,
     )
 except ImportError:
-    from models_tcn import AttentionTCNClassifier
+    from models_tcn import AttentionTCNClassifier, TCNNoAttentionClassifier
     from training_utils import (
         build_classification_report,
         compute_class_weights,
@@ -100,6 +101,13 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--lambda-feat", type=float, default=0.2)
 
     # Optional student overrides. Defaults inherit teacher run args.
+    parser.add_argument(
+        "--student-architecture",
+        type=str,
+        default="tcn_attn",
+        choices=["tcn_attn", "tcn_no_attn"],
+        help="Student architecture for matched component ablations.",
+    )
     parser.add_argument("--student-latent-dim", type=int, default=None)
     parser.add_argument("--student-tcn-kernel", type=int, default=None)
     parser.add_argument("--student-tcn-layers", type=int, default=None)
@@ -190,6 +198,29 @@ def build_attention_model(
     )
 
 
+def build_student_model(
+    input_dim: int,
+    num_classes: int,
+    cfg: Dict[str, int | float],
+    architecture: str,
+) -> nn.Module:
+    if architecture == "tcn_attn":
+        return build_attention_model(input_dim=input_dim, num_classes=num_classes, cfg=cfg)
+    if architecture == "tcn_no_attn":
+        return TCNNoAttentionClassifier(
+            input_dim=input_dim,
+            num_classes=num_classes,
+            channels=int(cfg["tcn_channels"]),
+            tcn_layers=int(cfg["tcn_layers"]),
+            tcn_kernel=int(cfg["tcn_kernel"]),
+            tcn_dropout=float(cfg["tcn_dropout"]),
+            dilation_base=int(cfg["tcn_dilation_base"]),
+            classifier_hidden=int(cfg["classifier_hidden"]),
+            classifier_dropout=float(cfg["classifier_dropout"]),
+        )
+    raise ValueError(f"Unsupported student architecture: {architecture}")
+
+
 def evaluate_distill(
     teacher: nn.Module,
     student: nn.Module,
@@ -263,6 +294,66 @@ def evaluate_distill(
         teacher_agreement=teacher_agreement,
         report=report,
     )
+
+
+def build_test_prediction_rows(
+    ds: Dict[str, np.ndarray],
+    y_pred: np.ndarray,
+    probabilities: np.ndarray,
+) -> List[Dict[str, int | float | str]]:
+    y_true = np.asarray(ds["y_test"], dtype=np.int64)
+    seam_ids = np.asarray(ds.get("seam_id_test", np.arange(len(y_true))), dtype=np.int64)
+    start_idx = np.asarray(ds.get("start_idx_test", np.full(len(y_true), -1)), dtype=np.int64)
+    target_idx = np.asarray(ds.get("target_idx_test", np.full(len(y_true), -1)), dtype=np.int64)
+    seam_name_order = [str(item) for item in np.asarray(ds.get("seam_name_order", []), dtype=str).tolist()]
+
+    if len(y_true) != len(y_pred) or len(y_true) != probabilities.shape[0]:
+        raise ValueError("Prediction arrays must match y_test length")
+
+    rows: List[Dict[str, int | float | str]] = []
+    for idx in range(len(y_true)):
+        seam_id = int(seam_ids[idx])
+        seam_name = seam_name_order[seam_id] if 0 <= seam_id < len(seam_name_order) else str(seam_id)
+        row: Dict[str, int | float | str] = {
+            "sample_index": idx,
+            "seam_id": seam_id,
+            "seam_name": seam_name,
+            "start_idx": int(start_idx[idx]),
+            "target_idx": int(target_idx[idx]),
+            "y_true": int(y_true[idx]),
+            "y_pred": int(y_pred[idx]),
+        }
+        for class_id in range(probabilities.shape[1]):
+            row[f"prob_class_{class_id}"] = float(probabilities[idx, class_id])
+        rows.append(row)
+    return rows
+
+
+def predict_student_probabilities(
+    student: nn.Module,
+    loader: DataLoader,
+    device: torch.device,
+) -> Tuple[np.ndarray, np.ndarray]:
+    student.eval()
+    all_pred: List[int] = []
+    all_prob: List[List[float]] = []
+    with torch.no_grad():
+        for _, x_subset, _ in loader:
+            x_subset = x_subset.to(device)
+            logits, _ = student(x_subset)
+            probabilities = torch.softmax(logits, dim=1)
+            all_pred.extend(logits.argmax(dim=1).cpu().tolist())
+            all_prob.extend(probabilities.cpu().tolist())
+    return np.asarray(all_pred, dtype=np.int64), np.asarray(all_prob, dtype=np.float64)
+
+
+def write_prediction_csv(path: Path, rows: List[Dict[str, int | float | str]]) -> None:
+    if not rows:
+        raise ValueError("Cannot write an empty prediction table")
+    with path.open("w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
+        writer.writeheader()
+        writer.writerows(rows)
 
 
 def main() -> None:
@@ -347,10 +438,11 @@ def main() -> None:
         num_classes=num_classes,
         cfg=teacher_cfg,
     ).to(device)
-    student = build_attention_model(
+    student = build_student_model(
         input_dim=int(x_train_subset.shape[2]),
         num_classes=num_classes,
         cfg=student_cfg,
+        architecture=args.student_architecture,
     ).to(device)
     # 加载Teacher权重并冻结
     teacher_ckpt = torch.load(args.teacher_ckpt, map_location="cpu")
@@ -408,7 +500,7 @@ def main() -> None:
     out_dir = Path(args.output_dir).expanduser()
     dataset_tag = Path(args.dataset_npz).stem
     run_name = (
-        f"distill_tcn_attn_{dataset_tag}_ep{args.epochs}_lr{args.lr}_bs{args.batch_size}_"
+        f"distill_{args.student_architecture}_{dataset_tag}_ep{args.epochs}_lr{args.lr}_bs{args.batch_size}_"
         f"T{args.temperature}_lce{args.lambda_ce}_lkd{args.lambda_kd}_lf{args.lambda_feat}_seed{args.seed}"
     )
     run_dir = out_dir / run_name
@@ -442,6 +534,7 @@ def main() -> None:
     print(f"Input full/subset dims: {x_train_full.shape[2]} / {x_train_subset.shape[2]}")
     print(f"Dropped feature indices: {drop_indices}")
     print(f"Temperature: {args.temperature}")
+    print(f"Student architecture: {args.student_architecture}")
     print(
         f"Loss weights (ce/kd/feat): {args.lambda_ce} / {args.lambda_kd} / {args.lambda_feat}"
     )
@@ -639,6 +732,18 @@ def main() -> None:
 
     with open(run_dir / "history.json", "w", encoding="utf-8") as f:
         json.dump(history, f, indent=2, ensure_ascii=True)
+
+    y_pred_test, probabilities_test = predict_student_probabilities(
+        student=student,
+        loader=test_loader,
+        device=device,
+    )
+    prediction_rows = build_test_prediction_rows(
+        ds=ds,
+        y_pred=y_pred_test,
+        probabilities=probabilities_test,
+    )
+    write_prediction_csv(run_dir / "test_predictions.csv", prediction_rows)
 
     with open(run_dir / "evaluation_metrics.txt", "w", encoding="utf-8") as f:
         f.write(f"Best epoch: {best_epoch}\n")

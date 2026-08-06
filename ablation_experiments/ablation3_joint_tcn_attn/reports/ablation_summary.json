@@ -1,0 +1,49 @@
+{
+  "ablation1_dir": "/home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/ablation_experiments/results/ablation1_student_only_tcn_attn",
+  "ablation2_dir": "/home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/ablation_experiments/results/ablation2_teacher_student_lstm/students",
+  "ablation3_dir": "/home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/ablation_experiments/ablation3_joint_tcn_attn/results",
+  "baseline_dir": "/home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/outputs/distill_single_tcn",
+  "include_baseline": false,
+  "num_runs": 3,
+  "group_summaries": [
+    {
+      "group": "ablation1_student_only_tcn_attn",
+      "count": 1,
+      "mean_test_acc": 0.6168,
+      "std_test_acc": 0.0,
+      "mean_test_macro_f1": 0.654861,
+      "std_test_macro_f1": 0.0,
+      "mean_test_teacher_agreement": -1.0,
+      "std_test_teacher_agreement": 0.0,
+      "best_run_name": "ablation1_student_only_tcn_attn_weld_seam_windows_ws5_tf75_pg0_ep2_lr0.00025_bs128_seed100",
+      "best_seed": 100,
+      "best_test_acc": 0.6168
+    },
+    {
+      "group": "ablation2_teacher_student_lstm",
+      "count": 1,
+      "mean_test_acc": 0.375,
+      "std_test_acc": 0.0,
+      "mean_test_macro_f1": 0.285153,
+      "std_test_macro_f1": 0.0,
+      "mean_test_teacher_agreement": 0.35600000000000004,
+      "std_test_teacher_agreement": 0.0,
+      "best_run_name": "ablation2_distill_lstm_weld_seam_windows_ws5_tf75_pg0_ep2_lr0.00025_bs128_T3.0_lce0.8_lkd1.2_lf0.2_seed100",
+      "best_seed": 100,
+      "best_test_acc": 0.375
+    },
+    {
+      "group": "ablation3_joint_teacher_student_tcn_attn",
+      "count": 1,
+      "mean_test_acc": 0.37229999999999996,
+      "std_test_acc": 0.0,
+      "mean_test_macro_f1": 0.3926,
+      "std_test_macro_f1": 0.0,
+      "mean_test_teacher_agreement": 0.5082,
+      "std_test_teacher_agreement": 0.0,
+      "best_run_name": "ablation3_joint_tcn_attn_weld_seam_windows_ws5_tf75_pg0_ep2_lrt0.00025_lrs0.0002_bs128_T3.0_lce0.8_lkd1.2_lf0.2_seed100",
+      "best_seed": 100,
+      "best_test_acc": 0.37229999999999996
+    }
+  ]
+}

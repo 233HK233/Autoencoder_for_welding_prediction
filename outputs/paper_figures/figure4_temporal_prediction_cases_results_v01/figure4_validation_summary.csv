@@ -1,0 +1,4 @@
+method,matched_rows,max_probability_abs_delta,prediction_argmax_match
+Teacher-18D,356,3.1173622894287156e-05,True
+SEAL-Weld Student-13D,356,3.187217597960812e-05,True
+Student-only-13D,356,8.055569992065914e-05,True

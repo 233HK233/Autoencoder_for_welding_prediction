@@ -1,0 +1,7 @@
+student_model,class_id,class_label,n_samples,linear_cka,teacher_latent_dim,student_latent_dim
+Student-only,0,S0,78,0.5920603992725327,128,128
+Student-only,1,S1,83,0.5973076407597472,128,128
+Student-only,2,S2,195,0.6823875107897744,128,128
+SEAL-Weld Student,0,S0,78,0.6585068042700409,128,128
+SEAL-Weld Student,1,S1,83,0.8038889135969463,128,128
+SEAL-Weld Student,2,S2,195,0.7444814475410169,128,128

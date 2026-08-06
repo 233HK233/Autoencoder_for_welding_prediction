@@ -1,0 +1,8 @@
+method,prediction_csv,status
+Teacher-18D,/home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/outputs/roc_figure3/predictions/teacher_18d_upper_bound_test_predictions.csv,loaded
+SEAL-Weld Student-13D,/home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/outputs/roc_figure3/predictions/teacher_student_student_test_predictions.csv,loaded
+LSTM,/home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/outputs/roc_figure3/predictions/lstm_test_predictions.csv,loaded
+GRU,/home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/outputs/roc_figure3/predictions/gru_test_predictions.csv,loaded
+Transformer,/home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/outputs/roc_figure3/predictions/transformer_test_predictions.csv,loaded
+Inception,/home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/outputs/roc_figure3/predictions/inception_test_predictions.csv,loaded
+Student-only-13D,/home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/outputs/paper_figures/figure1_performance_error_structure_v02/source_predictions/student_only_13d_test_predictions.csv,generated_from_best_sweep_checkpoint

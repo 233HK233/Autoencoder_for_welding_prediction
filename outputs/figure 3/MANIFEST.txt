@@ -1,0 +1,28 @@
+Figure 3 package
+
+This folder collects the artifacts used to generate the final Figure 3 export.
+
+Contents
+
+- `figure_exports/`
+  Final Figure 3 outputs from `outputs/paper_figures/fig3_h1_comparison_layout_v03/`:
+  - `figure3_h1_comparison.pdf`
+  - `figure3_h1_comparison.svg`
+  - `figure3_h1_comparison.png`
+  - `figure3_h1_comparison_panel_values.csv`
+
+- `source_tables/`
+  CSV tables consumed by `render_figure3_matplotlib.py`:
+  - `exploratory_ordered_run_registry.csv`
+  - `exploratory_ordered_class_metrics_summary.csv`
+  - `comparison_summary.csv`
+
+- `parsed_metric_files/`
+  Per-method `evaluation_metrics.txt` files parsed to extract test accuracy,
+  macro-F1, precision, recall, and F1 values:
+  - `Teacher/evaluation_metrics.txt`
+  - `Student/evaluation_metrics.txt`
+  - `GRU/evaluation_metrics.txt`
+  - `LSTM/evaluation_metrics.txt`
+  - `Inception/evaluation_metrics.txt`
+  - `Transformer/evaluation_metrics.txt`

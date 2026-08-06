@@ -5,7 +5,8 @@ Shared training utilities for single-model and distillation scripts.
 from __future__ import annotations
 
 from dataclasses import dataclass
-from typing import List, Tuple
+from pathlib import Path
+from typing import Any, List, Mapping, Tuple
 
 import numpy as np
 import torch
@@ -24,6 +25,58 @@ class EvalResult:
     accuracy: float
     macro_f1: float
     report: str
+
+
+def extract_state_dict(payload: Any) -> Mapping[str, torch.Tensor]:
+    if isinstance(payload, Mapping):
+        if all(isinstance(k, str) and torch.is_tensor(v) for k, v in payload.items()):
+            return payload
+
+        for key in ("state_dict", "model_state_dict", "model", "weights"):
+            value = payload.get(key)
+            if isinstance(value, Mapping) and all(
+                isinstance(k, str) and torch.is_tensor(v) for k, v in value.items()
+            ):
+                return value
+
+    raise ValueError("checkpoint payload does not contain a supported state dict mapping")
+
+
+def load_model_init_weights(
+    model: nn.Module,
+    state_payload: Any,
+    init_mode: str = "strict",
+) -> dict[str, Any]:
+    mode = str(init_mode).strip().lower()
+    if mode not in {"strict", "shape_safe"}:
+        raise ValueError(f"unsupported init_mode: {init_mode}")
+
+    state_dict = extract_state_dict(state_payload)
+
+    if mode == "strict":
+        model.load_state_dict(state_dict, strict=True)
+        return {
+            "init_mode": mode,
+            "loaded_keys": len(state_dict),
+            "skipped_keys": [],
+            "missing_model_keys": [],
+        }
+
+    model_state = model.state_dict()
+    compatible = {
+        key: value
+        for key, value in state_dict.items()
+        if key in model_state and tuple(model_state[key].shape) == tuple(value.shape)
+    }
+    skipped = sorted(key for key in state_dict.keys() if key not in compatible)
+    missing = sorted(key for key in model_state.keys() if key not in compatible)
+    model.load_state_dict(compatible, strict=False)
+    return {
+        "init_mode": mode,
+        "loaded_keys": len(compatible),
+        "skipped_keys": skipped,
+        "missing_model_keys": missing,
+    }
 
 
 def parse_channels(value: str | None, latent_dim: int, min_layers: int) -> List[int]:
@@ -77,6 +130,61 @@ def compute_class_weights(y: np.ndarray, num_classes: int, mode: str) -> torch.T
     if len(vals) != num_classes:
         raise ValueError(f"class-weights must have {num_classes} values, got {len(vals)}")
     return torch.tensor(vals, dtype=torch.float32)
+
+
+def validate_forecast_dataset_contract(
+    npz_path: str | Path,
+    expected_horizon: int = 1,
+    expected_delta: int = 5,
+) -> dict[str, int | bool | str]:
+    path = Path(npz_path)
+    if not path.exists():
+        raise FileNotFoundError(f"dataset npz not found: {path}")
+
+    with np.load(str(path), allow_pickle=False) as z:
+        if "target_horizon_steps" not in z.files:
+            raise ValueError("target_horizon_steps not found in dataset")
+        horizon = int(np.asarray(z["target_horizon_steps"]).item())
+
+        train_delta_ok = False
+        test_delta_ok = False
+        train_count = 0
+        test_count = 0
+
+        if "target_idx_train" in z.files and "start_idx_train" in z.files:
+            train_delta = z["target_idx_train"] - z["start_idx_train"]
+            train_delta_ok = bool(np.all(train_delta == expected_delta))
+            train_count = int(train_delta.shape[0])
+        if "target_idx_test" in z.files and "start_idx_test" in z.files:
+            test_delta = z["target_idx_test"] - z["start_idx_test"]
+            test_delta_ok = bool(np.all(test_delta == expected_delta))
+            test_count = int(test_delta.shape[0])
+
+    result = {
+        "dataset_path": str(path.resolve()),
+        "dataset_size_bytes": int(path.stat().st_size),
+        "target_horizon_steps": horizon,
+        "expected_horizon": int(expected_horizon),
+        "horizon_ok": bool(horizon == expected_horizon),
+        "expected_delta": int(expected_delta),
+        "train_delta_ok": bool(train_delta_ok),
+        "test_delta_ok": bool(test_delta_ok),
+        "train_sample_count": train_count,
+        "test_sample_count": test_count,
+    }
+
+    if not result["horizon_ok"]:
+        raise ValueError(
+            f"dataset target_horizon_steps={result['target_horizon_steps']} "
+            f"!= expected {expected_horizon}"
+        )
+    if not result["train_delta_ok"] or not result["test_delta_ok"]:
+        raise ValueError(
+            "dataset target_idx-start_idx check failed: "
+            f"train_ok={result['train_delta_ok']} test_ok={result['test_delta_ok']}"
+        )
+
+    return result
 
 
 def _safe_div(a: float, b: float) -> float:
@@ -160,4 +268,3 @@ def evaluate(
     accuracy = float(np.mean(np.array(all_preds) == np.array(all_labels))) if all_labels else 0.0
     report, macro_f1 = build_classification_report(all_labels, all_preds, class_names)
     return EvalResult(loss=avg_loss, accuracy=accuracy, macro_f1=macro_f1, report=report)
-

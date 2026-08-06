@@ -1,0 +1,7 @@
+method_name,method_slug,macro_auc,pauc_at_fpr_0p10
+teacher-student(student),teacher_student_student,0.99905851,0.99058505
+teacher(18D upper bound),teacher_18d_upper_bound,0.99965343,0.99656907
+lstm,lstm,0.97906041,0.79130587
+gru,gru,0.97984911,0.81901671
+transformer,transformer,0.98656974,0.87354908
+inception,inception,0.96908450,0.79798144

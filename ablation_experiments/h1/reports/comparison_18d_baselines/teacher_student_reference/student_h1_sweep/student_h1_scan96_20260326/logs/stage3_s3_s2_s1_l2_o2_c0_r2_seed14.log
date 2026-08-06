@@ -1,0 +1,40 @@
+================================================================================
+Frozen-Teacher Distillation (13D Student)
+================================================================================
+Dataset: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz
+Teacher ckpt: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/outputs/teacher_h1_scan98_gpu1_v2/runs/single_tcn_attn_weld_seam_windows_ws5_tf75_pg0_h1_ep60_lr0.0003_bs128_k3_l3_d0.08_lat64_wd0.00015_seed14/best_single_tcn.pth
+Teacher run args: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/outputs/teacher_h1_scan98_gpu1_v2/runs/single_tcn_attn_weld_seam_windows_ws5_tf75_pg0_h1_ep60_lr0.0003_bs128_k3_l3_d0.08_lat64_wd0.00015_seed14/run_args.json
+Device: cuda
+Train/Val/Test: 990 / 175 / 356
+Input full/subset dims: 18 / 13
+Dropped feature indices: [3, 4, 5, 6, 7]
+Temperature: 3.0
+Loss weights (ce/kd/feat): 0.8 / 1.2 / 0.2
+Checkpoint metric: val_teacher_agreement
+Class weights: [1.4732142686843872, 1.3807531595230103, 0.626185953617096]
+Epoch 001 | train=1.3508 (ce=1.0415, kd=0.1650, feat=1.5977) | val_acc=56.00% val_f1=0.5680 val_agree=69.71% | test_acc=32.02% test_agree=32.58%
+Epoch 002 | train=1.0687 (ce=0.8134, kd=0.1001, feat=1.4892) | val_acc=68.57% val_f1=0.7267 val_agree=84.00% | test_acc=50.84% test_agree=51.40%
+Epoch 003 | train=0.8959 (ce=0.6400, kd=0.0847, feat=1.4117) | val_acc=82.86% val_f1=0.8402 val_agree=90.86% | test_acc=92.42% test_agree=90.73%
+Epoch 004 | train=0.7926 (ce=0.5239, kd=0.0903, feat=1.3255) | val_acc=91.43% val_f1=0.9161 val_agree=88.00% | test_acc=97.75% test_agree=96.07%
+Epoch 005 | train=0.7414 (ce=0.4672, kd=0.1042, feat=1.2131) | val_acc=92.57% val_f1=0.9292 val_agree=86.86% | test_acc=95.22% test_agree=94.10%
+Epoch 006 | train=0.7128 (ce=0.4425, kd=0.1164, feat=1.0957) | val_acc=92.57% val_f1=0.9292 val_agree=86.86% | test_acc=94.10% test_agree=93.54%
+Epoch 007 | train=0.6810 (ce=0.4535, kd=0.1024, feat=0.9763) | val_acc=92.57% val_f1=0.9303 val_agree=87.43% | test_acc=92.13% test_agree=91.57%
+Epoch 008 | train=0.6691 (ce=0.4804, kd=0.0902, feat=0.8823) | val_acc=92.57% val_f1=0.9303 val_agree=87.43% | test_acc=94.38% test_agree=93.82%
+Epoch 009 | train=0.6469 (ce=0.4728, kd=0.0866, feat=0.8238) | val_acc=93.14% val_f1=0.9353 val_agree=86.86% | test_acc=92.13% test_agree=91.57%
+Epoch 010 | train=0.6303 (ce=0.4419, kd=0.1038, feat=0.7616) | val_acc=96.00% val_f1=0.9613 val_agree=84.00% | test_acc=88.20% test_agree=87.64%
+Epoch 011 | train=0.6104 (ce=0.4246, kd=0.1046, feat=0.7258) | val_acc=96.00% val_f1=0.9613 val_agree=84.00% | test_acc=91.57% test_agree=91.01%
+Epoch 012 | train=0.5872 (ce=0.4202, kd=0.0965, feat=0.6761) | val_acc=96.00% val_f1=0.9613 val_agree=84.00% | test_acc=92.98% test_agree=92.42%
+Epoch 013 | train=0.5879 (ce=0.4315, kd=0.0969, feat=0.6317) | val_acc=96.00% val_f1=0.9613 val_agree=84.00% | test_acc=93.54% test_agree=92.98%
+Epoch 014 | train=0.5735 (ce=0.4245, kd=0.0959, feat=0.5939) | val_acc=95.43% val_f1=0.9560 val_agree=84.57% | test_acc=90.73% test_agree=90.73%
+Epoch 015 | train=0.5624 (ce=0.4212, kd=0.0917, feat=0.5772) | val_acc=95.43% val_f1=0.9560 val_agree=84.57% | test_acc=91.57% test_agree=91.57%
+Epoch 016 | train=0.5585 (ce=0.4150, kd=0.0959, feat=0.5570) | val_acc=96.57% val_f1=0.9667 val_agree=83.43% | test_acc=92.98% test_agree=91.85%
+Epoch 017 | train=0.5532 (ce=0.4183, kd=0.0931, feat=0.5339) | val_acc=96.57% val_f1=0.9667 val_agree=83.43% | test_acc=92.70% test_agree=92.13%
+Epoch 018 | train=0.5452 (ce=0.3996, kd=0.1015, feat=0.5184) | val_acc=96.57% val_f1=0.9667 val_agree=83.43% | test_acc=92.98% test_agree=91.85%
+Epoch 019 | train=0.5464 (ce=0.3990, kd=0.1047, feat=0.5076) | val_acc=96.57% val_f1=0.9667 val_agree=83.43% | test_acc=92.70% test_agree=92.13%
+Early stopping at epoch 19 (best epoch 3, score=0.908571)
+================================================================================
+Best epoch: 3
+Best score (val_teacher_agreement): 0.908571
+Final test accuracy: 92.42%
+Final test teacher agreement: 90.73%
+Saved to: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/ablation_experiments/h1/results/comparison_18d_baselines/teacher_student_reference/student_h1_sweep/student_h1_scan96_20260326/stage3/s3_s2_s1_l2_o2_c0_r2/distill_tcn_attn_weld_seam_windows_ws5_tf75_pg0_h1_ep80_lr0.00025_bs128_T3.0_lce0.8_lkd1.2_lf0.2_seed14

@@ -1,0 +1,241 @@
+panel_key,panel_seam_name,source_seam_name,case_type,method,method_slug,input_step,raw_idx,relative_step,relative_time_s,attention_weight
+a01|S0-core,a01,a01,S0-core,Teacher-18D,teacher,0,81,-5,-0.05,0.20874974131584167
+a01|S0-core,a01,a01,S0-core,Teacher-18D,teacher,1,82,-4,-0.04,0.1921188235282898
+a01|S0-core,a01,a01,S0-core,Teacher-18D,teacher,2,83,-3,-0.03,0.19424286484718323
+a01|S0-core,a01,a01,S0-core,Teacher-18D,teacher,3,84,-2,-0.02,0.20786763727664948
+a01|S0-core,a01,a01,S0-core,Teacher-18D,teacher,4,85,-1,-0.01,0.1970209777355194
+a01|S0-core,a01,a01,S0-core,SEAL-Weld Student-13D,seal_student,0,81,-5,-0.05,0.18787293136119843
+a01|S0-core,a01,a01,S0-core,SEAL-Weld Student-13D,seal_student,1,82,-4,-0.04,0.18670396506786346
+a01|S0-core,a01,a01,S0-core,SEAL-Weld Student-13D,seal_student,2,83,-3,-0.03,0.20694220066070557
+a01|S0-core,a01,a01,S0-core,SEAL-Weld Student-13D,seal_student,3,84,-2,-0.02,0.19897952675819397
+a01|S0-core,a01,a01,S0-core,SEAL-Weld Student-13D,seal_student,4,85,-1,-0.01,0.21950143575668335
+a01|S0-core,a01,a01,S0-core,Student-only-13D,student_only,0,81,-5,-0.05,0.19018101692199707
+a01|S0-core,a01,a01,S0-core,Student-only-13D,student_only,1,82,-4,-0.04,0.20795342326164246
+a01|S0-core,a01,a01,S0-core,Student-only-13D,student_only,2,83,-3,-0.03,0.19689682126045227
+a01|S0-core,a01,a01,S0-core,Student-only-13D,student_only,3,84,-2,-0.02,0.2074389010667801
+a01|S0-core,a01,a01,S0-core,Student-only-13D,student_only,4,85,-1,-0.01,0.1975298672914505
+a01|0->1-boundary,a01,a01,0->1-boundary,Teacher-18D,teacher,0,103,-5,-0.05,0.21124416589736938
+a01|0->1-boundary,a01,a01,0->1-boundary,Teacher-18D,teacher,1,104,-4,-0.04,0.195094496011734
+a01|0->1-boundary,a01,a01,0->1-boundary,Teacher-18D,teacher,2,105,-3,-0.03,0.2010924071073532
+a01|0->1-boundary,a01,a01,0->1-boundary,Teacher-18D,teacher,3,106,-2,-0.02,0.19223445653915405
+a01|0->1-boundary,a01,a01,0->1-boundary,Teacher-18D,teacher,4,107,-1,-0.01,0.2003343552350998
+a01|0->1-boundary,a01,a01,0->1-boundary,SEAL-Weld Student-13D,seal_student,0,103,-5,-0.05,0.18060091137886047
+a01|0->1-boundary,a01,a01,0->1-boundary,SEAL-Weld Student-13D,seal_student,1,104,-4,-0.04,0.20680800080299377
+a01|0->1-boundary,a01,a01,0->1-boundary,SEAL-Weld Student-13D,seal_student,2,105,-3,-0.03,0.19895640015602112
+a01|0->1-boundary,a01,a01,0->1-boundary,SEAL-Weld Student-13D,seal_student,3,106,-2,-0.02,0.21714508533477783
+a01|0->1-boundary,a01,a01,0->1-boundary,SEAL-Weld Student-13D,seal_student,4,107,-1,-0.01,0.1964896023273468
+a01|0->1-boundary,a01,a01,0->1-boundary,Student-only-13D,student_only,0,103,-5,-0.05,0.19173815846443176
+a01|0->1-boundary,a01,a01,0->1-boundary,Student-only-13D,student_only,1,104,-4,-0.04,0.20436322689056396
+a01|0->1-boundary,a01,a01,0->1-boundary,Student-only-13D,student_only,2,105,-3,-0.03,0.19771698117256165
+a01|0->1-boundary,a01,a01,0->1-boundary,Student-only-13D,student_only,3,106,-2,-0.02,0.2015160769224167
+a01|0->1-boundary,a01,a01,0->1-boundary,Student-only-13D,student_only,4,107,-1,-0.01,0.20466551184654236
+a01|S1-core,a01,a01,S1-core,Teacher-18D,teacher,0,559,-5,-0.05,0.17593714594841003
+a01|S1-core,a01,a01,S1-core,Teacher-18D,teacher,1,560,-4,-0.04,0.22924692928791046
+a01|S1-core,a01,a01,S1-core,Teacher-18D,teacher,2,561,-3,-0.03,0.20876231789588928
+a01|S1-core,a01,a01,S1-core,Teacher-18D,teacher,3,562,-2,-0.02,0.19291117787361145
+a01|S1-core,a01,a01,S1-core,Teacher-18D,teacher,4,563,-1,-0.01,0.19314244389533997
+a01|S1-core,a01,a01,S1-core,SEAL-Weld Student-13D,seal_student,0,559,-5,-0.05,0.2511942982673645
+a01|S1-core,a01,a01,S1-core,SEAL-Weld Student-13D,seal_student,1,560,-4,-0.04,0.1844114065170288
+a01|S1-core,a01,a01,S1-core,SEAL-Weld Student-13D,seal_student,2,561,-3,-0.03,0.19526323676109314
+a01|S1-core,a01,a01,S1-core,SEAL-Weld Student-13D,seal_student,3,562,-2,-0.02,0.16810545325279236
+a01|S1-core,a01,a01,S1-core,SEAL-Weld Student-13D,seal_student,4,563,-1,-0.01,0.2010255753993988
+a01|S1-core,a01,a01,S1-core,Student-only-13D,student_only,0,559,-5,-0.05,0.20561814308166504
+a01|S1-core,a01,a01,S1-core,Student-only-13D,student_only,1,560,-4,-0.04,0.19184976816177368
+a01|S1-core,a01,a01,S1-core,Student-only-13D,student_only,2,561,-3,-0.03,0.2125573605298996
+a01|S1-core,a01,a01,S1-core,Student-only-13D,student_only,3,562,-2,-0.02,0.21206450462341309
+a01|S1-core,a01,a01,S1-core,Student-only-13D,student_only,4,563,-1,-0.01,0.17791026830673218
+a01|1->2-boundary,a01,a01,1->2-boundary,Teacher-18D,teacher,0,220,-5,-0.05,0.18877792358398438
+a01|1->2-boundary,a01,a01,1->2-boundary,Teacher-18D,teacher,1,221,-4,-0.04,0.20773927867412567
+a01|1->2-boundary,a01,a01,1->2-boundary,Teacher-18D,teacher,2,222,-3,-0.03,0.2029067575931549
+a01|1->2-boundary,a01,a01,1->2-boundary,Teacher-18D,teacher,3,223,-2,-0.02,0.20692229270935059
+a01|1->2-boundary,a01,a01,1->2-boundary,Teacher-18D,teacher,4,224,-1,-0.01,0.19365376234054565
+a01|1->2-boundary,a01,a01,1->2-boundary,SEAL-Weld Student-13D,seal_student,0,220,-5,-0.05,0.20766016840934753
+a01|1->2-boundary,a01,a01,1->2-boundary,SEAL-Weld Student-13D,seal_student,1,221,-4,-0.04,0.1820393204689026
+a01|1->2-boundary,a01,a01,1->2-boundary,SEAL-Weld Student-13D,seal_student,2,222,-3,-0.03,0.20266255736351013
+a01|1->2-boundary,a01,a01,1->2-boundary,SEAL-Weld Student-13D,seal_student,3,223,-2,-0.02,0.19381356239318848
+a01|1->2-boundary,a01,a01,1->2-boundary,SEAL-Weld Student-13D,seal_student,4,224,-1,-0.01,0.21382436156272888
+a01|1->2-boundary,a01,a01,1->2-boundary,Student-only-13D,student_only,0,220,-5,-0.05,0.1999659389257431
+a01|1->2-boundary,a01,a01,1->2-boundary,Student-only-13D,student_only,1,221,-4,-0.04,0.1926155984401703
+a01|1->2-boundary,a01,a01,1->2-boundary,Student-only-13D,student_only,2,222,-3,-0.03,0.20519554615020752
+a01|1->2-boundary,a01,a01,1->2-boundary,Student-only-13D,student_only,3,223,-2,-0.02,0.1986994594335556
+a01|1->2-boundary,a01,a01,1->2-boundary,Student-only-13D,student_only,4,224,-1,-0.01,0.20352347195148468
+b01|S0-core,b01,b01,S0-core,Teacher-18D,teacher,0,111,-5,-0.05,0.2124139666557312
+b01|S0-core,b01,b01,S0-core,Teacher-18D,teacher,1,112,-4,-0.04,0.19295792281627655
+b01|S0-core,b01,b01,S0-core,Teacher-18D,teacher,2,113,-3,-0.03,0.19961939752101898
+b01|S0-core,b01,b01,S0-core,Teacher-18D,teacher,3,114,-2,-0.02,0.19790403544902802
+b01|S0-core,b01,b01,S0-core,Teacher-18D,teacher,4,115,-1,-0.01,0.19710475206375122
+b01|S0-core,b01,b01,S0-core,SEAL-Weld Student-13D,seal_student,0,111,-5,-0.05,0.18924136459827423
+b01|S0-core,b01,b01,S0-core,SEAL-Weld Student-13D,seal_student,1,112,-4,-0.04,0.21184909343719482
+b01|S0-core,b01,b01,S0-core,SEAL-Weld Student-13D,seal_student,2,113,-3,-0.03,0.2006598263978958
+b01|S0-core,b01,b01,S0-core,SEAL-Weld Student-13D,seal_student,3,114,-2,-0.02,0.22422461211681366
+b01|S0-core,b01,b01,S0-core,SEAL-Weld Student-13D,seal_student,4,115,-1,-0.01,0.17402513325214386
+b01|S0-core,b01,b01,S0-core,Student-only-13D,student_only,0,111,-5,-0.05,0.19646278023719788
+b01|S0-core,b01,b01,S0-core,Student-only-13D,student_only,1,112,-4,-0.04,0.2136310338973999
+b01|S0-core,b01,b01,S0-core,Student-only-13D,student_only,2,113,-3,-0.03,0.19183029234409332
+b01|S0-core,b01,b01,S0-core,Student-only-13D,student_only,3,114,-2,-0.02,0.19647938013076782
+b01|S0-core,b01,b01,S0-core,Student-only-13D,student_only,4,115,-1,-0.01,0.20159649848937988
+b01|0->1-boundary,b01,b01,0->1-boundary,Teacher-18D,teacher,0,143,-5,-0.05,0.2017158716917038
+b01|0->1-boundary,b01,b01,0->1-boundary,Teacher-18D,teacher,1,144,-4,-0.04,0.1917515993118286
+b01|0->1-boundary,b01,b01,0->1-boundary,Teacher-18D,teacher,2,145,-3,-0.03,0.20982426404953003
+b01|0->1-boundary,b01,b01,0->1-boundary,Teacher-18D,teacher,3,146,-2,-0.02,0.20071732997894287
+b01|0->1-boundary,b01,b01,0->1-boundary,Teacher-18D,teacher,4,147,-1,-0.01,0.19599086046218872
+b01|0->1-boundary,b01,b01,0->1-boundary,SEAL-Weld Student-13D,seal_student,0,143,-5,-0.05,0.19527308642864227
+b01|0->1-boundary,b01,b01,0->1-boundary,SEAL-Weld Student-13D,seal_student,1,144,-4,-0.04,0.2064225673675537
+b01|0->1-boundary,b01,b01,0->1-boundary,SEAL-Weld Student-13D,seal_student,2,145,-3,-0.03,0.1938651204109192
+b01|0->1-boundary,b01,b01,0->1-boundary,SEAL-Weld Student-13D,seal_student,3,146,-2,-0.02,0.20171277225017548
+b01|0->1-boundary,b01,b01,0->1-boundary,SEAL-Weld Student-13D,seal_student,4,147,-1,-0.01,0.20272643864154816
+b01|0->1-boundary,b01,b01,0->1-boundary,Student-only-13D,student_only,0,143,-5,-0.05,0.18415166437625885
+b01|0->1-boundary,b01,b01,0->1-boundary,Student-only-13D,student_only,1,144,-4,-0.04,0.20655669271945953
+b01|0->1-boundary,b01,b01,0->1-boundary,Student-only-13D,student_only,2,145,-3,-0.03,0.19923724234104156
+b01|0->1-boundary,b01,b01,0->1-boundary,Student-only-13D,student_only,3,146,-2,-0.02,0.2028232216835022
+b01|0->1-boundary,b01,b01,0->1-boundary,Student-only-13D,student_only,4,147,-1,-0.01,0.20723110437393188
+b01|S1-core,b01,b01,S1-core,Teacher-18D,teacher,0,608,-5,-0.05,0.1955721080303192
+b01|S1-core,b01,b01,S1-core,Teacher-18D,teacher,1,609,-4,-0.04,0.20414750277996063
+b01|S1-core,b01,b01,S1-core,Teacher-18D,teacher,2,610,-3,-0.03,0.2040873020887375
+b01|S1-core,b01,b01,S1-core,Teacher-18D,teacher,3,611,-2,-0.02,0.15706419944763184
+b01|S1-core,b01,b01,S1-core,Teacher-18D,teacher,4,612,-1,-0.01,0.23912891745567322
+b01|S1-core,b01,b01,S1-core,SEAL-Weld Student-13D,seal_student,0,608,-5,-0.05,0.3493277132511139
+b01|S1-core,b01,b01,S1-core,SEAL-Weld Student-13D,seal_student,1,609,-4,-0.04,0.1629643738269806
+b01|S1-core,b01,b01,S1-core,SEAL-Weld Student-13D,seal_student,2,610,-3,-0.03,0.1741792857646942
+b01|S1-core,b01,b01,S1-core,SEAL-Weld Student-13D,seal_student,3,611,-2,-0.02,0.12770383059978485
+b01|S1-core,b01,b01,S1-core,SEAL-Weld Student-13D,seal_student,4,612,-1,-0.01,0.18582485616207123
+b01|S1-core,b01,b01,S1-core,Student-only-13D,student_only,0,608,-5,-0.05,0.20172980427742004
+b01|S1-core,b01,b01,S1-core,Student-only-13D,student_only,1,609,-4,-0.04,0.1886967271566391
+b01|S1-core,b01,b01,S1-core,Student-only-13D,student_only,2,610,-3,-0.03,0.19294078648090363
+b01|S1-core,b01,b01,S1-core,Student-only-13D,student_only,3,611,-2,-0.02,0.20212943851947784
+b01|S1-core,b01,b01,S1-core,Student-only-13D,student_only,4,612,-1,-0.01,0.21450325846672058
+b01|1->2-boundary,b01,b01,1->2-boundary,Teacher-18D,teacher,0,286,-5,-0.05,0.18509213626384735
+b01|1->2-boundary,b01,b01,1->2-boundary,Teacher-18D,teacher,1,287,-4,-0.04,0.1969926953315735
+b01|1->2-boundary,b01,b01,1->2-boundary,Teacher-18D,teacher,2,288,-3,-0.03,0.2071533352136612
+b01|1->2-boundary,b01,b01,1->2-boundary,Teacher-18D,teacher,3,289,-2,-0.02,0.20298442244529724
+b01|1->2-boundary,b01,b01,1->2-boundary,Teacher-18D,teacher,4,290,-1,-0.01,0.2077774703502655
+b01|1->2-boundary,b01,b01,1->2-boundary,SEAL-Weld Student-13D,seal_student,0,286,-5,-0.05,0.2016845941543579
+b01|1->2-boundary,b01,b01,1->2-boundary,SEAL-Weld Student-13D,seal_student,1,287,-4,-0.04,0.1943056285381317
+b01|1->2-boundary,b01,b01,1->2-boundary,SEAL-Weld Student-13D,seal_student,2,288,-3,-0.03,0.2188091278076172
+b01|1->2-boundary,b01,b01,1->2-boundary,SEAL-Weld Student-13D,seal_student,3,289,-2,-0.02,0.18373411893844604
+b01|1->2-boundary,b01,b01,1->2-boundary,SEAL-Weld Student-13D,seal_student,4,290,-1,-0.01,0.20146653056144714
+b01|1->2-boundary,b01,b01,1->2-boundary,Student-only-13D,student_only,0,286,-5,-0.05,0.2012607306241989
+b01|1->2-boundary,b01,b01,1->2-boundary,Student-only-13D,student_only,1,287,-4,-0.04,0.1953815370798111
+b01|1->2-boundary,b01,b01,1->2-boundary,Student-only-13D,student_only,2,288,-3,-0.03,0.19840563833713531
+b01|1->2-boundary,b01,b01,1->2-boundary,Student-only-13D,student_only,3,289,-2,-0.02,0.19808702170848846
+b01|1->2-boundary,b01,b01,1->2-boundary,Student-only-13D,student_only,4,290,-1,-0.01,0.206865131855011
+c01|S0-core,c01,c02,S0-core,Teacher-18D,teacher,0,67,-5,-0.05,0.2097882479429245
+c01|S0-core,c01,c02,S0-core,Teacher-18D,teacher,1,68,-4,-0.04,0.21143364906311035
+c01|S0-core,c01,c02,S0-core,Teacher-18D,teacher,2,69,-3,-0.03,0.20076453685760498
+c01|S0-core,c01,c02,S0-core,Teacher-18D,teacher,3,70,-2,-0.02,0.1931135505437851
+c01|S0-core,c01,c02,S0-core,Teacher-18D,teacher,4,71,-1,-0.01,0.18489998579025269
+c01|S0-core,c01,c02,S0-core,SEAL-Weld Student-13D,seal_student,0,67,-5,-0.05,0.2018689215183258
+c01|S0-core,c01,c02,S0-core,SEAL-Weld Student-13D,seal_student,1,68,-4,-0.04,0.21144628524780273
+c01|S0-core,c01,c02,S0-core,SEAL-Weld Student-13D,seal_student,2,69,-3,-0.03,0.19753877818584442
+c01|S0-core,c01,c02,S0-core,SEAL-Weld Student-13D,seal_student,3,70,-2,-0.02,0.18415342271327972
+c01|S0-core,c01,c02,S0-core,SEAL-Weld Student-13D,seal_student,4,71,-1,-0.01,0.2049926072359085
+c01|S0-core,c01,c02,S0-core,Student-only-13D,student_only,0,67,-5,-0.05,0.20822778344154358
+c01|S0-core,c01,c02,S0-core,Student-only-13D,student_only,1,68,-4,-0.04,0.2000834047794342
+c01|S0-core,c01,c02,S0-core,Student-only-13D,student_only,2,69,-3,-0.03,0.20640835165977478
+c01|S0-core,c01,c02,S0-core,Student-only-13D,student_only,3,70,-2,-0.02,0.1858750432729721
+c01|S0-core,c01,c02,S0-core,Student-only-13D,student_only,4,71,-1,-0.01,0.19940540194511414
+c01|0->1-boundary,c01,c01,0->1-boundary,Teacher-18D,teacher,0,25,-5,-0.05,0.19022032618522644
+c01|0->1-boundary,c01,c01,0->1-boundary,Teacher-18D,teacher,1,26,-4,-0.04,0.1983627825975418
+c01|0->1-boundary,c01,c01,0->1-boundary,Teacher-18D,teacher,2,27,-3,-0.03,0.20682093501091003
+c01|0->1-boundary,c01,c01,0->1-boundary,Teacher-18D,teacher,3,28,-2,-0.02,0.21021637320518494
+c01|0->1-boundary,c01,c01,0->1-boundary,Teacher-18D,teacher,4,29,-1,-0.01,0.1943795531988144
+c01|0->1-boundary,c01,c01,0->1-boundary,SEAL-Weld Student-13D,seal_student,0,25,-5,-0.05,0.19221358001232147
+c01|0->1-boundary,c01,c01,0->1-boundary,SEAL-Weld Student-13D,seal_student,1,26,-4,-0.04,0.20624294877052307
+c01|0->1-boundary,c01,c01,0->1-boundary,SEAL-Weld Student-13D,seal_student,2,27,-3,-0.03,0.20920412242412567
+c01|0->1-boundary,c01,c01,0->1-boundary,SEAL-Weld Student-13D,seal_student,3,28,-2,-0.02,0.18409094214439392
+c01|0->1-boundary,c01,c01,0->1-boundary,SEAL-Weld Student-13D,seal_student,4,29,-1,-0.01,0.20824842154979706
+c01|0->1-boundary,c01,c01,0->1-boundary,Student-only-13D,student_only,0,25,-5,-0.05,0.1963711380958557
+c01|0->1-boundary,c01,c01,0->1-boundary,Student-only-13D,student_only,1,26,-4,-0.04,0.20044557750225067
+c01|0->1-boundary,c01,c01,0->1-boundary,Student-only-13D,student_only,2,27,-3,-0.03,0.19749855995178223
+c01|0->1-boundary,c01,c01,0->1-boundary,Student-only-13D,student_only,3,28,-2,-0.02,0.20163698494434357
+c01|0->1-boundary,c01,c01,0->1-boundary,Student-only-13D,student_only,4,29,-1,-0.01,0.20404770970344543
+c01|S1-core,c01,c01,S1-core,Teacher-18D,teacher,0,216,-5,-0.05,0.25029805302619934
+c01|S1-core,c01,c01,S1-core,Teacher-18D,teacher,1,217,-4,-0.04,0.1708795726299286
+c01|S1-core,c01,c01,S1-core,Teacher-18D,teacher,2,218,-3,-0.03,0.18416298925876617
+c01|S1-core,c01,c01,S1-core,Teacher-18D,teacher,3,219,-2,-0.02,0.15475688874721527
+c01|S1-core,c01,c01,S1-core,Teacher-18D,teacher,4,220,-1,-0.01,0.2399025559425354
+c01|S1-core,c01,c01,S1-core,SEAL-Weld Student-13D,seal_student,0,216,-5,-0.05,0.28019586205482483
+c01|S1-core,c01,c01,S1-core,SEAL-Weld Student-13D,seal_student,1,217,-4,-0.04,0.2738759517669678
+c01|S1-core,c01,c01,S1-core,SEAL-Weld Student-13D,seal_student,2,218,-3,-0.03,0.10045565664768219
+c01|S1-core,c01,c01,S1-core,SEAL-Weld Student-13D,seal_student,3,219,-2,-0.02,0.1317932903766632
+c01|S1-core,c01,c01,S1-core,SEAL-Weld Student-13D,seal_student,4,220,-1,-0.01,0.21367931365966797
+c01|S1-core,c01,c01,S1-core,Student-only-13D,student_only,0,216,-5,-0.05,0.23335999250411987
+c01|S1-core,c01,c01,S1-core,Student-only-13D,student_only,1,217,-4,-0.04,0.1855097860097885
+c01|S1-core,c01,c01,S1-core,Student-only-13D,student_only,2,218,-3,-0.03,0.23318247497081757
+c01|S1-core,c01,c01,S1-core,Student-only-13D,student_only,3,219,-2,-0.02,0.1848537027835846
+c01|S1-core,c01,c01,S1-core,Student-only-13D,student_only,4,220,-1,-0.01,0.16309410333633423
+c01|1->2-boundary,c01,c01,1->2-boundary,Teacher-18D,teacher,0,149,-5,-0.05,0.1994519829750061
+c01|1->2-boundary,c01,c01,1->2-boundary,Teacher-18D,teacher,1,150,-4,-0.04,0.19846293330192566
+c01|1->2-boundary,c01,c01,1->2-boundary,Teacher-18D,teacher,2,151,-3,-0.03,0.21145272254943848
+c01|1->2-boundary,c01,c01,1->2-boundary,Teacher-18D,teacher,3,152,-2,-0.02,0.18752679228782654
+c01|1->2-boundary,c01,c01,1->2-boundary,Teacher-18D,teacher,4,153,-1,-0.01,0.20310556888580322
+c01|1->2-boundary,c01,c01,1->2-boundary,SEAL-Weld Student-13D,seal_student,0,149,-5,-0.05,0.20708784461021423
+c01|1->2-boundary,c01,c01,1->2-boundary,SEAL-Weld Student-13D,seal_student,1,150,-4,-0.04,0.18969133496284485
+c01|1->2-boundary,c01,c01,1->2-boundary,SEAL-Weld Student-13D,seal_student,2,151,-3,-0.03,0.20051535964012146
+c01|1->2-boundary,c01,c01,1->2-boundary,SEAL-Weld Student-13D,seal_student,3,152,-2,-0.02,0.20004841685295105
+c01|1->2-boundary,c01,c01,1->2-boundary,SEAL-Weld Student-13D,seal_student,4,153,-1,-0.01,0.20265702903270721
+c01|1->2-boundary,c01,c01,1->2-boundary,Student-only-13D,student_only,0,149,-5,-0.05,0.19774192571640015
+c01|1->2-boundary,c01,c01,1->2-boundary,Student-only-13D,student_only,1,150,-4,-0.04,0.19561222195625305
+c01|1->2-boundary,c01,c01,1->2-boundary,Student-only-13D,student_only,2,151,-3,-0.03,0.20088538527488708
+c01|1->2-boundary,c01,c01,1->2-boundary,Student-only-13D,student_only,3,152,-2,-0.02,0.1995929777622223
+c01|1->2-boundary,c01,c01,1->2-boundary,Student-only-13D,student_only,4,153,-1,-0.01,0.20616745948791504
+c02|S0-core,c02,c02,S0-core,Teacher-18D,teacher,0,67,-5,-0.05,0.2097882479429245
+c02|S0-core,c02,c02,S0-core,Teacher-18D,teacher,1,68,-4,-0.04,0.21143364906311035
+c02|S0-core,c02,c02,S0-core,Teacher-18D,teacher,2,69,-3,-0.03,0.20076453685760498
+c02|S0-core,c02,c02,S0-core,Teacher-18D,teacher,3,70,-2,-0.02,0.1931135505437851
+c02|S0-core,c02,c02,S0-core,Teacher-18D,teacher,4,71,-1,-0.01,0.18489998579025269
+c02|S0-core,c02,c02,S0-core,SEAL-Weld Student-13D,seal_student,0,67,-5,-0.05,0.2018689215183258
+c02|S0-core,c02,c02,S0-core,SEAL-Weld Student-13D,seal_student,1,68,-4,-0.04,0.21144628524780273
+c02|S0-core,c02,c02,S0-core,SEAL-Weld Student-13D,seal_student,2,69,-3,-0.03,0.19753877818584442
+c02|S0-core,c02,c02,S0-core,SEAL-Weld Student-13D,seal_student,3,70,-2,-0.02,0.18415342271327972
+c02|S0-core,c02,c02,S0-core,SEAL-Weld Student-13D,seal_student,4,71,-1,-0.01,0.2049926072359085
+c02|S0-core,c02,c02,S0-core,Student-only-13D,student_only,0,67,-5,-0.05,0.20822778344154358
+c02|S0-core,c02,c02,S0-core,Student-only-13D,student_only,1,68,-4,-0.04,0.2000834047794342
+c02|S0-core,c02,c02,S0-core,Student-only-13D,student_only,2,69,-3,-0.03,0.20640835165977478
+c02|S0-core,c02,c02,S0-core,Student-only-13D,student_only,3,70,-2,-0.02,0.1858750432729721
+c02|S0-core,c02,c02,S0-core,Student-only-13D,student_only,4,71,-1,-0.01,0.19940540194511414
+c02|0->1-boundary,c02,c02,0->1-boundary,Teacher-18D,teacher,0,83,-5,-0.05,0.2010648548603058
+c02|0->1-boundary,c02,c02,0->1-boundary,Teacher-18D,teacher,1,84,-4,-0.04,0.19784843921661377
+c02|0->1-boundary,c02,c02,0->1-boundary,Teacher-18D,teacher,2,85,-3,-0.03,0.20903189480304718
+c02|0->1-boundary,c02,c02,0->1-boundary,Teacher-18D,teacher,3,86,-2,-0.02,0.20486938953399658
+c02|0->1-boundary,c02,c02,0->1-boundary,Teacher-18D,teacher,4,87,-1,-0.01,0.1871853768825531
+c02|0->1-boundary,c02,c02,0->1-boundary,SEAL-Weld Student-13D,seal_student,0,83,-5,-0.05,0.20967522263526917
+c02|0->1-boundary,c02,c02,0->1-boundary,SEAL-Weld Student-13D,seal_student,1,84,-4,-0.04,0.18874256312847137
+c02|0->1-boundary,c02,c02,0->1-boundary,SEAL-Weld Student-13D,seal_student,2,85,-3,-0.03,0.20557813346385956
+c02|0->1-boundary,c02,c02,0->1-boundary,SEAL-Weld Student-13D,seal_student,3,86,-2,-0.02,0.19264265894889832
+c02|0->1-boundary,c02,c02,0->1-boundary,SEAL-Weld Student-13D,seal_student,4,87,-1,-0.01,0.2033613622188568
+c02|0->1-boundary,c02,c02,0->1-boundary,Student-only-13D,student_only,0,83,-5,-0.05,0.20265834033489227
+c02|0->1-boundary,c02,c02,0->1-boundary,Student-only-13D,student_only,1,84,-4,-0.04,0.1959894895553589
+c02|0->1-boundary,c02,c02,0->1-boundary,Student-only-13D,student_only,2,85,-3,-0.03,0.19216783344745636
+c02|0->1-boundary,c02,c02,0->1-boundary,Student-only-13D,student_only,3,86,-2,-0.02,0.1992274820804596
+c02|0->1-boundary,c02,c02,0->1-boundary,Student-only-13D,student_only,4,87,-1,-0.01,0.20995676517486572
+c02|S1-core,c02,c02,S1-core,Teacher-18D,teacher,0,233,-5,-0.05,0.20280222594738007
+c02|S1-core,c02,c02,S1-core,Teacher-18D,teacher,1,234,-4,-0.04,0.19731435179710388
+c02|S1-core,c02,c02,S1-core,Teacher-18D,teacher,2,235,-3,-0.03,0.19370007514953613
+c02|S1-core,c02,c02,S1-core,Teacher-18D,teacher,3,236,-2,-0.02,0.18856307864189148
+c02|S1-core,c02,c02,S1-core,Teacher-18D,teacher,4,237,-1,-0.01,0.21762028336524963
+c02|S1-core,c02,c02,S1-core,SEAL-Weld Student-13D,seal_student,0,233,-5,-0.05,0.3380167782306671
+c02|S1-core,c02,c02,S1-core,SEAL-Weld Student-13D,seal_student,1,234,-4,-0.04,0.1572955995798111
+c02|S1-core,c02,c02,S1-core,SEAL-Weld Student-13D,seal_student,2,235,-3,-0.03,0.20240232348442078
+c02|S1-core,c02,c02,S1-core,SEAL-Weld Student-13D,seal_student,3,236,-2,-0.02,0.14566558599472046
+c02|S1-core,c02,c02,S1-core,SEAL-Weld Student-13D,seal_student,4,237,-1,-0.01,0.15661972761154175
+c02|S1-core,c02,c02,S1-core,Student-only-13D,student_only,0,233,-5,-0.05,0.19780562818050385
+c02|S1-core,c02,c02,S1-core,Student-only-13D,student_only,1,234,-4,-0.04,0.20423531532287598
+c02|S1-core,c02,c02,S1-core,Student-only-13D,student_only,2,235,-3,-0.03,0.1961146742105484
+c02|S1-core,c02,c02,S1-core,Student-only-13D,student_only,3,236,-2,-0.02,0.1975173056125641
+c02|S1-core,c02,c02,S1-core,Student-only-13D,student_only,4,237,-1,-0.01,0.2043270766735077
+c02|1->2-boundary,c02,c02,1->2-boundary,Teacher-18D,teacher,0,107,-5,-0.05,0.19355669617652893
+c02|1->2-boundary,c02,c02,1->2-boundary,Teacher-18D,teacher,1,108,-4,-0.04,0.2053927332162857
+c02|1->2-boundary,c02,c02,1->2-boundary,Teacher-18D,teacher,2,109,-3,-0.03,0.18530182540416718
+c02|1->2-boundary,c02,c02,1->2-boundary,Teacher-18D,teacher,3,110,-2,-0.02,0.2281450480222702
+c02|1->2-boundary,c02,c02,1->2-boundary,Teacher-18D,teacher,4,111,-1,-0.01,0.18760377168655396
+c02|1->2-boundary,c02,c02,1->2-boundary,SEAL-Weld Student-13D,seal_student,0,107,-5,-0.05,0.20463506877422333
+c02|1->2-boundary,c02,c02,1->2-boundary,SEAL-Weld Student-13D,seal_student,1,108,-4,-0.04,0.20941154658794403
+c02|1->2-boundary,c02,c02,1->2-boundary,SEAL-Weld Student-13D,seal_student,2,109,-3,-0.03,0.17600710690021515
+c02|1->2-boundary,c02,c02,1->2-boundary,SEAL-Weld Student-13D,seal_student,3,110,-2,-0.02,0.20808973908424377
+c02|1->2-boundary,c02,c02,1->2-boundary,SEAL-Weld Student-13D,seal_student,4,111,-1,-0.01,0.20185653865337372
+c02|1->2-boundary,c02,c02,1->2-boundary,Student-only-13D,student_only,0,107,-5,-0.05,0.19243371486663818
+c02|1->2-boundary,c02,c02,1->2-boundary,Student-only-13D,student_only,1,108,-4,-0.04,0.19140519201755524
+c02|1->2-boundary,c02,c02,1->2-boundary,Student-only-13D,student_only,2,109,-3,-0.03,0.20297589898109436
+c02|1->2-boundary,c02,c02,1->2-boundary,Student-only-13D,student_only,3,110,-2,-0.02,0.1993992030620575
+c02|1->2-boundary,c02,c02,1->2-boundary,Student-only-13D,student_only,4,111,-1,-0.01,0.2137860357761383

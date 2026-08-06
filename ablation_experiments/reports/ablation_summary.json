@@ -1,0 +1,48 @@
+{
+  "ablation1_dir": "/home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/ablation_experiments/results/ablation1_student_only_tcn_attn",
+  "ablation2_dir": "/home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/ablation_experiments/results/ablation2_teacher_student_lstm/students",
+  "baseline_dir": "/home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/outputs/distill_single_tcn",
+  "include_baseline": true,
+  "num_runs": 3,
+  "group_summaries": [
+    {
+      "group": "ablation1_student_only_tcn_attn",
+      "count": 1,
+      "mean_test_acc": 0.6168,
+      "std_test_acc": 0.0,
+      "mean_test_macro_f1": 0.654861,
+      "std_test_macro_f1": 0.0,
+      "mean_test_teacher_agreement": -1.0,
+      "std_test_teacher_agreement": 0.0,
+      "best_run_name": "ablation1_student_only_tcn_attn_weld_seam_windows_ws5_tf75_pg0_ep2_lr0.00025_bs128_seed100",
+      "best_seed": 100,
+      "best_test_acc": 0.6168
+    },
+    {
+      "group": "ablation2_teacher_student_lstm",
+      "count": 1,
+      "mean_test_acc": 0.375,
+      "std_test_acc": 0.0,
+      "mean_test_macro_f1": 0.285153,
+      "std_test_macro_f1": 0.0,
+      "mean_test_teacher_agreement": 0.35600000000000004,
+      "std_test_teacher_agreement": 0.0,
+      "best_run_name": "ablation2_distill_lstm_weld_seam_windows_ws5_tf75_pg0_ep2_lr0.00025_bs128_T3.0_lce0.8_lkd1.2_lf0.2_seed100",
+      "best_seed": 100,
+      "best_test_acc": 0.375
+    },
+    {
+      "group": "baseline_tcn_attn_distill",
+      "count": 1,
+      "mean_test_acc": 0.8423999999999999,
+      "std_test_acc": 0.0,
+      "mean_test_macro_f1": 0.832127,
+      "std_test_macro_f1": 0.0,
+      "mean_test_teacher_agreement": 0.856,
+      "std_test_teacher_agreement": 0.0,
+      "best_run_name": "distill_tcn_attn_weld_seam_windows_ws5_tf75_pg0_ep80_lr0.0002_bs128_T2.0_lce1.0_lkd0.7_lf0.2_seed42",
+      "best_seed": 42,
+      "best_test_acc": 0.8423999999999999
+    }
+  ]
+}

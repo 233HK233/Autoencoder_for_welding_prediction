@@ -1,0 +1,138 @@
+{
+  "ablation1_dir": "ablation_experiments/h1/results/run_20260327_131013/ablation1_sweep/trials",
+  "ablation2_dir": "ablation_experiments/h1/results/run_20260327_131013/ablation2_teacher_student_lstm/students",
+  "ablation3_dir": "ablation_experiments/h1/results/run_20260327_131013/ablation3_joint_tcn_attn/ablation3_h1_scan90_run_20260327_131013_rerun",
+  "baseline_dir": "/home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/outputs/distill_single_tcn",
+  "include_baseline": false,
+  "num_runs": 156,
+  "group_summaries": [
+    {
+      "group": "ablation1_student_only_tcn_attn",
+      "count": 60,
+      "mean_test_acc": 0.89836,
+      "std_test_acc": 0.041260676194168226,
+      "mean_test_macro_f1": 0.8700581333333334,
+      "std_test_macro_f1": 0.053259458755062675,
+      "mean_test_teacher_agreement": -1.0,
+      "std_test_teacher_agreement": 0.0,
+      "best_run_name": "ablation1_student_only_tcn_attn_weld_seam_windows_ws5_tf75_pg0_h1_ep80_lr0.00015_bs96_seed156",
+      "best_run_dir": "ablation_experiments/h1/results/run_20260327_131013/ablation1_sweep/trials/trial_0004_A/ablation1_student_only_tcn_attn_weld_seam_windows_ws5_tf75_pg0_h1_ep80_lr0.00015_bs96_seed156",
+      "best_seed": 156,
+      "best_test_acc": 0.9831
+    },
+    {
+      "group": "ablation2_teacher_student_lstm",
+      "count": 56,
+      "mean_test_acc": 0.9018892857142857,
+      "std_test_acc": 0.025913170111047427,
+      "mean_test_macro_f1": 0.8686543928571429,
+      "std_test_macro_f1": 0.03634225726620192,
+      "mean_test_teacher_agreement": 0.9496392857142857,
+      "std_test_teacher_agreement": 0.03335078002178096,
+      "best_run_name": "ablation2_distill_lstm_weld_seam_windows_ws5_tf75_pg0_h1_ep80_lr0.00025_bs128_T3.0_lce0.8_lkd1.3_lf0.30000000000000004_seed230",
+      "best_run_dir": "ablation_experiments/h1/results/run_20260327_131013/ablation2_teacher_student_lstm/students/ablation2_h1_scan90_run_20260327_131013/stage3/s3_s2_s1_l3_o2_c1_r2/seed_230/ablation2_distill_lstm_weld_seam_windows_ws5_tf75_pg0_h1_ep80_lr0.00025_bs128_T3.0_lce0.8_lkd1.3_lf0.30000000000000004_seed230",
+      "best_seed": 230,
+      "best_test_acc": 0.9944
+    },
+    {
+      "group": "ablation3_joint_teacher_student_tcn_attn",
+      "count": 40,
+      "mean_test_acc": 0.9482475,
+      "std_test_acc": 0.039094213046818066,
+      "mean_test_macro_f1": 0.93101155,
+      "std_test_macro_f1": 0.04686867435982695,
+      "mean_test_teacher_agreement": 0.948815,
+      "std_test_teacher_agreement": 0.025852742117616817,
+      "best_run_name": "ablation3_joint_tcn_attn_weld_seam_windows_ws5_tf75_pg0_h1_ep80_lrt0.0001_lrs0.0003_bs128_T2.0_lce0.9_lkd1.2_lf0.1_seed14",
+      "best_run_dir": "ablation_experiments/h1/results/run_20260327_131013/ablation3_joint_tcn_attn/ablation3_h1_scan90_run_20260327_131013_rerun/stage0/s0_l4p_c0/ablation3_joint_tcn_attn_weld_seam_windows_ws5_tf75_pg0_h1_ep80_lrt0.0001_lrs0.0003_bs128_T2.0_lce0.9_lkd1.2_lf0.1_seed14",
+      "best_seed": 14,
+      "best_test_acc": 0.9831
+    }
+  ],
+  "best_run_manifests": [
+    {
+      "group": "ablation1_student_only_tcn_attn",
+      "path": "ablation_experiments/h1/reports/run_20260327_131013/final_summary/ablation1_student_only_tcn_attn_best_run_manifest.json",
+      "best_run_name": "ablation1_student_only_tcn_attn_weld_seam_windows_ws5_tf75_pg0_h1_ep80_lr0.00015_bs96_seed156",
+      "best_run_dir": "ablation_experiments/h1/results/run_20260327_131013/ablation1_sweep/trials/trial_0004_A/ablation1_student_only_tcn_attn_weld_seam_windows_ws5_tf75_pg0_h1_ep80_lr0.00015_bs96_seed156",
+      "best_seed": 156,
+      "best_test_acc": 0.9831,
+      "best_test_macro_f1": 0.977795,
+      "best_test_teacher_agreement": -1.0,
+      "dataset_npz": "Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz",
+      "dataset_check": {
+        "dataset_path": "/home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz",
+        "dataset_size_bytes": 602086,
+        "target_horizon_steps": 1,
+        "expected_horizon": 1,
+        "horizon_ok": true,
+        "expected_delta": 5,
+        "train_delta_ok": true,
+        "test_delta_ok": true,
+        "train_sample_count": 1165,
+        "test_sample_count": 356
+      },
+      "acceptance": {
+        "target_horizon_steps_ok": true,
+        "target_accuracy_threshold": 0.9,
+        "target_accuracy_reached": true
+      }
+    },
+    {
+      "group": "ablation2_teacher_student_lstm",
+      "path": "ablation_experiments/h1/reports/run_20260327_131013/final_summary/ablation2_teacher_student_lstm_best_run_manifest.json",
+      "best_run_name": "ablation2_distill_lstm_weld_seam_windows_ws5_tf75_pg0_h1_ep80_lr0.00025_bs128_T3.0_lce0.8_lkd1.3_lf0.30000000000000004_seed230",
+      "best_run_dir": "ablation_experiments/h1/results/run_20260327_131013/ablation2_teacher_student_lstm/students/ablation2_h1_scan90_run_20260327_131013/stage3/s3_s2_s1_l3_o2_c1_r2/seed_230/ablation2_distill_lstm_weld_seam_windows_ws5_tf75_pg0_h1_ep80_lr0.00025_bs128_T3.0_lce0.8_lkd1.3_lf0.30000000000000004_seed230",
+      "best_seed": 230,
+      "best_test_acc": 0.9944,
+      "best_test_macro_f1": 0.992959,
+      "best_test_teacher_agreement": 0.9073,
+      "dataset_npz": "Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz",
+      "dataset_check": {
+        "dataset_path": "/home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz",
+        "dataset_size_bytes": 602086,
+        "target_horizon_steps": 1,
+        "expected_horizon": 1,
+        "horizon_ok": true,
+        "expected_delta": 5,
+        "train_delta_ok": true,
+        "test_delta_ok": true,
+        "train_sample_count": 1165,
+        "test_sample_count": 356
+      },
+      "acceptance": {
+        "target_horizon_steps_ok": true,
+        "target_accuracy_threshold": 0.9,
+        "target_accuracy_reached": true
+      }
+    },
+    {
+      "group": "ablation3_joint_teacher_student_tcn_attn",
+      "path": "ablation_experiments/h1/reports/run_20260327_131013/final_summary/ablation3_joint_teacher_student_tcn_attn_best_run_manifest.json",
+      "best_run_name": "ablation3_joint_tcn_attn_weld_seam_windows_ws5_tf75_pg0_h1_ep80_lrt0.0001_lrs0.0003_bs128_T2.0_lce0.9_lkd1.2_lf0.1_seed14",
+      "best_run_dir": "ablation_experiments/h1/results/run_20260327_131013/ablation3_joint_tcn_attn/ablation3_h1_scan90_run_20260327_131013_rerun/stage0/s0_l4p_c0/ablation3_joint_tcn_attn_weld_seam_windows_ws5_tf75_pg0_h1_ep80_lrt0.0001_lrs0.0003_bs128_T2.0_lce0.9_lkd1.2_lf0.1_seed14",
+      "best_seed": 14,
+      "best_test_acc": 0.9831,
+      "best_test_macro_f1": 0.976478,
+      "best_test_teacher_agreement": 0.9719,
+      "dataset_npz": "Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz",
+      "dataset_check": {
+        "dataset_path": "/home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz",
+        "dataset_size_bytes": 602086,
+        "target_horizon_steps": 1,
+        "expected_horizon": 1,
+        "horizon_ok": true,
+        "expected_delta": 5,
+        "train_delta_ok": true,
+        "test_delta_ok": true,
+        "train_sample_count": 1165,
+        "test_sample_count": 356
+      },
+      "acceptance": {
+        "target_horizon_steps_ok": true,
+        "target_accuracy_threshold": 0.9,
+        "target_accuracy_reached": true
+      }
+    }
+  ]
+}

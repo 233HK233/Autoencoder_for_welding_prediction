@@ -1,0 +1,45 @@
+Best epoch: 16
+Checkpoint metric: val_macro_f1
+Best score: 0.956033
+
+--- Train Metrics (inception) ---
+Loss: 0.284017
+Accuracy: 94.25%
+Macro-F1: 0.940296
+
+=== Classification Report (Train) ===
+              precision    recall  f1-score   support
+     Class 0     0.9770   0.9659     0.9714       264
+     Class 1     0.8195   0.9858     0.8950       281
+     Class 2     1.0000   0.9129     0.9545       620
+
+    accuracy                       0.9425      1165
+   macro avg     0.0000   0.0000     0.9403      1165
+
+--- Val Metrics (inception) ---
+Loss: 0.308417
+Accuracy: 95.43%
+Macro-F1: 0.956033
+
+=== Classification Report (Val) ===
+              precision    recall  f1-score   support
+     Class 0     1.0000   1.0000     1.0000        40
+     Class 1     0.8400   1.0000     0.9130        42
+     Class 2     1.0000   0.9140     0.9551        93
+
+    accuracy                       0.9543       175
+   macro avg     0.0000   0.0000     0.9560       175
+
+--- Test Metrics (inception) ---
+Loss: 0.512967
+Accuracy: 90.17%
+Macro-F1: 0.873180
+
+=== Classification Report (Test) ===
+              precision    recall  f1-score   support
+     Class 0     1.0000   0.7308     0.8444        78
+     Class 1     0.7353   0.9036     0.8108        83
+     Class 2     0.9594   0.9692     0.9643       195
+
+    accuracy                       0.9017       356
+   macro avg     0.0000   0.0000     0.8732       356

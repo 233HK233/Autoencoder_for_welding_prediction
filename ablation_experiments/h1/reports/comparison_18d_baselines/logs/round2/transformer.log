@@ -1,0 +1,1227 @@
+/usr/local/lib/python3.10/dist-packages/torch/nn/modules/transformer.py:385: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+================================================================================
+Comparison baseline | model=transformer
+================================================================================
+Dataset: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz
+Device: cuda
+Train/Val/Test: 990 / 175 / 356
+Epoch 001 | train_loss=0.6044 | val_acc=96.00% val_f1=0.9485 | test_acc=91.57% test_f1=0.8967
+Epoch 002 | train_loss=0.1628 | val_acc=98.86% val_f1=0.9886 | test_acc=84.55% test_f1=0.7992
+Epoch 003 | train_loss=0.0666 | val_acc=98.29% val_f1=0.9807 | test_acc=81.46% test_f1=0.7386
+Epoch 004 | train_loss=0.0458 | val_acc=98.86% val_f1=0.9837 | test_acc=81.46% test_f1=0.7254
+Epoch 005 | train_loss=0.0339 | val_acc=94.29% val_f1=0.9456 | test_acc=89.89% test_f1=0.8560
+Epoch 006 | train_loss=0.0421 | val_acc=94.86% val_f1=0.9479 | test_acc=94.38% test_f1=0.9257
+Epoch 007 | train_loss=0.0352 | val_acc=100.00% val_f1=1.0000 | test_acc=80.62% test_f1=0.7431
+Epoch 008 | train_loss=0.0376 | val_acc=99.43% val_f1=0.9919 | test_acc=87.64% test_f1=0.8429
+Epoch 009 | train_loss=0.0459 | val_acc=99.43% val_f1=0.9919 | test_acc=78.37% test_f1=0.7014
+Epoch 010 | train_loss=0.0121 | val_acc=99.43% val_f1=0.9919 | test_acc=78.93% test_f1=0.7114
+Epoch 011 | train_loss=0.0061 | val_acc=100.00% val_f1=1.0000 | test_acc=76.97% test_f1=0.6926
+Epoch 012 | train_loss=0.0040 | val_acc=99.43% val_f1=0.9919 | test_acc=78.09% test_f1=0.7005
+Epoch 013 | train_loss=0.0101 | val_acc=97.71% val_f1=0.9673 | test_acc=73.60% test_f1=0.6211
+Epoch 014 | train_loss=0.0096 | val_acc=98.29% val_f1=0.9755 | test_acc=71.91% test_f1=0.6027
+Epoch 015 | train_loss=0.0312 | val_acc=100.00% val_f1=1.0000 | test_acc=80.06% test_f1=0.7397
+Epoch 016 | train_loss=0.0306 | val_acc=100.00% val_f1=1.0000 | test_acc=82.30% test_f1=0.7636
+Epoch 017 | train_loss=0.0282 | val_acc=100.00% val_f1=1.0000 | test_acc=85.11% test_f1=0.7924
+Epoch 018 | train_loss=0.0055 | val_acc=98.29% val_f1=0.9755 | test_acc=76.97% test_f1=0.6821
+Epoch 019 | train_loss=0.0030 | val_acc=98.86% val_f1=0.9837 | test_acc=83.15% test_f1=0.7624
+Epoch 020 | train_loss=0.0021 | val_acc=98.86% val_f1=0.9837 | test_acc=84.83% test_f1=0.7991
+Epoch 021 | train_loss=0.0020 | val_acc=99.43% val_f1=0.9919 | test_acc=85.39% test_f1=0.8090
+Epoch 022 | train_loss=0.0018 | val_acc=98.86% val_f1=0.9837 | test_acc=84.55% test_f1=0.7981
+Epoch 023 | train_loss=0.0011 | val_acc=98.86% val_f1=0.9837 | test_acc=83.15% test_f1=0.7753
+Early stopping at epoch 23 (best=7, score=1.000000)
+================================================================================
+Best epoch: 7
+Best score (val_macro_f1): 1.000000
+Final test accuracy: 80.62%
+Saved to: ablation_experiments/h1/results/comparison_18d_baselines/transformer/transformer_weld_seam_windows_ws5_tf75_pg0_h1_dm128_nh4_l4_ff128_do0.3_ep80_lr0.0005_wd0.0005_bs64_seed100
+/usr/local/lib/python3.10/dist-packages/torch/nn/modules/transformer.py:385: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+================================================================================
+Comparison baseline | model=transformer
+================================================================================
+Dataset: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz
+Device: cuda
+Train/Val/Test: 990 / 175 / 356
+Epoch 001 | train_loss=1.0377 | val_acc=50.86% val_f1=0.5390 | test_acc=70.51% test_f1=0.7425
+Epoch 002 | train_loss=0.7958 | val_acc=88.00% val_f1=0.8628 | test_acc=97.75% test_f1=0.9695
+Epoch 003 | train_loss=0.6247 | val_acc=97.14% val_f1=0.9612 | test_acc=88.48% test_f1=0.8587
+Epoch 004 | train_loss=0.4394 | val_acc=97.71% val_f1=0.9727 | test_acc=83.15% test_f1=0.7713
+Epoch 005 | train_loss=0.3154 | val_acc=96.57% val_f1=0.9619 | test_acc=86.24% test_f1=0.8181
+Epoch 006 | train_loss=0.2453 | val_acc=97.14% val_f1=0.9673 | test_acc=82.87% test_f1=0.7666
+Epoch 007 | train_loss=0.1795 | val_acc=97.71% val_f1=0.9752 | test_acc=85.67% test_f1=0.8153
+Epoch 008 | train_loss=0.1305 | val_acc=98.29% val_f1=0.9830 | test_acc=89.89% test_f1=0.8742
+Epoch 009 | train_loss=0.1157 | val_acc=97.14% val_f1=0.9694 | test_acc=81.46% test_f1=0.7420
+Epoch 010 | train_loss=0.0967 | val_acc=97.14% val_f1=0.9694 | test_acc=82.58% test_f1=0.7672
+Epoch 011 | train_loss=0.0804 | val_acc=97.14% val_f1=0.9694 | test_acc=83.15% test_f1=0.7727
+Epoch 012 | train_loss=0.0594 | val_acc=97.14% val_f1=0.9694 | test_acc=80.90% test_f1=0.7370
+Epoch 013 | train_loss=0.0440 | val_acc=98.86% val_f1=0.9861 | test_acc=80.06% test_f1=0.7253
+Epoch 014 | train_loss=0.0472 | val_acc=97.71% val_f1=0.9772 | test_acc=87.92% test_f1=0.8435
+Epoch 015 | train_loss=0.0414 | val_acc=97.71% val_f1=0.9752 | test_acc=85.67% test_f1=0.8035
+Epoch 016 | train_loss=0.0341 | val_acc=98.86% val_f1=0.9861 | test_acc=79.78% test_f1=0.7218
+Epoch 017 | train_loss=0.0292 | val_acc=97.71% val_f1=0.9752 | test_acc=82.30% test_f1=0.7517
+Epoch 018 | train_loss=0.0283 | val_acc=98.29% val_f1=0.9807 | test_acc=82.30% test_f1=0.7553
+Epoch 019 | train_loss=0.0205 | val_acc=98.86% val_f1=0.9861 | test_acc=80.34% test_f1=0.7367
+Epoch 020 | train_loss=0.0187 | val_acc=99.43% val_f1=0.9942 | test_acc=85.11% test_f1=0.8095
+Epoch 021 | train_loss=0.0197 | val_acc=100.00% val_f1=1.0000 | test_acc=85.11% test_f1=0.8047
+Epoch 022 | train_loss=0.0155 | val_acc=99.43% val_f1=0.9919 | test_acc=80.06% test_f1=0.7253
+Epoch 023 | train_loss=0.0158 | val_acc=98.86% val_f1=0.9861 | test_acc=80.62% test_f1=0.7379
+Epoch 024 | train_loss=0.0140 | val_acc=98.86% val_f1=0.9861 | test_acc=77.53% test_f1=0.6876
+Epoch 025 | train_loss=0.0123 | val_acc=100.00% val_f1=1.0000 | test_acc=85.67% test_f1=0.8144
+Epoch 026 | train_loss=0.0111 | val_acc=99.43% val_f1=0.9919 | test_acc=80.06% test_f1=0.7268
+Epoch 027 | train_loss=0.0118 | val_acc=99.43% val_f1=0.9919 | test_acc=80.62% test_f1=0.7403
+Epoch 028 | train_loss=0.0063 | val_acc=99.43% val_f1=0.9919 | test_acc=83.43% test_f1=0.7851
+Epoch 029 | train_loss=0.0057 | val_acc=99.43% val_f1=0.9919 | test_acc=83.71% test_f1=0.7880
+Epoch 030 | train_loss=0.0095 | val_acc=99.43% val_f1=0.9919 | test_acc=84.83% test_f1=0.8039
+Epoch 031 | train_loss=0.0074 | val_acc=98.86% val_f1=0.9861 | test_acc=76.40% test_f1=0.6794
+Epoch 032 | train_loss=0.0068 | val_acc=99.43% val_f1=0.9919 | test_acc=79.78% test_f1=0.7261
+Epoch 033 | train_loss=0.0093 | val_acc=99.43% val_f1=0.9919 | test_acc=81.46% test_f1=0.7541
+Epoch 034 | train_loss=0.0050 | val_acc=98.86% val_f1=0.9861 | test_acc=79.49% test_f1=0.7297
+Epoch 035 | train_loss=0.0052 | val_acc=98.86% val_f1=0.9861 | test_acc=82.87% test_f1=0.7770
+Epoch 036 | train_loss=0.0052 | val_acc=98.86% val_f1=0.9861 | test_acc=82.30% test_f1=0.7676
+Epoch 037 | train_loss=0.0053 | val_acc=99.43% val_f1=0.9919 | test_acc=80.90% test_f1=0.7449
+Early stopping at epoch 37 (best=21, score=1.000000)
+================================================================================
+Best epoch: 21
+Best score (val_macro_f1): 1.000000
+Final test accuracy: 85.11%
+Saved to: ablation_experiments/h1/results/comparison_18d_baselines/transformer/transformer_weld_seam_windows_ws5_tf75_pg0_h1_dm64_nh8_l2_ff256_do0.3_ep80_lr0.0002_wd0.0002_bs64_seed14
+/usr/local/lib/python3.10/dist-packages/torch/nn/modules/transformer.py:385: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+================================================================================
+Comparison baseline | model=transformer
+================================================================================
+Dataset: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz
+Device: cuda
+Train/Val/Test: 990 / 175 / 356
+Epoch 001 | train_loss=1.0777 | val_acc=72.00% val_f1=0.7453 | test_acc=91.01% test_f1=0.8804
+Epoch 002 | train_loss=0.8344 | val_acc=89.14% val_f1=0.8870 | test_acc=92.98% test_f1=0.8986
+Epoch 003 | train_loss=0.6520 | val_acc=93.14% val_f1=0.9249 | test_acc=91.01% test_f1=0.8741
+Epoch 004 | train_loss=0.5312 | val_acc=93.71% val_f1=0.9359 | test_acc=85.39% test_f1=0.7838
+Epoch 005 | train_loss=0.4168 | val_acc=94.29% val_f1=0.9410 | test_acc=83.71% test_f1=0.7684
+Epoch 006 | train_loss=0.3011 | val_acc=94.86% val_f1=0.9485 | test_acc=84.83% test_f1=0.7903
+Epoch 007 | train_loss=0.2308 | val_acc=94.29% val_f1=0.9434 | test_acc=84.83% test_f1=0.7885
+Epoch 008 | train_loss=0.2034 | val_acc=95.43% val_f1=0.9538 | test_acc=81.18% test_f1=0.7417
+Epoch 009 | train_loss=0.1461 | val_acc=97.71% val_f1=0.9752 | test_acc=80.90% test_f1=0.7414
+Epoch 010 | train_loss=0.1487 | val_acc=96.00% val_f1=0.9590 | test_acc=81.74% test_f1=0.7543
+Epoch 011 | train_loss=0.1082 | val_acc=97.14% val_f1=0.9694 | test_acc=80.90% test_f1=0.7468
+Epoch 012 | train_loss=0.0995 | val_acc=96.00% val_f1=0.9590 | test_acc=81.46% test_f1=0.7522
+Epoch 013 | train_loss=0.0711 | val_acc=97.14% val_f1=0.9697 | test_acc=82.30% test_f1=0.7664
+Epoch 014 | train_loss=0.0814 | val_acc=98.86% val_f1=0.9886 | test_acc=85.11% test_f1=0.8120
+Epoch 015 | train_loss=0.0591 | val_acc=96.57% val_f1=0.9644 | test_acc=83.71% test_f1=0.7867
+Epoch 016 | train_loss=0.0490 | val_acc=97.14% val_f1=0.9697 | test_acc=84.83% test_f1=0.8048
+Epoch 017 | train_loss=0.0476 | val_acc=98.29% val_f1=0.9807 | test_acc=82.30% test_f1=0.7702
+Epoch 018 | train_loss=0.0354 | val_acc=98.86% val_f1=0.9861 | test_acc=77.53% test_f1=0.7048
+Epoch 019 | train_loss=0.0310 | val_acc=98.29% val_f1=0.9807 | test_acc=80.90% test_f1=0.7496
+Epoch 020 | train_loss=0.0403 | val_acc=98.29% val_f1=0.9804 | test_acc=79.78% test_f1=0.7358
+Epoch 021 | train_loss=0.0285 | val_acc=98.29% val_f1=0.9804 | test_acc=79.49% test_f1=0.7358
+Epoch 022 | train_loss=0.0250 | val_acc=98.86% val_f1=0.9862 | test_acc=80.62% test_f1=0.7495
+Epoch 023 | train_loss=0.0270 | val_acc=99.43% val_f1=0.9919 | test_acc=76.97% test_f1=0.6903
+Epoch 024 | train_loss=0.0308 | val_acc=98.29% val_f1=0.9807 | test_acc=81.74% test_f1=0.7635
+Epoch 025 | train_loss=0.0213 | val_acc=98.86% val_f1=0.9861 | test_acc=80.90% test_f1=0.7544
+Epoch 026 | train_loss=0.0189 | val_acc=99.43% val_f1=0.9919 | test_acc=79.78% test_f1=0.7361
+Epoch 027 | train_loss=0.0198 | val_acc=98.86% val_f1=0.9861 | test_acc=78.93% test_f1=0.7294
+Epoch 028 | train_loss=0.0185 | val_acc=98.29% val_f1=0.9807 | test_acc=83.71% test_f1=0.7878
+Epoch 029 | train_loss=0.0242 | val_acc=99.43% val_f1=0.9919 | test_acc=75.84% test_f1=0.6792
+Epoch 030 | train_loss=0.0207 | val_acc=99.43% val_f1=0.9919 | test_acc=78.93% test_f1=0.7267
+Epoch 031 | train_loss=0.0161 | val_acc=99.43% val_f1=0.9919 | test_acc=80.34% test_f1=0.7474
+Epoch 032 | train_loss=0.0143 | val_acc=100.00% val_f1=1.0000 | test_acc=81.74% test_f1=0.7719
+Epoch 033 | train_loss=0.0140 | val_acc=99.43% val_f1=0.9919 | test_acc=74.16% test_f1=0.6469
+Epoch 034 | train_loss=0.0177 | val_acc=99.43% val_f1=0.9919 | test_acc=79.78% test_f1=0.7411
+Epoch 035 | train_loss=0.0197 | val_acc=99.43% val_f1=0.9919 | test_acc=77.25% test_f1=0.6937
+Epoch 036 | train_loss=0.0118 | val_acc=99.43% val_f1=0.9919 | test_acc=77.25% test_f1=0.7048
+Epoch 037 | train_loss=0.0080 | val_acc=99.43% val_f1=0.9919 | test_acc=76.69% test_f1=0.6947
+Epoch 038 | train_loss=0.0088 | val_acc=99.43% val_f1=0.9919 | test_acc=77.53% test_f1=0.7067
+Epoch 039 | train_loss=0.0092 | val_acc=99.43% val_f1=0.9919 | test_acc=76.12% test_f1=0.6852
+Epoch 040 | train_loss=0.0161 | val_acc=99.43% val_f1=0.9919 | test_acc=83.71% test_f1=0.7971
+Epoch 041 | train_loss=0.0149 | val_acc=99.43% val_f1=0.9919 | test_acc=79.78% test_f1=0.7373
+Epoch 042 | train_loss=0.0095 | val_acc=99.43% val_f1=0.9919 | test_acc=76.12% test_f1=0.6841
+Epoch 043 | train_loss=0.0080 | val_acc=99.43% val_f1=0.9919 | test_acc=76.69% test_f1=0.6912
+Epoch 044 | train_loss=0.0069 | val_acc=99.43% val_f1=0.9919 | test_acc=78.09% test_f1=0.7149
+Epoch 045 | train_loss=0.0103 | val_acc=99.43% val_f1=0.9919 | test_acc=79.21% test_f1=0.7303
+Epoch 046 | train_loss=0.0067 | val_acc=99.43% val_f1=0.9919 | test_acc=77.81% test_f1=0.7021
+Epoch 047 | train_loss=0.0068 | val_acc=99.43% val_f1=0.9919 | test_acc=78.37% test_f1=0.7174
+Epoch 048 | train_loss=0.0065 | val_acc=99.43% val_f1=0.9919 | test_acc=79.21% test_f1=0.7350
+Early stopping at epoch 48 (best=32, score=1.000000)
+================================================================================
+Best epoch: 32
+Best score (val_macro_f1): 1.000000
+Final test accuracy: 81.74%
+Saved to: ablation_experiments/h1/results/comparison_18d_baselines/transformer/transformer_weld_seam_windows_ws5_tf75_pg0_h1_dm128_nh4_l4_ff128_do0.3_ep80_lr0.0001_wd0.0005_bs64_seed14
+/usr/local/lib/python3.10/dist-packages/torch/nn/modules/transformer.py:385: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+================================================================================
+Comparison baseline | model=transformer
+================================================================================
+Dataset: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz
+Device: cuda
+Train/Val/Test: 990 / 175 / 356
+Epoch 001 | train_loss=0.9394 | val_acc=41.71% val_f1=0.4323 | test_acc=53.93% test_f1=0.5687
+Epoch 002 | train_loss=0.5749 | val_acc=92.57% val_f1=0.9147 | test_acc=85.39% test_f1=0.7858
+Epoch 003 | train_loss=0.3268 | val_acc=93.14% val_f1=0.9219 | test_acc=90.73% test_f1=0.8779
+Epoch 004 | train_loss=0.1848 | val_acc=95.43% val_f1=0.9514 | test_acc=86.24% test_f1=0.8082
+Epoch 005 | train_loss=0.1383 | val_acc=97.71% val_f1=0.9727 | test_acc=83.99% test_f1=0.7780
+Epoch 006 | train_loss=0.0777 | val_acc=98.29% val_f1=0.9782 | test_acc=83.99% test_f1=0.7745
+Epoch 007 | train_loss=0.0718 | val_acc=98.86% val_f1=0.9862 | test_acc=86.52% test_f1=0.8095
+Epoch 008 | train_loss=0.0430 | val_acc=99.43% val_f1=0.9919 | test_acc=87.92% test_f1=0.8454
+Epoch 009 | train_loss=0.0568 | val_acc=97.71% val_f1=0.9725 | test_acc=91.57% test_f1=0.8830
+Epoch 010 | train_loss=0.0302 | val_acc=98.86% val_f1=0.9837 | test_acc=82.02% test_f1=0.7578
+Epoch 011 | train_loss=0.0225 | val_acc=98.86% val_f1=0.9837 | test_acc=83.71% test_f1=0.7612
+Epoch 012 | train_loss=0.0398 | val_acc=99.43% val_f1=0.9919 | test_acc=77.53% test_f1=0.6934
+Epoch 013 | train_loss=0.0306 | val_acc=99.43% val_f1=0.9919 | test_acc=79.78% test_f1=0.7303
+Epoch 014 | train_loss=0.0191 | val_acc=98.86% val_f1=0.9837 | test_acc=83.71% test_f1=0.7807
+Epoch 015 | train_loss=0.0105 | val_acc=98.86% val_f1=0.9837 | test_acc=89.04% test_f1=0.8565
+Epoch 016 | train_loss=0.0134 | val_acc=99.43% val_f1=0.9919 | test_acc=78.09% test_f1=0.7066
+Epoch 017 | train_loss=0.0142 | val_acc=99.43% val_f1=0.9919 | test_acc=87.92% test_f1=0.8445
+Epoch 018 | train_loss=0.0089 | val_acc=99.43% val_f1=0.9919 | test_acc=80.34% test_f1=0.7377
+Epoch 019 | train_loss=0.0136 | val_acc=99.43% val_f1=0.9919 | test_acc=85.96% test_f1=0.7979
+Epoch 020 | train_loss=0.0090 | val_acc=99.43% val_f1=0.9919 | test_acc=84.27% test_f1=0.7979
+Epoch 021 | train_loss=0.0040 | val_acc=99.43% val_f1=0.9919 | test_acc=80.90% test_f1=0.7498
+Epoch 022 | train_loss=0.0137 | val_acc=99.43% val_f1=0.9919 | test_acc=82.02% test_f1=0.7667
+Epoch 023 | train_loss=0.0044 | val_acc=99.43% val_f1=0.9919 | test_acc=78.93% test_f1=0.7196
+Epoch 024 | train_loss=0.0181 | val_acc=99.43% val_f1=0.9919 | test_acc=88.76% test_f1=0.8573
+Epoch 025 | train_loss=0.0041 | val_acc=99.43% val_f1=0.9919 | test_acc=80.34% test_f1=0.7412
+Epoch 026 | train_loss=0.0050 | val_acc=99.43% val_f1=0.9943 | test_acc=89.61% test_f1=0.8663
+Epoch 027 | train_loss=0.0052 | val_acc=99.43% val_f1=0.9919 | test_acc=85.96% test_f1=0.8124
+Epoch 028 | train_loss=0.0043 | val_acc=99.43% val_f1=0.9919 | test_acc=88.48% test_f1=0.8489
+Epoch 029 | train_loss=0.0046 | val_acc=99.43% val_f1=0.9919 | test_acc=84.83% test_f1=0.7953
+Epoch 030 | train_loss=0.0140 | val_acc=99.43% val_f1=0.9919 | test_acc=89.33% test_f1=0.8448
+Epoch 031 | train_loss=0.0146 | val_acc=100.00% val_f1=1.0000 | test_acc=82.02% test_f1=0.7652
+Epoch 032 | train_loss=0.0018 | val_acc=99.43% val_f1=0.9919 | test_acc=76.12% test_f1=0.6746
+Epoch 033 | train_loss=0.0083 | val_acc=99.43% val_f1=0.9919 | test_acc=87.64% test_f1=0.8411
+Epoch 034 | train_loss=0.0014 | val_acc=99.43% val_f1=0.9919 | test_acc=85.39% test_f1=0.8018
+Epoch 035 | train_loss=0.0135 | val_acc=100.00% val_f1=1.0000 | test_acc=87.64% test_f1=0.8420
+Epoch 036 | train_loss=0.0062 | val_acc=100.00% val_f1=1.0000 | test_acc=82.30% test_f1=0.7710
+Epoch 037 | train_loss=0.0021 | val_acc=99.43% val_f1=0.9919 | test_acc=80.62% test_f1=0.7463
+Epoch 038 | train_loss=0.0022 | val_acc=99.43% val_f1=0.9919 | test_acc=81.46% test_f1=0.7558
+Epoch 039 | train_loss=0.0014 | val_acc=100.00% val_f1=1.0000 | test_acc=82.87% test_f1=0.7770
+Epoch 040 | train_loss=0.0009 | val_acc=100.00% val_f1=1.0000 | test_acc=83.71% test_f1=0.7880
+Epoch 041 | train_loss=0.0020 | val_acc=100.00% val_f1=1.0000 | test_acc=82.87% test_f1=0.7776
+Epoch 042 | train_loss=0.0018 | val_acc=100.00% val_f1=1.0000 | test_acc=82.87% test_f1=0.7770
+Epoch 043 | train_loss=0.0029 | val_acc=100.00% val_f1=1.0000 | test_acc=82.58% test_f1=0.7727
+Epoch 044 | train_loss=0.0041 | val_acc=100.00% val_f1=1.0000 | test_acc=79.78% test_f1=0.7338
+Epoch 045 | train_loss=0.0024 | val_acc=100.00% val_f1=1.0000 | test_acc=84.27% test_f1=0.7943
+Epoch 046 | train_loss=0.0039 | val_acc=100.00% val_f1=1.0000 | test_acc=82.02% test_f1=0.7662
+Epoch 047 | train_loss=0.0014 | val_acc=100.00% val_f1=1.0000 | test_acc=80.90% test_f1=0.7505
+Early stopping at epoch 47 (best=31, score=1.000000)
+================================================================================
+Best epoch: 31
+Best score (val_macro_f1): 1.000000
+Final test accuracy: 82.02%
+Saved to: ablation_experiments/h1/results/comparison_18d_baselines/transformer/transformer_weld_seam_windows_ws5_tf75_pg0_h1_dm64_nh4_l3_ff128_do0.3_ep80_lr0.0003_wd0.0002_bs64_seed122
+/usr/local/lib/python3.10/dist-packages/torch/nn/modules/transformer.py:385: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+================================================================================
+Comparison baseline | model=transformer
+================================================================================
+Dataset: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz
+Device: cuda
+Train/Val/Test: 990 / 175 / 356
+Epoch 001 | train_loss=0.7882 | val_acc=89.14% val_f1=0.8691 | test_acc=95.51% test_f1=0.9341
+Epoch 002 | train_loss=0.4230 | val_acc=96.00% val_f1=0.9512 | test_acc=89.04% test_f1=0.8577
+Epoch 003 | train_loss=0.2412 | val_acc=93.71% val_f1=0.9275 | test_acc=91.29% test_f1=0.8888
+Epoch 004 | train_loss=0.1407 | val_acc=94.29% val_f1=0.9434 | test_acc=89.61% test_f1=0.8629
+Epoch 005 | train_loss=0.0905 | val_acc=98.29% val_f1=0.9807 | test_acc=85.67% test_f1=0.8153
+Epoch 006 | train_loss=0.0736 | val_acc=98.29% val_f1=0.9807 | test_acc=88.76% test_f1=0.8483
+Epoch 007 | train_loss=0.0642 | val_acc=100.00% val_f1=1.0000 | test_acc=84.83% test_f1=0.7967
+Epoch 008 | train_loss=0.0302 | val_acc=100.00% val_f1=1.0000 | test_acc=84.27% test_f1=0.7912
+Epoch 009 | train_loss=0.0228 | val_acc=100.00% val_f1=1.0000 | test_acc=82.30% test_f1=0.7569
+Epoch 010 | train_loss=0.0156 | val_acc=100.00% val_f1=1.0000 | test_acc=83.99% test_f1=0.7924
+Epoch 011 | train_loss=0.0134 | val_acc=100.00% val_f1=1.0000 | test_acc=89.61% test_f1=0.8692
+Epoch 012 | train_loss=0.0281 | val_acc=100.00% val_f1=1.0000 | test_acc=85.11% test_f1=0.8025
+Epoch 013 | train_loss=0.0232 | val_acc=98.86% val_f1=0.9837 | test_acc=88.48% test_f1=0.8587
+Epoch 014 | train_loss=0.0191 | val_acc=100.00% val_f1=1.0000 | test_acc=89.04% test_f1=0.8651
+Epoch 015 | train_loss=0.0119 | val_acc=100.00% val_f1=1.0000 | test_acc=79.49% test_f1=0.7168
+Epoch 016 | train_loss=0.0103 | val_acc=100.00% val_f1=1.0000 | test_acc=85.39% test_f1=0.8131
+Epoch 017 | train_loss=0.0057 | val_acc=100.00% val_f1=1.0000 | test_acc=82.02% test_f1=0.7578
+Epoch 018 | train_loss=0.0050 | val_acc=100.00% val_f1=1.0000 | test_acc=86.24% test_f1=0.8258
+Epoch 019 | train_loss=0.0039 | val_acc=100.00% val_f1=1.0000 | test_acc=85.39% test_f1=0.8110
+Epoch 020 | train_loss=0.0028 | val_acc=100.00% val_f1=1.0000 | test_acc=85.96% test_f1=0.8196
+Epoch 021 | train_loss=0.0032 | val_acc=100.00% val_f1=1.0000 | test_acc=84.83% test_f1=0.8031
+Epoch 022 | train_loss=0.0041 | val_acc=100.00% val_f1=1.0000 | test_acc=79.78% test_f1=0.7186
+Epoch 023 | train_loss=0.0058 | val_acc=100.00% val_f1=1.0000 | test_acc=87.92% test_f1=0.8491
+Early stopping at epoch 23 (best=7, score=1.000000)
+================================================================================
+Best epoch: 7
+Best score (val_macro_f1): 1.000000
+Final test accuracy: 84.83%
+Saved to: ablation_experiments/h1/results/comparison_18d_baselines/transformer/transformer_weld_seam_windows_ws5_tf75_pg0_h1_dm96_nh8_l2_ff128_do0.2_ep80_lr0.0003_wd1e-05_bs64_seed100
+/usr/local/lib/python3.10/dist-packages/torch/nn/modules/transformer.py:385: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+================================================================================
+Comparison baseline | model=transformer
+================================================================================
+Dataset: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz
+Device: cuda
+Train/Val/Test: 990 / 175 / 356
+Epoch 001 | train_loss=1.0358 | val_acc=81.71% val_f1=0.7742 | test_acc=88.20% test_f1=0.8800
+Epoch 002 | train_loss=0.8044 | val_acc=90.29% val_f1=0.8981 | test_acc=88.76% test_f1=0.8713
+Epoch 003 | train_loss=0.6792 | val_acc=92.57% val_f1=0.9281 | test_acc=90.17% test_f1=0.8613
+Epoch 004 | train_loss=0.5515 | val_acc=97.71% val_f1=0.9752 | test_acc=86.24% test_f1=0.8186
+Epoch 005 | train_loss=0.4688 | val_acc=97.14% val_f1=0.9673 | test_acc=83.43% test_f1=0.7721
+Epoch 006 | train_loss=0.3858 | val_acc=97.14% val_f1=0.9673 | test_acc=82.87% test_f1=0.7583
+Epoch 007 | train_loss=0.2998 | val_acc=94.86% val_f1=0.9462 | test_acc=85.11% test_f1=0.7969
+Epoch 008 | train_loss=0.2491 | val_acc=94.86% val_f1=0.9462 | test_acc=85.96% test_f1=0.8126
+Epoch 009 | train_loss=0.2295 | val_acc=97.14% val_f1=0.9697 | test_acc=84.83% test_f1=0.8047
+Epoch 010 | train_loss=0.1705 | val_acc=97.14% val_f1=0.9697 | test_acc=82.02% test_f1=0.7591
+Epoch 011 | train_loss=0.1503 | val_acc=95.43% val_f1=0.9538 | test_acc=83.43% test_f1=0.7721
+Epoch 012 | train_loss=0.1366 | val_acc=96.57% val_f1=0.9644 | test_acc=83.43% test_f1=0.7773
+Epoch 013 | train_loss=0.1160 | val_acc=97.71% val_f1=0.9752 | test_acc=80.90% test_f1=0.7399
+Epoch 014 | train_loss=0.1277 | val_acc=97.14% val_f1=0.9697 | test_acc=84.55% test_f1=0.7980
+Epoch 015 | train_loss=0.1017 | val_acc=97.71% val_f1=0.9752 | test_acc=81.46% test_f1=0.7466
+Epoch 016 | train_loss=0.0841 | val_acc=98.29% val_f1=0.9807 | test_acc=80.34% test_f1=0.7332
+Epoch 017 | train_loss=0.0889 | val_acc=98.29% val_f1=0.9807 | test_acc=80.06% test_f1=0.7267
+Epoch 018 | train_loss=0.0768 | val_acc=95.43% val_f1=0.9538 | test_acc=82.87% test_f1=0.7651
+Epoch 019 | train_loss=0.0620 | val_acc=97.71% val_f1=0.9752 | test_acc=78.93% test_f1=0.7049
+Epoch 020 | train_loss=0.0574 | val_acc=98.29% val_f1=0.9804 | test_acc=76.97% test_f1=0.6805
+Epoch 021 | train_loss=0.0579 | val_acc=98.29% val_f1=0.9804 | test_acc=78.93% test_f1=0.7129
+Epoch 022 | train_loss=0.0487 | val_acc=98.29% val_f1=0.9807 | test_acc=80.90% test_f1=0.7409
+Epoch 023 | train_loss=0.0435 | val_acc=98.86% val_f1=0.9862 | test_acc=80.62% test_f1=0.7422
+Epoch 024 | train_loss=0.0429 | val_acc=98.86% val_f1=0.9861 | test_acc=78.37% test_f1=0.7075
+Epoch 025 | train_loss=0.0352 | val_acc=98.86% val_f1=0.9861 | test_acc=78.93% test_f1=0.7189
+Epoch 026 | train_loss=0.0349 | val_acc=98.86% val_f1=0.9862 | test_acc=80.90% test_f1=0.7456
+Epoch 027 | train_loss=0.0358 | val_acc=98.86% val_f1=0.9862 | test_acc=79.21% test_f1=0.7160
+Epoch 028 | train_loss=0.0338 | val_acc=98.86% val_f1=0.9862 | test_acc=80.34% test_f1=0.7413
+Epoch 029 | train_loss=0.0283 | val_acc=98.86% val_f1=0.9861 | test_acc=79.78% test_f1=0.7353
+Epoch 030 | train_loss=0.0214 | val_acc=98.86% val_f1=0.9861 | test_acc=77.25% test_f1=0.6922
+Epoch 031 | train_loss=0.0213 | val_acc=98.86% val_f1=0.9861 | test_acc=78.37% test_f1=0.7105
+Epoch 032 | train_loss=0.0240 | val_acc=98.86% val_f1=0.9862 | test_acc=80.34% test_f1=0.7402
+Epoch 033 | train_loss=0.0178 | val_acc=98.86% val_f1=0.9861 | test_acc=80.34% test_f1=0.7415
+Epoch 034 | train_loss=0.0209 | val_acc=98.86% val_f1=0.9861 | test_acc=79.49% test_f1=0.7299
+Epoch 035 | train_loss=0.0160 | val_acc=99.43% val_f1=0.9919 | test_acc=77.81% test_f1=0.6953
+Epoch 036 | train_loss=0.0151 | val_acc=98.86% val_f1=0.9862 | test_acc=78.09% test_f1=0.7005
+Epoch 037 | train_loss=0.0154 | val_acc=99.43% val_f1=0.9919 | test_acc=78.65% test_f1=0.7155
+Epoch 038 | train_loss=0.0111 | val_acc=98.86% val_f1=0.9861 | test_acc=78.37% test_f1=0.7147
+Epoch 039 | train_loss=0.0140 | val_acc=99.43% val_f1=0.9919 | test_acc=78.93% test_f1=0.7189
+Epoch 040 | train_loss=0.0116 | val_acc=99.43% val_f1=0.9919 | test_acc=79.21% test_f1=0.7208
+Epoch 041 | train_loss=0.0110 | val_acc=99.43% val_f1=0.9919 | test_acc=78.93% test_f1=0.7158
+Epoch 042 | train_loss=0.0139 | val_acc=98.86% val_f1=0.9861 | test_acc=77.81% test_f1=0.7051
+Epoch 043 | train_loss=0.0127 | val_acc=98.86% val_f1=0.9861 | test_acc=75.84% test_f1=0.6815
+Epoch 044 | train_loss=0.0139 | val_acc=98.86% val_f1=0.9861 | test_acc=77.81% test_f1=0.7051
+Epoch 045 | train_loss=0.0105 | val_acc=99.43% val_f1=0.9919 | test_acc=79.78% test_f1=0.7334
+Epoch 046 | train_loss=0.0104 | val_acc=99.43% val_f1=0.9919 | test_acc=79.21% test_f1=0.7238
+Epoch 047 | train_loss=0.0102 | val_acc=99.43% val_f1=0.9919 | test_acc=79.49% test_f1=0.7286
+Epoch 048 | train_loss=0.0097 | val_acc=99.43% val_f1=0.9919 | test_acc=78.93% test_f1=0.7189
+Epoch 049 | train_loss=0.0093 | val_acc=99.43% val_f1=0.9919 | test_acc=79.21% test_f1=0.7297
+Epoch 050 | train_loss=0.0075 | val_acc=99.43% val_f1=0.9919 | test_acc=79.49% test_f1=0.7342
+Epoch 051 | train_loss=0.0124 | val_acc=99.43% val_f1=0.9919 | test_acc=79.21% test_f1=0.7238
+Early stopping at epoch 51 (best=35, score=0.991859)
+================================================================================
+Best epoch: 35
+Best score (val_macro_f1): 0.991859
+Final test accuracy: 77.81%
+Saved to: ablation_experiments/h1/results/comparison_18d_baselines/transformer/transformer_weld_seam_windows_ws5_tf75_pg0_h1_dm128_nh8_l3_ff128_do0.2_ep80_lr0.0001_wd1e-05_bs128_seed14
+/usr/local/lib/python3.10/dist-packages/torch/nn/modules/transformer.py:385: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+================================================================================
+Comparison baseline | model=transformer
+================================================================================
+Dataset: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz
+Device: cuda
+Train/Val/Test: 990 / 175 / 356
+Epoch 001 | train_loss=0.8158 | val_acc=98.29% val_f1=0.9802 | test_acc=79.78% test_f1=0.7321
+Epoch 002 | train_loss=0.3768 | val_acc=93.71% val_f1=0.9359 | test_acc=83.15% test_f1=0.7483
+Epoch 003 | train_loss=0.2089 | val_acc=94.86% val_f1=0.9508 | test_acc=92.98% test_f1=0.9041
+Epoch 004 | train_loss=0.1401 | val_acc=98.29% val_f1=0.9828 | test_acc=80.06% test_f1=0.7268
+Epoch 005 | train_loss=0.0775 | val_acc=97.71% val_f1=0.9752 | test_acc=81.46% test_f1=0.7462
+Epoch 006 | train_loss=0.0610 | val_acc=98.29% val_f1=0.9807 | test_acc=79.78% test_f1=0.7086
+Epoch 007 | train_loss=0.0376 | val_acc=98.86% val_f1=0.9861 | test_acc=79.49% test_f1=0.7274
+Epoch 008 | train_loss=0.0298 | val_acc=99.43% val_f1=0.9943 | test_acc=82.30% test_f1=0.7728
+Epoch 009 | train_loss=0.0206 | val_acc=98.86% val_f1=0.9862 | test_acc=80.62% test_f1=0.7448
+Epoch 010 | train_loss=0.0154 | val_acc=98.29% val_f1=0.9807 | test_acc=85.67% test_f1=0.8132
+Epoch 011 | train_loss=0.0190 | val_acc=98.86% val_f1=0.9862 | test_acc=82.58% test_f1=0.7659
+Epoch 012 | train_loss=0.0132 | val_acc=99.43% val_f1=0.9919 | test_acc=78.65% test_f1=0.7206
+Epoch 013 | train_loss=0.0131 | val_acc=98.86% val_f1=0.9861 | test_acc=74.16% test_f1=0.6506
+Epoch 014 | train_loss=0.0085 | val_acc=97.71% val_f1=0.9752 | test_acc=86.24% test_f1=0.8099
+Epoch 015 | train_loss=0.0119 | val_acc=99.43% val_f1=0.9919 | test_acc=78.37% test_f1=0.7176
+Epoch 016 | train_loss=0.0135 | val_acc=98.29% val_f1=0.9755 | test_acc=71.07% test_f1=0.5873
+Epoch 017 | train_loss=0.0476 | val_acc=99.43% val_f1=0.9919 | test_acc=82.87% test_f1=0.7847
+Epoch 018 | train_loss=0.0498 | val_acc=100.00% val_f1=1.0000 | test_acc=83.99% test_f1=0.8004
+Epoch 019 | train_loss=0.0370 | val_acc=99.43% val_f1=0.9919 | test_acc=76.12% test_f1=0.6833
+Epoch 020 | train_loss=0.0088 | val_acc=99.43% val_f1=0.9919 | test_acc=78.09% test_f1=0.7057
+Epoch 021 | train_loss=0.0146 | val_acc=100.00% val_f1=1.0000 | test_acc=78.93% test_f1=0.7267
+Epoch 022 | train_loss=0.0059 | val_acc=99.43% val_f1=0.9919 | test_acc=78.93% test_f1=0.7276
+Epoch 023 | train_loss=0.0052 | val_acc=99.43% val_f1=0.9919 | test_acc=77.53% test_f1=0.7080
+Epoch 024 | train_loss=0.0052 | val_acc=99.43% val_f1=0.9919 | test_acc=80.06% test_f1=0.7414
+Epoch 025 | train_loss=0.0030 | val_acc=100.00% val_f1=1.0000 | test_acc=82.30% test_f1=0.7764
+Epoch 026 | train_loss=0.0059 | val_acc=99.43% val_f1=0.9919 | test_acc=73.60% test_f1=0.6475
+Epoch 027 | train_loss=0.0039 | val_acc=99.43% val_f1=0.9919 | test_acc=76.97% test_f1=0.6966
+Epoch 028 | train_loss=0.0046 | val_acc=99.43% val_f1=0.9919 | test_acc=78.93% test_f1=0.7241
+Epoch 029 | train_loss=0.0028 | val_acc=99.43% val_f1=0.9919 | test_acc=79.78% test_f1=0.7358
+Epoch 030 | train_loss=0.0025 | val_acc=99.43% val_f1=0.9919 | test_acc=79.49% test_f1=0.7311
+Epoch 031 | train_loss=0.0028 | val_acc=99.43% val_f1=0.9919 | test_acc=78.09% test_f1=0.7132
+Epoch 032 | train_loss=0.0026 | val_acc=99.43% val_f1=0.9919 | test_acc=78.65% test_f1=0.7245
+Epoch 033 | train_loss=0.0024 | val_acc=99.43% val_f1=0.9919 | test_acc=76.40% test_f1=0.6907
+Epoch 034 | train_loss=0.0070 | val_acc=99.43% val_f1=0.9919 | test_acc=78.65% test_f1=0.7259
+Early stopping at epoch 34 (best=18, score=1.000000)
+================================================================================
+Best epoch: 18
+Best score (val_macro_f1): 1.000000
+Final test accuracy: 83.99%
+Saved to: ablation_experiments/h1/results/comparison_18d_baselines/transformer/transformer_weld_seam_windows_ws5_tf75_pg0_h1_dm128_nh4_l4_ff256_do0.3_ep80_lr0.0003_wd0.0001_bs64_seed14
+/usr/local/lib/python3.10/dist-packages/torch/nn/modules/transformer.py:385: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+================================================================================
+Comparison baseline | model=transformer
+================================================================================
+Dataset: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz
+Device: cuda
+Train/Val/Test: 990 / 175 / 356
+Epoch 001 | train_loss=0.9371 | val_acc=48.00% val_f1=0.5062 | test_acc=39.33% test_f1=0.4261
+Epoch 002 | train_loss=0.7501 | val_acc=65.71% val_f1=0.6933 | test_acc=48.31% test_f1=0.5341
+Epoch 003 | train_loss=0.6036 | val_acc=85.71% val_f1=0.8623 | test_acc=83.43% test_f1=0.8300
+Epoch 004 | train_loss=0.4675 | val_acc=92.57% val_f1=0.9273 | test_acc=89.33% test_f1=0.8641
+Epoch 005 | train_loss=0.3797 | val_acc=93.14% val_f1=0.9353 | test_acc=86.80% test_f1=0.8218
+Epoch 006 | train_loss=0.2760 | val_acc=94.86% val_f1=0.9508 | test_acc=89.61% test_f1=0.8638
+Epoch 007 | train_loss=0.2294 | val_acc=96.00% val_f1=0.9613 | test_acc=85.11% test_f1=0.7943
+Epoch 008 | train_loss=0.1753 | val_acc=96.57% val_f1=0.9667 | test_acc=88.20% test_f1=0.8450
+Epoch 009 | train_loss=0.1358 | val_acc=96.57% val_f1=0.9667 | test_acc=87.08% test_f1=0.8270
+Epoch 010 | train_loss=0.1156 | val_acc=96.57% val_f1=0.9667 | test_acc=87.64% test_f1=0.8374
+Epoch 011 | train_loss=0.0927 | val_acc=98.29% val_f1=0.9830 | test_acc=85.67% test_f1=0.8070
+Epoch 012 | train_loss=0.0859 | val_acc=98.29% val_f1=0.9830 | test_acc=84.83% test_f1=0.7945
+Epoch 013 | train_loss=0.0708 | val_acc=99.43% val_f1=0.9943 | test_acc=82.30% test_f1=0.7638
+Epoch 014 | train_loss=0.0563 | val_acc=98.86% val_f1=0.9886 | test_acc=81.74% test_f1=0.7512
+Epoch 015 | train_loss=0.0534 | val_acc=98.29% val_f1=0.9830 | test_acc=84.83% test_f1=0.8025
+Epoch 016 | train_loss=0.0471 | val_acc=98.29% val_f1=0.9830 | test_acc=84.55% test_f1=0.8004
+Epoch 017 | train_loss=0.0365 | val_acc=100.00% val_f1=1.0000 | test_acc=80.90% test_f1=0.7469
+Epoch 018 | train_loss=0.0384 | val_acc=99.43% val_f1=0.9942 | test_acc=83.43% test_f1=0.7878
+Epoch 019 | train_loss=0.0360 | val_acc=99.43% val_f1=0.9942 | test_acc=82.02% test_f1=0.7684
+Epoch 020 | train_loss=0.0265 | val_acc=98.29% val_f1=0.9830 | test_acc=80.62% test_f1=0.7389
+Epoch 021 | train_loss=0.0245 | val_acc=100.00% val_f1=1.0000 | test_acc=83.15% test_f1=0.7858
+Epoch 022 | train_loss=0.0240 | val_acc=100.00% val_f1=1.0000 | test_acc=80.34% test_f1=0.7449
+Epoch 023 | train_loss=0.0236 | val_acc=99.43% val_f1=0.9942 | test_acc=79.21% test_f1=0.7313
+Epoch 024 | train_loss=0.0300 | val_acc=99.43% val_f1=0.9942 | test_acc=79.78% test_f1=0.7402
+Epoch 025 | train_loss=0.0213 | val_acc=98.86% val_f1=0.9885 | test_acc=82.30% test_f1=0.7724
+Epoch 026 | train_loss=0.0219 | val_acc=99.43% val_f1=0.9942 | test_acc=77.53% test_f1=0.7028
+Epoch 027 | train_loss=0.0212 | val_acc=99.43% val_f1=0.9942 | test_acc=77.25% test_f1=0.7029
+Epoch 028 | train_loss=0.0165 | val_acc=99.43% val_f1=0.9942 | test_acc=80.06% test_f1=0.7445
+Epoch 029 | train_loss=0.0131 | val_acc=99.43% val_f1=0.9942 | test_acc=80.90% test_f1=0.7563
+Epoch 030 | train_loss=0.0186 | val_acc=99.43% val_f1=0.9942 | test_acc=78.37% test_f1=0.7178
+Epoch 031 | train_loss=0.0109 | val_acc=99.43% val_f1=0.9942 | test_acc=79.21% test_f1=0.7264
+Epoch 032 | train_loss=0.0112 | val_acc=99.43% val_f1=0.9942 | test_acc=80.62% test_f1=0.7512
+Epoch 033 | train_loss=0.0138 | val_acc=99.43% val_f1=0.9942 | test_acc=77.81% test_f1=0.7134
+Early stopping at epoch 33 (best=17, score=1.000000)
+================================================================================
+Best epoch: 17
+Best score (val_macro_f1): 1.000000
+Final test accuracy: 80.90%
+Saved to: ablation_experiments/h1/results/comparison_18d_baselines/transformer/transformer_weld_seam_windows_ws5_tf75_pg0_h1_dm64_nh8_l2_ff256_do0.2_ep80_lr0.0001_wd0.0001_bs64_seed77
+/usr/local/lib/python3.10/dist-packages/torch/nn/modules/transformer.py:385: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+================================================================================
+Comparison baseline | model=transformer
+================================================================================
+Dataset: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz
+Device: cuda
+Train/Val/Test: 990 / 175 / 356
+Epoch 001 | train_loss=1.0030 | val_acc=80.57% val_f1=0.7309 | test_acc=91.57% test_f1=0.8935
+Epoch 002 | train_loss=0.8354 | val_acc=94.29% val_f1=0.9305 | test_acc=87.64% test_f1=0.8199
+Epoch 003 | train_loss=0.6522 | val_acc=95.43% val_f1=0.9437 | test_acc=85.11% test_f1=0.7933
+Epoch 004 | train_loss=0.5110 | val_acc=96.00% val_f1=0.9492 | test_acc=81.18% test_f1=0.7420
+Epoch 005 | train_loss=0.3989 | val_acc=97.71% val_f1=0.9720 | test_acc=77.25% test_f1=0.6767
+Epoch 006 | train_loss=0.3108 | val_acc=97.14% val_f1=0.9637 | test_acc=80.62% test_f1=0.7379
+Epoch 007 | train_loss=0.2350 | val_acc=97.14% val_f1=0.9615 | test_acc=81.46% test_f1=0.7565
+Epoch 008 | train_loss=0.2061 | val_acc=97.71% val_f1=0.9697 | test_acc=80.90% test_f1=0.7459
+Epoch 009 | train_loss=0.1673 | val_acc=98.29% val_f1=0.9779 | test_acc=78.37% test_f1=0.7005
+Epoch 010 | train_loss=0.1242 | val_acc=98.29% val_f1=0.9779 | test_acc=77.81% test_f1=0.6909
+Epoch 011 | train_loss=0.1166 | val_acc=97.71% val_f1=0.9749 | test_acc=80.34% test_f1=0.7271
+Epoch 012 | train_loss=0.0975 | val_acc=98.86% val_f1=0.9861 | test_acc=78.09% test_f1=0.6991
+Epoch 013 | train_loss=0.0924 | val_acc=98.86% val_f1=0.9861 | test_acc=76.40% test_f1=0.6701
+Epoch 014 | train_loss=0.0941 | val_acc=98.86% val_f1=0.9861 | test_acc=78.37% test_f1=0.7068
+Epoch 015 | train_loss=0.0809 | val_acc=98.86% val_f1=0.9861 | test_acc=83.43% test_f1=0.7781
+Epoch 016 | train_loss=0.0643 | val_acc=98.86% val_f1=0.9861 | test_acc=81.18% test_f1=0.7459
+Epoch 017 | train_loss=0.0573 | val_acc=98.86% val_f1=0.9861 | test_acc=73.88% test_f1=0.6457
+Epoch 018 | train_loss=0.0581 | val_acc=98.86% val_f1=0.9861 | test_acc=76.97% test_f1=0.6819
+Epoch 019 | train_loss=0.0675 | val_acc=98.86% val_f1=0.9861 | test_acc=81.74% test_f1=0.7583
+Epoch 020 | train_loss=0.0361 | val_acc=98.86% val_f1=0.9861 | test_acc=77.25% test_f1=0.6938
+Epoch 021 | train_loss=0.0350 | val_acc=98.86% val_f1=0.9861 | test_acc=79.21% test_f1=0.7208
+Epoch 022 | train_loss=0.0407 | val_acc=99.43% val_f1=0.9919 | test_acc=80.06% test_f1=0.7354
+Epoch 023 | train_loss=0.0302 | val_acc=99.43% val_f1=0.9919 | test_acc=73.88% test_f1=0.6433
+Epoch 024 | train_loss=0.0295 | val_acc=99.43% val_f1=0.9919 | test_acc=80.06% test_f1=0.7320
+Epoch 025 | train_loss=0.0225 | val_acc=99.43% val_f1=0.9919 | test_acc=77.81% test_f1=0.7051
+Epoch 026 | train_loss=0.0207 | val_acc=99.43% val_f1=0.9919 | test_acc=77.53% test_f1=0.7002
+Epoch 027 | train_loss=0.0150 | val_acc=99.43% val_f1=0.9919 | test_acc=76.12% test_f1=0.6844
+Epoch 028 | train_loss=0.0161 | val_acc=99.43% val_f1=0.9919 | test_acc=80.62% test_f1=0.7499
+Epoch 029 | train_loss=0.0206 | val_acc=99.43% val_f1=0.9919 | test_acc=75.28% test_f1=0.6711
+Epoch 030 | train_loss=0.0154 | val_acc=99.43% val_f1=0.9919 | test_acc=75.56% test_f1=0.6749
+Epoch 031 | train_loss=0.0132 | val_acc=99.43% val_f1=0.9919 | test_acc=80.06% test_f1=0.7382
+Epoch 032 | train_loss=0.0148 | val_acc=99.43% val_f1=0.9919 | test_acc=74.72% test_f1=0.6636
+Epoch 033 | train_loss=0.0141 | val_acc=99.43% val_f1=0.9919 | test_acc=77.53% test_f1=0.7018
+Epoch 034 | train_loss=0.0129 | val_acc=99.43% val_f1=0.9919 | test_acc=77.25% test_f1=0.6983
+Epoch 035 | train_loss=0.0098 | val_acc=99.43% val_f1=0.9919 | test_acc=76.69% test_f1=0.6912
+Epoch 036 | train_loss=0.0125 | val_acc=99.43% val_f1=0.9919 | test_acc=76.97% test_f1=0.6948
+Epoch 037 | train_loss=0.0094 | val_acc=99.43% val_f1=0.9919 | test_acc=76.97% test_f1=0.6984
+Epoch 038 | train_loss=0.0108 | val_acc=99.43% val_f1=0.9919 | test_acc=74.44% test_f1=0.6584
+Early stopping at epoch 38 (best=22, score=0.991859)
+================================================================================
+Best epoch: 22
+Best score (val_macro_f1): 0.991859
+Final test accuracy: 80.06%
+Saved to: ablation_experiments/h1/results/comparison_18d_baselines/transformer/transformer_weld_seam_windows_ws5_tf75_pg0_h1_dm96_nh4_l3_ff128_do0.3_ep80_lr0.0001_wd0.0005_bs64_seed122
+/usr/local/lib/python3.10/dist-packages/torch/nn/modules/transformer.py:385: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+================================================================================
+Comparison baseline | model=transformer
+================================================================================
+Dataset: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz
+Device: cuda
+Train/Val/Test: 990 / 175 / 356
+Epoch 001 | train_loss=0.9225 | val_acc=87.43% val_f1=0.8441 | test_acc=96.35% test_f1=0.9560
+Epoch 002 | train_loss=0.5521 | val_acc=95.43% val_f1=0.9416 | test_acc=84.27% test_f1=0.7902
+Epoch 003 | train_loss=0.3048 | val_acc=94.86% val_f1=0.9390 | test_acc=85.11% test_f1=0.8051
+Epoch 004 | train_loss=0.1857 | val_acc=97.71% val_f1=0.9696 | test_acc=86.52% test_f1=0.8240
+Epoch 005 | train_loss=0.1101 | val_acc=98.86% val_f1=0.9861 | test_acc=79.49% test_f1=0.7271
+Epoch 006 | train_loss=0.0813 | val_acc=99.43% val_f1=0.9919 | test_acc=81.46% test_f1=0.7460
+Epoch 007 | train_loss=0.0637 | val_acc=98.86% val_f1=0.9837 | test_acc=83.15% test_f1=0.7771
+Epoch 008 | train_loss=0.0444 | val_acc=99.43% val_f1=0.9919 | test_acc=80.06% test_f1=0.7461
+Epoch 009 | train_loss=0.0352 | val_acc=99.43% val_f1=0.9919 | test_acc=78.65% test_f1=0.7205
+Epoch 010 | train_loss=0.0244 | val_acc=99.43% val_f1=0.9919 | test_acc=79.21% test_f1=0.7331
+Epoch 011 | train_loss=0.0180 | val_acc=99.43% val_f1=0.9919 | test_acc=75.56% test_f1=0.6696
+Epoch 012 | train_loss=0.0159 | val_acc=99.43% val_f1=0.9919 | test_acc=81.18% test_f1=0.7554
+Epoch 013 | train_loss=0.0150 | val_acc=100.00% val_f1=1.0000 | test_acc=80.62% test_f1=0.7535
+Epoch 014 | train_loss=0.0192 | val_acc=98.86% val_f1=0.9837 | test_acc=85.11% test_f1=0.8173
+Epoch 015 | train_loss=0.0204 | val_acc=98.86% val_f1=0.9837 | test_acc=83.43% test_f1=0.7962
+Epoch 016 | train_loss=0.0176 | val_acc=99.43% val_f1=0.9919 | test_acc=75.00% test_f1=0.6739
+Epoch 017 | train_loss=0.0085 | val_acc=99.43% val_f1=0.9919 | test_acc=80.34% test_f1=0.7511
+Epoch 018 | train_loss=0.0069 | val_acc=100.00% val_f1=1.0000 | test_acc=83.71% test_f1=0.7971
+Epoch 019 | train_loss=0.0120 | val_acc=99.43% val_f1=0.9919 | test_acc=76.40% test_f1=0.6919
+Epoch 020 | train_loss=0.0111 | val_acc=100.00% val_f1=1.0000 | test_acc=81.74% test_f1=0.7694
+Epoch 021 | train_loss=0.0045 | val_acc=99.43% val_f1=0.9919 | test_acc=76.40% test_f1=0.6891
+Epoch 022 | train_loss=0.0047 | val_acc=99.43% val_f1=0.9919 | test_acc=80.34% test_f1=0.7386
+Epoch 023 | train_loss=0.0042 | val_acc=99.43% val_f1=0.9919 | test_acc=77.25% test_f1=0.7009
+Epoch 024 | train_loss=0.0052 | val_acc=100.00% val_f1=1.0000 | test_acc=86.24% test_f1=0.8036
+Epoch 025 | train_loss=0.0061 | val_acc=100.00% val_f1=1.0000 | test_acc=74.16% test_f1=0.6601
+Epoch 026 | train_loss=0.0063 | val_acc=99.43% val_f1=0.9919 | test_acc=82.87% test_f1=0.7663
+Epoch 027 | train_loss=0.0055 | val_acc=99.43% val_f1=0.9919 | test_acc=75.56% test_f1=0.6765
+Epoch 028 | train_loss=0.0074 | val_acc=100.00% val_f1=1.0000 | test_acc=84.83% test_f1=0.8069
+Epoch 029 | train_loss=0.0053 | val_acc=100.00% val_f1=1.0000 | test_acc=77.25% test_f1=0.7066
+Early stopping at epoch 29 (best=13, score=1.000000)
+================================================================================
+Best epoch: 13
+Best score (val_macro_f1): 1.000000
+Final test accuracy: 80.62%
+Saved to: ablation_experiments/h1/results/comparison_18d_baselines/transformer/transformer_weld_seam_windows_ws5_tf75_pg0_h1_dm96_nh4_l4_ff256_do0.2_ep80_lr0.0002_wd0.0001_bs64_seed122
+/usr/local/lib/python3.10/dist-packages/torch/nn/modules/transformer.py:385: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+================================================================================
+Comparison baseline | model=transformer
+================================================================================
+Dataset: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz
+Device: cuda
+Train/Val/Test: 990 / 175 / 356
+Epoch 001 | train_loss=1.0371 | val_acc=56.57% val_f1=0.5626 | test_acc=58.71% test_f1=0.5888
+Epoch 002 | train_loss=0.9158 | val_acc=69.71% val_f1=0.6878 | test_acc=62.08% test_f1=0.6337
+Epoch 003 | train_loss=0.8068 | val_acc=81.71% val_f1=0.8061 | test_acc=73.31% test_f1=0.6953
+Epoch 004 | train_loss=0.6891 | val_acc=84.57% val_f1=0.8250 | test_acc=83.43% test_f1=0.7851
+Epoch 005 | train_loss=0.5961 | val_acc=88.57% val_f1=0.8752 | test_acc=82.87% test_f1=0.7573
+Epoch 006 | train_loss=0.5194 | val_acc=90.29% val_f1=0.8940 | test_acc=82.02% test_f1=0.7419
+Epoch 007 | train_loss=0.4434 | val_acc=92.00% val_f1=0.9078 | test_acc=84.55% test_f1=0.7926
+Epoch 008 | train_loss=0.3839 | val_acc=92.57% val_f1=0.9159 | test_acc=81.18% test_f1=0.7356
+Epoch 009 | train_loss=0.3294 | val_acc=92.57% val_f1=0.9159 | test_acc=84.55% test_f1=0.7949
+Epoch 010 | train_loss=0.2803 | val_acc=94.29% val_f1=0.9367 | test_acc=80.90% test_f1=0.7392
+Epoch 011 | train_loss=0.2512 | val_acc=95.43% val_f1=0.9498 | test_acc=82.30% test_f1=0.7636
+Epoch 012 | train_loss=0.2046 | val_acc=95.43% val_f1=0.9503 | test_acc=80.62% test_f1=0.7342
+Epoch 013 | train_loss=0.1919 | val_acc=96.57% val_f1=0.9612 | test_acc=82.58% test_f1=0.7683
+Epoch 014 | train_loss=0.1541 | val_acc=98.29% val_f1=0.9778 | test_acc=81.46% test_f1=0.7522
+Epoch 015 | train_loss=0.1510 | val_acc=98.86% val_f1=0.9861 | test_acc=81.46% test_f1=0.7522
+Epoch 016 | train_loss=0.1214 | val_acc=97.14% val_f1=0.9694 | test_acc=80.90% test_f1=0.7392
+Epoch 017 | train_loss=0.1174 | val_acc=96.57% val_f1=0.9612 | test_acc=82.30% test_f1=0.7588
+Epoch 018 | train_loss=0.0955 | val_acc=97.14% val_f1=0.9694 | test_acc=80.90% test_f1=0.7392
+Epoch 019 | train_loss=0.0934 | val_acc=98.86% val_f1=0.9861 | test_acc=81.18% test_f1=0.7424
+Epoch 020 | train_loss=0.0898 | val_acc=98.29% val_f1=0.9778 | test_acc=78.65% test_f1=0.7125
+Epoch 021 | train_loss=0.0832 | val_acc=98.86% val_f1=0.9861 | test_acc=80.06% test_f1=0.7294
+Epoch 022 | train_loss=0.0664 | val_acc=97.71% val_f1=0.9752 | test_acc=84.27% test_f1=0.7852
+Epoch 023 | train_loss=0.0599 | val_acc=98.86% val_f1=0.9861 | test_acc=81.46% test_f1=0.7522
+Epoch 024 | train_loss=0.0583 | val_acc=98.86% val_f1=0.9861 | test_acc=77.25% test_f1=0.6950
+Epoch 025 | train_loss=0.0528 | val_acc=98.29% val_f1=0.9778 | test_acc=79.78% test_f1=0.7306
+Epoch 026 | train_loss=0.0519 | val_acc=99.43% val_f1=0.9919 | test_acc=80.90% test_f1=0.7404
+Epoch 027 | train_loss=0.0432 | val_acc=99.43% val_f1=0.9919 | test_acc=80.90% test_f1=0.7404
+Epoch 028 | train_loss=0.0434 | val_acc=99.43% val_f1=0.9919 | test_acc=79.78% test_f1=0.7306
+Epoch 029 | train_loss=0.0371 | val_acc=99.43% val_f1=0.9919 | test_acc=79.78% test_f1=0.7334
+Epoch 030 | train_loss=0.0374 | val_acc=99.43% val_f1=0.9919 | test_acc=79.49% test_f1=0.7257
+Epoch 031 | train_loss=0.0326 | val_acc=99.43% val_f1=0.9919 | test_acc=81.18% test_f1=0.7454
+Epoch 032 | train_loss=0.0350 | val_acc=99.43% val_f1=0.9919 | test_acc=81.18% test_f1=0.7454
+Epoch 033 | train_loss=0.0298 | val_acc=99.43% val_f1=0.9919 | test_acc=78.93% test_f1=0.7189
+Epoch 034 | train_loss=0.0263 | val_acc=99.43% val_f1=0.9919 | test_acc=82.02% test_f1=0.7699
+Epoch 035 | train_loss=0.0244 | val_acc=99.43% val_f1=0.9919 | test_acc=80.62% test_f1=0.7421
+Epoch 036 | train_loss=0.0288 | val_acc=99.43% val_f1=0.9919 | test_acc=79.21% test_f1=0.7238
+Epoch 037 | train_loss=0.0222 | val_acc=99.43% val_f1=0.9919 | test_acc=79.49% test_f1=0.7311
+Epoch 038 | train_loss=0.0227 | val_acc=99.43% val_f1=0.9919 | test_acc=76.97% test_f1=0.6918
+Epoch 039 | train_loss=0.0245 | val_acc=99.43% val_f1=0.9919 | test_acc=76.97% test_f1=0.6944
+Epoch 040 | train_loss=0.0198 | val_acc=99.43% val_f1=0.9919 | test_acc=79.49% test_f1=0.7257
+Epoch 041 | train_loss=0.0164 | val_acc=99.43% val_f1=0.9919 | test_acc=80.06% test_f1=0.7320
+Epoch 042 | train_loss=0.0182 | val_acc=99.43% val_f1=0.9919 | test_acc=80.34% test_f1=0.7369
+Early stopping at epoch 42 (best=26, score=0.991859)
+================================================================================
+Best epoch: 26
+Best score (val_macro_f1): 0.991859
+Final test accuracy: 80.90%
+Saved to: ablation_experiments/h1/results/comparison_18d_baselines/transformer/transformer_weld_seam_windows_ws5_tf75_pg0_h1_dm96_nh8_l4_ff128_do0.2_ep80_lr0.0001_wd0.0005_bs128_seed122
+/usr/local/lib/python3.10/dist-packages/torch/nn/modules/transformer.py:385: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+================================================================================
+Comparison baseline | model=transformer
+================================================================================
+Dataset: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz
+Device: cuda
+Train/Val/Test: 990 / 175 / 356
+Epoch 001 | train_loss=0.9302 | val_acc=74.29% val_f1=0.7561 | test_acc=68.82% test_f1=0.6975
+Epoch 002 | train_loss=0.5532 | val_acc=90.86% val_f1=0.8942 | test_acc=90.73% test_f1=0.8839
+Epoch 003 | train_loss=0.3321 | val_acc=94.29% val_f1=0.9427 | test_acc=87.08% test_f1=0.8270
+Epoch 004 | train_loss=0.1811 | val_acc=97.71% val_f1=0.9720 | test_acc=87.36% test_f1=0.8401
+Epoch 005 | train_loss=0.0974 | val_acc=94.86% val_f1=0.9479 | test_acc=84.55% test_f1=0.7913
+Epoch 006 | train_loss=0.0726 | val_acc=99.43% val_f1=0.9943 | test_acc=81.74% test_f1=0.7449
+Epoch 007 | train_loss=0.0546 | val_acc=97.14% val_f1=0.9694 | test_acc=85.96% test_f1=0.8199
+Epoch 008 | train_loss=0.0430 | val_acc=99.43% val_f1=0.9942 | test_acc=77.25% test_f1=0.7009
+Epoch 009 | train_loss=0.0251 | val_acc=100.00% val_f1=1.0000 | test_acc=76.12% test_f1=0.6686
+Epoch 010 | train_loss=0.0262 | val_acc=99.43% val_f1=0.9942 | test_acc=82.58% test_f1=0.7808
+Epoch 011 | train_loss=0.0209 | val_acc=99.43% val_f1=0.9942 | test_acc=80.62% test_f1=0.7560
+Epoch 012 | train_loss=0.0113 | val_acc=99.43% val_f1=0.9942 | test_acc=76.97% test_f1=0.7034
+Epoch 013 | train_loss=0.0208 | val_acc=99.43% val_f1=0.9942 | test_acc=76.12% test_f1=0.6894
+Epoch 014 | train_loss=0.0124 | val_acc=99.43% val_f1=0.9943 | test_acc=82.87% test_f1=0.7848
+Epoch 015 | train_loss=0.0186 | val_acc=100.00% val_f1=1.0000 | test_acc=79.78% test_f1=0.7463
+Epoch 016 | train_loss=0.0154 | val_acc=100.00% val_f1=1.0000 | test_acc=76.97% test_f1=0.7028
+Epoch 017 | train_loss=0.0070 | val_acc=99.43% val_f1=0.9919 | test_acc=83.15% test_f1=0.7940
+Epoch 018 | train_loss=0.0048 | val_acc=100.00% val_f1=1.0000 | test_acc=78.93% test_f1=0.7330
+Epoch 019 | train_loss=0.0032 | val_acc=100.00% val_f1=1.0000 | test_acc=78.37% test_f1=0.7239
+Epoch 020 | train_loss=0.0028 | val_acc=100.00% val_f1=1.0000 | test_acc=77.81% test_f1=0.7154
+Epoch 021 | train_loss=0.0023 | val_acc=100.00% val_f1=1.0000 | test_acc=78.37% test_f1=0.7233
+Epoch 022 | train_loss=0.0024 | val_acc=100.00% val_f1=1.0000 | test_acc=78.09% test_f1=0.7194
+Epoch 023 | train_loss=0.0027 | val_acc=100.00% val_f1=1.0000 | test_acc=78.93% test_f1=0.7322
+Epoch 024 | train_loss=0.0018 | val_acc=100.00% val_f1=1.0000 | test_acc=78.93% test_f1=0.7322
+Epoch 025 | train_loss=0.0013 | val_acc=100.00% val_f1=1.0000 | test_acc=77.53% test_f1=0.7114
+Early stopping at epoch 25 (best=9, score=1.000000)
+================================================================================
+Best epoch: 9
+Best score (val_macro_f1): 1.000000
+Final test accuracy: 76.12%
+Saved to: ablation_experiments/h1/results/comparison_18d_baselines/transformer/transformer_weld_seam_windows_ws5_tf75_pg0_h1_dm64_nh4_l4_ff128_do0.1_ep80_lr0.0005_wd0.0002_bs128_seed77
+/usr/local/lib/python3.10/dist-packages/torch/nn/modules/transformer.py:385: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+================================================================================
+Comparison baseline | model=transformer
+================================================================================
+Dataset: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz
+Device: cuda
+Train/Val/Test: 990 / 175 / 356
+Epoch 001 | train_loss=0.5883 | val_acc=94.86% val_f1=0.9457 | test_acc=86.80% test_f1=0.8169
+Epoch 002 | train_loss=0.1787 | val_acc=99.43% val_f1=0.9943 | test_acc=87.64% test_f1=0.8402
+Epoch 003 | train_loss=0.0781 | val_acc=97.14% val_f1=0.9721 | test_acc=84.27% test_f1=0.7716
+Epoch 004 | train_loss=0.0459 | val_acc=98.86% val_f1=0.9861 | test_acc=76.40% test_f1=0.6590
+Epoch 005 | train_loss=0.0866 | val_acc=98.86% val_f1=0.9886 | test_acc=82.30% test_f1=0.7605
+Epoch 006 | train_loss=0.0311 | val_acc=100.00% val_f1=1.0000 | test_acc=78.37% test_f1=0.7060
+Epoch 007 | train_loss=0.0172 | val_acc=98.86% val_f1=0.9883 | test_acc=73.31% test_f1=0.6376
+Epoch 008 | train_loss=0.0118 | val_acc=99.43% val_f1=0.9942 | test_acc=78.65% test_f1=0.7234
+Epoch 009 | train_loss=0.0093 | val_acc=100.00% val_f1=1.0000 | test_acc=83.43% test_f1=0.7642
+Epoch 010 | train_loss=0.0097 | val_acc=100.00% val_f1=1.0000 | test_acc=83.71% test_f1=0.7967
+Epoch 011 | train_loss=0.0345 | val_acc=100.00% val_f1=1.0000 | test_acc=85.67% test_f1=0.8229
+Epoch 012 | train_loss=0.0672 | val_acc=100.00% val_f1=1.0000 | test_acc=84.27% test_f1=0.8015
+Epoch 013 | train_loss=0.0259 | val_acc=98.86% val_f1=0.9883 | test_acc=78.37% test_f1=0.7085
+Epoch 014 | train_loss=0.0218 | val_acc=100.00% val_f1=1.0000 | test_acc=80.62% test_f1=0.7518
+Epoch 015 | train_loss=0.0075 | val_acc=100.00% val_f1=1.0000 | test_acc=85.39% test_f1=0.8136
+Epoch 016 | train_loss=0.0046 | val_acc=99.43% val_f1=0.9942 | test_acc=78.37% test_f1=0.7147
+Epoch 017 | train_loss=0.0027 | val_acc=100.00% val_f1=1.0000 | test_acc=82.30% test_f1=0.7743
+Epoch 018 | train_loss=0.0018 | val_acc=100.00% val_f1=1.0000 | test_acc=83.99% test_f1=0.7956
+Epoch 019 | train_loss=0.0021 | val_acc=100.00% val_f1=1.0000 | test_acc=82.58% test_f1=0.7786
+Epoch 020 | train_loss=0.0015 | val_acc=100.00% val_f1=1.0000 | test_acc=80.62% test_f1=0.7525
+Epoch 021 | train_loss=0.0013 | val_acc=100.00% val_f1=1.0000 | test_acc=81.46% test_f1=0.7641
+Epoch 022 | train_loss=0.0015 | val_acc=100.00% val_f1=1.0000 | test_acc=83.15% test_f1=0.7858
+Early stopping at epoch 22 (best=6, score=1.000000)
+================================================================================
+Best epoch: 6
+Best score (val_macro_f1): 1.000000
+Final test accuracy: 78.37%
+Saved to: ablation_experiments/h1/results/comparison_18d_baselines/transformer/transformer_weld_seam_windows_ws5_tf75_pg0_h1_dm96_nh8_l3_ff128_do0.1_ep80_lr0.0005_wd0.0001_bs64_seed42
+/usr/local/lib/python3.10/dist-packages/torch/nn/modules/transformer.py:385: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+================================================================================
+Comparison baseline | model=transformer
+================================================================================
+Dataset: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz
+Device: cuda
+Train/Val/Test: 990 / 175 / 356
+Epoch 001 | train_loss=0.9432 | val_acc=80.00% val_f1=0.7976 | test_acc=89.04% test_f1=0.8753
+Epoch 002 | train_loss=0.6575 | val_acc=89.14% val_f1=0.8723 | test_acc=93.26% test_f1=0.9071
+Epoch 003 | train_loss=0.4414 | val_acc=93.14% val_f1=0.9161 | test_acc=83.71% test_f1=0.7842
+Epoch 004 | train_loss=0.3090 | val_acc=94.29% val_f1=0.9337 | test_acc=82.30% test_f1=0.7570
+Epoch 005 | train_loss=0.2075 | val_acc=94.86% val_f1=0.9456 | test_acc=85.11% test_f1=0.7934
+Epoch 006 | train_loss=0.1434 | val_acc=96.00% val_f1=0.9556 | test_acc=83.15% test_f1=0.7699
+Epoch 007 | train_loss=0.1104 | val_acc=97.14% val_f1=0.9694 | test_acc=85.11% test_f1=0.8017
+Epoch 008 | train_loss=0.0898 | val_acc=97.14% val_f1=0.9694 | test_acc=84.55% test_f1=0.7920
+Epoch 009 | train_loss=0.0573 | val_acc=98.86% val_f1=0.9861 | test_acc=77.81% test_f1=0.7021
+Epoch 010 | train_loss=0.0506 | val_acc=97.71% val_f1=0.9727 | test_acc=82.87% test_f1=0.7611
+Epoch 011 | train_loss=0.0458 | val_acc=100.00% val_f1=1.0000 | test_acc=81.46% test_f1=0.7565
+Epoch 012 | train_loss=0.0318 | val_acc=99.43% val_f1=0.9919 | test_acc=78.93% test_f1=0.7114
+Epoch 013 | train_loss=0.0330 | val_acc=100.00% val_f1=1.0000 | test_acc=80.90% test_f1=0.7506
+Epoch 014 | train_loss=0.0293 | val_acc=100.00% val_f1=1.0000 | test_acc=77.81% test_f1=0.7104
+Epoch 015 | train_loss=0.0267 | val_acc=100.00% val_f1=1.0000 | test_acc=84.55% test_f1=0.7963
+Epoch 016 | train_loss=0.0227 | val_acc=100.00% val_f1=1.0000 | test_acc=81.18% test_f1=0.7606
+Epoch 017 | train_loss=0.0156 | val_acc=99.43% val_f1=0.9919 | test_acc=75.56% test_f1=0.6776
+Epoch 018 | train_loss=0.0134 | val_acc=99.43% val_f1=0.9919 | test_acc=80.62% test_f1=0.7474
+Epoch 019 | train_loss=0.0133 | val_acc=100.00% val_f1=1.0000 | test_acc=85.96% test_f1=0.8251
+Epoch 020 | train_loss=0.0081 | val_acc=99.43% val_f1=0.9919 | test_acc=76.97% test_f1=0.6931
+Epoch 021 | train_loss=0.0100 | val_acc=99.43% val_f1=0.9919 | test_acc=72.75% test_f1=0.6303
+Epoch 022 | train_loss=0.0082 | val_acc=98.86% val_f1=0.9837 | test_acc=86.52% test_f1=0.8327
+Epoch 023 | train_loss=0.0102 | val_acc=100.00% val_f1=1.0000 | test_acc=81.18% test_f1=0.7554
+Epoch 024 | train_loss=0.0069 | val_acc=100.00% val_f1=1.0000 | test_acc=75.00% test_f1=0.6689
+Epoch 025 | train_loss=0.0055 | val_acc=100.00% val_f1=1.0000 | test_acc=81.46% test_f1=0.7665
+Epoch 026 | train_loss=0.0040 | val_acc=100.00% val_f1=1.0000 | test_acc=81.74% test_f1=0.7691
+Epoch 027 | train_loss=0.0062 | val_acc=100.00% val_f1=1.0000 | test_acc=76.69% test_f1=0.6962
+Early stopping at epoch 27 (best=11, score=1.000000)
+================================================================================
+Best epoch: 11
+Best score (val_macro_f1): 1.000000
+Final test accuracy: 81.46%
+Saved to: ablation_experiments/h1/results/comparison_18d_baselines/transformer/transformer_weld_seam_windows_ws5_tf75_pg0_h1_dm128_nh4_l2_ff256_do0.3_ep80_lr0.0002_wd0.0005_bs128_seed122
+/usr/local/lib/python3.10/dist-packages/torch/nn/modules/transformer.py:385: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+================================================================================
+Comparison baseline | model=transformer
+================================================================================
+Dataset: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz
+Device: cuda
+Train/Val/Test: 990 / 175 / 356
+Epoch 001 | train_loss=0.8729 | val_acc=93.71% val_f1=0.9150 | test_acc=91.85% test_f1=0.8963
+Epoch 002 | train_loss=0.4319 | val_acc=96.00% val_f1=0.9613 | test_acc=88.76% test_f1=0.8491
+Epoch 003 | train_loss=0.2384 | val_acc=96.00% val_f1=0.9613 | test_acc=88.76% test_f1=0.8589
+Epoch 004 | train_loss=0.1113 | val_acc=98.29% val_f1=0.9828 | test_acc=82.87% test_f1=0.7799
+Epoch 005 | train_loss=0.0935 | val_acc=98.29% val_f1=0.9830 | test_acc=80.34% test_f1=0.7283
+Epoch 006 | train_loss=0.0495 | val_acc=100.00% val_f1=1.0000 | test_acc=77.81% test_f1=0.6912
+Epoch 007 | train_loss=0.0487 | val_acc=99.43% val_f1=0.9942 | test_acc=82.87% test_f1=0.7835
+Epoch 008 | train_loss=0.0416 | val_acc=99.43% val_f1=0.9942 | test_acc=81.46% test_f1=0.7676
+Epoch 009 | train_loss=0.0449 | val_acc=99.43% val_f1=0.9942 | test_acc=76.40% test_f1=0.6910
+Epoch 010 | train_loss=0.0350 | val_acc=98.86% val_f1=0.9885 | test_acc=89.04% test_f1=0.8710
+Epoch 011 | train_loss=0.0232 | val_acc=99.43% val_f1=0.9942 | test_acc=70.79% test_f1=0.6050
+Epoch 012 | train_loss=0.0143 | val_acc=100.00% val_f1=1.0000 | test_acc=77.25% test_f1=0.7020
+Epoch 013 | train_loss=0.0183 | val_acc=100.00% val_f1=1.0000 | test_acc=81.18% test_f1=0.7643
+Epoch 014 | train_loss=0.0135 | val_acc=100.00% val_f1=1.0000 | test_acc=80.06% test_f1=0.7447
+Epoch 015 | train_loss=0.0157 | val_acc=100.00% val_f1=1.0000 | test_acc=80.34% test_f1=0.7449
+Epoch 016 | train_loss=0.0211 | val_acc=100.00% val_f1=1.0000 | test_acc=85.96% test_f1=0.8199
+Epoch 017 | train_loss=0.0141 | val_acc=100.00% val_f1=1.0000 | test_acc=81.74% test_f1=0.7491
+Epoch 018 | train_loss=0.0221 | val_acc=100.00% val_f1=1.0000 | test_acc=70.51% test_f1=0.6008
+Epoch 019 | train_loss=0.0308 | val_acc=99.43% val_f1=0.9942 | test_acc=79.49% test_f1=0.7403
+Epoch 020 | train_loss=0.0401 | val_acc=99.43% val_f1=0.9942 | test_acc=69.38% test_f1=0.5836
+Epoch 021 | train_loss=0.0511 | val_acc=99.43% val_f1=0.9942 | test_acc=72.19% test_f1=0.6237
+Epoch 022 | train_loss=0.0158 | val_acc=99.43% val_f1=0.9942 | test_acc=80.90% test_f1=0.7622
+Early stopping at epoch 22 (best=6, score=1.000000)
+================================================================================
+Best epoch: 6
+Best score (val_macro_f1): 1.000000
+Final test accuracy: 77.81%
+Saved to: ablation_experiments/h1/results/comparison_18d_baselines/transformer/transformer_weld_seam_windows_ws5_tf75_pg0_h1_dm128_nh8_l4_ff128_do0.3_ep80_lr0.0005_wd0.0001_bs128_seed77
+/usr/local/lib/python3.10/dist-packages/torch/nn/modules/transformer.py:385: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+================================================================================
+Comparison baseline | model=transformer
+================================================================================
+Dataset: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz
+Device: cuda
+Train/Val/Test: 990 / 175 / 356
+Epoch 001 | train_loss=0.8748 | val_acc=92.57% val_f1=0.9258 | test_acc=89.04% test_f1=0.8321
+Epoch 002 | train_loss=0.4153 | val_acc=93.14% val_f1=0.9332 | test_acc=91.01% test_f1=0.8829
+Epoch 003 | train_loss=0.1950 | val_acc=94.86% val_f1=0.9485 | test_acc=84.55% test_f1=0.7797
+Epoch 004 | train_loss=0.1240 | val_acc=94.86% val_f1=0.9485 | test_acc=83.71% test_f1=0.7643
+Epoch 005 | train_loss=0.0885 | val_acc=96.57% val_f1=0.9667 | test_acc=86.24% test_f1=0.8224
+Epoch 006 | train_loss=0.0858 | val_acc=96.57% val_f1=0.9644 | test_acc=87.92% test_f1=0.8473
+Epoch 007 | train_loss=0.0451 | val_acc=98.29% val_f1=0.9804 | test_acc=84.83% test_f1=0.8105
+Epoch 008 | train_loss=0.0361 | val_acc=98.29% val_f1=0.9807 | test_acc=78.65% test_f1=0.7043
+Epoch 009 | train_loss=0.0264 | val_acc=98.86% val_f1=0.9861 | test_acc=77.81% test_f1=0.7096
+Epoch 010 | train_loss=0.0124 | val_acc=98.86% val_f1=0.9861 | test_acc=75.56% test_f1=0.6759
+Epoch 011 | train_loss=0.0203 | val_acc=98.29% val_f1=0.9807 | test_acc=84.83% test_f1=0.8101
+Epoch 012 | train_loss=0.0128 | val_acc=99.43% val_f1=0.9919 | test_acc=79.49% test_f1=0.7375
+Epoch 013 | train_loss=0.0072 | val_acc=99.43% val_f1=0.9919 | test_acc=78.09% test_f1=0.7149
+Epoch 014 | train_loss=0.0098 | val_acc=99.43% val_f1=0.9919 | test_acc=80.62% test_f1=0.7519
+Epoch 015 | train_loss=0.0085 | val_acc=99.43% val_f1=0.9919 | test_acc=79.78% test_f1=0.7179
+Epoch 016 | train_loss=0.0065 | val_acc=99.43% val_f1=0.9919 | test_acc=86.24% test_f1=0.8285
+Epoch 017 | train_loss=0.0208 | val_acc=99.43% val_f1=0.9942 | test_acc=74.16% test_f1=0.6555
+Epoch 018 | train_loss=0.0248 | val_acc=99.43% val_f1=0.9919 | test_acc=79.21% test_f1=0.7115
+Epoch 019 | train_loss=0.0127 | val_acc=99.43% val_f1=0.9919 | test_acc=76.40% test_f1=0.6750
+Epoch 020 | train_loss=0.0268 | val_acc=99.43% val_f1=0.9919 | test_acc=84.83% test_f1=0.8098
+Epoch 021 | train_loss=0.0068 | val_acc=99.43% val_f1=0.9919 | test_acc=74.16% test_f1=0.6451
+Epoch 022 | train_loss=0.0045 | val_acc=99.43% val_f1=0.9919 | test_acc=79.49% test_f1=0.7350
+Epoch 023 | train_loss=0.0033 | val_acc=99.43% val_f1=0.9919 | test_acc=81.18% test_f1=0.7579
+Epoch 024 | train_loss=0.0055 | val_acc=99.43% val_f1=0.9919 | test_acc=77.53% test_f1=0.7074
+Epoch 025 | train_loss=0.0029 | val_acc=99.43% val_f1=0.9919 | test_acc=79.78% test_f1=0.7361
+Epoch 026 | train_loss=0.0030 | val_acc=99.43% val_f1=0.9919 | test_acc=78.65% test_f1=0.7182
+Epoch 027 | train_loss=0.0024 | val_acc=99.43% val_f1=0.9919 | test_acc=74.16% test_f1=0.6539
+Epoch 028 | train_loss=0.0024 | val_acc=99.43% val_f1=0.9919 | test_acc=75.28% test_f1=0.6721
+Epoch 029 | train_loss=0.0017 | val_acc=99.43% val_f1=0.9919 | test_acc=78.09% test_f1=0.7141
+Epoch 030 | train_loss=0.0019 | val_acc=99.43% val_f1=0.9919 | test_acc=78.09% test_f1=0.7141
+Epoch 031 | train_loss=0.0022 | val_acc=99.43% val_f1=0.9919 | test_acc=78.65% test_f1=0.7205
+Epoch 032 | train_loss=0.0022 | val_acc=99.43% val_f1=0.9919 | test_acc=77.81% test_f1=0.7096
+Epoch 033 | train_loss=0.0020 | val_acc=99.43% val_f1=0.9919 | test_acc=75.28% test_f1=0.6749
+Early stopping at epoch 33 (best=17, score=0.994201)
+================================================================================
+Best epoch: 17
+Best score (val_macro_f1): 0.994201
+Final test accuracy: 74.16%
+Saved to: ablation_experiments/h1/results/comparison_18d_baselines/transformer/transformer_weld_seam_windows_ws5_tf75_pg0_h1_dm128_nh8_l4_ff128_do0.2_ep80_lr0.0003_wd0.0001_bs64_seed14
+/usr/local/lib/python3.10/dist-packages/torch/nn/modules/transformer.py:385: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+================================================================================
+Comparison baseline | model=transformer
+================================================================================
+Dataset: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz
+Device: cuda
+Train/Val/Test: 990 / 175 / 356
+Epoch 001 | train_loss=1.0407 | val_acc=80.57% val_f1=0.7574 | test_acc=85.67% test_f1=0.8408
+Epoch 002 | train_loss=0.7827 | val_acc=89.14% val_f1=0.8616 | test_acc=92.42% test_f1=0.9014
+Epoch 003 | train_loss=0.5844 | val_acc=93.71% val_f1=0.9169 | test_acc=84.27% test_f1=0.7896
+Epoch 004 | train_loss=0.4420 | val_acc=95.43% val_f1=0.9385 | test_acc=83.99% test_f1=0.7990
+Epoch 005 | train_loss=0.3197 | val_acc=94.86% val_f1=0.9390 | test_acc=80.06% test_f1=0.7302
+Epoch 006 | train_loss=0.2589 | val_acc=95.43% val_f1=0.9441 | test_acc=83.15% test_f1=0.7826
+Epoch 007 | train_loss=0.1712 | val_acc=98.86% val_f1=0.9861 | test_acc=78.65% test_f1=0.7125
+Epoch 008 | train_loss=0.1350 | val_acc=98.29% val_f1=0.9802 | test_acc=74.44% test_f1=0.6545
+Epoch 009 | train_loss=0.1229 | val_acc=96.57% val_f1=0.9612 | test_acc=84.55% test_f1=0.7873
+Epoch 010 | train_loss=0.0852 | val_acc=98.86% val_f1=0.9861 | test_acc=82.58% test_f1=0.7648
+Epoch 011 | train_loss=0.0721 | val_acc=98.86% val_f1=0.9861 | test_acc=71.07% test_f1=0.6077
+Epoch 012 | train_loss=0.0618 | val_acc=98.29% val_f1=0.9778 | test_acc=82.58% test_f1=0.7622
+Epoch 013 | train_loss=0.0478 | val_acc=98.86% val_f1=0.9861 | test_acc=81.46% test_f1=0.7479
+Epoch 014 | train_loss=0.0374 | val_acc=98.86% val_f1=0.9861 | test_acc=76.12% test_f1=0.6868
+Epoch 015 | train_loss=0.0320 | val_acc=99.43% val_f1=0.9919 | test_acc=83.71% test_f1=0.7891
+Epoch 016 | train_loss=0.0264 | val_acc=99.43% val_f1=0.9919 | test_acc=75.00% test_f1=0.6703
+Epoch 017 | train_loss=0.0291 | val_acc=99.43% val_f1=0.9919 | test_acc=81.18% test_f1=0.7556
+Epoch 018 | train_loss=0.0245 | val_acc=99.43% val_f1=0.9919 | test_acc=80.34% test_f1=0.7240
+Epoch 019 | train_loss=0.0210 | val_acc=99.43% val_f1=0.9919 | test_acc=76.69% test_f1=0.6987
+Epoch 020 | train_loss=0.0179 | val_acc=100.00% val_f1=1.0000 | test_acc=84.55% test_f1=0.8059
+Epoch 021 | train_loss=0.0122 | val_acc=99.43% val_f1=0.9919 | test_acc=78.37% test_f1=0.7165
+Epoch 022 | train_loss=0.0123 | val_acc=99.43% val_f1=0.9919 | test_acc=78.65% test_f1=0.7241
+Epoch 023 | train_loss=0.0100 | val_acc=100.00% val_f1=1.0000 | test_acc=76.97% test_f1=0.7017
+Epoch 024 | train_loss=0.0096 | val_acc=99.43% val_f1=0.9919 | test_acc=73.03% test_f1=0.6434
+Epoch 025 | train_loss=0.0090 | val_acc=99.43% val_f1=0.9919 | test_acc=75.28% test_f1=0.6750
+Epoch 026 | train_loss=0.0082 | val_acc=99.43% val_f1=0.9919 | test_acc=78.09% test_f1=0.7139
+Epoch 027 | train_loss=0.0075 | val_acc=100.00% val_f1=1.0000 | test_acc=77.81% test_f1=0.7103
+Epoch 028 | train_loss=0.0072 | val_acc=100.00% val_f1=1.0000 | test_acc=75.28% test_f1=0.6765
+Epoch 029 | train_loss=0.0069 | val_acc=100.00% val_f1=1.0000 | test_acc=75.28% test_f1=0.6765
+Epoch 030 | train_loss=0.0059 | val_acc=100.00% val_f1=1.0000 | test_acc=77.25% test_f1=0.7030
+Epoch 031 | train_loss=0.0058 | val_acc=100.00% val_f1=1.0000 | test_acc=78.65% test_f1=0.7210
+Epoch 032 | train_loss=0.0068 | val_acc=99.43% val_f1=0.9919 | test_acc=75.84% test_f1=0.6826
+Epoch 033 | train_loss=0.0063 | val_acc=99.43% val_f1=0.9919 | test_acc=74.72% test_f1=0.6673
+Epoch 034 | train_loss=0.0063 | val_acc=100.00% val_f1=1.0000 | test_acc=75.28% test_f1=0.6765
+Epoch 035 | train_loss=0.0056 | val_acc=100.00% val_f1=1.0000 | test_acc=76.40% test_f1=0.6919
+Epoch 036 | train_loss=0.0059 | val_acc=99.43% val_f1=0.9919 | test_acc=77.53% test_f1=0.7044
+Early stopping at epoch 36 (best=20, score=1.000000)
+================================================================================
+Best epoch: 20
+Best score (val_macro_f1): 1.000000
+Final test accuracy: 84.55%
+Saved to: ablation_experiments/h1/results/comparison_18d_baselines/transformer/transformer_weld_seam_windows_ws5_tf75_pg0_h1_dm96_nh8_l2_ff256_do0.2_ep80_lr0.0003_wd0.0002_bs128_seed122
+/usr/local/lib/python3.10/dist-packages/torch/nn/modules/transformer.py:385: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+================================================================================
+Comparison baseline | model=transformer
+================================================================================
+Dataset: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz
+Device: cuda
+Train/Val/Test: 990 / 175 / 356
+Epoch 001 | train_loss=0.9666 | val_acc=73.71% val_f1=0.7265 | test_acc=85.96% test_f1=0.8646
+Epoch 002 | train_loss=0.7639 | val_acc=88.57% val_f1=0.8736 | test_acc=94.10% test_f1=0.9123
+Epoch 003 | train_loss=0.5995 | val_acc=92.00% val_f1=0.9093 | test_acc=93.54% test_f1=0.9034
+Epoch 004 | train_loss=0.4576 | val_acc=94.29% val_f1=0.9327 | test_acc=93.26% test_f1=0.9079
+Epoch 005 | train_loss=0.3558 | val_acc=95.43% val_f1=0.9488 | test_acc=88.20% test_f1=0.8392
+Epoch 006 | train_loss=0.2888 | val_acc=95.43% val_f1=0.9460 | test_acc=89.61% test_f1=0.8663
+Epoch 007 | train_loss=0.2556 | val_acc=93.71% val_f1=0.9334 | test_acc=88.48% test_f1=0.8438
+Epoch 008 | train_loss=0.1870 | val_acc=96.00% val_f1=0.9540 | test_acc=87.36% test_f1=0.8336
+Epoch 009 | train_loss=0.1686 | val_acc=96.00% val_f1=0.9540 | test_acc=87.08% test_f1=0.8314
+Epoch 010 | train_loss=0.1366 | val_acc=94.86% val_f1=0.9436 | test_acc=89.33% test_f1=0.8585
+Epoch 011 | train_loss=0.1251 | val_acc=97.14% val_f1=0.9647 | test_acc=86.24% test_f1=0.8213
+Epoch 012 | train_loss=0.1037 | val_acc=97.14% val_f1=0.9647 | test_acc=86.80% test_f1=0.8192
+Epoch 013 | train_loss=0.0808 | val_acc=97.14% val_f1=0.9647 | test_acc=86.24% test_f1=0.8143
+Epoch 014 | train_loss=0.0784 | val_acc=99.43% val_f1=0.9919 | test_acc=85.11% test_f1=0.8066
+Epoch 015 | train_loss=0.0653 | val_acc=97.14% val_f1=0.9647 | test_acc=86.52% test_f1=0.8160
+Epoch 016 | train_loss=0.0559 | val_acc=100.00% val_f1=1.0000 | test_acc=85.96% test_f1=0.8169
+Epoch 017 | train_loss=0.0494 | val_acc=100.00% val_f1=1.0000 | test_acc=85.67% test_f1=0.8125
+Epoch 018 | train_loss=0.0535 | val_acc=100.00% val_f1=1.0000 | test_acc=84.55% test_f1=0.7946
+Epoch 019 | train_loss=0.0475 | val_acc=100.00% val_f1=1.0000 | test_acc=83.43% test_f1=0.7761
+Epoch 020 | train_loss=0.0307 | val_acc=100.00% val_f1=1.0000 | test_acc=85.96% test_f1=0.8179
+Epoch 021 | train_loss=0.0356 | val_acc=100.00% val_f1=1.0000 | test_acc=83.99% test_f1=0.7866
+Epoch 022 | train_loss=0.0270 | val_acc=99.43% val_f1=0.9919 | test_acc=80.90% test_f1=0.7337
+Epoch 023 | train_loss=0.0231 | val_acc=100.00% val_f1=1.0000 | test_acc=82.02% test_f1=0.7536
+Epoch 024 | train_loss=0.0221 | val_acc=100.00% val_f1=1.0000 | test_acc=84.27% test_f1=0.7912
+Epoch 025 | train_loss=0.0176 | val_acc=100.00% val_f1=1.0000 | test_acc=82.58% test_f1=0.7632
+Epoch 026 | train_loss=0.0206 | val_acc=100.00% val_f1=1.0000 | test_acc=83.43% test_f1=0.7828
+Epoch 027 | train_loss=0.0160 | val_acc=98.29% val_f1=0.9755 | test_acc=80.62% test_f1=0.7266
+Epoch 028 | train_loss=0.0120 | val_acc=98.29% val_f1=0.9755 | test_acc=78.93% test_f1=0.7048
+Epoch 029 | train_loss=0.0126 | val_acc=100.00% val_f1=1.0000 | test_acc=84.55% test_f1=0.7946
+Epoch 030 | train_loss=0.0125 | val_acc=100.00% val_f1=1.0000 | test_acc=85.39% test_f1=0.8091
+Epoch 031 | train_loss=0.0112 | val_acc=100.00% val_f1=1.0000 | test_acc=83.43% test_f1=0.7746
+Epoch 032 | train_loss=0.0119 | val_acc=100.00% val_f1=1.0000 | test_acc=85.67% test_f1=0.8050
+Early stopping at epoch 32 (best=16, score=1.000000)
+================================================================================
+Best epoch: 16
+Best score (val_macro_f1): 1.000000
+Final test accuracy: 85.96%
+Saved to: ablation_experiments/h1/results/comparison_18d_baselines/transformer/transformer_weld_seam_windows_ws5_tf75_pg0_h1_dm96_nh8_l2_ff128_do0.1_ep80_lr0.0001_wd0.0005_bs64_seed100
+/usr/local/lib/python3.10/dist-packages/torch/nn/modules/transformer.py:385: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+================================================================================
+Comparison baseline | model=transformer
+================================================================================
+Dataset: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz
+Device: cuda
+Train/Val/Test: 990 / 175 / 356
+Epoch 001 | train_loss=0.9643 | val_acc=79.43% val_f1=0.7787 | test_acc=79.49% test_f1=0.8082
+Epoch 002 | train_loss=0.6824 | val_acc=94.86% val_f1=0.9372 | test_acc=86.52% test_f1=0.8268
+Epoch 003 | train_loss=0.4698 | val_acc=94.86% val_f1=0.9479 | test_acc=89.33% test_f1=0.8617
+Epoch 004 | train_loss=0.3180 | val_acc=97.14% val_f1=0.9717 | test_acc=84.83% test_f1=0.8022
+Epoch 005 | train_loss=0.2267 | val_acc=97.14% val_f1=0.9721 | test_acc=81.46% test_f1=0.7420
+Epoch 006 | train_loss=0.1729 | val_acc=96.57% val_f1=0.9667 | test_acc=86.24% test_f1=0.8203
+Epoch 007 | train_loss=0.1301 | val_acc=99.43% val_f1=0.9943 | test_acc=85.11% test_f1=0.8082
+Epoch 008 | train_loss=0.0990 | val_acc=100.00% val_f1=1.0000 | test_acc=81.18% test_f1=0.7555
+Epoch 009 | train_loss=0.0793 | val_acc=100.00% val_f1=1.0000 | test_acc=78.93% test_f1=0.7201
+Epoch 010 | train_loss=0.0646 | val_acc=98.86% val_f1=0.9886 | test_acc=77.81% test_f1=0.6986
+Epoch 011 | train_loss=0.0579 | val_acc=99.43% val_f1=0.9942 | test_acc=77.81% test_f1=0.7128
+Epoch 012 | train_loss=0.0387 | val_acc=99.43% val_f1=0.9943 | test_acc=80.06% test_f1=0.7395
+Epoch 013 | train_loss=0.0394 | val_acc=100.00% val_f1=1.0000 | test_acc=77.25% test_f1=0.6996
+Epoch 014 | train_loss=0.0375 | val_acc=99.43% val_f1=0.9919 | test_acc=81.18% test_f1=0.7645
+Epoch 015 | train_loss=0.0377 | val_acc=98.86% val_f1=0.9886 | test_acc=85.39% test_f1=0.8241
+Epoch 016 | train_loss=0.0244 | val_acc=99.43% val_f1=0.9942 | test_acc=78.65% test_f1=0.7280
+Epoch 017 | train_loss=0.0265 | val_acc=100.00% val_f1=1.0000 | test_acc=82.30% test_f1=0.7811
+Epoch 018 | train_loss=0.0174 | val_acc=99.43% val_f1=0.9942 | test_acc=79.78% test_f1=0.7443
+Epoch 019 | train_loss=0.0122 | val_acc=99.43% val_f1=0.9942 | test_acc=79.78% test_f1=0.7441
+Epoch 020 | train_loss=0.0199 | val_acc=99.43% val_f1=0.9942 | test_acc=79.21% test_f1=0.7358
+Epoch 021 | train_loss=0.0137 | val_acc=99.43% val_f1=0.9942 | test_acc=76.12% test_f1=0.6867
+Epoch 022 | train_loss=0.0098 | val_acc=99.43% val_f1=0.9942 | test_acc=74.16% test_f1=0.6581
+Epoch 023 | train_loss=0.0161 | val_acc=100.00% val_f1=1.0000 | test_acc=78.65% test_f1=0.7263
+Epoch 024 | train_loss=0.0080 | val_acc=99.43% val_f1=0.9942 | test_acc=74.16% test_f1=0.6581
+Early stopping at epoch 24 (best=8, score=1.000000)
+================================================================================
+Best epoch: 8
+Best score (val_macro_f1): 1.000000
+Final test accuracy: 81.18%
+Saved to: ablation_experiments/h1/results/comparison_18d_baselines/transformer/transformer_weld_seam_windows_ws5_tf75_pg0_h1_dm64_nh8_l2_ff256_do0.3_ep80_lr0.0003_wd0.0002_bs64_seed77
+/usr/local/lib/python3.10/dist-packages/torch/nn/modules/transformer.py:385: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+================================================================================
+Comparison baseline | model=transformer
+================================================================================
+Dataset: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz
+Device: cuda
+Train/Val/Test: 990 / 175 / 356
+Epoch 001 | train_loss=0.9839 | val_acc=69.71% val_f1=0.7089 | test_acc=80.34% test_f1=0.8224
+Epoch 002 | train_loss=0.6514 | val_acc=94.29% val_f1=0.9228 | test_acc=85.96% test_f1=0.8235
+Epoch 003 | train_loss=0.4433 | val_acc=97.71% val_f1=0.9752 | test_acc=89.61% test_f1=0.8692
+Epoch 004 | train_loss=0.2667 | val_acc=97.14% val_f1=0.9673 | test_acc=84.27% test_f1=0.7887
+Epoch 005 | train_loss=0.1796 | val_acc=96.00% val_f1=0.9566 | test_acc=81.18% test_f1=0.7311
+Epoch 006 | train_loss=0.1368 | val_acc=97.14% val_f1=0.9690 | test_acc=78.37% test_f1=0.7029
+Epoch 007 | train_loss=0.1018 | val_acc=97.14% val_f1=0.9694 | test_acc=83.43% test_f1=0.7774
+Epoch 008 | train_loss=0.0642 | val_acc=97.71% val_f1=0.9772 | test_acc=89.04% test_f1=0.8632
+Epoch 009 | train_loss=0.0619 | val_acc=97.14% val_f1=0.9694 | test_acc=84.27% test_f1=0.7874
+Epoch 010 | train_loss=0.0518 | val_acc=97.14% val_f1=0.9694 | test_acc=84.83% test_f1=0.8002
+Epoch 011 | train_loss=0.0377 | val_acc=98.86% val_f1=0.9861 | test_acc=80.34% test_f1=0.7344
+Epoch 012 | train_loss=0.0316 | val_acc=98.29% val_f1=0.9807 | test_acc=82.02% test_f1=0.7536
+Epoch 013 | train_loss=0.0186 | val_acc=98.86% val_f1=0.9861 | test_acc=82.02% test_f1=0.7602
+Epoch 014 | train_loss=0.0216 | val_acc=100.00% val_f1=1.0000 | test_acc=86.24% test_f1=0.8222
+Epoch 015 | train_loss=0.0182 | val_acc=98.86% val_f1=0.9862 | test_acc=83.99% test_f1=0.7827
+Epoch 016 | train_loss=0.0153 | val_acc=99.43% val_f1=0.9919 | test_acc=78.93% test_f1=0.7099
+Epoch 017 | train_loss=0.0102 | val_acc=99.43% val_f1=0.9919 | test_acc=82.58% test_f1=0.7683
+Epoch 018 | train_loss=0.0093 | val_acc=99.43% val_f1=0.9919 | test_acc=82.02% test_f1=0.7590
+Epoch 019 | train_loss=0.0080 | val_acc=98.86% val_f1=0.9861 | test_acc=80.34% test_f1=0.7394
+Epoch 020 | train_loss=0.0099 | val_acc=100.00% val_f1=1.0000 | test_acc=87.92% test_f1=0.8502
+Epoch 021 | train_loss=0.0180 | val_acc=100.00% val_f1=1.0000 | test_acc=83.15% test_f1=0.7800
+Epoch 022 | train_loss=0.0122 | val_acc=100.00% val_f1=1.0000 | test_acc=84.83% test_f1=0.8031
+Epoch 023 | train_loss=0.0074 | val_acc=99.43% val_f1=0.9919 | test_acc=76.97% test_f1=0.6835
+Epoch 024 | train_loss=0.0067 | val_acc=100.00% val_f1=1.0000 | test_acc=80.06% test_f1=0.7372
+Epoch 025 | train_loss=0.0068 | val_acc=99.43% val_f1=0.9919 | test_acc=80.06% test_f1=0.7283
+Epoch 026 | train_loss=0.0049 | val_acc=99.43% val_f1=0.9919 | test_acc=81.18% test_f1=0.7485
+Epoch 027 | train_loss=0.0059 | val_acc=99.43% val_f1=0.9919 | test_acc=79.49% test_f1=0.7265
+Epoch 028 | train_loss=0.0027 | val_acc=99.43% val_f1=0.9919 | test_acc=80.06% test_f1=0.7356
+Epoch 029 | train_loss=0.0025 | val_acc=99.43% val_f1=0.9919 | test_acc=81.46% test_f1=0.7550
+Epoch 030 | train_loss=0.0040 | val_acc=99.43% val_f1=0.9919 | test_acc=82.87% test_f1=0.7764
+Early stopping at epoch 30 (best=14, score=1.000000)
+================================================================================
+Best epoch: 14
+Best score (val_macro_f1): 1.000000
+Final test accuracy: 86.24%
+Saved to: ablation_experiments/h1/results/comparison_18d_baselines/transformer/transformer_weld_seam_windows_ws5_tf75_pg0_h1_dm64_nh8_l2_ff256_do0.3_ep80_lr0.0003_wd1e-05_bs64_seed14
+/usr/local/lib/python3.10/dist-packages/torch/nn/modules/transformer.py:385: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+================================================================================
+Comparison baseline | model=transformer
+================================================================================
+Dataset: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz
+Device: cuda
+Train/Val/Test: 990 / 175 / 356
+Epoch 001 | train_loss=0.9308 | val_acc=80.57% val_f1=0.7731 | test_acc=95.79% test_f1=0.9513
+Epoch 002 | train_loss=0.6162 | val_acc=94.86% val_f1=0.9400 | test_acc=91.01% test_f1=0.8797
+Epoch 003 | train_loss=0.3705 | val_acc=94.29% val_f1=0.9405 | test_acc=87.92% test_f1=0.8388
+Epoch 004 | train_loss=0.2532 | val_acc=97.14% val_f1=0.9721 | test_acc=82.58% test_f1=0.7712
+Epoch 005 | train_loss=0.1589 | val_acc=96.57% val_f1=0.9663 | test_acc=79.78% test_f1=0.7128
+Epoch 006 | train_loss=0.1164 | val_acc=96.00% val_f1=0.9581 | test_acc=86.80% test_f1=0.8300
+Epoch 007 | train_loss=0.1010 | val_acc=98.86% val_f1=0.9885 | test_acc=77.25% test_f1=0.6841
+Epoch 008 | train_loss=0.0953 | val_acc=96.00% val_f1=0.9613 | test_acc=82.02% test_f1=0.7405
+Epoch 009 | train_loss=0.0749 | val_acc=97.71% val_f1=0.9772 | test_acc=80.06% test_f1=0.7236
+Epoch 010 | train_loss=0.0432 | val_acc=98.29% val_f1=0.9828 | test_acc=80.62% test_f1=0.7366
+Epoch 011 | train_loss=0.0439 | val_acc=98.29% val_f1=0.9830 | test_acc=84.55% test_f1=0.7920
+Epoch 012 | train_loss=0.0400 | val_acc=97.71% val_f1=0.9772 | test_acc=80.90% test_f1=0.7337
+Epoch 013 | train_loss=0.0332 | val_acc=99.43% val_f1=0.9942 | test_acc=77.81% test_f1=0.6983
+Epoch 014 | train_loss=0.0290 | val_acc=99.43% val_f1=0.9942 | test_acc=80.34% test_f1=0.7386
+Epoch 015 | train_loss=0.0220 | val_acc=98.29% val_f1=0.9828 | test_acc=80.62% test_f1=0.7334
+Epoch 016 | train_loss=0.0246 | val_acc=99.43% val_f1=0.9942 | test_acc=82.30% test_f1=0.7672
+Epoch 017 | train_loss=0.0135 | val_acc=99.43% val_f1=0.9942 | test_acc=75.28% test_f1=0.6540
+Epoch 018 | train_loss=0.0181 | val_acc=99.43% val_f1=0.9942 | test_acc=82.02% test_f1=0.7627
+Epoch 019 | train_loss=0.0116 | val_acc=99.43% val_f1=0.9942 | test_acc=78.65% test_f1=0.7170
+Epoch 020 | train_loss=0.0140 | val_acc=99.43% val_f1=0.9942 | test_acc=77.53% test_f1=0.6946
+Epoch 021 | train_loss=0.0118 | val_acc=99.43% val_f1=0.9942 | test_acc=82.58% test_f1=0.7727
+Epoch 022 | train_loss=0.0077 | val_acc=99.43% val_f1=0.9942 | test_acc=82.02% test_f1=0.7662
+Epoch 023 | train_loss=0.0099 | val_acc=100.00% val_f1=1.0000 | test_acc=79.49% test_f1=0.7227
+Epoch 024 | train_loss=0.0109 | val_acc=99.43% val_f1=0.9942 | test_acc=80.34% test_f1=0.7416
+Epoch 025 | train_loss=0.0103 | val_acc=100.00% val_f1=1.0000 | test_acc=82.30% test_f1=0.7728
+Epoch 026 | train_loss=0.0097 | val_acc=100.00% val_f1=1.0000 | test_acc=80.62% test_f1=0.7464
+Epoch 027 | train_loss=0.0033 | val_acc=99.43% val_f1=0.9942 | test_acc=78.37% test_f1=0.7089
+Epoch 028 | train_loss=0.0110 | val_acc=99.43% val_f1=0.9942 | test_acc=79.78% test_f1=0.7324
+Epoch 029 | train_loss=0.0081 | val_acc=100.00% val_f1=1.0000 | test_acc=82.30% test_f1=0.7754
+Epoch 030 | train_loss=0.0037 | val_acc=100.00% val_f1=1.0000 | test_acc=82.02% test_f1=0.7669
+Epoch 031 | train_loss=0.0037 | val_acc=100.00% val_f1=1.0000 | test_acc=78.09% test_f1=0.7070
+Epoch 032 | train_loss=0.0112 | val_acc=100.00% val_f1=1.0000 | test_acc=78.93% test_f1=0.7208
+Epoch 033 | train_loss=0.0307 | val_acc=100.00% val_f1=1.0000 | test_acc=79.78% test_f1=0.7371
+Epoch 034 | train_loss=0.0122 | val_acc=100.00% val_f1=1.0000 | test_acc=81.74% test_f1=0.7669
+Epoch 035 | train_loss=0.0059 | val_acc=100.00% val_f1=1.0000 | test_acc=82.30% test_f1=0.7759
+Epoch 036 | train_loss=0.0031 | val_acc=100.00% val_f1=1.0000 | test_acc=78.93% test_f1=0.7243
+Epoch 037 | train_loss=0.0044 | val_acc=100.00% val_f1=1.0000 | test_acc=77.53% test_f1=0.6999
+Epoch 038 | train_loss=0.0031 | val_acc=100.00% val_f1=1.0000 | test_acc=79.78% test_f1=0.7362
+Epoch 039 | train_loss=0.0020 | val_acc=100.00% val_f1=1.0000 | test_acc=79.78% test_f1=0.7362
+Early stopping at epoch 39 (best=23, score=1.000000)
+================================================================================
+Best epoch: 23
+Best score (val_macro_f1): 1.000000
+Final test accuracy: 79.49%
+Saved to: ablation_experiments/h1/results/comparison_18d_baselines/transformer/transformer_weld_seam_windows_ws5_tf75_pg0_h1_dm64_nh8_l2_ff256_do0.3_ep80_lr0.0003_wd1e-05_bs64_seed42
+/usr/local/lib/python3.10/dist-packages/torch/nn/modules/transformer.py:385: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+================================================================================
+Comparison baseline | model=transformer
+================================================================================
+Dataset: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz
+Device: cuda
+Train/Val/Test: 990 / 175 / 356
+Epoch 001 | train_loss=1.0379 | val_acc=58.86% val_f1=0.6318 | test_acc=52.81% test_f1=0.5333
+Epoch 002 | train_loss=0.6974 | val_acc=90.86% val_f1=0.8947 | test_acc=89.33% test_f1=0.8666
+Epoch 003 | train_loss=0.4702 | val_acc=90.86% val_f1=0.8884 | test_acc=91.29% test_f1=0.8963
+Epoch 004 | train_loss=0.3365 | val_acc=96.57% val_f1=0.9659 | test_acc=85.96% test_f1=0.8196
+Epoch 005 | train_loss=0.2004 | val_acc=96.57% val_f1=0.9659 | test_acc=85.39% test_f1=0.8058
+Epoch 006 | train_loss=0.1463 | val_acc=97.71% val_f1=0.9770 | test_acc=82.02% test_f1=0.7665
+Epoch 007 | train_loss=0.1057 | val_acc=97.14% val_f1=0.9694 | test_acc=87.08% test_f1=0.8343
+Epoch 008 | train_loss=0.0866 | val_acc=98.29% val_f1=0.9830 | test_acc=80.06% test_f1=0.7140
+Epoch 009 | train_loss=0.0742 | val_acc=99.43% val_f1=0.9943 | test_acc=82.02% test_f1=0.7612
+Epoch 010 | train_loss=0.0475 | val_acc=99.43% val_f1=0.9919 | test_acc=86.80% test_f1=0.8354
+Epoch 011 | train_loss=0.0544 | val_acc=98.86% val_f1=0.9886 | test_acc=85.96% test_f1=0.8188
+Epoch 012 | train_loss=0.0361 | val_acc=100.00% val_f1=1.0000 | test_acc=82.02% test_f1=0.7665
+Epoch 013 | train_loss=0.0328 | val_acc=100.00% val_f1=1.0000 | test_acc=76.97% test_f1=0.6822
+Epoch 014 | train_loss=0.0298 | val_acc=99.43% val_f1=0.9943 | test_acc=86.24% test_f1=0.8301
+Epoch 015 | train_loss=0.0128 | val_acc=100.00% val_f1=1.0000 | test_acc=81.46% test_f1=0.7602
+Epoch 016 | train_loss=0.0133 | val_acc=100.00% val_f1=1.0000 | test_acc=81.74% test_f1=0.7625
+Epoch 017 | train_loss=0.0124 | val_acc=100.00% val_f1=1.0000 | test_acc=83.71% test_f1=0.7929
+Epoch 018 | train_loss=0.0099 | val_acc=100.00% val_f1=1.0000 | test_acc=80.90% test_f1=0.7489
+Epoch 019 | train_loss=0.0084 | val_acc=100.00% val_f1=1.0000 | test_acc=82.87% test_f1=0.7781
+Epoch 020 | train_loss=0.0094 | val_acc=100.00% val_f1=1.0000 | test_acc=83.99% test_f1=0.7889
+Epoch 021 | train_loss=0.0081 | val_acc=100.00% val_f1=1.0000 | test_acc=78.65% test_f1=0.7171
+Epoch 022 | train_loss=0.0058 | val_acc=100.00% val_f1=1.0000 | test_acc=85.96% test_f1=0.8222
+Epoch 023 | train_loss=0.0061 | val_acc=100.00% val_f1=1.0000 | test_acc=82.02% test_f1=0.7721
+Epoch 024 | train_loss=0.0041 | val_acc=100.00% val_f1=1.0000 | test_acc=76.97% test_f1=0.6940
+Epoch 025 | train_loss=0.0058 | val_acc=99.43% val_f1=0.9919 | test_acc=86.24% test_f1=0.8301
+Epoch 026 | train_loss=0.0058 | val_acc=100.00% val_f1=1.0000 | test_acc=78.37% test_f1=0.7124
+Epoch 027 | train_loss=0.0059 | val_acc=100.00% val_f1=1.0000 | test_acc=78.93% test_f1=0.7181
+Epoch 028 | train_loss=0.0133 | val_acc=100.00% val_f1=1.0000 | test_acc=86.52% test_f1=0.8299
+Early stopping at epoch 28 (best=12, score=1.000000)
+================================================================================
+Best epoch: 12
+Best score (val_macro_f1): 1.000000
+Final test accuracy: 82.02%
+Saved to: ablation_experiments/h1/results/comparison_18d_baselines/transformer/transformer_weld_seam_windows_ws5_tf75_pg0_h1_dm64_nh8_l2_ff256_do0.3_ep80_lr0.0003_wd1e-05_bs64_seed183
+/usr/local/lib/python3.10/dist-packages/torch/nn/modules/transformer.py:385: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+================================================================================
+Comparison baseline | model=transformer
+================================================================================
+Dataset: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz
+Device: cuda
+Train/Val/Test: 990 / 175 / 356
+Epoch 001 | train_loss=0.9762 | val_acc=81.14% val_f1=0.8061 | test_acc=84.83% test_f1=0.8595
+Epoch 002 | train_loss=0.7269 | val_acc=89.14% val_f1=0.8769 | test_acc=96.07% test_f1=0.9587
+Epoch 003 | train_loss=0.6005 | val_acc=92.57% val_f1=0.9110 | test_acc=96.63% test_f1=0.9573
+Epoch 004 | train_loss=0.4776 | val_acc=94.86% val_f1=0.9376 | test_acc=92.98% test_f1=0.9090
+Epoch 005 | train_loss=0.3971 | val_acc=96.57% val_f1=0.9619 | test_acc=88.48% test_f1=0.8381
+Epoch 006 | train_loss=0.3225 | val_acc=96.00% val_f1=0.9566 | test_acc=90.17% test_f1=0.8655
+Epoch 007 | train_loss=0.2385 | val_acc=96.00% val_f1=0.9566 | test_acc=85.96% test_f1=0.8052
+Epoch 008 | train_loss=0.2101 | val_acc=94.86% val_f1=0.9462 | test_acc=89.61% test_f1=0.8676
+Epoch 009 | train_loss=0.1704 | val_acc=97.71% val_f1=0.9752 | test_acc=87.36% test_f1=0.8398
+Epoch 010 | train_loss=0.1500 | val_acc=98.86% val_f1=0.9862 | test_acc=83.99% test_f1=0.7930
+Epoch 011 | train_loss=0.1156 | val_acc=96.00% val_f1=0.9590 | test_acc=88.20% test_f1=0.8458
+Epoch 012 | train_loss=0.0967 | val_acc=97.71% val_f1=0.9752 | test_acc=84.27% test_f1=0.7923
+Epoch 013 | train_loss=0.0839 | val_acc=98.86% val_f1=0.9862 | test_acc=83.99% test_f1=0.7914
+Epoch 014 | train_loss=0.0725 | val_acc=97.71% val_f1=0.9752 | test_acc=84.83% test_f1=0.8025
+Epoch 015 | train_loss=0.0574 | val_acc=98.29% val_f1=0.9830 | test_acc=84.83% test_f1=0.8037
+Epoch 016 | train_loss=0.0504 | val_acc=98.29% val_f1=0.9807 | test_acc=83.15% test_f1=0.7763
+Epoch 017 | train_loss=0.0425 | val_acc=98.86% val_f1=0.9862 | test_acc=83.15% test_f1=0.7777
+Epoch 018 | train_loss=0.0367 | val_acc=98.86% val_f1=0.9862 | test_acc=82.58% test_f1=0.7710
+Epoch 019 | train_loss=0.0331 | val_acc=98.86% val_f1=0.9886 | test_acc=87.08% test_f1=0.8353
+Epoch 020 | train_loss=0.0307 | val_acc=98.86% val_f1=0.9861 | test_acc=77.81% test_f1=0.7007
+Epoch 021 | train_loss=0.0270 | val_acc=100.00% val_f1=1.0000 | test_acc=84.27% test_f1=0.8003
+Epoch 022 | train_loss=0.0253 | val_acc=98.86% val_f1=0.9862 | test_acc=80.62% test_f1=0.7372
+Epoch 023 | train_loss=0.0159 | val_acc=99.43% val_f1=0.9919 | test_acc=81.18% test_f1=0.7554
+Epoch 024 | train_loss=0.0139 | val_acc=98.86% val_f1=0.9861 | test_acc=80.62% test_f1=0.7484
+Epoch 025 | train_loss=0.0145 | val_acc=98.86% val_f1=0.9861 | test_acc=80.90% test_f1=0.7519
+Epoch 026 | train_loss=0.0135 | val_acc=98.86% val_f1=0.9861 | test_acc=80.90% test_f1=0.7519
+Epoch 027 | train_loss=0.0128 | val_acc=99.43% val_f1=0.9919 | test_acc=80.62% test_f1=0.7449
+Epoch 028 | train_loss=0.0138 | val_acc=98.86% val_f1=0.9862 | test_acc=84.55% test_f1=0.7949
+Epoch 029 | train_loss=0.0111 | val_acc=99.43% val_f1=0.9919 | test_acc=80.62% test_f1=0.7462
+Epoch 030 | train_loss=0.0110 | val_acc=99.43% val_f1=0.9919 | test_acc=82.02% test_f1=0.7630
+Epoch 031 | train_loss=0.0102 | val_acc=99.43% val_f1=0.9919 | test_acc=82.30% test_f1=0.7713
+Epoch 032 | train_loss=0.0095 | val_acc=99.43% val_f1=0.9919 | test_acc=81.46% test_f1=0.7599
+Epoch 033 | train_loss=0.0068 | val_acc=99.43% val_f1=0.9919 | test_acc=80.62% test_f1=0.7474
+Epoch 034 | train_loss=0.0073 | val_acc=99.43% val_f1=0.9919 | test_acc=80.06% test_f1=0.7381
+Epoch 035 | train_loss=0.0075 | val_acc=99.43% val_f1=0.9919 | test_acc=80.62% test_f1=0.7462
+Epoch 036 | train_loss=0.0073 | val_acc=99.43% val_f1=0.9919 | test_acc=80.34% test_f1=0.7415
+Epoch 037 | train_loss=0.0070 | val_acc=99.43% val_f1=0.9919 | test_acc=79.78% test_f1=0.7346
+Early stopping at epoch 37 (best=21, score=1.000000)
+================================================================================
+Best epoch: 21
+Best score (val_macro_f1): 1.000000
+Final test accuracy: 84.27%
+Saved to: ablation_experiments/h1/results/comparison_18d_baselines/transformer/transformer_weld_seam_windows_ws5_tf75_pg0_h1_dm96_nh8_l2_ff128_do0.1_ep80_lr0.0001_wd0.0005_bs64_seed14
+/usr/local/lib/python3.10/dist-packages/torch/nn/modules/transformer.py:385: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+================================================================================
+Comparison baseline | model=transformer
+================================================================================
+Dataset: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz
+Device: cuda
+Train/Val/Test: 990 / 175 / 356
+Epoch 001 | train_loss=1.0948 | val_acc=68.57% val_f1=0.7180 | test_acc=82.30% test_f1=0.7800
+Epoch 002 | train_loss=0.8445 | val_acc=73.71% val_f1=0.7586 | test_acc=83.43% test_f1=0.8118
+Epoch 003 | train_loss=0.6526 | val_acc=85.71% val_f1=0.8573 | test_acc=91.01% test_f1=0.8770
+Epoch 004 | train_loss=0.5390 | val_acc=89.14% val_f1=0.8861 | test_acc=88.48% test_f1=0.8325
+Epoch 005 | train_loss=0.4481 | val_acc=90.29% val_f1=0.9006 | test_acc=82.30% test_f1=0.7174
+Epoch 006 | train_loss=0.3305 | val_acc=93.71% val_f1=0.9353 | test_acc=86.80% test_f1=0.8096
+Epoch 007 | train_loss=0.2594 | val_acc=94.86% val_f1=0.9485 | test_acc=83.15% test_f1=0.7429
+Epoch 008 | train_loss=0.2015 | val_acc=94.86% val_f1=0.9485 | test_acc=85.39% test_f1=0.7899
+Epoch 009 | train_loss=0.1723 | val_acc=96.00% val_f1=0.9613 | test_acc=84.55% test_f1=0.7767
+Epoch 010 | train_loss=0.1278 | val_acc=96.00% val_f1=0.9613 | test_acc=83.99% test_f1=0.7685
+Epoch 011 | train_loss=0.1223 | val_acc=96.00% val_f1=0.9613 | test_acc=85.67% test_f1=0.7949
+Epoch 012 | train_loss=0.1114 | val_acc=98.29% val_f1=0.9830 | test_acc=83.15% test_f1=0.7551
+Epoch 013 | train_loss=0.0864 | val_acc=97.71% val_f1=0.9775 | test_acc=82.58% test_f1=0.7430
+Epoch 014 | train_loss=0.0812 | val_acc=98.29% val_f1=0.9830 | test_acc=83.15% test_f1=0.7582
+Epoch 015 | train_loss=0.0741 | val_acc=97.71% val_f1=0.9772 | test_acc=83.71% test_f1=0.7685
+Epoch 016 | train_loss=0.0607 | val_acc=98.86% val_f1=0.9885 | test_acc=83.71% test_f1=0.7685
+Epoch 017 | train_loss=0.0502 | val_acc=97.71% val_f1=0.9772 | test_acc=82.30% test_f1=0.7424
+Epoch 018 | train_loss=0.0498 | val_acc=97.71% val_f1=0.9772 | test_acc=83.71% test_f1=0.7695
+Epoch 019 | train_loss=0.0387 | val_acc=97.71% val_f1=0.9772 | test_acc=83.15% test_f1=0.7614
+Epoch 020 | train_loss=0.0344 | val_acc=98.86% val_f1=0.9885 | test_acc=81.74% test_f1=0.7458
+Epoch 021 | train_loss=0.0288 | val_acc=97.71% val_f1=0.9772 | test_acc=83.43% test_f1=0.7654
+Epoch 022 | train_loss=0.0325 | val_acc=97.71% val_f1=0.9772 | test_acc=85.11% test_f1=0.8002
+Epoch 023 | train_loss=0.0373 | val_acc=98.29% val_f1=0.9830 | test_acc=80.90% test_f1=0.7167
+Epoch 024 | train_loss=0.0270 | val_acc=99.43% val_f1=0.9943 | test_acc=82.58% test_f1=0.7582
+Epoch 025 | train_loss=0.0191 | val_acc=99.43% val_f1=0.9942 | test_acc=81.46% test_f1=0.7456
+Epoch 026 | train_loss=0.0204 | val_acc=99.43% val_f1=0.9942 | test_acc=80.90% test_f1=0.7374
+Epoch 027 | train_loss=0.0144 | val_acc=99.43% val_f1=0.9942 | test_acc=82.02% test_f1=0.7520
+Epoch 028 | train_loss=0.0160 | val_acc=99.43% val_f1=0.9942 | test_acc=82.30% test_f1=0.7551
+Epoch 029 | train_loss=0.0142 | val_acc=99.43% val_f1=0.9942 | test_acc=80.06% test_f1=0.7294
+Epoch 030 | train_loss=0.0179 | val_acc=99.43% val_f1=0.9942 | test_acc=77.25% test_f1=0.6765
+Epoch 031 | train_loss=0.0400 | val_acc=99.43% val_f1=0.9942 | test_acc=83.43% test_f1=0.7823
+Epoch 032 | train_loss=0.0109 | val_acc=100.00% val_f1=1.0000 | test_acc=80.34% test_f1=0.7207
+Epoch 033 | train_loss=0.0112 | val_acc=99.43% val_f1=0.9942 | test_acc=82.30% test_f1=0.7636
+Epoch 034 | train_loss=0.0165 | val_acc=100.00% val_f1=1.0000 | test_acc=84.83% test_f1=0.7999
+Epoch 035 | train_loss=0.0077 | val_acc=99.43% val_f1=0.9942 | test_acc=82.87% test_f1=0.7756
+Epoch 036 | train_loss=0.0072 | val_acc=99.43% val_f1=0.9942 | test_acc=82.30% test_f1=0.7664
+Epoch 037 | train_loss=0.0090 | val_acc=99.43% val_f1=0.9942 | test_acc=82.02% test_f1=0.7617
+Epoch 038 | train_loss=0.0077 | val_acc=99.43% val_f1=0.9942 | test_acc=81.74% test_f1=0.7584
+Epoch 039 | train_loss=0.0079 | val_acc=99.43% val_f1=0.9942 | test_acc=81.74% test_f1=0.7597
+Epoch 040 | train_loss=0.0065 | val_acc=99.43% val_f1=0.9942 | test_acc=82.02% test_f1=0.7631
+Epoch 041 | train_loss=0.0095 | val_acc=99.43% val_f1=0.9942 | test_acc=82.02% test_f1=0.7617
+Epoch 042 | train_loss=0.0061 | val_acc=99.43% val_f1=0.9942 | test_acc=81.46% test_f1=0.7491
+Epoch 043 | train_loss=0.0067 | val_acc=100.00% val_f1=1.0000 | test_acc=82.02% test_f1=0.7572
+Epoch 044 | train_loss=0.0070 | val_acc=100.00% val_f1=1.0000 | test_acc=83.71% test_f1=0.7797
+Epoch 045 | train_loss=0.0067 | val_acc=100.00% val_f1=1.0000 | test_acc=83.15% test_f1=0.7733
+Epoch 046 | train_loss=0.0057 | val_acc=100.00% val_f1=1.0000 | test_acc=82.30% test_f1=0.7621
+Epoch 047 | train_loss=0.0054 | val_acc=99.43% val_f1=0.9942 | test_acc=81.46% test_f1=0.7537
+Epoch 048 | train_loss=0.0073 | val_acc=100.00% val_f1=1.0000 | test_acc=82.87% test_f1=0.7701
+Early stopping at epoch 48 (best=32, score=1.000000)
+================================================================================
+Best epoch: 32
+Best score (val_macro_f1): 1.000000
+Final test accuracy: 80.34%
+Saved to: ablation_experiments/h1/results/comparison_18d_baselines/transformer/transformer_weld_seam_windows_ws5_tf75_pg0_h1_dm96_nh8_l2_ff128_do0.1_ep80_lr0.0001_wd0.0005_bs64_seed42
+/usr/local/lib/python3.10/dist-packages/torch/nn/modules/transformer.py:385: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+================================================================================
+Comparison baseline | model=transformer
+================================================================================
+Dataset: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz
+Device: cuda
+Train/Val/Test: 990 / 175 / 356
+Epoch 001 | train_loss=1.1144 | val_acc=31.43% val_f1=0.2984 | test_acc=30.34% test_f1=0.2841
+Epoch 002 | train_loss=0.8876 | val_acc=70.86% val_f1=0.7135 | test_acc=96.07% test_f1=0.9602
+Epoch 003 | train_loss=0.6925 | val_acc=87.43% val_f1=0.8508 | test_acc=99.44% test_f1=0.9930
+Epoch 004 | train_loss=0.5546 | val_acc=92.00% val_f1=0.9052 | test_acc=95.79% test_f1=0.9437
+Epoch 005 | train_loss=0.4222 | val_acc=94.29% val_f1=0.9385 | test_acc=92.42% test_f1=0.9047
+Epoch 006 | train_loss=0.3436 | val_acc=94.86% val_f1=0.9497 | test_acc=91.85% test_f1=0.8973
+Epoch 007 | train_loss=0.2580 | val_acc=96.00% val_f1=0.9604 | test_acc=89.89% test_f1=0.8673
+Epoch 008 | train_loss=0.2290 | val_acc=96.57% val_f1=0.9659 | test_acc=92.13% test_f1=0.9025
+Epoch 009 | train_loss=0.1892 | val_acc=97.71% val_f1=0.9770 | test_acc=87.64% test_f1=0.8380
+Epoch 010 | train_loss=0.1609 | val_acc=94.86% val_f1=0.9497 | test_acc=91.29% test_f1=0.8888
+Epoch 011 | train_loss=0.1197 | val_acc=97.14% val_f1=0.9714 | test_acc=89.61% test_f1=0.8673
+Epoch 012 | train_loss=0.1101 | val_acc=94.86% val_f1=0.9474 | test_acc=92.13% test_f1=0.9004
+Epoch 013 | train_loss=0.0882 | val_acc=96.57% val_f1=0.9663 | test_acc=90.73% test_f1=0.8802
+Epoch 014 | train_loss=0.0817 | val_acc=96.00% val_f1=0.9581 | test_acc=89.89% test_f1=0.8716
+Epoch 015 | train_loss=0.0727 | val_acc=96.57% val_f1=0.9663 | test_acc=88.76% test_f1=0.8509
+Epoch 016 | train_loss=0.0551 | val_acc=97.71% val_f1=0.9772 | test_acc=86.80% test_f1=0.8281
+Epoch 017 | train_loss=0.0571 | val_acc=98.29% val_f1=0.9830 | test_acc=89.33% test_f1=0.8640
+Epoch 018 | train_loss=0.0375 | val_acc=98.86% val_f1=0.9886 | test_acc=85.11% test_f1=0.8066
+Epoch 019 | train_loss=0.0400 | val_acc=99.43% val_f1=0.9942 | test_acc=85.67% test_f1=0.8174
+Epoch 020 | train_loss=0.0453 | val_acc=98.29% val_f1=0.9830 | test_acc=89.61% test_f1=0.8673
+Epoch 021 | train_loss=0.0328 | val_acc=98.86% val_f1=0.9886 | test_acc=88.76% test_f1=0.8590
+Epoch 022 | train_loss=0.0340 | val_acc=99.43% val_f1=0.9942 | test_acc=86.52% test_f1=0.8304
+Epoch 023 | train_loss=0.0290 | val_acc=98.29% val_f1=0.9830 | test_acc=86.52% test_f1=0.8237
+Epoch 024 | train_loss=0.0253 | val_acc=98.29% val_f1=0.9828 | test_acc=88.48% test_f1=0.8555
+Epoch 025 | train_loss=0.0233 | val_acc=100.00% val_f1=1.0000 | test_acc=84.27% test_f1=0.7960
+Epoch 026 | train_loss=0.0228 | val_acc=100.00% val_f1=1.0000 | test_acc=85.96% test_f1=0.8179
+Epoch 027 | train_loss=0.0206 | val_acc=99.43% val_f1=0.9942 | test_acc=83.71% test_f1=0.7894
+Epoch 028 | train_loss=0.0175 | val_acc=100.00% val_f1=1.0000 | test_acc=88.20% test_f1=0.8488
+Epoch 029 | train_loss=0.0147 | val_acc=99.43% val_f1=0.9942 | test_acc=85.39% test_f1=0.8110
+Epoch 030 | train_loss=0.0156 | val_acc=100.00% val_f1=1.0000 | test_acc=85.96% test_f1=0.8188
+Epoch 031 | train_loss=0.0140 | val_acc=99.43% val_f1=0.9942 | test_acc=85.96% test_f1=0.8196
+Epoch 032 | train_loss=0.0121 | val_acc=99.43% val_f1=0.9942 | test_acc=83.71% test_f1=0.7887
+Epoch 033 | train_loss=0.0124 | val_acc=99.43% val_f1=0.9942 | test_acc=86.80% test_f1=0.8330
+Epoch 034 | train_loss=0.0108 | val_acc=99.43% val_f1=0.9942 | test_acc=85.67% test_f1=0.8188
+Epoch 035 | train_loss=0.0087 | val_acc=100.00% val_f1=1.0000 | test_acc=86.80% test_f1=0.8330
+Epoch 036 | train_loss=0.0112 | val_acc=99.43% val_f1=0.9942 | test_acc=84.83% test_f1=0.8058
+Epoch 037 | train_loss=0.0083 | val_acc=99.43% val_f1=0.9942 | test_acc=85.39% test_f1=0.8147
+Epoch 038 | train_loss=0.0083 | val_acc=99.43% val_f1=0.9942 | test_acc=84.83% test_f1=0.8053
+Epoch 039 | train_loss=0.0068 | val_acc=99.43% val_f1=0.9942 | test_acc=86.52% test_f1=0.8294
+Epoch 040 | train_loss=0.0087 | val_acc=99.43% val_f1=0.9942 | test_acc=85.39% test_f1=0.8125
+Epoch 041 | train_loss=0.0074 | val_acc=99.43% val_f1=0.9942 | test_acc=86.24% test_f1=0.8258
+Early stopping at epoch 41 (best=25, score=1.000000)
+================================================================================
+Best epoch: 25
+Best score (val_macro_f1): 1.000000
+Final test accuracy: 84.27%
+Saved to: ablation_experiments/h1/results/comparison_18d_baselines/transformer/transformer_weld_seam_windows_ws5_tf75_pg0_h1_dm96_nh8_l2_ff128_do0.1_ep80_lr0.0001_wd0.0005_bs64_seed183
+[A] transformer_weld_seam_windows_ws5_tf75_pg0_h1_dm128_nh4_l4_ff128_do0.3_ep80_lr0.0005_wd0.0005_bs64_seed100 | status=success test_acc=80.62% f1=0.7431
+[A] transformer_weld_seam_windows_ws5_tf75_pg0_h1_dm64_nh8_l2_ff256_do0.3_ep80_lr0.0002_wd0.0002_bs64_seed14 | status=success test_acc=85.11% f1=0.8047
+[A] transformer_weld_seam_windows_ws5_tf75_pg0_h1_dm128_nh4_l4_ff128_do0.3_ep80_lr0.0001_wd0.0005_bs64_seed14 | status=success test_acc=81.74% f1=0.7719
+[A] transformer_weld_seam_windows_ws5_tf75_pg0_h1_dm64_nh4_l3_ff128_do0.3_ep80_lr0.0003_wd0.0002_bs64_seed122 | status=success test_acc=82.02% f1=0.7652
+[A] transformer_weld_seam_windows_ws5_tf75_pg0_h1_dm96_nh8_l2_ff128_do0.2_ep80_lr0.0003_wd1e-05_bs64_seed100 | status=success test_acc=84.83% f1=0.7967
+[A] transformer_weld_seam_windows_ws5_tf75_pg0_h1_dm128_nh8_l3_ff128_do0.2_ep80_lr0.0001_wd1e-05_bs128_seed14 | status=success test_acc=77.81% f1=0.6953
+[A] transformer_weld_seam_windows_ws5_tf75_pg0_h1_dm128_nh4_l4_ff256_do0.3_ep80_lr0.0003_wd0.0001_bs64_seed14 | status=success test_acc=83.99% f1=0.8004
+[A] transformer_weld_seam_windows_ws5_tf75_pg0_h1_dm64_nh8_l2_ff256_do0.2_ep80_lr0.0001_wd0.0001_bs64_seed77 | status=success test_acc=80.90% f1=0.7469
+[A] transformer_weld_seam_windows_ws5_tf75_pg0_h1_dm96_nh4_l3_ff128_do0.3_ep80_lr0.0001_wd0.0005_bs64_seed122 | status=success test_acc=80.06% f1=0.7354
+[A] transformer_weld_seam_windows_ws5_tf75_pg0_h1_dm96_nh4_l4_ff256_do0.2_ep80_lr0.0002_wd0.0001_bs64_seed122 | status=success test_acc=80.62% f1=0.7535
+[A] transformer_weld_seam_windows_ws5_tf75_pg0_h1_dm96_nh8_l4_ff128_do0.2_ep80_lr0.0001_wd0.0005_bs128_seed122 | status=success test_acc=80.90% f1=0.7404
+[A] transformer_weld_seam_windows_ws5_tf75_pg0_h1_dm64_nh4_l4_ff128_do0.1_ep80_lr0.0005_wd0.0002_bs128_seed77 | status=success test_acc=76.12% f1=0.6686
+[A] transformer_weld_seam_windows_ws5_tf75_pg0_h1_dm96_nh8_l3_ff128_do0.1_ep80_lr0.0005_wd0.0001_bs64_seed42 | status=success test_acc=78.37% f1=0.7060
+[A] transformer_weld_seam_windows_ws5_tf75_pg0_h1_dm128_nh4_l2_ff256_do0.3_ep80_lr0.0002_wd0.0005_bs128_seed122 | status=success test_acc=81.46% f1=0.7565
+[A] transformer_weld_seam_windows_ws5_tf75_pg0_h1_dm128_nh8_l4_ff128_do0.3_ep80_lr0.0005_wd0.0001_bs128_seed77 | status=success test_acc=77.81% f1=0.6912
+[A] transformer_weld_seam_windows_ws5_tf75_pg0_h1_dm128_nh8_l4_ff128_do0.2_ep80_lr0.0003_wd0.0001_bs64_seed14 | status=success test_acc=74.16% f1=0.6555
+[B] transformer_weld_seam_windows_ws5_tf75_pg0_h1_dm96_nh8_l2_ff256_do0.2_ep80_lr0.0003_wd0.0002_bs128_seed122 | status=success test_acc=84.55% f1=0.8059
+[B] transformer_weld_seam_windows_ws5_tf75_pg0_h1_dm96_nh8_l2_ff128_do0.1_ep80_lr0.0001_wd0.0005_bs64_seed100 | status=success test_acc=85.96% f1=0.8169
+[B] transformer_weld_seam_windows_ws5_tf75_pg0_h1_dm64_nh8_l2_ff256_do0.3_ep80_lr0.0003_wd0.0002_bs64_seed77 | status=success test_acc=81.18% f1=0.7555
+[B] transformer_weld_seam_windows_ws5_tf75_pg0_h1_dm64_nh8_l2_ff256_do0.3_ep80_lr0.0003_wd1e-05_bs64_seed14 | status=success test_acc=86.24% f1=0.8222
+[seed_eval] transformer_weld_seam_windows_ws5_tf75_pg0_h1_dm64_nh8_l2_ff256_do0.3_ep80_lr0.0003_wd1e-05_bs64_seed14 | status=skipped_existing test_acc=86.24% f1=0.8222
+[seed_eval] transformer_weld_seam_windows_ws5_tf75_pg0_h1_dm64_nh8_l2_ff256_do0.3_ep80_lr0.0003_wd1e-05_bs64_seed42 | status=success test_acc=79.49% f1=0.7227
+[seed_eval] transformer_weld_seam_windows_ws5_tf75_pg0_h1_dm64_nh8_l2_ff256_do0.3_ep80_lr0.0003_wd1e-05_bs64_seed183 | status=success test_acc=82.02% f1=0.7665
+[seed_eval] transformer_weld_seam_windows_ws5_tf75_pg0_h1_dm96_nh8_l2_ff128_do0.1_ep80_lr0.0001_wd0.0005_bs64_seed14 | status=success test_acc=84.27% f1=0.8003
+[seed_eval] transformer_weld_seam_windows_ws5_tf75_pg0_h1_dm96_nh8_l2_ff128_do0.1_ep80_lr0.0001_wd0.0005_bs64_seed42 | status=success test_acc=80.34% f1=0.7207
+[seed_eval] transformer_weld_seam_windows_ws5_tf75_pg0_h1_dm96_nh8_l2_ff128_do0.1_ep80_lr0.0001_wd0.0005_bs64_seed183 | status=success test_acc=84.27% f1=0.7960
+Sweep complete for model=transformer
+Report dir: ablation_experiments/h1/reports/comparison_18d_baselines/round2/transformer

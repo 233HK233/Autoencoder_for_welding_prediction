@@ -1,0 +1,21 @@
+Figure 2 distillation ablation QA notes
+
+Figure contract:
+- Core conclusion: full frozen-teacher SEAL-Weld is compared against matched component removals, baselines, and joint training.
+- Evidence chain: row 1 final test metrics, row 2 hyperparameter response surfaces, row 3 training dynamics.
+- Archetype: quantitative grid.
+- Backend/export: Python Matplotlib, PDF/SVG vector plus PNG preview.
+
+Run sources:
+- Full SEAL-Weld: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/ablation_experiments/h1/results/figure2_matched_distillation_ablation/seed14/full_seal_weld/distill_tcn_attn_weld_seam_windows_ws5_tf75_pg0_h1_ep80_lr0.0002_bs128_T3.5_lce0.7_lkd1.5_lf0.3_seed14 (matched seed14)
+- w/o attention: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/ablation_experiments/h1/results/figure2_matched_distillation_ablation/seed14/wo_attention/distill_tcn_no_attn_weld_seam_windows_ws5_tf75_pg0_h1_ep80_lr0.0002_bs128_T3.5_lce0.7_lkd1.5_lf0.3_seed14 (matched seed14)
+- w/o logit KD: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/ablation_experiments/h1/results/figure2_matched_distillation_ablation/seed14/wo_logit_kd/distill_tcn_attn_weld_seam_windows_ws5_tf75_pg0_h1_ep80_lr0.0002_bs128_T3.5_lce0.7_lkd0.0_lf0.3_seed14 (matched seed14)
+- w/o latent alignment: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/ablation_experiments/h1/results/figure2_matched_distillation_ablation/seed14/wo_latent_alignment/distill_tcn_attn_weld_seam_windows_ws5_tf75_pg0_h1_ep80_lr0.0002_bs128_T3.5_lce0.7_lkd1.5_lf0.0_seed14 (matched seed14)
+- Latent alignment only: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/ablation_experiments/h1/results/figure2_matched_distillation_ablation/seed14/latent_alignment_only/distill_tcn_attn_weld_seam_windows_ws5_tf75_pg0_h1_ep80_lr0.0002_bs128_T3.5_lce0.7_lkd0.0_lf0.3_seed14 (matched seed14; same CE+latent protocol as w/o logit KD)
+- Student-only: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/ablation_experiments/h1/results/figure2_matched_distillation_ablation/seed14/student_only_anchor/ablation1_student_only_tcn_attn_weld_seam_windows_ws5_tf75_pg0_h1_ep80_lr0.0001_bs64_seed144 (anchor rerun)
+- LSTM KD: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/ablation_experiments/h1/results/figure2_matched_distillation_ablation/seed14/lstm_kd_anchor/ablation2_distill_lstm_weld_seam_windows_ws5_tf75_pg0_h1_ep80_lr0.00025_bs128_T3.0_lce0.8_lkd1.3_lf0.30000000000000004_seed77 (anchor rerun)
+- Joint teacher-student: /home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/ablation_experiments/h1/results/figure2_matched_distillation_ablation/seed14/joint_teacher_student/ablation3_joint_tcn_attn_weld_seam_windows_ws5_tf75_pg0_h1_ep80_lrt0.0002_lrs0.0002_bs128_T3.5_lce0.7_lkd1.5_lf0.3_seed14 (aligned joint-training seed14)
+
+N/A and caveats:
+- No row-1 N/A items: all plotted methods have evaluation_metrics.txt and test_predictions.csv.
+- Latent alignment only and w/o logit KD use the same CE + latent-alignment protocol by definition.

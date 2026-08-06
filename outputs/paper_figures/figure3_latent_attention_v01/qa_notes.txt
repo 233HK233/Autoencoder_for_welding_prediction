@@ -1,0 +1,39 @@
+PASS	dataset_path_is_h1	/home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/Data/processed_data/weld_seam_windows_ws5_tf75_pg0_h1.npz
+PASS	Teacher_embedding_rows	(356, 128)
+PASS	Teacher_y_true_matches_dataset	
+PASS	Teacher_prob_rows_sum_to_one	
+PASS	Teacher_z_finite	
+PASS	Teacher_attention_finite	
+PASS	Teacher_attention_ribbon_sums_to_one	
+PASS	Student-only_embedding_rows	(356, 128)
+PASS	Student-only_y_true_matches_dataset	
+PASS	Student-only_sample_order_matches_teacher	
+PASS	Student-only_prob_rows_sum_to_one	
+PASS	Student-only_z_finite	
+PASS	Student-only_attention_finite	
+PASS	Student-only_attention_ribbon_sums_to_one	
+PASS	SEAL-Weld Student_embedding_rows	(356, 128)
+PASS	SEAL-Weld Student_y_true_matches_dataset	
+PASS	SEAL-Weld Student_sample_order_matches_teacher	
+PASS	SEAL-Weld Student_prob_rows_sum_to_one	
+PASS	SEAL-Weld Student_z_finite	
+PASS	SEAL-Weld Student_attention_finite	
+PASS	SEAL-Weld Student_attention_ribbon_sums_to_one	
+PASS	Teacher_identity_sample_index_matches_dataset	
+PASS	Student-only_identity_sample_index_matches_dataset	
+PASS	SEAL-Weld Student_identity_sample_index_matches_dataset	
+PASS	Teacher_identity_seam_id_matches_dataset	
+PASS	Student-only_identity_seam_id_matches_dataset	
+PASS	SEAL-Weld Student_identity_seam_id_matches_dataset	
+PASS	Teacher_identity_start_idx_matches_dataset	
+PASS	Student-only_identity_start_idx_matches_dataset	
+PASS	SEAL-Weld Student_identity_start_idx_matches_dataset	
+PASS	Teacher_identity_target_idx_matches_dataset	
+PASS	Student-only_identity_target_idx_matches_dataset	
+PASS	SEAL-Weld Student_identity_target_idx_matches_dataset	
+PASS	projection_fitted_once_on_concatenated_latents	{'SEAL-Weld Student': 356, 'Student-only': 356, 'Teacher': 356}
+PASS	projection_space_strict_raw_latent	
+PASS	reproduced_metrics_within_0p1_pct_points	[{'model_name': 'Teacher', 'accuracy_abs_delta_pct_points': 0.0046067415730322026, 'macro_f1_abs_delta_pct_points': 1.6598267216227924e-05}, {'model_name': 'Student-only', 'accuracy_abs_delta_pct_points': 0.004157303370788679, 'macro_f1_abs_delta_pct_points': 3.510341449741716e-05}, {'model_name': 'SEAL-Weld Student', 'accuracy_abs_delta_pct_points': 0.0037078651685340525, 'macro_f1_abs_delta_pct_points': 2.165674598542111e-05}]
+PASS	renderer_export_png	/home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/outputs/paper_figures/figure3_latent_attention_v01/figure3_latent_attention.png
+PASS	renderer_export_pdf	/home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/outputs/paper_figures/figure3_latent_attention_v01/figure3_latent_attention.pdf
+PASS	renderer_export_svg	/home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/outputs/paper_figures/figure3_latent_attention_v01/figure3_latent_attention.svg

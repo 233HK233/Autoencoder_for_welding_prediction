@@ -1,0 +1,11 @@
+The main panel shows full macro-average one-vs-rest ROC curves on the fixed H1 test set.
+
+The inset magnifies the low-false-positive region (FPR <= 0.10), which is most relevant for conservative deployment.
+
+Low-FPR performance is summarized by normalized pAUC at FPR <= 0.10.
+
+Values in parentheses denote macro-AUC.
+
+Teacher denotes the 18D upper bound reference model.
+
+The same Figure 3 selected runs were used; models were not reselected by ROC-AUC.

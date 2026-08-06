@@ -1,0 +1,4 @@
+group,run_name,seed,test_acc,test_macro_f1,test_teacher_agreement
+ablation1_student_only_tcn_attn,ablation1_student_only_tcn_attn_weld_seam_windows_ws5_tf75_pg0_ep2_lr0.00025_bs128_seed100,100,0.6168,0.654861,-1.0
+ablation2_teacher_student_lstm,ablation2_distill_lstm_weld_seam_windows_ws5_tf75_pg0_ep2_lr0.00025_bs128_T3.0_lce0.8_lkd1.2_lf0.2_seed100,100,0.375,0.285153,0.35600000000000004
+ablation3_joint_teacher_student_tcn_attn,ablation3_joint_tcn_attn_weld_seam_windows_ws5_tf75_pg0_ep2_lrt0.00025_lrs0.0002_bs128_T3.0_lce0.8_lkd1.2_lf0.2_seed100,100,0.37229999999999996,0.3926,0.5082

@@ -293,16 +293,82 @@ class AttentionTCNClassifier(nn.Module):
             nn.Linear(classifier_hidden, num_classes),
         )
 
-    def forward(self, x: torch.Tensor) -> Tuple[torch.Tensor, torch.Tensor]:
+    def forward(
+        self,
+        x: torch.Tensor,
+        return_attention: bool = False,
+    ) -> Tuple[torch.Tensor, torch.Tensor] | Tuple[torch.Tensor, torch.Tensor, torch.Tensor]:
         h = self.input_proj(x.transpose(1, 2))
         for blk in self.tcn:
             h = blk(h)
         h = h.transpose(1, 2)
-        attn_out, _ = self.attn(h, h, h, need_weights=False)
+        if return_attention:
+            attn_out, attention_weights = self.attn(
+                h,
+                h,
+                h,
+                need_weights=True,
+                average_attn_weights=False,
+            )
+        else:
+            attn_out, attention_weights = self.attn(h, h, h, need_weights=False)
         h = self.ln1(h + attn_out)
         h = self.ln2(h + self.ff(h))
         h_mean = h.mean(dim=1)
         h_max = h.max(dim=1).values
+        z = torch.cat([h_mean, h_max], dim=1)
+        logits = self.classifier(z)
+        if return_attention:
+            return logits, z, attention_weights
+        return logits, z
+
+
+class TCNNoAttentionClassifier(nn.Module):
+    """TCN classifier ablation that removes the self-attention block."""
+
+    def __init__(
+        self,
+        input_dim: int,
+        num_classes: int,
+        channels: int = 64,
+        tcn_layers: int = 3,
+        tcn_kernel: int = 3,
+        tcn_dropout: float = 0.15,
+        dilation_base: int = 2,
+        classifier_hidden: int = 128,
+        classifier_dropout: float = 0.35,
+    ) -> None:
+        super().__init__()
+        self.input_proj = nn.Sequential(
+            nn.Conv1d(input_dim, channels, kernel_size=1, bias=False),
+            nn.BatchNorm1d(channels),
+            nn.ReLU(inplace=True),
+        )
+        self.tcn = nn.ModuleList(
+            [
+                ResidualTCNBlock(
+                    channels=channels,
+                    kernel_size=tcn_kernel,
+                    dilation=dilation_base**i,
+                    dropout=tcn_dropout,
+                )
+                for i in range(max(tcn_layers, 1))
+            ]
+        )
+        self.classifier = nn.Sequential(
+            nn.Dropout(classifier_dropout),
+            nn.Linear(channels * 2, classifier_hidden),
+            nn.ReLU(inplace=True),
+            nn.Dropout(classifier_dropout),
+            nn.Linear(classifier_hidden, num_classes),
+        )
+
+    def forward(self, x: torch.Tensor) -> Tuple[torch.Tensor, torch.Tensor]:
+        h = self.input_proj(x.transpose(1, 2))
+        for blk in self.tcn:
+            h = blk(h)
+        h_mean = h.mean(dim=2)
+        h_max = h.max(dim=2).values
         z = torch.cat([h_mean, h_max], dim=1)
         logits = self.classifier(z)
         return logits, z
@@ -398,6 +464,7 @@ __all__ = [
     "StudentClassifierTCNFull",
     "ResidualTCNBlock",
     "AttentionTCNClassifier",
+    "TCNNoAttentionClassifier",
     "InceptionBlock1D",
     "InceptionTimeClassifier",
 ]

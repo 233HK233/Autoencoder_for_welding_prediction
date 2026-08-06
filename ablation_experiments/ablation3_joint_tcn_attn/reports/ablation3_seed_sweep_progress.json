@@ -1,0 +1,15 @@
+[
+  {
+    "run_name": "ablation3_joint_tcn_attn_weld_seam_windows_ws5_tf75_pg0_ep2_lrt0.00025_lrs0.0002_bs128_T3.0_lce0.8_lkd1.2_lf0.2_seed100",
+    "run_dir": "/home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/ablation_experiments/ablation3_joint_tcn_attn/results/ablation3_joint_tcn_attn_weld_seam_windows_ws5_tf75_pg0_ep2_lrt0.00025_lrs0.0002_bs128_T3.0_lce0.8_lkd1.2_lf0.2_seed100",
+    "seed": 100,
+    "status": "success",
+    "attempts": 1,
+    "elapsed_sec": 4.64,
+    "test_accuracy": 0.37229999999999996,
+    "test_macro_f1": 0.3926,
+    "test_teacher_agreement": 0.5082,
+    "best_epoch": 2,
+    "best_score": 0.465748
+  }
+]

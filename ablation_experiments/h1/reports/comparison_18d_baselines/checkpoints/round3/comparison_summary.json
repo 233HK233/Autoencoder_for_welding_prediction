@@ -1,0 +1,85 @@
+{
+  "results_root": "ablation_experiments/h1/results/comparison_18d_baselines",
+  "teacher_manifest": "/home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/outputs/teacher_h1_scan98_gpu1_v2/manifests/best_teacher_h1.json",
+  "num_runs": 481,
+  "main_table": [
+    {
+      "method_name": "teacher-student(student)",
+      "train_scheme": "frozen_teacher_distill",
+      "deploy_input_dim": 13,
+      "teacher_input_dim": 18,
+      "best_test_acc": 0.9888,
+      "best_macro_f1": 0.984675,
+      "teacher_agreement": 0.9719,
+      "seed": 132,
+      "checkpoint_metric": "val_teacher_agreement",
+      "run_path": "ablation_experiments/h1/results/comparison_18d_baselines/teacher_student_reference/student_h1_sweep/student_h1_scan96_20260326/extension/extension_s3_s2_s1_l4_o4_c7_r3/distill_tcn_attn_weld_seam_windows_ws5_tf75_pg0_h1_ep80_lr0.0003_bs128_T2.5_lce0.9_lkd1.1_lf0.0_seed132",
+      "notes": "13D deploy student distilled from 18D teacher"
+    },
+    {
+      "method_name": "lstm",
+      "train_scheme": "baseline_18d",
+      "deploy_input_dim": 18,
+      "teacher_input_dim": null,
+      "best_test_acc": 0.9073,
+      "best_macro_f1": 0.875341,
+      "teacher_agreement": -1.0,
+      "seed": 42,
+      "checkpoint_metric": "val_macro_f1",
+      "run_path": "ablation_experiments/h1/results/comparison_18d_baselines/lstm/lstm_weld_seam_windows_ws5_tf75_pg0_h1_h64_l2_bi_do0.3_ep80_lr0.0001_wd1e-05_bs128_seed42",
+      "notes": "Best 18D lstm baseline run"
+    },
+    {
+      "method_name": "gru",
+      "train_scheme": "baseline_18d",
+      "deploy_input_dim": 18,
+      "teacher_input_dim": null,
+      "best_test_acc": 0.9157,
+      "best_macro_f1": 0.887156,
+      "teacher_agreement": -1.0,
+      "seed": 14,
+      "checkpoint_metric": "val_macro_f1",
+      "run_path": "ablation_experiments/h1/results/comparison_18d_baselines/gru/gru_weld_seam_windows_ws5_tf75_pg0_h1_h64_l3_uni_do0.3_ep80_lr0.0001_wd0.0001_bs128_seed14",
+      "notes": "Best 18D gru baseline run"
+    },
+    {
+      "method_name": "transformer",
+      "train_scheme": "baseline_18d",
+      "deploy_input_dim": 18,
+      "teacher_input_dim": null,
+      "best_test_acc": 0.8876,
+      "best_macro_f1": 0.862035,
+      "teacher_agreement": -1.0,
+      "seed": 14,
+      "checkpoint_metric": "val_macro_f1",
+      "run_path": "ablation_experiments/h1/results/comparison_18d_baselines/transformer/transformer_weld_seam_windows_ws5_tf75_pg0_h1_dm64_nh8_l4_ff256_do0.3_ep80_lr0.0003_wd0.0005_bs64_seed14",
+      "notes": "Best 18D transformer baseline run"
+    },
+    {
+      "method_name": "inception",
+      "train_scheme": "baseline_18d",
+      "deploy_input_dim": 18,
+      "teacher_input_dim": null,
+      "best_test_acc": 0.9017,
+      "best_macro_f1": 0.87318,
+      "teacher_agreement": -1.0,
+      "seed": 14,
+      "checkpoint_metric": "val_macro_f1",
+      "run_path": "ablation_experiments/h1/results/comparison_18d_baselines/inception/inception_weld_seam_windows_ws5_tf75_pg0_h1_oc24_blk3_bn32_do0.2_ep80_lr0.0001_wd0.0005_bs128_seed14",
+      "notes": "Best 18D inception baseline run"
+    },
+    {
+      "method_name": "teacher(18D upper bound)",
+      "train_scheme": "teacher_only",
+      "deploy_input_dim": 18,
+      "teacher_input_dim": 18,
+      "best_test_acc": 0.9831,
+      "best_macro_f1": 0.979252,
+      "teacher_agreement": -1.0,
+      "seed": 14,
+      "checkpoint_metric": "test_acc",
+      "run_path": "/home/huang_kai/wind_turbine_phm/PHOENIX-main/autoencoder_benchmark/outputs/teacher_h1_scan98_gpu1_v2/runs/single_tcn_attn_weld_seam_windows_ws5_tf75_pg0_h1_ep60_lr0.0003_bs128_k3_l3_d0.08_lat64_wd0.00015_seed14",
+      "notes": "Best h1 teacher reference from manifest"
+    }
+  ]
+}
